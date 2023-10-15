@@ -1,0 +1,510 @@
+﻿BreastCancerICHOM : Validation Results
+=========================================
+
+err = 110, warn = 54, info = 25
+IG Publisher Version: 1.4.15
+Generated Sun Oct 15 00:35:18 UTC 2023. FHIR version 4.0.1 for hl7.fhir.uv.ichom-breast-cancer#1.0.0 (canonical = http://hl7.org/fhir/uv/ichom-breast-cancer)
+ Build Errors : 0 / 1 / 0
+ /app/fsh-generated/resources/CarePlan-TreatmentPlanPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-AgreementResponseCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-BreastSurgeryTypesCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-ComplicationImpactCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-ComplicationTypeCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-ImplantLocationCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-MolecularProfilingCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-PatientEducationCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-PatientTreatPrefCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-ReconstructionTypeCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-RecurrenceCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-RecurrenceMethodCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-SatisfactionResponseCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-TreatmentPlanComplianceCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-TreatmentPlanFollowedCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-TreatmentPlanNotFollowedCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/CodeSystem-TreatmentTypesCodeSystem : 1 / 0 / 1
+ /app/fsh-generated/resources/Condition-ComplicationPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Condition-PrimaryBreastCancerPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Condition-SecondaryBreastCancerPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.ichom-breast-cancer : 1 / 0 / 2
+ /app/fsh-generated/resources/Observation-BodyHeightPatient147 : 0 / 1 / 1
+ /app/fsh-generated/resources/Observation-BodyWeightPatient147 : 0 / 1 / 1
+ /app/fsh-generated/resources/Observation-ClinicalMetastasesPatient147 : 0 / 2 / 2
+ /app/fsh-generated/resources/Observation-ClinicalNodalStagePatient147 : 0 / 2 / 2
+ /app/fsh-generated/resources/Observation-ClinicalTNMStagePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-ClinicalTumorStagePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-DeathAttributableBCPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-ERStatusPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-EndopredictonPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-GermlineMutationPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-HERStatusPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-HistotypePatient147 : 0 / 1 / 1
+ /app/fsh-generated/resources/Observation-InvasionGradePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-LymphNodesInvolvedPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-LymphNodesResectedPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-MammaprintPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-MenopausalStatusPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-OncotypePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-PRStatusPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-PathologicalMetastasesPatient147 : 0 / 2 / 2
+ /app/fsh-generated/resources/Observation-PathologicalNodalStagePatient147 : 0 / 2 / 2
+ /app/fsh-generated/resources/Observation-PathologicalTNMStagePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-PathologicalTumorStagePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-RecurrenceMethodPatient147 : 0 / 2 / 2
+ /app/fsh-generated/resources/Observation-TreatmentPlanFollowedPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-TreatmentPlanNotFollowedPatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-TumorGradePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Observation-TumorSizePatient147 : 0 / 2 / 1
+ /app/fsh-generated/resources/Patient-BreastCancerPatient121 : 0 / 0 / 1
+ /app/fsh-generated/resources/Patient-BreastCancerPatient134 : 0 / 0 / 1
+ /app/fsh-generated/resources/Patient-BreastCancerPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-AxillaSurgeryPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-AxillaryClearancePatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-BestSupportiveCarePatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-BreastCancerSurgeryPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-ChemotherapyPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-HormonaltherapyPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-ImmunotherapyPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-RadiotherapyPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-ReconstructionSurgeryPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-ReoperationSurgeryPatient147 : 0 / 0 / 1
+ /app/fsh-generated/resources/Procedure-TargetedTherapyPatient134 : 0 / 0 / 1
+ /app/fsh-generated/resources/Questionnaire-ClinicalResponseAnnualUpdate : 1 / 0 / 1
+ /app/fsh-generated/resources/Questionnaire-ClinicalResponseBaseline : 1 / 0 / 1
+ /app/fsh-generated/resources/Questionnaire-ClinicalResponseSixMonths : 1 / 0 / 1
+ /app/fsh-generated/resources/Questionnaire-PatientReportedBaseline : 1 / 0 / 1
+ /app/fsh-generated/resources/Questionnaire-PatientReportedFollowUp : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-EducationLevel : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-Ethnicity : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-Race : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-axilla-surgery : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-axillary-clearance : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-best-supportive-care : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-breast-cancer-stage-group : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-breast-cancer-surgery : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-chemotherapy : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-complication : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-death-attr-bc : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-endopredicton-score : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-er-status : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-germline-mutation : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-her-status : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-histo-type : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-hormonal-therpay : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-ichom-body-height : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-ichom-body-weight : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-immunotherapy : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-invasion-grade : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-lymph-nodes-involved : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-lymph-nodes-resected : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-mammaprint-score : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-menopausal-status : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-oncotype-score : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-patient : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-pr-status : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-primary-breastcancer : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-radiotherapy : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-reconstruction-surgery : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-recr-method : 1 / 0 / 3
+ /app/fsh-generated/resources/StructureDefinition-reoperation-surgery : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-secondary-breastcancer : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-sizeinvasivetumor : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-targeted-therapy : 1 / 0 / 2
+ /app/fsh-generated/resources/StructureDefinition-tnm-distant-metastases : 1 / 0 / 3
+ /app/fsh-generated/resources/StructureDefinition-tnm-primary-tumor-stage : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-tnm-regional-nodes-stage : 1 / 0 / 3
+ /app/fsh-generated/resources/StructureDefinition-treatment-plan : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-treatment-plan-followed : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-treatment-plan-not-followed : 1 / 0 / 1
+ /app/fsh-generated/resources/StructureDefinition-tumor-grade : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-AgreementResponseVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-AxillaSurgeryVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-BodyWeightVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-BreastSurgeryTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ChemoTherapyTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ComplicationImpactVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ComplicationTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-EducationLevelVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-EstrogenStatusVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-GermlineMutationVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-GradingVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-HER2ReceptorStatusVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-HistologicalTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-HormonalTherapyTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ImplantLocationVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-InvolvedMarginsReoperationTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-LateralityNewCancerVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-LateralityVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-LocationRadiotherapyVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-MenopausalStatusVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-MolecularProfilingStatusVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-NoYesUnknownVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-PatientEducationVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-PatientTreatPrefVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ProgesteroneStatusVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-RecommendedTreatmentTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ReconstructionTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-RecurrenceMethodVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-RecurrenceVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-RelationshipStatusVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ReoperationReasonVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-ReoperationTypeVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-SACQPatientComorbidityHistory : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-SatisfactionResponseVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TNMDistantMetastasesVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TNMPrimaryTumorVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TNMRegionalNodesVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TNMStageGroupVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TargetedAxillaSurgeryVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TargetedTherapyVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TherapyIntentVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TreatmentPlanComplianceVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TreatmentPlanFollowedVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TreatmentPlanNotFollowedVS : 1 / 0 / 1
+ /app/fsh-generated/resources/ValueSet-TreatmentTypeVS : 1 / 0 / 1
+</table>
+== n/a ==
+WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
+== fsh-generated/resources/CarePlan-TreatmentPlanPatient147.json ==
+== fsh-generated/resources/CodeSystem-AgreementResponseCodeSystem.json ==
+ERROR: CodeSystem/AgreementResponseCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-BreastSurgeryTypesCodeSystem.json ==
+ERROR: CodeSystem/BreastSurgeryTypesCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-ComplicationImpactCodeSystem.json ==
+ERROR: CodeSystem/ComplicationImpactCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-ComplicationTypeCodeSystem.json ==
+ERROR: CodeSystem/ComplicationTypeCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-ImplantLocationCodeSystem.json ==
+ERROR: CodeSystem/ImplantLocationCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-MolecularProfilingCodeSystem.json ==
+ERROR: CodeSystem/MolecularProfilingCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-PatientEducationCodeSystem.json ==
+ERROR: CodeSystem/PatientEducationCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-PatientTreatPrefCodeSystem.json ==
+ERROR: CodeSystem/PatientTreatPrefCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-ReconstructionTypeCodeSystem.json ==
+ERROR: CodeSystem/ReconstructionTypeCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-RecurrenceCodeSystem.json ==
+ERROR: CodeSystem/RecurrenceCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-RecurrenceMethodCodeSystem.json ==
+ERROR: CodeSystem/RecurrenceMethodCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-SatisfactionResponseCodeSystem.json ==
+ERROR: CodeSystem/SatisfactionResponseCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-TreatmentPlanComplianceCodeSystem.json ==
+ERROR: CodeSystem/TreatmentPlanComplianceCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-TreatmentPlanFollowedCodeSystem.json ==
+ERROR: CodeSystem/TreatmentPlanFollowedCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-TreatmentPlanNotFollowedCodeSystem.json ==
+ERROR: CodeSystem/TreatmentPlanNotFollowedCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/CodeSystem-TreatmentTypesCodeSystem.json ==
+ERROR: CodeSystem/TreatmentTypesCodeSystem: CodeSystem: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/Condition-ComplicationPatient147.json ==
+== fsh-generated/resources/Condition-PrimaryBreastCancerPatient147.json ==
+== fsh-generated/resources/Condition-SecondaryBreastCancerPatient147.json ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.ichom-breast-cancer.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer: ImplementationGuide: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer: ImplementationGuide: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/Observation-BodyHeightPatient147.json ==
+WARNING: Observation/BodyHeightPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-BodyWeightPatient147.json ==
+WARNING: Observation/BodyWeightPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-ClinicalMetastasesPatient147.json ==
+INFORMATION: Observation/ClinicalMetastasesPatient147: Observation.code.coding[0]: The code '385380006' is valid but is not active
+WARNING: Observation/ClinicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ClinicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ClinicalNodalStagePatient147.json ==
+INFORMATION: Observation/ClinicalNodalStagePatient147: Observation.code.coding[0]: The code '385382003' is valid but is not active
+WARNING: Observation/ClinicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ClinicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ClinicalTNMStagePatient147.json ==
+WARNING: Observation/ClinicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ClinicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ClinicalTumorStagePatient147.json ==
+WARNING: Observation/ClinicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ClinicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-DeathAttributableBCPatient147.json ==
+WARNING: Observation/DeathAttributableBCPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/DeathAttributableBCPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-ERStatusPatient147.json ==
+WARNING: Observation/ERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/ERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-EndopredictonPatient147.json ==
+WARNING: Observation/EndopredictonPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/EndopredictonPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-GermlineMutationPatient147.json ==
+WARNING: Observation/GermlineMutationPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/GermlineMutationPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-HERStatusPatient147.json ==
+WARNING: Observation/HERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/HERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-HistotypePatient147.json ==
+WARNING: Observation/HistotypePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Observation-InvasionGradePatient147.json ==
+WARNING: Observation/InvasionGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/InvasionGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-LymphNodesInvolvedPatient147.json ==
+WARNING: Observation/LymphNodesInvolvedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/LymphNodesInvolvedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-LymphNodesResectedPatient147.json ==
+WARNING: Observation/LymphNodesResectedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/LymphNodesResectedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-MammaprintPatient147.json ==
+WARNING: Observation/MammaprintPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/MammaprintPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-MenopausalStatusPatient147.json ==
+WARNING: Observation/MenopausalStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/MenopausalStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-OncotypePatient147.json ==
+WARNING: Observation/OncotypePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/OncotypePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-PRStatusPatient147.json ==
+WARNING: Observation/PRStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/PRStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-PathologicalMetastasesPatient147.json ==
+INFORMATION: Observation/PathologicalMetastasesPatient147: Observation.code.coding[0]: The code '385380006' is valid but is not active
+WARNING: Observation/PathologicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/PathologicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-PathologicalNodalStagePatient147.json ==
+INFORMATION: Observation/PathologicalNodalStagePatient147: Observation.code.coding[0]: The code '385382003' is valid but is not active
+WARNING: Observation/PathologicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/PathologicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-PathologicalTNMStagePatient147.json ==
+WARNING: Observation/PathologicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/PathologicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-PathologicalTumorStagePatient147.json ==
+WARNING: Observation/PathologicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/PathologicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-RecurrenceMethodPatient147.json ==
+INFORMATION: Observation/RecurrenceMethodPatient147: Observation.code.coding[0]: The code '103693007' is valid but is not active
+WARNING: Observation/RecurrenceMethodPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/RecurrenceMethodPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-TreatmentPlanFollowedPatient147.json ==
+WARNING: Observation/TreatmentPlanFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/TreatmentPlanFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-TreatmentPlanNotFollowedPatient147.json ==
+WARNING: Observation/TreatmentPlanNotFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/TreatmentPlanNotFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-TumorGradePatient147.json ==
+WARNING: Observation/TumorGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/TumorGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Observation-TumorSizePatient147.json ==
+WARNING: Observation/TumorSizePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
+WARNING: Observation/TumorSizePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
+== fsh-generated/resources/Patient-BreastCancerPatient121.json ==
+== fsh-generated/resources/Patient-BreastCancerPatient134.json ==
+== fsh-generated/resources/Patient-BreastCancerPatient147.json ==
+== fsh-generated/resources/Procedure-AxillaSurgeryPatient147.json ==
+== fsh-generated/resources/Procedure-AxillaryClearancePatient147.json ==
+== fsh-generated/resources/Procedure-BestSupportiveCarePatient147.json ==
+== fsh-generated/resources/Procedure-BreastCancerSurgeryPatient147.json ==
+== fsh-generated/resources/Procedure-ChemotherapyPatient147.json ==
+== fsh-generated/resources/Procedure-HormonaltherapyPatient147.json ==
+== fsh-generated/resources/Procedure-ImmunotherapyPatient147.json ==
+== fsh-generated/resources/Procedure-RadiotherapyPatient147.json ==
+== fsh-generated/resources/Procedure-ReconstructionSurgeryPatient147.json ==
+== fsh-generated/resources/Procedure-ReoperationSurgeryPatient147.json ==
+== fsh-generated/resources/Procedure-TargetedTherapyPatient134.json ==
+== fsh-generated/resources/Questionnaire-ClinicalResponseAnnualUpdate.json ==
+ERROR: Questionnaire/ClinicalResponseAnnualUpdate: Questionnaire: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/Questionnaire-ClinicalResponseBaseline.json ==
+ERROR: Questionnaire/ClinicalResponseBaseline: Questionnaire: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/Questionnaire-ClinicalResponseSixMonths.json ==
+ERROR: Questionnaire/ClinicalResponseSixMonths: Questionnaire: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/Questionnaire-PatientReportedBaseline.json ==
+ERROR: Questionnaire/PatientReportedBaseline: Questionnaire: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/Questionnaire-PatientReportedFollowUp.json ==
+ERROR: Questionnaire/PatientReportedFollowUp: Questionnaire: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-EducationLevel.json ==
+INFORMATION: StructureDefinition/EducationLevel: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/EducationLevel: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-Ethnicity.json ==
+INFORMATION: StructureDefinition/Ethnicity: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/Ethnicity: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-Race.json ==
+INFORMATION: StructureDefinition/Race: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/Race: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-axilla-surgery.json ==
+INFORMATION: StructureDefinition/axilla-surgery: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/axilla-surgery: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-axillary-clearance.json ==
+INFORMATION: StructureDefinition/axillary-clearance: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/axillary-clearance: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-best-supportive-care.json ==
+INFORMATION: StructureDefinition/best-supportive-care: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/best-supportive-care: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-breast-cancer-stage-group.json ==
+ERROR: StructureDefinition/breast-cancer-stage-group: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-breast-cancer-surgery.json ==
+INFORMATION: StructureDefinition/breast-cancer-surgery: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/breast-cancer-surgery: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-chemotherapy.json ==
+INFORMATION: StructureDefinition/chemotherapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/chemotherapy: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-complication.json ==
+ERROR: StructureDefinition/complication: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-death-attr-bc.json ==
+ERROR: StructureDefinition/death-attr-bc: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-endopredicton-score.json ==
+ERROR: StructureDefinition/endopredicton-score: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-er-status.json ==
+ERROR: StructureDefinition/er-status: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-germline-mutation.json ==
+ERROR: StructureDefinition/germline-mutation: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-her-status.json ==
+ERROR: StructureDefinition/her-status: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-histo-type.json ==
+ERROR: StructureDefinition/histo-type: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-hormonal-therpay.json ==
+INFORMATION: StructureDefinition/hormonal-therpay: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/hormonal-therpay: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-ichom-body-height.json ==
+ERROR: StructureDefinition/ichom-body-height: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-ichom-body-weight.json ==
+ERROR: StructureDefinition/ichom-body-weight: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-immunotherapy.json ==
+INFORMATION: StructureDefinition/immunotherapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/immunotherapy: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-invasion-grade.json ==
+ERROR: StructureDefinition/invasion-grade: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-lymph-nodes-involved.json ==
+ERROR: StructureDefinition/lymph-nodes-involved: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-lymph-nodes-resected.json ==
+ERROR: StructureDefinition/lymph-nodes-resected: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-mammaprint-score.json ==
+ERROR: StructureDefinition/mammaprint-score: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-menopausal-status.json ==
+ERROR: StructureDefinition/menopausal-status: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-oncotype-score.json ==
+ERROR: StructureDefinition/oncotype-score: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-patient.json ==
+ERROR: StructureDefinition/patient: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-pr-status.json ==
+ERROR: StructureDefinition/pr-status: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-primary-breastcancer.json ==
+ERROR: StructureDefinition/primary-breastcancer: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-radiotherapy.json ==
+INFORMATION: StructureDefinition/radiotherapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/radiotherapy: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-reconstruction-surgery.json ==
+INFORMATION: StructureDefinition/reconstruction-surgery: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/reconstruction-surgery: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-recr-method.json ==
+INFORMATION: StructureDefinition/recr-method: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code '103693007' is valid but is not active
+INFORMATION: StructureDefinition/recr-method: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The code '103693007' is valid but is not active
+ERROR: StructureDefinition/recr-method: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-reoperation-surgery.json ==
+ERROR: StructureDefinition/reoperation-surgery: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-secondary-breastcancer.json ==
+ERROR: StructureDefinition/secondary-breastcancer: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-sizeinvasivetumor.json ==
+ERROR: StructureDefinition/sizeinvasivetumor: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-targeted-therapy.json ==
+INFORMATION: StructureDefinition/targeted-therapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
+ERROR: StructureDefinition/targeted-therapy: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-tnm-distant-metastases.json ==
+INFORMATION: StructureDefinition/tnm-distant-metastases: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code '385380006' is valid but is not active
+INFORMATION: StructureDefinition/tnm-distant-metastases: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The code '385380006' is valid but is not active
+ERROR: StructureDefinition/tnm-distant-metastases: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-tnm-primary-tumor-stage.json ==
+ERROR: StructureDefinition/tnm-primary-tumor-stage: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-tnm-regional-nodes-stage.json ==
+INFORMATION: StructureDefinition/tnm-regional-nodes-stage: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code '385382003' is valid but is not active
+INFORMATION: StructureDefinition/tnm-regional-nodes-stage: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The code '385382003' is valid but is not active
+ERROR: StructureDefinition/tnm-regional-nodes-stage: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-treatment-plan.json ==
+ERROR: StructureDefinition/treatment-plan: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-treatment-plan-followed.json ==
+ERROR: StructureDefinition/treatment-plan-followed: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-treatment-plan-not-followed.json ==
+ERROR: StructureDefinition/treatment-plan-not-followed: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/StructureDefinition-tumor-grade.json ==
+ERROR: StructureDefinition/tumor-grade: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-AgreementResponseVS.json ==
+ERROR: ValueSet/AgreementResponseVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-AxillaSurgeryVS.json ==
+ERROR: ValueSet/AxillaSurgeryVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-BodyWeightVS.json ==
+ERROR: ValueSet/BodyWeightVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-BreastSurgeryTypeVS.json ==
+ERROR: ValueSet/BreastSurgeryTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ChemoTherapyTypeVS.json ==
+ERROR: ValueSet/ChemoTherapyTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ComplicationImpactVS.json ==
+ERROR: ValueSet/ComplicationImpactVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ComplicationTypeVS.json ==
+ERROR: ValueSet/ComplicationTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-EducationLevelVS.json ==
+ERROR: ValueSet/EducationLevelVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-EstrogenStatusVS.json ==
+ERROR: ValueSet/EstrogenStatusVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-GermlineMutationVS.json ==
+ERROR: ValueSet/GermlineMutationVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-GradingVS.json ==
+ERROR: ValueSet/GradingVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-HER2ReceptorStatusVS.json ==
+ERROR: ValueSet/HER2ReceptorStatusVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-HistologicalTypeVS.json ==
+ERROR: ValueSet/HistologicalTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-HormonalTherapyTypeVS.json ==
+ERROR: ValueSet/HormonalTherapyTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ImplantLocationVS.json ==
+ERROR: ValueSet/ImplantLocationVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-InvolvedMarginsReoperationTypeVS.json ==
+ERROR: ValueSet/InvolvedMarginsReoperationTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-LateralityNewCancerVS.json ==
+ERROR: ValueSet/LateralityNewCancerVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-LateralityVS.json ==
+ERROR: ValueSet/LateralityVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-LocationRadiotherapyVS.json ==
+ERROR: ValueSet/LocationRadiotherapyVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-MenopausalStatusVS.json ==
+ERROR: ValueSet/MenopausalStatusVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-MolecularProfilingStatusVS.json ==
+ERROR: ValueSet/MolecularProfilingStatusVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-NoYesUnknownVS.json ==
+ERROR: ValueSet/NoYesUnknownVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-PatientEducationVS.json ==
+ERROR: ValueSet/PatientEducationVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-PatientTreatPrefVS.json ==
+ERROR: ValueSet/PatientTreatPrefVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ProgesteroneStatusVS.json ==
+ERROR: ValueSet/ProgesteroneStatusVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-RecommendedTreatmentTypeVS.json ==
+ERROR: ValueSet/RecommendedTreatmentTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ReconstructionTypeVS.json ==
+ERROR: ValueSet/ReconstructionTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-RecurrenceMethodVS.json ==
+ERROR: ValueSet/RecurrenceMethodVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-RecurrenceVS.json ==
+ERROR: ValueSet/RecurrenceVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-RelationshipStatusVS.json ==
+ERROR: ValueSet/RelationshipStatusVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ReoperationReasonVS.json ==
+ERROR: ValueSet/ReoperationReasonVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-ReoperationTypeVS.json ==
+ERROR: ValueSet/ReoperationTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-SACQPatientComorbidityHistory.json ==
+ERROR: ValueSet/SACQPatientComorbidityHistory: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-SatisfactionResponseVS.json ==
+ERROR: ValueSet/SatisfactionResponseVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TNMDistantMetastasesVS.json ==
+ERROR: ValueSet/TNMDistantMetastasesVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TNMPrimaryTumorVS.json ==
+ERROR: ValueSet/TNMPrimaryTumorVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TNMRegionalNodesVS.json ==
+ERROR: ValueSet/TNMRegionalNodesVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TNMStageGroupVS.json ==
+ERROR: ValueSet/TNMStageGroupVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TargetedAxillaSurgeryVS.json ==
+ERROR: ValueSet/TargetedAxillaSurgeryVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TargetedTherapyVS.json ==
+ERROR: ValueSet/TargetedTherapyVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TherapyIntentVS.json ==
+ERROR: ValueSet/TherapyIntentVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TreatmentPlanComplianceVS.json ==
+ERROR: ValueSet/TreatmentPlanComplianceVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TreatmentPlanFollowedVS.json ==
+ERROR: ValueSet/TreatmentPlanFollowedVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TreatmentPlanNotFollowedVS.json ==
+ERROR: ValueSet/TreatmentPlanNotFollowedVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ValueSet-TreatmentTypeVS.json ==
+ERROR: ValueSet/TreatmentTypeVS: ValueSet: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension

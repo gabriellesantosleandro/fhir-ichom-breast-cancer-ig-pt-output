@@ -1,0 +1,62 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ImplantLocationCodeSystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">pre-pectoral<a name=\"ImplantLocationCodeSystem-pre-pectoral\"> </a></td><td>Pre-pectoral</td></tr><tr><td style=\"white-space:nowrap\">sub-pectoral<a name=\"ImplantLocationCodeSystem-sub-pectoral\"> </a></td><td>Sub-pectoral</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem",
+  "version" : "1.0.0",
+  "name" : "ImplantLocationCodeSystem",
+  "title" : "Location of the implant CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Codes indicating the location of the implant that was placed during reconstruction surgery",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "pre-pectoral",
+    "display" : "Pre-pectoral"
+  },
+  {
+    "code" : "sub-pectoral",
+    "display" : "Sub-pectoral"
+  }]
+}

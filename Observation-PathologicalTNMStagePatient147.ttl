@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTNMStagePatient147> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PathologicalTNMStagePatient147"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PathologicalTNMStagePatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PathologicalTNMStagePatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-breast-cancer-stage-group.html\">Cancer Stage Group</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Stage group.pathology Cancer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#21902-2)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-PathologicalTumorStagePatient147.html\">Observation/PathologicalTumorStagePatient147</a></li><li><a href=\"Observation-PathologicalNodalStagePatient147.html\">Observation/PathologicalNodalStagePatient147</a></li><li><a href=\"Observation-PathologicalMetastasesPatient147.html\">Observation/PathologicalMetastasesPatient147</a></li></ul></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:21902-2 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "21902-2" ] ;
+       fhir:display [ fhir:v "Stage group.pathology Cancer" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
+  ] ; # 
+  fhir:hasMember ( [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> ;
+     fhir:reference [ fhir:v "Observation/PathologicalTumorStagePatient147" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> ;
+     fhir:reference [ fhir:v "Observation/PathologicalNodalStagePatient147" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> ;
+     fhir:reference [ fhir:v "Observation/PathologicalMetastasesPatient147" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

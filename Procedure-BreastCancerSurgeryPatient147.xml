@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="BreastCancerSurgeryPatient147"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="BreastCancerSurgeryPatient147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;BreastCancerSurgeryPatient147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-breast-cancer-surgery.html">Breast cancer surgery</a></p></div><p><b>status</b>: completed</p><p><b>category</b>: Surgical procedure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#387713003)</span></p><p><b>code</b>: Mastectomy with immediate reconstruction <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BreastSurgeryTypesCodeSystem.html">Breast surgery types CodeSystem</a>#mastectomy-with-immediate-reconstruction)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient147.html">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 1989-03-25</p><p><b>reasonReference</b>: <a href="Condition-PrimaryBreastCancerPatient147.html">Condition/PrimaryBreastCancerPatient147</a></p></div>
+  </text>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="387713003"/>
+      <display value="Surgical procedure"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+      <code value="mastectomy-with-immediate-reconstruction"/>
+      <display value="Mastectomy with immediate reconstruction"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BreastCancerPatient147"/>
+  </subject>
+  <performedDateTime value="1989-03-25"/>
+  <reasonReference>
+    <reference value="Condition/PrimaryBreastCancerPatient147"/>
+  </reasonReference>
+</Procedure>

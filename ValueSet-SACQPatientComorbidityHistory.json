@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "SACQPatientComorbidityHistory",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/373572006\">373572006</a></td><td>I have no other diseases</td></tr><tr><td><a href=\"http://snomed.info/id/56265001\">56265001</a></td><td>Heart disease (For example, angina, heart attack, or heart failure)</td></tr><tr><td><a href=\"http://snomed.info/id/38341003\">38341003</a></td><td>High blood pressure</td></tr><tr><td><a href=\"http://snomed.info/id/19829001\">19829001</a></td><td>Lung disease (For example,  asthma, chronic bronchitis, or emphysema)</td></tr><tr><td><a href=\"http://snomed.info/id/73211009\">73211009</a></td><td>Diabetes</td></tr><tr><td><a href=\"http://snomed.info/id/29384001\">29384001</a></td><td>Ulcer or stomach disease</td></tr><tr><td><a href=\"http://snomed.info/id/90708001\">90708001</a></td><td>Kidney disease</td></tr><tr><td><a href=\"http://snomed.info/id/235856003\">235856003</a></td><td>Liver disease</td></tr><tr><td><a href=\"http://snomed.info/id/414022008\">414022008</a></td><td>Anemia or other blood disease</td></tr><tr><td><a href=\"http://snomed.info/id/363346000\">363346000</a></td><td>Cancer/Other cancer (within the last 5 years)</td></tr><tr><td><a href=\"http://snomed.info/id/35489007\">35489007</a></td><td>Depression</td></tr><tr><td><a href=\"http://snomed.info/id/396275006\">396275006</a></td><td>Osteoarthritis, degenerative arthritis</td></tr><tr><td><a href=\"http://snomed.info/id/161891005\">161891005</a></td><td>Back pain</td></tr><tr><td><a href=\"http://snomed.info/id/69896004\">69896004</a></td><td>Rheumatoid arthritis</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH\">OTH</a></td><td>Other medical problems</td><td>**Description:**The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).<br/><br/>**Usage Notes**: This flavor and its specializations are most commonly used with the CD datatype and its flavors. However, it may apply to \\*any\\* datatype where the constraints of the type are tighter than can be conveyed. For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.<br/><br/>With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE. By definition, all local codes and original text are part of the value set if the coding strength is CWE.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory",
+  "version" : "1.0.0",
+  "name" : "SACQPatientComorbidityHistory",
+  "title" : "SACQ Patient's comorbidity history ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Patient's documented history of comorbidities",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "373572006",
+        "display" : "I have no other diseases"
+      },
+      {
+        "code" : "56265001",
+        "display" : "Heart disease (For example, angina, heart attack, or heart failure)"
+      },
+      {
+        "code" : "38341003",
+        "display" : "High blood pressure"
+      },
+      {
+        "code" : "19829001",
+        "display" : "Lung disease (For example,  asthma, chronic bronchitis, or emphysema)"
+      },
+      {
+        "code" : "73211009",
+        "display" : "Diabetes"
+      },
+      {
+        "code" : "29384001",
+        "display" : "Ulcer or stomach disease"
+      },
+      {
+        "code" : "90708001",
+        "display" : "Kidney disease"
+      },
+      {
+        "code" : "235856003",
+        "display" : "Liver disease"
+      },
+      {
+        "code" : "414022008",
+        "display" : "Anemia or other blood disease"
+      },
+      {
+        "code" : "363346000",
+        "display" : "Cancer/Other cancer (within the last 5 years)"
+      },
+      {
+        "code" : "35489007",
+        "display" : "Depression"
+      },
+      {
+        "code" : "396275006",
+        "display" : "Osteoarthritis, degenerative arthritis"
+      },
+      {
+        "code" : "161891005",
+        "display" : "Back pain"
+      },
+      {
+        "code" : "69896004",
+        "display" : "Rheumatoid arthritis"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept" : [{
+        "code" : "OTH",
+        "display" : "Other medical problems"
+      }]
+    }]
+  }
+}

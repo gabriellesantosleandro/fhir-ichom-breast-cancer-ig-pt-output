@@ -1,0 +1,32 @@
+{
+  "resourceType" : "Observation",
+  "id" : "TreatmentPlanNotFollowedPatient147",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"TreatmentPlanNotFollowedPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;TreatmentPlanNotFollowedPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-treatment-plan-not-followed.html\">Treatment Plan Not Followed</a></p></div><p><b>basedOn</b>: <a href=\"CarePlan-TreatmentPlanPatient147.html\">CarePlan/TreatmentPlanPatient147</a></p><p><b>status</b>: final</p><p><b>code</b>: Reason for not following original treatment plan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-TreatmentPlanComplianceCodeSystem.html\">Observation identifiers for treatment plan non-compliance reason CodeSystem</a>#reason-for-not-following)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>value</b>: Patient preference <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-TreatmentPlanNotFollowedCodeSystem.html\">Real Treatment Plan Not Followed CodeSystem</a>#patient-preference)</span></p></div>"
+  },
+  "basedOn" : [{
+    "reference" : "CarePlan/TreatmentPlanPatient147"
+  }],
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem",
+      "code" : "reason-for-not-following",
+      "display" : "Reason for not following original treatment plan"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/BreastCancerPatient147"
+  },
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+      "code" : "patient-preference",
+      "display" : "Patient preference"
+    }]
+  }
+}

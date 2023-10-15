@@ -1,0 +1,772 @@
+[
+  {
+    "id" : "AgreementResponseCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem",
+    "version" : "1.0.0",
+    "name" : "AgreementResponseCodeSystem"
+  },
+  {
+    "id" : "BreastSurgeryTypesCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem",
+    "version" : "1.0.0",
+    "name" : "BreastSurgeryTypesCodeSystem"
+  },
+  {
+    "id" : "ComplicationImpactCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem",
+    "version" : "1.0.0",
+    "name" : "ComplicationImpactCodeSystem"
+  },
+  {
+    "id" : "ComplicationTypeCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem",
+    "version" : "1.0.0",
+    "name" : "ComplicationTypeCodeSystem"
+  },
+  {
+    "id" : "ImplantLocationCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem",
+    "version" : "1.0.0",
+    "name" : "ImplantLocationCodeSystem"
+  },
+  {
+    "id" : "MolecularProfilingCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem",
+    "version" : "1.0.0",
+    "name" : "MolecularProfilingCodeSystem"
+  },
+  {
+    "id" : "PatientEducationCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem",
+    "version" : "1.0.0",
+    "name" : "PatientEducationCodeSystem"
+  },
+  {
+    "id" : "PatientTreatPrefCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem",
+    "version" : "1.0.0",
+    "name" : "PatientTreatPrefCodeSystem"
+  },
+  {
+    "id" : "ReconstructionTypeCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem",
+    "version" : "1.0.0",
+    "name" : "ReconstructionTypeCodeSystem"
+  },
+  {
+    "id" : "RecurrenceCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem",
+    "version" : "1.0.0",
+    "name" : "RecurrenceCodeSystem"
+  },
+  {
+    "id" : "RecurrenceMethodCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceMethodCodeSystem",
+    "version" : "1.0.0",
+    "name" : "RecurrenceMethodCodeSystem"
+  },
+  {
+    "id" : "SatisfactionResponseCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem",
+    "version" : "1.0.0",
+    "name" : "SatisfactionResponseCodeSystem"
+  },
+  {
+    "id" : "TreatmentPlanComplianceCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanComplianceCodeSystem"
+  },
+  {
+    "id" : "TreatmentPlanFollowedCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanFollowedCodeSystem"
+  },
+  {
+    "id" : "TreatmentPlanNotFollowedCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanNotFollowedCodeSystem"
+  },
+  {
+    "id" : "TreatmentTypesCodeSystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem",
+    "version" : "1.0.0",
+    "name" : "TreatmentTypesCodeSystem"
+  },
+  {
+    "id" : "hl7.fhir.uv.ichom-breast-cancer",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer",
+    "version" : "1.0.0",
+    "name" : "BreastCancerICHOM"
+  },
+  {
+    "id" : "ClinicalResponseAnnualUpdate",
+    "type" : "Questionnaire",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate",
+    "version" : "1.0.0",
+    "name" : "AnnualClinicalResponse"
+  },
+  {
+    "id" : "ClinicalResponseBaseline",
+    "type" : "Questionnaire",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseBaseline",
+    "version" : "1.0.0",
+    "name" : "ClinicalResponseBaseline"
+  },
+  {
+    "id" : "ClinicalResponseSixMonths",
+    "type" : "Questionnaire",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseSixMonths",
+    "version" : "1.0.0",
+    "name" : "ClinicalResponseSixMonths"
+  },
+  {
+    "id" : "PatientReportedBaseline",
+    "type" : "Questionnaire",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedBaseline",
+    "version" : "1.0.0",
+    "name" : "PatientReportedBaseline"
+  },
+  {
+    "id" : "PatientReportedFollowUp",
+    "type" : "Questionnaire",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp",
+    "version" : "1.0.0",
+    "name" : "PatientReportedFollowUp"
+  },
+  {
+    "id" : "EducationLevel",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel",
+    "version" : "1.0.0",
+    "name" : "EducationLevel"
+  },
+  {
+    "id" : "Ethnicity",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity",
+    "version" : "1.0.0",
+    "name" : "Ethnicity"
+  },
+  {
+    "id" : "Race",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race",
+    "version" : "1.0.0",
+    "name" : "Race"
+  },
+  {
+    "id" : "axilla-surgery",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery",
+    "version" : "1.0.0",
+    "name" : "AxillaSurgery"
+  },
+  {
+    "id" : "axillary-clearance",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance",
+    "version" : "1.0.0",
+    "name" : "AxillaryClearance"
+  },
+  {
+    "id" : "best-supportive-care",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care",
+    "version" : "1.0.0",
+    "name" : "BestSupportiveCare"
+  },
+  {
+    "id" : "breast-cancer-stage-group",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group",
+    "version" : "1.0.0",
+    "name" : "BreastCancerStageGroup"
+  },
+  {
+    "id" : "breast-cancer-surgery",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery",
+    "version" : "1.0.0",
+    "name" : "BreastCancerSurgery"
+  },
+  {
+    "id" : "chemotherapy",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy",
+    "version" : "1.0.0",
+    "name" : "Chemotherapy"
+  },
+  {
+    "id" : "complication",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication",
+    "version" : "1.0.0",
+    "name" : "Complication"
+  },
+  {
+    "id" : "death-attr-bc",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc",
+    "version" : "1.0.0",
+    "name" : "DeathAttributableBC"
+  },
+  {
+    "id" : "endopredicton-score",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score",
+    "version" : "1.0.0",
+    "name" : "EndopredictonScore"
+  },
+  {
+    "id" : "er-status",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status",
+    "version" : "1.0.0",
+    "name" : "ERStatus"
+  },
+  {
+    "id" : "germline-mutation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation",
+    "version" : "1.0.0",
+    "name" : "GermlineMutation"
+  },
+  {
+    "id" : "her-status",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status",
+    "version" : "1.0.0",
+    "name" : "HERStatus"
+  },
+  {
+    "id" : "histo-type",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type",
+    "version" : "1.0.0",
+    "name" : "Histotype"
+  },
+  {
+    "id" : "hormonal-therpay",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay",
+    "version" : "1.0.0",
+    "name" : "Hormonaltherapy"
+  },
+  {
+    "id" : "ichom-body-height",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height",
+    "version" : "1.0.0",
+    "name" : "BodyHeight"
+  },
+  {
+    "id" : "ichom-body-weight",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight",
+    "version" : "1.0.0",
+    "name" : "BodyWeight"
+  },
+  {
+    "id" : "immunotherapy",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy",
+    "version" : "1.0.0",
+    "name" : "Immunotherapy"
+  },
+  {
+    "id" : "invasion-grade",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade",
+    "version" : "1.0.0",
+    "name" : "InvasionGrade"
+  },
+  {
+    "id" : "lymph-nodes-involved",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved",
+    "version" : "1.0.0",
+    "name" : "LymphNodesInvolved"
+  },
+  {
+    "id" : "lymph-nodes-resected",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected",
+    "version" : "1.0.0",
+    "name" : "LymphNodesResected"
+  },
+  {
+    "id" : "mammaprint-score",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score",
+    "version" : "1.0.0",
+    "name" : "MammaprintScore"
+  },
+  {
+    "id" : "menopausal-status",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status",
+    "version" : "1.0.0",
+    "name" : "MenopausalStatus"
+  },
+  {
+    "id" : "oncotype-score",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score",
+    "version" : "1.0.0",
+    "name" : "OncotypeScore"
+  },
+  {
+    "id" : "patient",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient",
+    "version" : "1.0.0",
+    "name" : "BreastCancerPatient"
+  },
+  {
+    "id" : "pr-status",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status",
+    "version" : "1.0.0",
+    "name" : "PRStatus"
+  },
+  {
+    "id" : "primary-breastcancer",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer",
+    "version" : "1.0.0",
+    "name" : "PrimaryBreastCancerCondition"
+  },
+  {
+    "id" : "radiotherapy",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy",
+    "version" : "1.0.0",
+    "name" : "Radiotherapy"
+  },
+  {
+    "id" : "reconstruction-surgery",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery",
+    "version" : "1.0.0",
+    "name" : "ReconstructionSurgery"
+  },
+  {
+    "id" : "recr-method",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method",
+    "version" : "1.0.0",
+    "name" : "RecurrenceMethod"
+  },
+  {
+    "id" : "reoperation-surgery",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery",
+    "version" : "1.0.0",
+    "name" : "ReoperationSurgery"
+  },
+  {
+    "id" : "secondary-breastcancer",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer",
+    "version" : "1.0.0",
+    "name" : "SecondaryBreastCancerCondition"
+  },
+  {
+    "id" : "sizeinvasivetumor",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor",
+    "version" : "1.0.0",
+    "name" : "TumorSize"
+  },
+  {
+    "id" : "targeted-therapy",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy",
+    "version" : "1.0.0",
+    "name" : "TargetedTherapy"
+  },
+  {
+    "id" : "tnm-distant-metastases",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases",
+    "version" : "1.0.0",
+    "name" : "TNMDistantMetastases"
+  },
+  {
+    "id" : "tnm-primary-tumor-stage",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage",
+    "version" : "1.0.0",
+    "name" : "TNMPrimaryTumorStage"
+  },
+  {
+    "id" : "tnm-regional-nodes-stage",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage",
+    "version" : "1.0.0",
+    "name" : "TNMRegionalNodalStage"
+  },
+  {
+    "id" : "treatment-plan",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlan"
+  },
+  {
+    "id" : "treatment-plan-followed",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanFollowed"
+  },
+  {
+    "id" : "treatment-plan-not-followed",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanNotFollowed"
+  },
+  {
+    "id" : "tumor-grade",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade",
+    "version" : "1.0.0",
+    "name" : "TumorGrade"
+  },
+  {
+    "id" : "AgreementResponseVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS",
+    "version" : "1.0.0",
+    "name" : "AgreementResponseVS"
+  },
+  {
+    "id" : "AxillaSurgeryVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS",
+    "version" : "1.0.0",
+    "name" : "AxillaSurgeryVS"
+  },
+  {
+    "id" : "BodyWeightVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS",
+    "version" : "1.0.0",
+    "name" : "BodyWeightVS"
+  },
+  {
+    "id" : "BreastSurgeryTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS",
+    "version" : "1.0.0",
+    "name" : "BreastSurgeryTypeVS"
+  },
+  {
+    "id" : "ChemoTherapyTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS",
+    "version" : "1.0.0",
+    "name" : "ChemoTherapyTypeVS"
+  },
+  {
+    "id" : "ComplicationImpactVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS",
+    "version" : "1.0.0",
+    "name" : "ComplicationImpactVS"
+  },
+  {
+    "id" : "ComplicationTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS",
+    "version" : "1.0.0",
+    "name" : "ComplicationTypeVS"
+  },
+  {
+    "id" : "EducationLevelVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EducationLevelVS",
+    "version" : "1.0.0",
+    "name" : "EducationLevelVS"
+  },
+  {
+    "id" : "EstrogenStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EstrogenStatusVS",
+    "version" : "1.0.0",
+    "name" : "EstrogenStatusVS"
+  },
+  {
+    "id" : "GermlineMutationVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS",
+    "version" : "1.0.0",
+    "name" : "GermlineMutationVS"
+  },
+  {
+    "id" : "GradingVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS",
+    "version" : "1.0.0",
+    "name" : "GradingVS"
+  },
+  {
+    "id" : "HER2ReceptorStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HER2ReceptorStatusVS",
+    "version" : "1.0.0",
+    "name" : "HER2ReceptorStatusVS"
+  },
+  {
+    "id" : "HistologicalTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HistologicalTypeVS",
+    "version" : "1.0.0",
+    "name" : "HistologicalTypeVS"
+  },
+  {
+    "id" : "HormonalTherapyTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS",
+    "version" : "1.0.0",
+    "name" : "HormonalTherapyTypeVS"
+  },
+  {
+    "id" : "ImplantLocationVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS",
+    "version" : "1.0.0",
+    "name" : "ImplantLocationVS"
+  },
+  {
+    "id" : "InvolvedMarginsReoperationTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/InvolvedMarginsReoperationTypeVS",
+    "version" : "1.0.0",
+    "name" : "InvolvedMarginsReoperationTypeVS"
+  },
+  {
+    "id" : "LateralityNewCancerVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityNewCancerVS",
+    "version" : "1.0.0",
+    "name" : "LateralityNewCancerVS"
+  },
+  {
+    "id" : "LateralityVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS",
+    "version" : "1.0.0",
+    "name" : "LateralityVS"
+  },
+  {
+    "id" : "LocationRadiotherapyVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS",
+    "version" : "1.0.0",
+    "name" : "LocationRadiotherapyVS"
+  },
+  {
+    "id" : "MenopausalStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MenopausalStatusVS",
+    "version" : "1.0.0",
+    "name" : "MenopausalStatusVS"
+  },
+  {
+    "id" : "MolecularProfilingStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS",
+    "version" : "1.0.0",
+    "name" : "MolecularProfilingStatusVS"
+  },
+  {
+    "id" : "NoYesUnknownVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS",
+    "version" : "1.0.0",
+    "name" : "NoYesUnknownVS"
+  },
+  {
+    "id" : "PatientEducationVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS",
+    "version" : "1.0.0",
+    "name" : "PatientEducationVS"
+  },
+  {
+    "id" : "PatientTreatPrefVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS",
+    "version" : "1.0.0",
+    "name" : "PatientTreatPrefVS"
+  },
+  {
+    "id" : "ProgesteroneStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ProgesteroneStatusVS",
+    "version" : "1.0.0",
+    "name" : "ProgesteroneStatusVS"
+  },
+  {
+    "id" : "RecommendedTreatmentTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecommendedTreatmentTypeVS",
+    "version" : "1.0.0",
+    "name" : "RecommendedTreatmentTypeVS"
+  },
+  {
+    "id" : "ReconstructionTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS",
+    "version" : "1.0.0",
+    "name" : "ReconstructionTypeVS"
+  },
+  {
+    "id" : "RecurrenceMethodVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS",
+    "version" : "1.0.0",
+    "name" : "RecurrenceMethodVS"
+  },
+  {
+    "id" : "RecurrenceVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS",
+    "version" : "1.0.0",
+    "name" : "RecurrenceVS"
+  },
+  {
+    "id" : "RelationshipStatusVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RelationshipStatusVS",
+    "version" : "1.0.0",
+    "name" : "RelationshipStatusVS"
+  },
+  {
+    "id" : "ReoperationReasonVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS",
+    "version" : "1.0.0",
+    "name" : "ReoperationReasonVS"
+  },
+  {
+    "id" : "ReoperationTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS",
+    "version" : "1.0.0",
+    "name" : "ReoperationTypeVS"
+  },
+  {
+    "id" : "SACQPatientComorbidityHistory",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory",
+    "version" : "1.0.0",
+    "name" : "SACQPatientComorbidityHistory"
+  },
+  {
+    "id" : "SatisfactionResponseVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS",
+    "version" : "1.0.0",
+    "name" : "SatisfactionResponseVS"
+  },
+  {
+    "id" : "TNMDistantMetastasesVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMDistantMetastasesVS",
+    "version" : "1.0.0",
+    "name" : "TNMDistantMetastasesVS"
+  },
+  {
+    "id" : "TNMPrimaryTumorVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMPrimaryTumorVS",
+    "version" : "1.0.0",
+    "name" : "TNMPrimaryTumorVS"
+  },
+  {
+    "id" : "TNMRegionalNodesVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMRegionalNodesVS",
+    "version" : "1.0.0",
+    "name" : "TNMRegionalNodesVS"
+  },
+  {
+    "id" : "TNMStageGroupVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMStageGroupVS",
+    "version" : "1.0.0",
+    "name" : "TNMStageGroupVS"
+  },
+  {
+    "id" : "TargetedAxillaSurgeryVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedAxillaSurgeryVS",
+    "version" : "1.0.0",
+    "name" : "TargetedAxillaSurgeryVS"
+  },
+  {
+    "id" : "TargetedTherapyVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS",
+    "version" : "1.0.0",
+    "name" : "TargetedTherapyVS"
+  },
+  {
+    "id" : "TherapyIntentVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS",
+    "version" : "1.0.0",
+    "name" : "TherapyIntentVS"
+  },
+  {
+    "id" : "TreatmentPlanComplianceVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanComplianceVS"
+  },
+  {
+    "id" : "TreatmentPlanFollowedVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanFollowedVS",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanFollowedVS"
+  },
+  {
+    "id" : "TreatmentPlanNotFollowedVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanNotFollowedVS",
+    "version" : "1.0.0",
+    "name" : "TreatmentPlanNotFollowedVS"
+  },
+  {
+    "id" : "TreatmentTypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS",
+    "version" : "1.0.0",
+    "name" : "TreatmentTypeVS"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "BodyWeightVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://unitsofmeasure.org\"><code>http://unitsofmeasure.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>kg</td><td>kg</td></tr><tr><td>[lb_av]</td><td>[lb_av]</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS",
+  "version" : "1.0.0",
+  "name" : "BodyWeightVS",
+  "title" : "Units of patient's body weight ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Valueset of the unit  of the patient's body weight",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "copyright" : "UCUM is Copyright © 1999-2013 Regenstrief Institute, Inc. and The UCUM Organization, Indianapolis, IN. All rights reserved. See http://unitsofmeasure.org/trac//wiki/TermsOfUse for details",
+  "compose" : {
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "kg",
+        "display" : "kg"
+      },
+      {
+        "code" : "[lb_av]",
+        "display" : "[lb_av]"
+      }]
+    }]
+  }
+}

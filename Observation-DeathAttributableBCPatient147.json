@@ -1,0 +1,28 @@
+{
+  "resourceType" : "Observation",
+  "id" : "DeathAttributableBCPatient147",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"DeathAttributableBCPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;DeathAttributableBCPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-death-attr-bc.html\">Death attributable to breast cancer</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Death where Due to = Malignant tumor of breast <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#419620001:42752001=254837009)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>value</b>: No <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0532.html\">expandedYes-NoIndicator</a>#N)</span></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "419620001:42752001=254837009",
+      "display" : "Death where Due to = Malignant tumor of breast"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/BreastCancerPatient147"
+  },
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "code" : "N"
+    }]
+  }
+}

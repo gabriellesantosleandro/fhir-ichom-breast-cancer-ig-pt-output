@@ -1,0 +1,76 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "GradingVS",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/399415002\">399415002</a></td><td>Low grade histologic differentiation (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/405986005\">405986005</a></td><td>Intermediate grade histologic differentiation (finding)</td></tr><tr><td><a href=\"http://snomed.info/id/399611001\">399611001</a></td><td>High grade histologic differentiation (finding)</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-NI\">NI</a></td><td>No information</td><td>**Description:**The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS",
+  "version" : "1.0.0",
+  "name" : "GradingVS",
+  "title" : "Grading of tumor ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Valueset of the grade of the tumor",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "399415002",
+        "display" : "Low grade histologic differentiation (finding)"
+      },
+      {
+        "code" : "405986005",
+        "display" : "Intermediate grade histologic differentiation (finding)"
+      },
+      {
+        "code" : "399611001",
+        "display" : "High grade histologic differentiation (finding)"
+      }]
+    },
+    {
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "concept" : [{
+        "code" : "NI",
+        "display" : "No information"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="MolecularProfilingCodeSystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">mammaprint<a name="MolecularProfilingCodeSystem-mammaprint"> </a></td><td>Mammaprint Score</td></tr><tr><td style="white-space:nowrap">oncotype<a name="MolecularProfilingCodeSystem-oncotype"> </a></td><td>Oncotype Score</td></tr><tr><td style="white-space:nowrap">endopredict<a name="MolecularProfilingCodeSystem-endopredict"> </a></td><td>Endopredict Score</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem"/>
+  <version value="1.0.0"/>
+  <name value="MolecularProfilingCodeSystem"/>
+  <title value="Molecular Profiling CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-15T00:28:22+00:00"/>
+  <publisher value="HL7 International - Clinical Interoperability Council Group"/>
+  <contact>
+    <name value="HL7 International - Clinical Interoperability Council Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+  </contact>
+  <description value="Codes used to describe the different types of molecular profiling scoring"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="mammaprint"/>
+    <display value="Mammaprint Score"/>
+  </concept>
+  <concept>
+    <code value="oncotype"/>
+    <display value="Oncotype Score"/>
+  </concept>
+  <concept>
+    <code value="endopredict"/>
+    <display value="Endopredict Score"/>
+  </concept>
+</CodeSystem>

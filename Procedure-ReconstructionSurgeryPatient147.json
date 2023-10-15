@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "ReconstructionSurgeryPatient147",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"ReconstructionSurgeryPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;ReconstructionSurgeryPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-reconstruction-surgery.html\">Reconstruction surgery</a></p></div><p><b>partOf</b>: <a href=\"Procedure-ReoperationSurgeryPatient147.html\">Procedure/ReoperationSurgeryPatient147</a></p><p><b>status</b>: completed</p><p><b>code</b>: Reconstruction of breast <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#33496007)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 1999-02-13</p><p><b>reasonReference</b>: <a href=\"Condition-PrimaryBreastCancerPatient147.html\">Condition/PrimaryBreastCancerPatient147</a></p><p><b>bodySite</b>: Pre-pectoral <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-ImplantLocationCodeSystem.html\">Location of the implant CodeSystem</a>#pre-pectoral)</span></p><p><b>usedCode</b>: Staged implant <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-ReconstructionTypeCodeSystem.html\">Type of reconstruction surgery CodeSystem</a>#staged-implant)</span></p></div>"
+  },
+  "partOf" : [{
+    "reference" : "Procedure/ReoperationSurgeryPatient147"
+  }],
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "33496007",
+      "display" : "Reconstruction of breast"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/BreastCancerPatient147"
+  },
+  "performedDateTime" : "1999-02-13",
+  "reasonReference" : [{
+    "reference" : "Condition/PrimaryBreastCancerPatient147"
+  }],
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem",
+      "code" : "pre-pectoral",
+      "display" : "Pre-pectoral"
+    }]
+  }],
+  "usedCode" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem",
+      "code" : "staged-implant",
+      "display" : "Staged implant"
+    }]
+  }]
+}

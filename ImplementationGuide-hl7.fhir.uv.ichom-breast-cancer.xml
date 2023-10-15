@@ -1,0 +1,2367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.uv.ichom-breast-cancer"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+  <version value="1.0.0"/>
+  <name value="BreastCancerICHOM"/>
+  <title value="ICHOM Patient Centered Outcomes Measure Set for Breast Cancer"/>
+  <status value="draft"/>
+  <date value="2023-10-15T00:28:22+00:00"/>
+  <publisher value="HL7 International - Clinical Interoperability Council Group"/>
+  <contact>
+    <name value="HL7 International - Clinical Interoperability Council Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="hl7.fhir.uv.ichom-breast-cancer"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="5.3.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_sdc">
+    <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"/>
+    <packageId value="hl7.fhir.uv.sdc"/>
+    <version value="3.0.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_extensions">
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions"/>
+    <version value="1.0.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2021+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="trial-use"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="usage-stats-opt-out"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="show-inherited-invariants"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="shownav"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="jira-code"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ichom-breastcancer"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools#current"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2021+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="trial-use"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="usage-stats-opt-out"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="show-inherited-invariants"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="shownav"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="jira-code"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ichom-breastcancer"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/AgreementResponseCodeSystem"/>
+      </reference>
+      <name value="Agreement response CodeSystem"/>
+      <description value="Codes used in a Patient Reported Outcomes Instrument to express the degree of agreement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/AgreementResponseVS"/>
+      </reference>
+      <name value="Agreement response ValueSet"/>
+      <description value="Valueset used in a Patient Reported Outcomes Instrument to express the degree of agreement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/ClinicalResponseAnnualUpdate"/>
+      </reference>
+      <name value="Annual follow-up of clinical questionnaire response"/>
+      <description value="Clinical response questionnaire at annual post-treatment follow-up"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/axilla-surgery"/>
+      </reference>
+      <name value="Axilla surgery"/>
+      <description value="Represents if the breast cancer patient received surgery to the axilla during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/AxillaSurgeryVS"/>
+      </reference>
+      <name value="Axilla surgery ValueSet"/>
+      <description value="Valueset of surgery types of the axilla"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/axillary-clearance"/>
+      </reference>
+      <name value="Axillary clearance"/>
+      <description value="Represents if the breast cancer patient received axillary clearance during the last year. Axilla clearance could be due to lymph node involvement after sentinel lymph node biopsy."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/AxillaryClearancePatient147"/>
+      </reference>
+      <name value="AxillaryClearancePatient147"/>
+      <description value="Example of a breast cancer patient who received axilla clearance"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/AxillaSurgeryPatient147"/>
+      </reference>
+      <name value="AxillaSurgeryPatient147"/>
+      <description value="Example of a breast cancer patient who underwent surgery to the axilla"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/best-supportive-care"/>
+      </reference>
+      <name value="Best supportive care"/>
+      <description value="Represents if breast cancer patient received best supportive care during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/BestSupportiveCarePatient147"/>
+      </reference>
+      <name value="BestSupportiveCarePatient147"/>
+      <description value="Example of a breast cancer patient who received best supportive care"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ichom-body-height"/>
+      </reference>
+      <name value="Body height"/>
+      <description value="Represents the height of a person diagnosed with breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ichom-body-weight"/>
+      </reference>
+      <name value="Body weight"/>
+      <description value="Represents the weight of a person diagnosed with breastcancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BodyHeightPatient147"/>
+      </reference>
+      <name value="BodyHeightPatient147"/>
+      <description value="Example of the height of a patient diagnosed with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/BodyWeightPatient147"/>
+      </reference>
+      <name value="BodyWeightPatient147"/>
+      <description value="Example of the weight of a patient diagnosed with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/patient"/>
+      </reference>
+      <name value="Breast cancer patient"/>
+      <description value="A patient who has been diagnosed with or is receiving medical treatment for breast cancer. This profile includes the ICHOM patient characteristics and demographic factors."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/breast-cancer-surgery"/>
+      </reference>
+      <name value="Breast cancer surgery"/>
+      <description value="Represents if the breast cancer patient received surgery during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BreastSurgeryTypesCodeSystem"/>
+      </reference>
+      <name value="Breast surgery types CodeSystem"/>
+      <description value="Codes indicating the types of breast surgery a patient underwent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/BreastCancerSurgeryPatient147"/>
+      </reference>
+      <name value="BreastCancerSurgeryPatient147"/>
+      <description value="Example of the surgical procedure the breast cancer patient underwent"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/breast-cancer-stage-group"/>
+      </reference>
+      <name value="Cancer Stage Group"/>
+      <description value="A staging system to describe the amount and spread of breast cancer in a patient's body, using TNM staging (per AJCC 8th Ed.). This profile is in alignment with the mCODE TNM Stage Group Profile."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chemotherapy"/>
+      </reference>
+      <name value="Chemotherapy"/>
+      <description value="Represents if the patient received chemotherapy during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/ChemotherapyPatient147"/>
+      </reference>
+      <name value="ChemotherapyPatient147"/>
+      <description value="Example of a breast cancer patient who received chemotherapy"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/ClinicalResponseSixMonths"/>
+      </reference>
+      <name value="Clinical response at 6 months post-treatment follow-up"/>
+      <description value="Clinical response questionnaire at 6 months post-treatment follow-up"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/ClinicalResponseBaseline"/>
+      </reference>
+      <name value="Clinical response questionnaire at baseline"/>
+      <description value="Clinical response questionnaire at baseline (first doctors' visit)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ClinicalMetastasesPatient147"/>
+      </reference>
+      <name value="ClinicalMetastasesPatient147"/>
+      <description value="Extended example: example showing clinical TNM staging (M)"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ClinicalNodalStagePatient147"/>
+      </reference>
+      <name value="ClinicalNodalStagePatient147"/>
+      <description value="Extended example: example showing clinical TNM staging (N)"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ClinicalTNMStagePatient147"/>
+      </reference>
+      <name value="ClinicalTNMStagePatient147"/>
+      <description value="Example showing TNM staging in patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ClinicalTumorStagePatient147"/>
+      </reference>
+      <name value="ClinicalTumorStagePatient147"/>
+      <description value="Extended example: example showing clinical TNM staging (T)"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/complication"/>
+      </reference>
+      <name value="Complication"/>
+      <description value="Represents the type and impact of a complication experienced by a patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/ComplicationPatient147"/>
+      </reference>
+      <name value="ComplicationPatient147"/>
+      <description value="Example of a complication in patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/death-attr-bc"/>
+      </reference>
+      <name value="Death attributable to breast cancer"/>
+      <description value="Represents if breast cancer was the cause of death"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/DeathAttributableBCPatient147"/>
+      </reference>
+      <name value="DeathAttributableBCPatient147"/>
+      <description value="Example of death attributable to breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/EducationLevel"/>
+      </reference>
+      <name value="Education Level Extension"/>
+      <description value="Represents the level of education of a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/EducationLevelVS"/>
+      </reference>
+      <name value="Education level of patient ValueSet"/>
+      <description value="Valueset of the education level of a patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/endopredicton-score"/>
+      </reference>
+      <name value="Endopredict score"/>
+      <description value="Represents the endopredict score on a scale of 1.1 to 6.2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EndopredictonPatient147"/>
+      </reference>
+      <name value="EndopredictonPatient147"/>
+      <description value="Example of the endopredict score"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ERStatusPatient147"/>
+      </reference>
+      <name value="ERStatusPatient147"/>
+      <description value="Example of the estrogen receptor status in a patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/er-status"/>
+      </reference>
+      <name value="Estrogen receptor status"/>
+      <description value="Represents if the estrogen receptor status is positive in a patient with breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/EstrogenStatusVS"/>
+      </reference>
+      <name value="Estrogen receptor status ValueSet"/>
+      <description value="Valueset of the Estrogen receptor status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Ethnicity"/>
+      </reference>
+      <name value="Ethnicity Extension"/>
+      <description value="Represents the ethnicity of a patient. This extension is aligned with USCore"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/BreastCancerPatient121"/>
+      </reference>
+      <name value="Example of Breast Cancer Patient Cornetet"/>
+      <description value="The characteristics and demographic factors of an example patient."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/BreastCancerPatient147"/>
+      </reference>
+      <name value="Example of Breast Cancer Patient Letsche"/>
+      <description value="The characteristics and demographic factors of an example patient."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/BreastCancerPatient134"/>
+      </reference>
+      <name value="Example of Breast Cancer Patient Mortera"/>
+      <description value="The characteristics and demographic factors of an example patient."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/MenopausalStatusPatient147"/>
+      </reference>
+      <name value="Example of menopausal status"/>
+      <description value="Example of the menopausal status of a patient"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/TargetedTherapyPatient134"/>
+      </reference>
+      <name value="Example of Targeted therapy"/>
+      <description value="Example of the targeted therapy for this patient."/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/TreatmentPlanFollowedPatient147"/>
+      </reference>
+      <name value="Example Real Treatment Plan Followed"/>
+      <description value="Example of how the real treatment plan was followed"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/TreatmentPlanNotFollowedPatient147"/>
+      </reference>
+      <name value="Example Treatment Plan Not Followed"/>
+      <description value="Example of why the treatment plan was not followed"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/germline-mutation"/>
+      </reference>
+      <name value="Germline mutation"/>
+      <description value="Represents if the patient carries a germline mutation predisposing breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/GermlineMutationVS"/>
+      </reference>
+      <name value="Germline Mutation ValueSet"/>
+      <description value="Valueset of the genetic mutation predisposing breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/GermlineMutationPatient147"/>
+      </reference>
+      <name value="GermlineMutationPatient147"/>
+      <description value="Example of whether a patient carries a germline mutation predisposing breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/GradingVS"/>
+      </reference>
+      <name value="Grading of tumor ValueSet"/>
+      <description value="Valueset of the grade of the tumor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/her-status"/>
+      </reference>
+      <name value="HER2 receptor status"/>
+      <description value="Represents if the human epidermal growth factor receptor 2 (HER2) receptor status is positive in a patient with breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/HER2ReceptorStatusVS"/>
+      </reference>
+      <name value="HER2 receptor status ValueSet"/>
+      <description value="Valueset of the HER2 receptor status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HERStatusPatient147"/>
+      </reference>
+      <name value="HERStatusPatient147"/>
+      <description value="Example of the human epidermal growth factor receptor 2 (HER2) status in a patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/histo-type"/>
+      </reference>
+      <name value="Histological type of the tumor"/>
+      <description value="Represents the histological type of the tumor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/HistologicalTypeVS"/>
+      </reference>
+      <name value="Histological type of the tumor ValueSet"/>
+      <description value="Valueset of the histological types of tumors"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HistotypePatient147"/>
+      </reference>
+      <name value="HistotypePatient147"/>
+      <description value="Example of the histological type of the breast cancer tumor"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hormonal-therpay"/>
+      </reference>
+      <name value="Hormonal therapy"/>
+      <description value="Represents if the patient received hormonal therapy during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/HormonaltherapyPatient147"/>
+      </reference>
+      <name value="HormonaltherapyPatient147"/>
+      <description value="Example of a breast cancer patient who received hormonal therapy"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/immunotherapy"/>
+      </reference>
+      <name value="Immunotherapy"/>
+      <description value="Represents if the breast cancer patient received immunotherapy during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/ImmunotherapyPatient147"/>
+      </reference>
+      <name value="ImmunotherapyPatient147"/>
+      <description value="Example of a breast cancer patient who received immunotherapy"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ComplicationImpactCodeSystem"/>
+      </reference>
+      <name value="Impact of complication CodeSystem"/>
+      <description value="Codes indicating the impact of a complication experienced by the breast cancer patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ComplicationImpactVS"/>
+      </reference>
+      <name value="Impact of complication ValueSet"/>
+      <description value="ValueSet of the impact of a complication experienced by the breast cancer patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TherapyIntentVS"/>
+      </reference>
+      <name value="Intent of therapy ValueSet"/>
+      <description value="Valueset of intent of therapy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/invasion-grade"/>
+      </reference>
+      <name value="Invasion grade"/>
+      <description value="Represents the tumor grade of DCIS component of the breast cancer tumor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/InvasionGradePatient147"/>
+      </reference>
+      <name value="InvasionGradePatient147"/>
+      <description value="Example of the tumor grade of DCIS component of the breast cancer tumor"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/LateralityVS"/>
+      </reference>
+      <name value="Laterality of breast cancer ValueSet"/>
+      <description value="Valueset of the laterality of breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/LateralityNewCancerVS"/>
+      </reference>
+      <name value="Laterality of new cancer ValueSet"/>
+      <description value="Valueset of the laterality of new breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ImplantLocationCodeSystem"/>
+      </reference>
+      <name value="Location of the implant CodeSystem"/>
+      <description value="Codes indicating the location of the implant that was placed during reconstruction surgery"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ImplantLocationVS"/>
+      </reference>
+      <name value="Location of the implant ValueSet"/>
+      <description value="Valueset of the location of the implant during reconstruction surgery"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/lymph-nodes-involved"/>
+      </reference>
+      <name value="Lymph nodes involved"/>
+      <description value="Represents the number of lymph nodes involved"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/LymphNodesInvolvedPatient147"/>
+      </reference>
+      <name value="LymphNodesInvolvedPatient147"/>
+      <description value="Example of the number of involved lymph nodes in a patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/LymphNodesResectedPatient147"/>
+      </reference>
+      <name value="LymphNodesResectedPatient147"/>
+      <description value="Example of the number of resected lymph nodes in a patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mammaprint-score"/>
+      </reference>
+      <name value="Mammaprint score"/>
+      <description value="Represents the mammaprintscore on a scale of 0.000 to 1.000"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/MammaprintPatient147"/>
+      </reference>
+      <name value="MammaprintPatient147"/>
+      <description value="Example of the mammaprint score"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/menopausal-status"/>
+      </reference>
+      <name value="Menopausal status"/>
+      <description value="Represents the menopausal status of a patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/MenopausalStatusVS"/>
+      </reference>
+      <name value="Menopausal status of patient ValueSet"/>
+      <description value="Valueset of the menopausal status of a patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/MolecularProfilingStatusVS"/>
+      </reference>
+      <name value="Molecular profiling"/>
+      <description value="Valueset indicating if a molecular profiling tool was used"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/MolecularProfilingCodeSystem"/>
+      </reference>
+      <name value="Molecular Profiling CodeSystem"/>
+      <description value="Codes used to describe the different types of molecular profiling scoring"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TreatmentPlanComplianceCodeSystem"/>
+      </reference>
+      <name value="Observation identifiers for treatment plan non-compliance reason CodeSystem"/>
+      <description value="Codes covering observation identifiers for treatment plan non-compliance reaso"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TreatmentPlanComplianceVS"/>
+      </reference>
+      <name value="Observation identifiers for treatment plan non-compliance reason ValueSet"/>
+      <description value="Valueset of reason for why the treatment plan was not followed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/oncotype-score"/>
+      </reference>
+      <name value="Oncotype Score"/>
+      <description value="Represents the oncotype score on a scale of 0 to 100"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/OncotypePatient147"/>
+      </reference>
+      <name value="OncotypePatient147"/>
+      <description value="Example of the oncotype score"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PathologicalMetastasesPatient147"/>
+      </reference>
+      <name value="PathologicalMetastasesPatient147"/>
+      <description value="Extended example: example showing patholgical TNM staging (M)"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PathologicalNodalStagePatient147"/>
+      </reference>
+      <name value="PathologicalNodalStagePatient147"/>
+      <description value="Extended example: example showing patholgical TNM staging (N)"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PathologicalTNMStagePatient147"/>
+      </reference>
+      <name value="PathologicalTNMStagePatient147"/>
+      <description value="Example showing TNM staging in patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PathologicalTumorStagePatient147"/>
+      </reference>
+      <name value="PathologicalTumorStagePatient147"/>
+      <description value="Extended example: example showing patholgical TNM staging (T)"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/PatientReportedBaseline"/>
+      </reference>
+      <name value="Patient reported response at baseline"/>
+      <description value="Patient-reported response at baseline (first doctors' visit)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/PatientReportedFollowUp"/>
+      </reference>
+      <name value="Patient reported response at post-treatment follow-up"/>
+      <description value="Patient-reported response at every 6 months for first 2 years post-treatment, after 2 years tracked annually for up to 10 years"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/PatientEducationCodeSystem"/>
+      </reference>
+      <name value="Patient Treatment Education Codesystem"/>
+      <description value="Codes covering if the patient received sufficient information about the treatment options"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PatientEducationVS"/>
+      </reference>
+      <name value="Patient Treatment Education ValueSet"/>
+      <description value="Valueset covering if the patient received sufficient information about the treatment options"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/PatientTreatPrefCodeSystem"/>
+      </reference>
+      <name value="Patient treatment preference CodeSystem"/>
+      <description value="Codes covering for why the treatment plan was not followed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PatientTreatPrefVS"/>
+      </reference>
+      <name value="Patient treatment preference ValueSet"/>
+      <description value="Valueset of reason for why the treatment plan was not followed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/primary-breastcancer"/>
+      </reference>
+      <name value="Primary Breast Cancer Condition"/>
+      <description value="Represent the properties of the primary breast cancer diagnosis"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/PrimaryBreastCancerPatient147"/>
+      </reference>
+      <name value="PrimaryBreastCancerPatient147"/>
+      <description value="Example of the primary breast cancer diagnosis of a patient"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pr-status"/>
+      </reference>
+      <name value="Progesterone receptor status"/>
+      <description value="Represents if the progesterone receptor status is positive in a patient with breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ProgesteroneStatusVS"/>
+      </reference>
+      <name value="Progesterone receptor status ValueSet"/>
+      <description value="Valueset of the Progesterone receptor status"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/PRStatusPatient147"/>
+      </reference>
+      <name value="PRStatusPatient147"/>
+      <description value="Example of the progesterone receptor status in a patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Race"/>
+      </reference>
+      <name value="Race Extension"/>
+      <description value="Represents the race of a patient. This extension is aligned with USCore."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/radiotherapy"/>
+      </reference>
+      <name value="Radiotherapy"/>
+      <description value="Represents if the breast cancer patient received radiotherapy during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/RadiotherapyPatient147"/>
+      </reference>
+      <name value="RadiotherapyPatient147"/>
+      <description value="Example of a breast cancer patient who received radiotherapy"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/InvolvedMarginsReoperationTypeVS"/>
+      </reference>
+      <name value="Re-operation due to involved margins ValueSet"/>
+      <description value="Kind of re-operation due to involved margins"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/reoperation-surgery"/>
+      </reference>
+      <name value="Re-operation surgery"/>
+      <description value="Represents whether the patient has had a re-operation since their surgery for breast cancer and whether it was due to involved margins."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/treatment-plan-followed"/>
+      </reference>
+      <name value="Real Treatment Plan Followed"/>
+      <description value="Indicate if the patient followed the multidisciplinary recommended treatment plan"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TreatmentPlanFollowedCodeSystem"/>
+      </reference>
+      <name value="Real Treatment Plan Followed CodeSystem"/>
+      <description value="Codes covering if the patient followed the multidisciplinary recommended treatment plan"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TreatmentPlanFollowedVS"/>
+      </reference>
+      <name value="Real Treatment Plan Followed ValueSet"/>
+      <description value="Valueset of if the patient followed the multidisciplinary recommended treatment plan"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TreatmentPlanNotFollowedCodeSystem"/>
+      </reference>
+      <name value="Real Treatment Plan Not Followed CodeSystem"/>
+      <description value="Codes covering if the patient has not followed the multidisciplinary recommended treatment plan"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ReoperationReasonVS"/>
+      </reference>
+      <name value="Reasoncode of the re-operation"/>
+      <description value="Valueset of the reasons of a re-operation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RecommendedTreatmentTypeVS"/>
+      </reference>
+      <name value="Recommended treatment types ValueSet"/>
+      <description value="Valueset of the kind of treatment that the multidisciplinary team recommended"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/reconstruction-surgery"/>
+      </reference>
+      <name value="Reconstruction surgery"/>
+      <description value="Represents if the breast cancer patient received reconstruction surgery during the last year."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/ReconstructionSurgeryPatient147"/>
+      </reference>
+      <name value="ReconstructionSurgeryPatient147"/>
+      <description value="Example of a breast cancer patient who underwent reconstruction surgery"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/recr-method"/>
+      </reference>
+      <name value="Recurrence Method"/>
+      <description value="The method of confirming recurrence breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/RecurrenceMethodCodeSystem"/>
+      </reference>
+      <name value="Recurrence method CodeSystem"/>
+      <description value="Additional code covering combination of radiological and histological diagnosis method"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RecurrenceMethodVS"/>
+      </reference>
+      <name value="Recurrence method ValueSet"/>
+      <description value="Valueset of the methods used to confirm recurrence of breast cancer"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/RecurrenceCodeSystem"/>
+      </reference>
+      <name value="Recurrence of neoplasm CodeSystem"/>
+      <description value="Additional code covering whether there is evidence of local, regional or distant recurrence of neoplasm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RecurrenceVS"/>
+      </reference>
+      <name value="Recurrence of neoplasm ValueSet"/>
+      <description value="Valueset about whether there is evidence of local, regional or distant recurrence of neoplasm"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/RecurrenceMethodPatient147"/>
+      </reference>
+      <name value="RecurrenceMethodPatient147"/>
+      <description value="Example of method of confirming recurrence breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/RelationshipStatusVS"/>
+      </reference>
+      <name value="Relationship status of patient ValueSet"/>
+      <description value="Valueset of the relationship status of a patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/ReoperationSurgeryPatient147"/>
+      </reference>
+      <name value="ReoperationSurgeryPatient147"/>
+      <description value="Example of a reoperation due to involved margins after primary surgery"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/lymph-nodes-resected"/>
+      </reference>
+      <name value="Resected lymph nodes"/>
+      <description value="Represents the number of lymph nodes resected"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SACQPatientComorbidityHistory"/>
+      </reference>
+      <name value="SACQ Patient's comorbidity history ValueSet"/>
+      <description value="Patient's documented history of comorbidities"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/SatisfactionResponseCodeSystem"/>
+      </reference>
+      <name value="Satisfaction response CodeSystem"/>
+      <description value="Codes used in a Patient Reported Outcomes Instrument to express the statisfation response"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SatisfactionResponseVS"/>
+      </reference>
+      <name value="Satisfaction response ValueSet"/>
+      <description value="Valueset used in a Patient Reported Outcomes Instrument to express the statisfation response"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/secondary-breastcancer"/>
+      </reference>
+      <name value="Secondary Breast Cancer Condition"/>
+      <description value="Represent the properties of the secondary breast cancer diagnosis"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/SecondaryBreastCancerPatient147"/>
+      </reference>
+      <name value="SecondaryBreastCancerPatient147"/>
+      <description value="Example of the secondary condition breast cancer diagnosed in a patient"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/sizeinvasivetumor"/>
+      </reference>
+      <name value="Size of invasive tumor"/>
+      <description value="Represents the size of the invasive tumor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TNMStageGroupVS"/>
+      </reference>
+      <name value="Staging Type for Stage Group ValueSet"/>
+      <description value="Valueset indicating the type of staging, clinical or pathological, of breast cancer."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TargetedAxillaSurgeryVS"/>
+      </reference>
+      <name value="Targeted axilla surgery ValueSet"/>
+      <description value="Valueset of targeted surgery types of the axilla"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/targeted-therapy"/>
+      </reference>
+      <name value="Targeted therapy"/>
+      <description value="Type and duration of targeted therapy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/LocationRadiotherapyVS"/>
+      </reference>
+      <name value="The location of radiotherapy ValueSet"/>
+      <description value="Valueset of the location of radiotherapy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tnm-distant-metastases"/>
+      </reference>
+      <name value="TNM Distant Metastases"/>
+      <description value="Represents the extent of a tumor metastasis in remote anatomical locations (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Distant Metastases Category Profile."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TNMDistantMetastasesVS"/>
+      </reference>
+      <name value="TNM Distant Metastases ValueSet"/>
+      <description value="Valueset of the TNM stage for the M category, according to TNM staging rules"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tnm-primary-tumor-stage"/>
+      </reference>
+      <name value="TNM Primary Tumor Stage"/>
+      <description value="Represents the stage of the primary tumor (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Primary Tumor Category Profile."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TNMPrimaryTumorVS"/>
+      </reference>
+      <name value="TNM Primary Tumor ValueSet"/>
+      <description value="Valueset of the TNM stage for the T category, according to TNM staging rules"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tnm-regional-nodes-stage"/>
+      </reference>
+      <name value="TNM Regional Nodal Stage"/>
+      <description value="Represents the presence or absence of metastases in regional lymph nodes (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Regional Nodes Category Profile."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TNMRegionalNodesVS"/>
+      </reference>
+      <name value="TNM Regional Nodes ValueSet"/>
+      <description value="Valueset of the TNM stage for the N category, according to TNM staging rules"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/treatment-plan-not-followed"/>
+      </reference>
+      <name value="Treatment Plan Not Followed"/>
+      <description value="Indicate why the multidisciplinary recommended treatment plan was not followed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TreatmentPlanNotFollowedVS"/>
+      </reference>
+      <name value="Treatment Plan Not Followed ValueSet"/>
+      <description value="Valueset of reason for the treatment plan not being followed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/treatment-plan"/>
+      </reference>
+      <name value="Treatment recommended by a multidisciplinary team"/>
+      <description value="Represents the treatment that a multidisciplinary team recommended during a multidisciplinary meeting"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TreatmentTypesCodeSystem"/>
+      </reference>
+      <name value="Treatment variables CodeSytem"/>
+      <description value="Codes defining types of treatment a breast cancer patient could receive"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CarePlan"/>
+      </extension>
+      <reference>
+        <reference value="CarePlan/TreatmentPlanPatient147"/>
+      </reference>
+      <name value="TreatmentPlanPatient147"/>
+      <description value="Example of the treatment that a multidisciplinary team recommended during a multidisciplinary meeting"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tumor-grade"/>
+      </reference>
+      <name value="Tumor grade"/>
+      <description value="Represents the grade of the breast cancer tumor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/TumorGradePatient147"/>
+      </reference>
+      <name value="TumorGradePatient147"/>
+      <description value="Example of the grade of a breast cancer tumor"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/TumorSizePatient147"/>
+      </reference>
+      <name value="TumorSizePatient147"/>
+      <description value="Example of the size of the invasive tumor of a patient with breast cancer"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ChemoTherapyTypeVS"/>
+      </reference>
+      <name value="Type of chemotherapy ValueSet"/>
+      <description value="Valueset of the types of chemotherapy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ComplicationTypeCodeSystem"/>
+      </reference>
+      <name value="Type of complication CodeSystem"/>
+      <description value="Codes indicating the type of a complication experienced by the breast cancer patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ComplicationTypeVS"/>
+      </reference>
+      <name value="Type of complication ValueSet"/>
+      <description value="ValueSet of the type of complication experienced by the breast cancer patient"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/HormonalTherapyTypeVS"/>
+      </reference>
+      <name value="Type of hormonal therapy ValueSet"/>
+      <description value="Valueset of the types of hormonal therapy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ReoperationTypeVS"/>
+      </reference>
+      <name value="Type of re-operation"/>
+      <description value="Valueset of the types of re-operation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ReconstructionTypeCodeSystem"/>
+      </reference>
+      <name value="Type of reconstruction surgery CodeSystem"/>
+      <description value="Codes indicating the type of reconstruction surgery that is performed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/ReconstructionTypeVS"/>
+      </reference>
+      <name value="Type of reconstruction surgery ValueSet"/>
+      <description value="Valueset of the type of reconstruction surgery that is performed"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TargetedTherapyVS"/>
+      </reference>
+      <name value="Type of targeted therapy ValueSet"/>
+      <description value="Valueset of the types of targeted therapy"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TreatmentTypeVS"/>
+      </reference>
+      <name value="Type of treatments ValueSet"/>
+      <description value="Valueset of the kind of treatment a patient with breastcancer underwent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BreastSurgeryTypeVS"/>
+      </reference>
+      <name value="Types of breast surgery ValueSet"/>
+      <description value="Valueset of the types of breast surgery a patient underwent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BodyWeightVS"/>
+      </reference>
+      <name value="Units of patient's body weight ValueSet"/>
+      <description value="Valueset of the unit  of the patient's body weight"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoYesUnknownVS"/>
+      </reference>
+      <name value="Yes, No and Unknown Valueset"/>
+      <description value="Valueset with yes, no and unknown answers"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+        <valueCode value="informative"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="Introduction"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="fhir-basics.html"/>
+        </extension>
+        <nameUrl value="fhir-basics.html"/>
+        <title value="FHIR basics"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="use-cases.html"/>
+        </extension>
+        <nameUrl value="use-cases.html"/>
+        <title value="Use Cases"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="standard-set.html"/>
+        </extension>
+        <nameUrl value="standard-set.html"/>
+        <title value="ICHOM Set"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="security.html"/>
+        </extension>
+        <nameUrl value="security.html"/>
+        <title value="Security"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

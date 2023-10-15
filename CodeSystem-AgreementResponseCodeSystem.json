@@ -1,0 +1,70 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "AgreementResponseCodeSystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">no<a name=\"AgreementResponseCodeSystem-no\"> </a></td><td>Not at all</td></tr><tr><td style=\"white-space:nowrap\">little<a name=\"AgreementResponseCodeSystem-little\"> </a></td><td>A little</td></tr><tr><td style=\"white-space:nowrap\">quite<a name=\"AgreementResponseCodeSystem-quite\"> </a></td><td>Quite a bit</td></tr><tr><td style=\"white-space:nowrap\">very<a name=\"AgreementResponseCodeSystem-very\"> </a></td><td>Very much</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem",
+  "version" : "1.0.0",
+  "name" : "AgreementResponseCodeSystem",
+  "title" : "Agreement response CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Codes used in a Patient Reported Outcomes Instrument to express the degree of agreement",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "no",
+    "display" : "Not at all"
+  },
+  {
+    "code" : "little",
+    "display" : "A little"
+  },
+  {
+    "code" : "quite",
+    "display" : "Quite a bit"
+  },
+  {
+    "code" : "very",
+    "display" : "Very much"
+  }]
+}

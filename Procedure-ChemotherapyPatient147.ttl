@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ChemotherapyPatient147> a fhir:Procedure ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ChemotherapyPatient147"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"ChemotherapyPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;ChemotherapyPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-chemotherapy.html\">Chemotherapy</a></p></div><p><b>method</b>: other <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\">NullFlavor</a>#OTH)</span></p><p><b>status</b>: completed</p><p><b>code</b>: Chemotherapy care <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#385786002)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 2019-01-09 --&gt; 2019-09-04</p><p><b>reasonCode</b>: Adjuvant - intent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#373846009)</span></p><p><b>reasonReference</b>: <a href=\"Condition-PrimaryBreastCancerPatient147.html\">Condition/PrimaryBreastCancerPatient147</a></p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/procedure-method"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "OTH" ] ;
+         fhir:display [ fhir:v "other" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:385786002 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "385786002" ] ;
+       fhir:display [ fhir:v "Chemotherapy care" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
+  ] ; # 
+  fhir:performed [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2019-01-09"^^xsd:date ] ;
+     fhir:end [ fhir:v "2019-09-04"^^xsd:date ]
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       a sct:373846009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "373846009" ] ;
+       fhir:display [ fhir:v "Adjuvant - intent" ]
+     ] )
+  ] ) ; # 
+  fhir:reasonReference ( [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> ;
+     fhir:reference [ fhir:v "Condition/PrimaryBreastCancerPatient147" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

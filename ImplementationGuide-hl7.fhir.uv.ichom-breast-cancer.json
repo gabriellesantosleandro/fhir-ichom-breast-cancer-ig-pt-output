@@ -1,0 +1,2717 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "hl7.fhir.uv.ichom-breast-cancer",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer",
+  "version" : "1.0.0",
+  "name" : "BreastCancerICHOM",
+  "title" : "ICHOM Patient Centered Outcomes Measure Set for Breast Cancer",
+  "status" : "draft",
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "packageId" : "hl7.fhir.uv.ichom-breast-cancer",
+  "license" : "CC0-1.0",
+  "fhirVersion" : ["4.0.1"],
+  "dependsOn" : [{
+    "id" : "hl7tx",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+    }],
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+    "packageId" : "hl7.terminology.r4",
+    "version" : "5.3.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_sdc",
+    "uri" : "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc",
+    "packageId" : "hl7.fhir.uv.sdc",
+    "version" : "3.0.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_extensions",
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions",
+    "version" : "1.0.0"
+  }],
+  "definition" : {
+    "extension" : [{
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "copyrightyear"
+      },
+      {
+        "url" : "value",
+        "valueString" : "2021+"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "releaselabel"
+      },
+      {
+        "url" : "value",
+        "valueString" : "trial-use"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "usage-stats-opt-out"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "show-inherited-invariants"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "shownav"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "jira-code"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ichom-breastcancer"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "autoload-resources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-qa"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/qa"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-temp"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/pages"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-output"
+      },
+      {
+        "url" : "value",
+        "valueString" : "output"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-suppressed-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "template-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "template-md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page-md.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-context"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-copyright"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "active-tables"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "fmm-definition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "propagate-status"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "excludelogbinaryformat"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "tabbed-snapshots"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
+      "valueCode" : "hl7.fhir.uv.tools#current"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "copyrightyear"
+      },
+      {
+        "url" : "value",
+        "valueString" : "2021+"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "releaselabel"
+      },
+      {
+        "url" : "value",
+        "valueString" : "trial-use"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "usage-stats-opt-out"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "show-inherited-invariants"
+      },
+      {
+        "url" : "value",
+        "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "shownav"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "jira-code"
+      },
+      {
+        "url" : "value",
+        "valueString" : "ichom-breastcancer"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "autoload-resources"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/liquid"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-qa"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/qa"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-temp"
+      },
+      {
+        "url" : "value",
+        "valueString" : "temp/pages"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-output"
+      },
+      {
+        "url" : "value",
+        "valueString" : "output"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-suppressed-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-html"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "template-md"
+      },
+      {
+        "url" : "value",
+        "valueString" : "template-page-md.html"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-context"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-copyright"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-wg"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "active-tables"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "fmm-definition"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "propagate-status"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "excludelogbinaryformat"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "tabbed-snapshots"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/AgreementResponseCodeSystem"
+      },
+      "name" : "Agreement response CodeSystem",
+      "description" : "Codes used in a Patient Reported Outcomes Instrument to express the degree of agreement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/AgreementResponseVS"
+      },
+      "name" : "Agreement response ValueSet",
+      "description" : "Valueset used in a Patient Reported Outcomes Instrument to express the degree of agreement",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/ClinicalResponseAnnualUpdate"
+      },
+      "name" : "Annual follow-up of clinical questionnaire response",
+      "description" : "Clinical response questionnaire at annual post-treatment follow-up",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/axilla-surgery"
+      },
+      "name" : "Axilla surgery",
+      "description" : "Represents if the breast cancer patient received surgery to the axilla during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/AxillaSurgeryVS"
+      },
+      "name" : "Axilla surgery ValueSet",
+      "description" : "Valueset of surgery types of the axilla",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/axillary-clearance"
+      },
+      "name" : "Axillary clearance",
+      "description" : "Represents if the breast cancer patient received axillary clearance during the last year. Axilla clearance could be due to lymph node involvement after sentinel lymph node biopsy.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/AxillaryClearancePatient147"
+      },
+      "name" : "AxillaryClearancePatient147",
+      "description" : "Example of a breast cancer patient who received axilla clearance",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/AxillaSurgeryPatient147"
+      },
+      "name" : "AxillaSurgeryPatient147",
+      "description" : "Example of a breast cancer patient who underwent surgery to the axilla",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/best-supportive-care"
+      },
+      "name" : "Best supportive care",
+      "description" : "Represents if breast cancer patient received best supportive care during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/BestSupportiveCarePatient147"
+      },
+      "name" : "BestSupportiveCarePatient147",
+      "description" : "Example of a breast cancer patient who received best supportive care",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ichom-body-height"
+      },
+      "name" : "Body height",
+      "description" : "Represents the height of a person diagnosed with breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ichom-body-weight"
+      },
+      "name" : "Body weight",
+      "description" : "Represents the weight of a person diagnosed with breastcancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BodyHeightPatient147"
+      },
+      "name" : "BodyHeightPatient147",
+      "description" : "Example of the height of a patient diagnosed with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/BodyWeightPatient147"
+      },
+      "name" : "BodyWeightPatient147",
+      "description" : "Example of the weight of a patient diagnosed with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/patient"
+      },
+      "name" : "Breast cancer patient",
+      "description" : "A patient who has been diagnosed with or is receiving medical treatment for breast cancer. This profile includes the ICHOM patient characteristics and demographic factors.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/breast-cancer-surgery"
+      },
+      "name" : "Breast cancer surgery",
+      "description" : "Represents if the breast cancer patient received surgery during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BreastSurgeryTypesCodeSystem"
+      },
+      "name" : "Breast surgery types CodeSystem",
+      "description" : "Codes indicating the types of breast surgery a patient underwent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/BreastCancerSurgeryPatient147"
+      },
+      "name" : "BreastCancerSurgeryPatient147",
+      "description" : "Example of the surgical procedure the breast cancer patient underwent",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/breast-cancer-stage-group"
+      },
+      "name" : "Cancer Stage Group",
+      "description" : "A staging system to describe the amount and spread of breast cancer in a patient's body, using TNM staging (per AJCC 8th Ed.). This profile is in alignment with the mCODE TNM Stage Group Profile.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/chemotherapy"
+      },
+      "name" : "Chemotherapy",
+      "description" : "Represents if the patient received chemotherapy during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/ChemotherapyPatient147"
+      },
+      "name" : "ChemotherapyPatient147",
+      "description" : "Example of a breast cancer patient who received chemotherapy",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/ClinicalResponseSixMonths"
+      },
+      "name" : "Clinical response at 6 months post-treatment follow-up",
+      "description" : "Clinical response questionnaire at 6 months post-treatment follow-up",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/ClinicalResponseBaseline"
+      },
+      "name" : "Clinical response questionnaire at baseline",
+      "description" : "Clinical response questionnaire at baseline (first doctors' visit)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ClinicalMetastasesPatient147"
+      },
+      "name" : "ClinicalMetastasesPatient147",
+      "description" : "Extended example: example showing clinical TNM staging (M)",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ClinicalNodalStagePatient147"
+      },
+      "name" : "ClinicalNodalStagePatient147",
+      "description" : "Extended example: example showing clinical TNM staging (N)",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ClinicalTNMStagePatient147"
+      },
+      "name" : "ClinicalTNMStagePatient147",
+      "description" : "Example showing TNM staging in patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ClinicalTumorStagePatient147"
+      },
+      "name" : "ClinicalTumorStagePatient147",
+      "description" : "Extended example: example showing clinical TNM staging (T)",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/complication"
+      },
+      "name" : "Complication",
+      "description" : "Represents the type and impact of a complication experienced by a patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/ComplicationPatient147"
+      },
+      "name" : "ComplicationPatient147",
+      "description" : "Example of a complication in patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/death-attr-bc"
+      },
+      "name" : "Death attributable to breast cancer",
+      "description" : "Represents if breast cancer was the cause of death",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/DeathAttributableBCPatient147"
+      },
+      "name" : "DeathAttributableBCPatient147",
+      "description" : "Example of death attributable to breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/EducationLevel"
+      },
+      "name" : "Education Level Extension",
+      "description" : "Represents the level of education of a patient.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/EducationLevelVS"
+      },
+      "name" : "Education level of patient ValueSet",
+      "description" : "Valueset of the education level of a patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/endopredicton-score"
+      },
+      "name" : "Endopredict score",
+      "description" : "Represents the endopredict score on a scale of 1.1 to 6.2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/EndopredictonPatient147"
+      },
+      "name" : "EndopredictonPatient147",
+      "description" : "Example of the endopredict score",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/ERStatusPatient147"
+      },
+      "name" : "ERStatusPatient147",
+      "description" : "Example of the estrogen receptor status in a patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/er-status"
+      },
+      "name" : "Estrogen receptor status",
+      "description" : "Represents if the estrogen receptor status is positive in a patient with breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/EstrogenStatusVS"
+      },
+      "name" : "Estrogen receptor status ValueSet",
+      "description" : "Valueset of the Estrogen receptor status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Ethnicity"
+      },
+      "name" : "Ethnicity Extension",
+      "description" : "Represents the ethnicity of a patient. This extension is aligned with USCore",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/BreastCancerPatient121"
+      },
+      "name" : "Example of Breast Cancer Patient Cornetet",
+      "description" : "The characteristics and demographic factors of an example patient.",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/BreastCancerPatient147"
+      },
+      "name" : "Example of Breast Cancer Patient Letsche",
+      "description" : "The characteristics and demographic factors of an example patient.",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/BreastCancerPatient134"
+      },
+      "name" : "Example of Breast Cancer Patient Mortera",
+      "description" : "The characteristics and demographic factors of an example patient.",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/MenopausalStatusPatient147"
+      },
+      "name" : "Example of menopausal status",
+      "description" : "Example of the menopausal status of a patient",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/TargetedTherapyPatient134"
+      },
+      "name" : "Example of Targeted therapy",
+      "description" : "Example of the targeted therapy for this patient.",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TreatmentPlanFollowedPatient147"
+      },
+      "name" : "Example Real Treatment Plan Followed",
+      "description" : "Example of how the real treatment plan was followed",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TreatmentPlanNotFollowedPatient147"
+      },
+      "name" : "Example Treatment Plan Not Followed",
+      "description" : "Example of why the treatment plan was not followed",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/germline-mutation"
+      },
+      "name" : "Germline mutation",
+      "description" : "Represents if the patient carries a germline mutation predisposing breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/GermlineMutationVS"
+      },
+      "name" : "Germline Mutation ValueSet",
+      "description" : "Valueset of the genetic mutation predisposing breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/GermlineMutationPatient147"
+      },
+      "name" : "GermlineMutationPatient147",
+      "description" : "Example of whether a patient carries a germline mutation predisposing breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/GradingVS"
+      },
+      "name" : "Grading of tumor ValueSet",
+      "description" : "Valueset of the grade of the tumor",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/her-status"
+      },
+      "name" : "HER2 receptor status",
+      "description" : "Represents if the human epidermal growth factor receptor 2 (HER2) receptor status is positive in a patient with breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/HER2ReceptorStatusVS"
+      },
+      "name" : "HER2 receptor status ValueSet",
+      "description" : "Valueset of the HER2 receptor status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HERStatusPatient147"
+      },
+      "name" : "HERStatusPatient147",
+      "description" : "Example of the human epidermal growth factor receptor 2 (HER2) status in a patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/histo-type"
+      },
+      "name" : "Histological type of the tumor",
+      "description" : "Represents the histological type of the tumor",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/HistologicalTypeVS"
+      },
+      "name" : "Histological type of the tumor ValueSet",
+      "description" : "Valueset of the histological types of tumors",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/HistotypePatient147"
+      },
+      "name" : "HistotypePatient147",
+      "description" : "Example of the histological type of the breast cancer tumor",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hormonal-therpay"
+      },
+      "name" : "Hormonal therapy",
+      "description" : "Represents if the patient received hormonal therapy during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/HormonaltherapyPatient147"
+      },
+      "name" : "HormonaltherapyPatient147",
+      "description" : "Example of a breast cancer patient who received hormonal therapy",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/immunotherapy"
+      },
+      "name" : "Immunotherapy",
+      "description" : "Represents if the breast cancer patient received immunotherapy during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/ImmunotherapyPatient147"
+      },
+      "name" : "ImmunotherapyPatient147",
+      "description" : "Example of a breast cancer patient who received immunotherapy",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ComplicationImpactCodeSystem"
+      },
+      "name" : "Impact of complication CodeSystem",
+      "description" : "Codes indicating the impact of a complication experienced by the breast cancer patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ComplicationImpactVS"
+      },
+      "name" : "Impact of complication ValueSet",
+      "description" : "ValueSet of the impact of a complication experienced by the breast cancer patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TherapyIntentVS"
+      },
+      "name" : "Intent of therapy ValueSet",
+      "description" : "Valueset of intent of therapy",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/invasion-grade"
+      },
+      "name" : "Invasion grade",
+      "description" : "Represents the tumor grade of DCIS component of the breast cancer tumor",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/InvasionGradePatient147"
+      },
+      "name" : "InvasionGradePatient147",
+      "description" : "Example of the tumor grade of DCIS component of the breast cancer tumor",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/LateralityVS"
+      },
+      "name" : "Laterality of breast cancer ValueSet",
+      "description" : "Valueset of the laterality of breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/LateralityNewCancerVS"
+      },
+      "name" : "Laterality of new cancer ValueSet",
+      "description" : "Valueset of the laterality of new breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ImplantLocationCodeSystem"
+      },
+      "name" : "Location of the implant CodeSystem",
+      "description" : "Codes indicating the location of the implant that was placed during reconstruction surgery",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ImplantLocationVS"
+      },
+      "name" : "Location of the implant ValueSet",
+      "description" : "Valueset of the location of the implant during reconstruction surgery",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/lymph-nodes-involved"
+      },
+      "name" : "Lymph nodes involved",
+      "description" : "Represents the number of lymph nodes involved",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/LymphNodesInvolvedPatient147"
+      },
+      "name" : "LymphNodesInvolvedPatient147",
+      "description" : "Example of the number of involved lymph nodes in a patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/LymphNodesResectedPatient147"
+      },
+      "name" : "LymphNodesResectedPatient147",
+      "description" : "Example of the number of resected lymph nodes in a patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mammaprint-score"
+      },
+      "name" : "Mammaprint score",
+      "description" : "Represents the mammaprintscore on a scale of 0.000 to 1.000",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/MammaprintPatient147"
+      },
+      "name" : "MammaprintPatient147",
+      "description" : "Example of the mammaprint score",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/menopausal-status"
+      },
+      "name" : "Menopausal status",
+      "description" : "Represents the menopausal status of a patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/MenopausalStatusVS"
+      },
+      "name" : "Menopausal status of patient ValueSet",
+      "description" : "Valueset of the menopausal status of a patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/MolecularProfilingStatusVS"
+      },
+      "name" : "Molecular profiling",
+      "description" : "Valueset indicating if a molecular profiling tool was used",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/MolecularProfilingCodeSystem"
+      },
+      "name" : "Molecular Profiling CodeSystem",
+      "description" : "Codes used to describe the different types of molecular profiling scoring",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TreatmentPlanComplianceCodeSystem"
+      },
+      "name" : "Observation identifiers for treatment plan non-compliance reason CodeSystem",
+      "description" : "Codes covering observation identifiers for treatment plan non-compliance reaso",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TreatmentPlanComplianceVS"
+      },
+      "name" : "Observation identifiers for treatment plan non-compliance reason ValueSet",
+      "description" : "Valueset of reason for why the treatment plan was not followed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/oncotype-score"
+      },
+      "name" : "Oncotype Score",
+      "description" : "Represents the oncotype score on a scale of 0 to 100",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/OncotypePatient147"
+      },
+      "name" : "OncotypePatient147",
+      "description" : "Example of the oncotype score",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PathologicalMetastasesPatient147"
+      },
+      "name" : "PathologicalMetastasesPatient147",
+      "description" : "Extended example: example showing patholgical TNM staging (M)",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PathologicalNodalStagePatient147"
+      },
+      "name" : "PathologicalNodalStagePatient147",
+      "description" : "Extended example: example showing patholgical TNM staging (N)",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PathologicalTNMStagePatient147"
+      },
+      "name" : "PathologicalTNMStagePatient147",
+      "description" : "Example showing TNM staging in patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PathologicalTumorStagePatient147"
+      },
+      "name" : "PathologicalTumorStagePatient147",
+      "description" : "Extended example: example showing patholgical TNM staging (T)",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/PatientReportedBaseline"
+      },
+      "name" : "Patient reported response at baseline",
+      "description" : "Patient-reported response at baseline (first doctors' visit)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/PatientReportedFollowUp"
+      },
+      "name" : "Patient reported response at post-treatment follow-up",
+      "description" : "Patient-reported response at every 6 months for first 2 years post-treatment, after 2 years tracked annually for up to 10 years",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/PatientEducationCodeSystem"
+      },
+      "name" : "Patient Treatment Education Codesystem",
+      "description" : "Codes covering if the patient received sufficient information about the treatment options",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/PatientEducationVS"
+      },
+      "name" : "Patient Treatment Education ValueSet",
+      "description" : "Valueset covering if the patient received sufficient information about the treatment options",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/PatientTreatPrefCodeSystem"
+      },
+      "name" : "Patient treatment preference CodeSystem",
+      "description" : "Codes covering for why the treatment plan was not followed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/PatientTreatPrefVS"
+      },
+      "name" : "Patient treatment preference ValueSet",
+      "description" : "Valueset of reason for why the treatment plan was not followed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/primary-breastcancer"
+      },
+      "name" : "Primary Breast Cancer Condition",
+      "description" : "Represent the properties of the primary breast cancer diagnosis",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/PrimaryBreastCancerPatient147"
+      },
+      "name" : "PrimaryBreastCancerPatient147",
+      "description" : "Example of the primary breast cancer diagnosis of a patient",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/pr-status"
+      },
+      "name" : "Progesterone receptor status",
+      "description" : "Represents if the progesterone receptor status is positive in a patient with breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ProgesteroneStatusVS"
+      },
+      "name" : "Progesterone receptor status ValueSet",
+      "description" : "Valueset of the Progesterone receptor status",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/PRStatusPatient147"
+      },
+      "name" : "PRStatusPatient147",
+      "description" : "Example of the progesterone receptor status in a patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Race"
+      },
+      "name" : "Race Extension",
+      "description" : "Represents the race of a patient. This extension is aligned with USCore.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/radiotherapy"
+      },
+      "name" : "Radiotherapy",
+      "description" : "Represents if the breast cancer patient received radiotherapy during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/RadiotherapyPatient147"
+      },
+      "name" : "RadiotherapyPatient147",
+      "description" : "Example of a breast cancer patient who received radiotherapy",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/InvolvedMarginsReoperationTypeVS"
+      },
+      "name" : "Re-operation due to involved margins ValueSet",
+      "description" : "Kind of re-operation due to involved margins",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/reoperation-surgery"
+      },
+      "name" : "Re-operation surgery",
+      "description" : "Represents whether the patient has had a re-operation since their surgery for breast cancer and whether it was due to involved margins.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/treatment-plan-followed"
+      },
+      "name" : "Real Treatment Plan Followed",
+      "description" : "Indicate if the patient followed the multidisciplinary recommended treatment plan",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TreatmentPlanFollowedCodeSystem"
+      },
+      "name" : "Real Treatment Plan Followed CodeSystem",
+      "description" : "Codes covering if the patient followed the multidisciplinary recommended treatment plan",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TreatmentPlanFollowedVS"
+      },
+      "name" : "Real Treatment Plan Followed ValueSet",
+      "description" : "Valueset of if the patient followed the multidisciplinary recommended treatment plan",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TreatmentPlanNotFollowedCodeSystem"
+      },
+      "name" : "Real Treatment Plan Not Followed CodeSystem",
+      "description" : "Codes covering if the patient has not followed the multidisciplinary recommended treatment plan",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ReoperationReasonVS"
+      },
+      "name" : "Reasoncode of the re-operation",
+      "description" : "Valueset of the reasons of a re-operation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/RecommendedTreatmentTypeVS"
+      },
+      "name" : "Recommended treatment types ValueSet",
+      "description" : "Valueset of the kind of treatment that the multidisciplinary team recommended",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/reconstruction-surgery"
+      },
+      "name" : "Reconstruction surgery",
+      "description" : "Represents if the breast cancer patient received reconstruction surgery during the last year.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/ReconstructionSurgeryPatient147"
+      },
+      "name" : "ReconstructionSurgeryPatient147",
+      "description" : "Example of a breast cancer patient who underwent reconstruction surgery",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/recr-method"
+      },
+      "name" : "Recurrence Method",
+      "description" : "The method of confirming recurrence breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RecurrenceMethodCodeSystem"
+      },
+      "name" : "Recurrence method CodeSystem",
+      "description" : "Additional code covering combination of radiological and histological diagnosis method",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/RecurrenceMethodVS"
+      },
+      "name" : "Recurrence method ValueSet",
+      "description" : "Valueset of the methods used to confirm recurrence of breast cancer",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RecurrenceCodeSystem"
+      },
+      "name" : "Recurrence of neoplasm CodeSystem",
+      "description" : "Additional code covering whether there is evidence of local, regional or distant recurrence of neoplasm",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/RecurrenceVS"
+      },
+      "name" : "Recurrence of neoplasm ValueSet",
+      "description" : "Valueset about whether there is evidence of local, regional or distant recurrence of neoplasm",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/RecurrenceMethodPatient147"
+      },
+      "name" : "RecurrenceMethodPatient147",
+      "description" : "Example of method of confirming recurrence breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/RelationshipStatusVS"
+      },
+      "name" : "Relationship status of patient ValueSet",
+      "description" : "Valueset of the relationship status of a patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/ReoperationSurgeryPatient147"
+      },
+      "name" : "ReoperationSurgeryPatient147",
+      "description" : "Example of a reoperation due to involved margins after primary surgery",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/lymph-nodes-resected"
+      },
+      "name" : "Resected lymph nodes",
+      "description" : "Represents the number of lymph nodes resected",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SACQPatientComorbidityHistory"
+      },
+      "name" : "SACQ Patient's comorbidity history ValueSet",
+      "description" : "Patient's documented history of comorbidities",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/SatisfactionResponseCodeSystem"
+      },
+      "name" : "Satisfaction response CodeSystem",
+      "description" : "Codes used in a Patient Reported Outcomes Instrument to express the statisfation response",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SatisfactionResponseVS"
+      },
+      "name" : "Satisfaction response ValueSet",
+      "description" : "Valueset used in a Patient Reported Outcomes Instrument to express the statisfation response",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/secondary-breastcancer"
+      },
+      "name" : "Secondary Breast Cancer Condition",
+      "description" : "Represent the properties of the secondary breast cancer diagnosis",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/SecondaryBreastCancerPatient147"
+      },
+      "name" : "SecondaryBreastCancerPatient147",
+      "description" : "Example of the secondary condition breast cancer diagnosed in a patient",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/sizeinvasivetumor"
+      },
+      "name" : "Size of invasive tumor",
+      "description" : "Represents the size of the invasive tumor",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TNMStageGroupVS"
+      },
+      "name" : "Staging Type for Stage Group ValueSet",
+      "description" : "Valueset indicating the type of staging, clinical or pathological, of breast cancer.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TargetedAxillaSurgeryVS"
+      },
+      "name" : "Targeted axilla surgery ValueSet",
+      "description" : "Valueset of targeted surgery types of the axilla",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/targeted-therapy"
+      },
+      "name" : "Targeted therapy",
+      "description" : "Type and duration of targeted therapy",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/LocationRadiotherapyVS"
+      },
+      "name" : "The location of radiotherapy ValueSet",
+      "description" : "Valueset of the location of radiotherapy",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tnm-distant-metastases"
+      },
+      "name" : "TNM Distant Metastases",
+      "description" : "Represents the extent of a tumor metastasis in remote anatomical locations (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Distant Metastases Category Profile.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TNMDistantMetastasesVS"
+      },
+      "name" : "TNM Distant Metastases ValueSet",
+      "description" : "Valueset of the TNM stage for the M category, according to TNM staging rules",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tnm-primary-tumor-stage"
+      },
+      "name" : "TNM Primary Tumor Stage",
+      "description" : "Represents the stage of the primary tumor (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Primary Tumor Category Profile.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TNMPrimaryTumorVS"
+      },
+      "name" : "TNM Primary Tumor ValueSet",
+      "description" : "Valueset of the TNM stage for the T category, according to TNM staging rules",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tnm-regional-nodes-stage"
+      },
+      "name" : "TNM Regional Nodal Stage",
+      "description" : "Represents the presence or absence of metastases in regional lymph nodes (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Regional Nodes Category Profile.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TNMRegionalNodesVS"
+      },
+      "name" : "TNM Regional Nodes ValueSet",
+      "description" : "Valueset of the TNM stage for the N category, according to TNM staging rules",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/treatment-plan-not-followed"
+      },
+      "name" : "Treatment Plan Not Followed",
+      "description" : "Indicate why the multidisciplinary recommended treatment plan was not followed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TreatmentPlanNotFollowedVS"
+      },
+      "name" : "Treatment Plan Not Followed ValueSet",
+      "description" : "Valueset of reason for the treatment plan not being followed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/treatment-plan"
+      },
+      "name" : "Treatment recommended by a multidisciplinary team",
+      "description" : "Represents the treatment that a multidisciplinary team recommended during a multidisciplinary meeting",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TreatmentTypesCodeSystem"
+      },
+      "name" : "Treatment variables CodeSytem",
+      "description" : "Codes defining types of treatment a breast cancer patient could receive",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CarePlan"
+      }],
+      "reference" : {
+        "reference" : "CarePlan/TreatmentPlanPatient147"
+      },
+      "name" : "TreatmentPlanPatient147",
+      "description" : "Example of the treatment that a multidisciplinary team recommended during a multidisciplinary meeting",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tumor-grade"
+      },
+      "name" : "Tumor grade",
+      "description" : "Represents the grade of the breast cancer tumor",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TumorGradePatient147"
+      },
+      "name" : "TumorGradePatient147",
+      "description" : "Example of the grade of a breast cancer tumor",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TumorSizePatient147"
+      },
+      "name" : "TumorSizePatient147",
+      "description" : "Example of the size of the invasive tumor of a patient with breast cancer",
+      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ChemoTherapyTypeVS"
+      },
+      "name" : "Type of chemotherapy ValueSet",
+      "description" : "Valueset of the types of chemotherapy",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ComplicationTypeCodeSystem"
+      },
+      "name" : "Type of complication CodeSystem",
+      "description" : "Codes indicating the type of a complication experienced by the breast cancer patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ComplicationTypeVS"
+      },
+      "name" : "Type of complication ValueSet",
+      "description" : "ValueSet of the type of complication experienced by the breast cancer patient",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/HormonalTherapyTypeVS"
+      },
+      "name" : "Type of hormonal therapy ValueSet",
+      "description" : "Valueset of the types of hormonal therapy",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ReoperationTypeVS"
+      },
+      "name" : "Type of re-operation",
+      "description" : "Valueset of the types of re-operation",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ReconstructionTypeCodeSystem"
+      },
+      "name" : "Type of reconstruction surgery CodeSystem",
+      "description" : "Codes indicating the type of reconstruction surgery that is performed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ReconstructionTypeVS"
+      },
+      "name" : "Type of reconstruction surgery ValueSet",
+      "description" : "Valueset of the type of reconstruction surgery that is performed",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TargetedTherapyVS"
+      },
+      "name" : "Type of targeted therapy ValueSet",
+      "description" : "Valueset of the types of targeted therapy",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TreatmentTypeVS"
+      },
+      "name" : "Type of treatments ValueSet",
+      "description" : "Valueset of the kind of treatment a patient with breastcancer underwent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BreastSurgeryTypeVS"
+      },
+      "name" : "Types of breast surgery ValueSet",
+      "description" : "Valueset of the types of breast surgery a patient underwent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BodyWeightVS"
+      },
+      "name" : "Units of patient's body weight ValueSet",
+      "description" : "Valueset of the unit  of the patient's body weight",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/NoYesUnknownVS"
+      },
+      "name" : "Yes, No and Unknown Valueset",
+      "description" : "Valueset with yes, no and unknown answers",
+      "exampleBoolean" : false
+    }],
+    "page" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "informative"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+        "valueUrl" : "toc.html"
+      }],
+      "nameUrl" : "toc.html",
+      "title" : "Table of Contents",
+      "generation" : "html",
+      "page" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "index.html"
+        }],
+        "nameUrl" : "index.html",
+        "title" : "Introduction",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "fhir-basics.html"
+        }],
+        "nameUrl" : "fhir-basics.html",
+        "title" : "FHIR basics",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "use-cases.html"
+        }],
+        "nameUrl" : "use-cases.html",
+        "title" : "Use Cases",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "standard-set.html"
+        }],
+        "nameUrl" : "standard-set.html",
+        "title" : "ICHOM Set",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "security.html"
+        }],
+        "nameUrl" : "security.html",
+        "title" : "Security",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "markdown"
+      }]
+    },
+    "parameter" : [{
+      "code" : "path-resource",
+      "value" : "input/capabilities"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/examples"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/extensions"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/models"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/operations"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/profiles"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/resources"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/testing"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/history"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "fsh-generated/resources"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "template/config"
+    },
+    {
+      "code" : "path-pages",
+      "value" : "input/images"
+    },
+    {
+      "code" : "path-tx-cache",
+      "value" : "input-cache/txcache"
+    }]
+  }
+}

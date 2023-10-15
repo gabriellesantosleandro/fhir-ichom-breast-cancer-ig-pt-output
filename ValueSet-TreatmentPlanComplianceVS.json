@@ -1,0 +1,64 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "TreatmentPlanComplianceVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-TreatmentPlanComplianceCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TreatmentPlanComplianceCodeSystem.html#TreatmentPlanComplianceCodeSystem-reason-for-not-following\">reason-for-not-following</a></td><td>Reason for not following original treatment plan</td></tr><tr><td><a href=\"CodeSystem-TreatmentPlanComplianceCodeSystem.html#TreatmentPlanComplianceCodeSystem-patient-reason-for-not-following\">patient-reason-for-not-following</a></td><td>Patient reported reason for not following recommened treatment</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS",
+  "version" : "1.0.0",
+  "name" : "TreatmentPlanComplianceVS",
+  "title" : "Observation identifiers for treatment plan non-compliance reason ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Valueset of reason for why the treatment plan was not followed",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem",
+      "concept" : [{
+        "code" : "reason-for-not-following",
+        "display" : "Reason for not following original treatment plan"
+      },
+      {
+        "code" : "patient-reason-for-not-following",
+        "display" : "Patient reported reason for not following recommened treatment"
+      }]
+    }]
+  }
+}

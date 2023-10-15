@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/ComplicationPatient147> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ComplicationPatient147"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"ComplicationPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;ComplicationPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-complication.html\">Complication</a></p></div><p><b>dueTo</b>: <a href=\"Procedure-BreastCancerSurgeryPatient147.html\">Procedure/BreastCancerSurgeryPatient147</a></p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>severity</b>: Unexpected admission to intensive care unit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#397945004)</span></p><p><b>code</b>: Pneumonia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#233604007)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/condition-dueTo"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> ;
+       fhir:reference [ fhir:v "Procedure/BreastCancerSurgeryPatient147" ]
+     ]
+  ] ) ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ]
+     ] )
+  ] ; # 
+  fhir:severity [
+     fhir:coding ( [
+       a sct:397945004 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "397945004" ] ;
+       fhir:display [ fhir:v "Unexpected admission to intensive care unit" ]
+     ] )
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:233604007 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "233604007" ] ;
+       fhir:display [ fhir:v "Pneumonia" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

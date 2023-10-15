@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="ChemotherapyPatient147"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="ChemotherapyPatient147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;ChemotherapyPatient147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-chemotherapy.html">Chemotherapy</a></p></div><p><b>method</b>: other <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">NullFlavor</a>#OTH)</span></p><p><b>status</b>: completed</p><p><b>code</b>: Chemotherapy care <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#385786002)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient147.html">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 2019-01-09 --&gt; 2019-09-04</p><p><b>reasonCode</b>: Adjuvant - intent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#373846009)</span></p><p><b>reasonReference</b>: <a href="Condition-PrimaryBreastCancerPatient147.html">Condition/PrimaryBreastCancerPatient147</a></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/procedure-method">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+        <code value="OTH"/>
+        <display value="other"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="completed"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="385786002"/>
+      <display value="Chemotherapy care"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BreastCancerPatient147"/>
+  </subject>
+  <performedPeriod>
+    <start value="2019-01-09"/>
+    <end value="2019-09-04"/>
+  </performedPeriod>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="373846009"/>
+      <display value="Adjuvant - intent"/>
+    </coding>
+  </reasonCode>
+  <reasonReference>
+    <reference value="Condition/PrimaryBreastCancerPatient147"/>
+  </reasonReference>
+</Procedure>

@@ -1,0 +1,175 @@
+{
+  "package": "hl7.fhir.uv.ichom-breast-cancer",
+  "version": "1.0.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [
+    {
+      "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel",
+      "title": "Education Level Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity",
+      "title": "Ethnicity Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race",
+      "title": "Race Extension",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Procedure": [
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy",
+        "title": "Targeted therapy"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed",
+        "title": "Real Treatment Plan Followed"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed",
+        "title": "Treatment Plan Not Followed"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade",
+        "title": "Tumor grade"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer",
+        "title": "Secondary Breast Cancer Condition"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient",
+        "title": "Breast cancer patient"
+      }
+    ],
+    "CarePlan": [
+      {
+        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan",
+        "title": "Treatment recommended by a multidisciplinary team"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/condition-dueTo": [
+      "Condition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/procedure-method": [
+      "Procedure"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-unitOption": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "CodeSystem",
+      "ImplementationGuide",
+      "StructureDefinition",
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "CodeSystem",
+      "ImplementationGuide",
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page",
+      "Questionnaire",
+      "StructureDefinition",
+      "StructureDefinition.snapshot.element",
+      "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/variable": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-launchContext": [
+      "Questionnaire"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-maxQuantity": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-minQuantity": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationExtract": [
+      "Questionnaire.item.item"
+    ],
+    "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationLinkPeriod": [
+      "Questionnaire.item.item"
+    ]
+  }
+}

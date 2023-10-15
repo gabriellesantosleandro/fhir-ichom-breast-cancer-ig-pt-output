@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="ReoperationSurgeryPatient147"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="ReoperationSurgeryPatient147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;ReoperationSurgeryPatient147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-reoperation-surgery.html">Re-operation surgery</a></p></div><p><b>partOf</b>: <a href="Procedure-BreastCancerSurgeryPatient147.html">Procedure/BreastCancerSurgeryPatient147</a></p><p><b>status</b>: completed</p><p><b>category</b>: Reoperation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#261554009)</span></p><p><b>code</b>: Mastectomy with immediate reconstruction <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-BreastSurgeryTypesCodeSystem.html">Breast surgery types CodeSystem</a>#mastectomy-with-immediate-reconstruction)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient147.html">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 2022-07-09</p><p><b>reasonCode</b>: Presence of primary malignant neoplasm of breast at surgical margin in excised specimen of breast <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1156344002)</span></p><p><b>reasonReference</b>: <a href="Condition-PrimaryBreastCancerPatient147.html">Condition/PrimaryBreastCancerPatient147</a></p></div>
+  </text>
+  <partOf>
+    <reference value="Procedure/BreastCancerSurgeryPatient147"/>
+  </partOf>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="261554009"/>
+      <display value="Reoperation"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+      <code value="mastectomy-with-immediate-reconstruction"/>
+      <display value="Mastectomy with immediate reconstruction"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BreastCancerPatient147"/>
+  </subject>
+  <performedDateTime value="2022-07-09"/>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="1156344002"/>
+      <display value="Presence of primary malignant neoplasm of breast at surgical margin in excised specimen of breast"/>
+    </coding>
+  </reasonCode>
+  <reasonReference>
+    <reference value="Condition/PrimaryBreastCancerPatient147"/>
+  </reasonReference>
+</Procedure>

@@ -1,0 +1,66 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/RadiotherapyPatient147> a fhir:Procedure ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "RadiotherapyPatient147"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"RadiotherapyPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;RadiotherapyPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-radiotherapy.html\">Radiotherapy</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Radiation oncology AND/OR radiotherapy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#108290001)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 2021-06-19 --&gt; 2021-12-01</p><p><b>reasonCode</b>: Adjuvant - intent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#373846009)</span></p><p><b>reasonReference</b>: <a href=\"Condition-PrimaryBreastCancerPatient147.html\">Condition/PrimaryBreastCancerPatient147</a></p><p><b>bodySite</b>: Site of tumor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#263601005)</span></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:108290001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "108290001" ] ;
+       fhir:display [ fhir:v "Radiation oncology AND/OR radiotherapy" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
+  ] ; # 
+  fhir:performed [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2021-06-19"^^xsd:date ] ;
+     fhir:end [ fhir:v "2021-12-01"^^xsd:date ]
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       a sct:373846009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "373846009" ] ;
+       fhir:display [ fhir:v "Adjuvant - intent" ]
+     ] )
+  ] ) ; # 
+  fhir:reasonReference ( [
+     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> ;
+     fhir:reference [ fhir:v "Condition/PrimaryBreastCancerPatient147" ]
+  ] ) ; # 
+  fhir:bodySite ( [
+     fhir:coding ( [
+       a sct:263601005 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "263601005" ] ;
+       fhir:display [ fhir:v "Site of tumor" ]
+     ] )
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,3039 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer> a fhir:ImplementationGuide ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hl7.fhir.uv.ichom-breast-cancer"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "trial-use" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2"^^xsd:integer ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "BreastCancerICHOM"] ; # 
+  fhir:title [ fhir:v "ICHOM Patient Centered Outcomes Measure Set for Breast Cancer"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cic" ]
+     ] )
+  ] ) ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:packageId [ fhir:v "hl7.fhir.uv.ichom-breast-cancer"] ; # 
+  fhir:license [ fhir:v "CC0-1.0"] ; # 
+  fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
+  fhir:dependsOn ( [
+     fhir:id [ fhir:v "hl7tx" ] ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ] ) ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology"^^xsd:anyURI ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
+     fhir:version [ fhir:v "5.3.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_uv_sdc" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/sdc/ImplementationGuide/hl7.fhir.uv.sdc>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.sdc" ] ;
+     fhir:version [ fhir:v "3.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_uv_extensions" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.extensions" ] ;
+     fhir:version [ fhir:v "1.0.0" ]
+  ] ) ; # 
+  fhir:definition [
+     fhir:extension ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2021+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "trial-use" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "usage-stats-opt-out" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "show-inherited-invariants" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "false" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "shownav" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "jira-code" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ichom-breastcancer" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tabbed-snapshots" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "copyrightyear" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "2021+" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "releaselabel" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "trial-use" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "usage-stats-opt-out" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "show-inherited-invariants" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "false" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "shownav" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "jira-code" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ichom-breastcancer" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "autoload-resources" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-liquid" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/liquid" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-qa" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/qa" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-temp" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "temp/pages" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-output" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "output" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-suppressed-warnings" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-html" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-md" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "template-page-md.html" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-contact" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-context" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-copyright" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-jurisdiction" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-license" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-publisher" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "active-tables" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "fmm-definition" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://hl7.org/fhir/versions.html#maturity" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "propagate-status" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "excludelogbinaryformat" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "tabbed-snapshots" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/AgreementResponseCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Agreement response CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes used in a Patient Reported Outcomes Instrument to express the degree of agreement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS> ;
+         fhir:reference [ fhir:v "ValueSet/AgreementResponseVS" ]
+       ] ;
+       fhir:name [ fhir:v "Agreement response ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset used in a Patient Reported Outcomes Instrument to express the degree of agreement" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Questionnaire" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate> ;
+         fhir:reference [ fhir:v "Questionnaire/ClinicalResponseAnnualUpdate" ]
+       ] ;
+       fhir:name [ fhir:v "Annual follow-up of clinical questionnaire response" ] ;
+       fhir:description [ fhir:v "Clinical response questionnaire at annual post-treatment follow-up" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery> ;
+         fhir:reference [ fhir:v "StructureDefinition/axilla-surgery" ]
+       ] ;
+       fhir:name [ fhir:v "Axilla surgery" ] ;
+       fhir:description [ fhir:v "Represents if the breast cancer patient received surgery to the axilla during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS> ;
+         fhir:reference [ fhir:v "ValueSet/AxillaSurgeryVS" ]
+       ] ;
+       fhir:name [ fhir:v "Axilla surgery ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of surgery types of the axilla" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance> ;
+         fhir:reference [ fhir:v "StructureDefinition/axillary-clearance" ]
+       ] ;
+       fhir:name [ fhir:v "Axillary clearance" ] ;
+       fhir:description [ fhir:v "Represents if the breast cancer patient received axillary clearance during the last year. Axilla clearance could be due to lymph node involvement after sentinel lymph node biopsy." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaryClearancePatient147> ;
+         fhir:reference [ fhir:v "Procedure/AxillaryClearancePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "AxillaryClearancePatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who received axilla clearance" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaSurgeryPatient147> ;
+         fhir:reference [ fhir:v "Procedure/AxillaSurgeryPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "AxillaSurgeryPatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who underwent surgery to the axilla" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care> ;
+         fhir:reference [ fhir:v "StructureDefinition/best-supportive-care" ]
+       ] ;
+       fhir:name [ fhir:v "Best supportive care" ] ;
+       fhir:description [ fhir:v "Represents if breast cancer patient received best supportive care during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BestSupportiveCarePatient147> ;
+         fhir:reference [ fhir:v "Procedure/BestSupportiveCarePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "BestSupportiveCarePatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who received best supportive care" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height> ;
+         fhir:reference [ fhir:v "StructureDefinition/ichom-body-height" ]
+       ] ;
+       fhir:name [ fhir:v "Body height" ] ;
+       fhir:description [ fhir:v "Represents the height of a person diagnosed with breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight> ;
+         fhir:reference [ fhir:v "StructureDefinition/ichom-body-weight" ]
+       ] ;
+       fhir:name [ fhir:v "Body weight" ] ;
+       fhir:description [ fhir:v "Represents the weight of a person diagnosed with breastcancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyHeightPatient147> ;
+         fhir:reference [ fhir:v "Observation/BodyHeightPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "BodyHeightPatient147" ] ;
+       fhir:description [ fhir:v "Example of the height of a patient diagnosed with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyWeightPatient147> ;
+         fhir:reference [ fhir:v "Observation/BodyWeightPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "BodyWeightPatient147" ] ;
+       fhir:description [ fhir:v "Example of the weight of a patient diagnosed with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient> ;
+         fhir:reference [ fhir:v "StructureDefinition/patient" ]
+       ] ;
+       fhir:name [ fhir:v "Breast cancer patient" ] ;
+       fhir:description [ fhir:v "A patient who has been diagnosed with or is receiving medical treatment for breast cancer. This profile includes the ICHOM patient characteristics and demographic factors." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery> ;
+         fhir:reference [ fhir:v "StructureDefinition/breast-cancer-surgery" ]
+       ] ;
+       fhir:name [ fhir:v "Breast cancer surgery" ] ;
+       fhir:description [ fhir:v "Represents if the breast cancer patient received surgery during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/BreastSurgeryTypesCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Breast surgery types CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes indicating the types of breast surgery a patient underwent" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> ;
+         fhir:reference [ fhir:v "Procedure/BreastCancerSurgeryPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "BreastCancerSurgeryPatient147" ] ;
+       fhir:description [ fhir:v "Example of the surgical procedure the breast cancer patient underwent" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group> ;
+         fhir:reference [ fhir:v "StructureDefinition/breast-cancer-stage-group" ]
+       ] ;
+       fhir:name [ fhir:v "Cancer Stage Group" ] ;
+       fhir:description [ fhir:v "A staging system to describe the amount and spread of breast cancer in a patient's body, using TNM staging (per AJCC 8th Ed.). This profile is in alignment with the mCODE TNM Stage Group Profile." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy> ;
+         fhir:reference [ fhir:v "StructureDefinition/chemotherapy" ]
+       ] ;
+       fhir:name [ fhir:v "Chemotherapy" ] ;
+       fhir:description [ fhir:v "Represents if the patient received chemotherapy during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ChemotherapyPatient147> ;
+         fhir:reference [ fhir:v "Procedure/ChemotherapyPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ChemotherapyPatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who received chemotherapy" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Questionnaire" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseSixMonths> ;
+         fhir:reference [ fhir:v "Questionnaire/ClinicalResponseSixMonths" ]
+       ] ;
+       fhir:name [ fhir:v "Clinical response at 6 months post-treatment follow-up" ] ;
+       fhir:description [ fhir:v "Clinical response questionnaire at 6 months post-treatment follow-up" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Questionnaire" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseBaseline> ;
+         fhir:reference [ fhir:v "Questionnaire/ClinicalResponseBaseline" ]
+       ] ;
+       fhir:name [ fhir:v "Clinical response questionnaire at baseline" ] ;
+       fhir:description [ fhir:v "Clinical response questionnaire at baseline (first doctors' visit)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalMetastasesPatient147> ;
+         fhir:reference [ fhir:v "Observation/ClinicalMetastasesPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ClinicalMetastasesPatient147" ] ;
+       fhir:description [ fhir:v "Extended example: example showing clinical TNM staging (M)" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalNodalStagePatient147> ;
+         fhir:reference [ fhir:v "Observation/ClinicalNodalStagePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ClinicalNodalStagePatient147" ] ;
+       fhir:description [ fhir:v "Extended example: example showing clinical TNM staging (N)" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTNMStagePatient147> ;
+         fhir:reference [ fhir:v "Observation/ClinicalTNMStagePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ClinicalTNMStagePatient147" ] ;
+       fhir:description [ fhir:v "Example showing TNM staging in patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTumorStagePatient147> ;
+         fhir:reference [ fhir:v "Observation/ClinicalTumorStagePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ClinicalTumorStagePatient147" ] ;
+       fhir:description [ fhir:v "Extended example: example showing clinical TNM staging (T)" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication> ;
+         fhir:reference [ fhir:v "StructureDefinition/complication" ]
+       ] ;
+       fhir:name [ fhir:v "Complication" ] ;
+       fhir:description [ fhir:v "Represents the type and impact of a complication experienced by a patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/ComplicationPatient147> ;
+         fhir:reference [ fhir:v "Condition/ComplicationPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ComplicationPatient147" ] ;
+       fhir:description [ fhir:v "Example of a complication in patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc> ;
+         fhir:reference [ fhir:v "StructureDefinition/death-attr-bc" ]
+       ] ;
+       fhir:name [ fhir:v "Death attributable to breast cancer" ] ;
+       fhir:description [ fhir:v "Represents if breast cancer was the cause of death" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/DeathAttributableBCPatient147> ;
+         fhir:reference [ fhir:v "Observation/DeathAttributableBCPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "DeathAttributableBCPatient147" ] ;
+       fhir:description [ fhir:v "Example of death attributable to breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel> ;
+         fhir:reference [ fhir:v "StructureDefinition/EducationLevel" ]
+       ] ;
+       fhir:name [ fhir:v "Education Level Extension" ] ;
+       fhir:description [ fhir:v "Represents the level of education of a patient." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EducationLevelVS> ;
+         fhir:reference [ fhir:v "ValueSet/EducationLevelVS" ]
+       ] ;
+       fhir:name [ fhir:v "Education level of patient ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the education level of a patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score> ;
+         fhir:reference [ fhir:v "StructureDefinition/endopredicton-score" ]
+       ] ;
+       fhir:name [ fhir:v "Endopredict score" ] ;
+       fhir:description [ fhir:v "Represents the endopredict score on a scale of 1.1 to 6.2" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/EndopredictonPatient147> ;
+         fhir:reference [ fhir:v "Observation/EndopredictonPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "EndopredictonPatient147" ] ;
+       fhir:description [ fhir:v "Example of the endopredict score" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ERStatusPatient147> ;
+         fhir:reference [ fhir:v "Observation/ERStatusPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ERStatusPatient147" ] ;
+       fhir:description [ fhir:v "Example of the estrogen receptor status in a patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status> ;
+         fhir:reference [ fhir:v "StructureDefinition/er-status" ]
+       ] ;
+       fhir:name [ fhir:v "Estrogen receptor status" ] ;
+       fhir:description [ fhir:v "Represents if the estrogen receptor status is positive in a patient with breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EstrogenStatusVS> ;
+         fhir:reference [ fhir:v "ValueSet/EstrogenStatusVS" ]
+       ] ;
+       fhir:name [ fhir:v "Estrogen receptor status ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the Estrogen receptor status" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity> ;
+         fhir:reference [ fhir:v "StructureDefinition/Ethnicity" ]
+       ] ;
+       fhir:name [ fhir:v "Ethnicity Extension" ] ;
+       fhir:description [ fhir:v "Represents the ethnicity of a patient. This extension is aligned with USCore" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient121> ;
+         fhir:reference [ fhir:v "Patient/BreastCancerPatient121" ]
+       ] ;
+       fhir:name [ fhir:v "Example of Breast Cancer Patient Cornetet" ] ;
+       fhir:description [ fhir:v "The characteristics and demographic factors of an example patient." ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+         fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "Example of Breast Cancer Patient Letsche" ] ;
+       fhir:description [ fhir:v "The characteristics and demographic factors of an example patient." ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient134> ;
+         fhir:reference [ fhir:v "Patient/BreastCancerPatient134" ]
+       ] ;
+       fhir:name [ fhir:v "Example of Breast Cancer Patient Mortera" ] ;
+       fhir:description [ fhir:v "The characteristics and demographic factors of an example patient." ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MenopausalStatusPatient147> ;
+         fhir:reference [ fhir:v "Observation/MenopausalStatusPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "Example of menopausal status" ] ;
+       fhir:description [ fhir:v "Example of the menopausal status of a patient" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/TargetedTherapyPatient134> ;
+         fhir:reference [ fhir:v "Procedure/TargetedTherapyPatient134" ]
+       ] ;
+       fhir:name [ fhir:v "Example of Targeted therapy" ] ;
+       fhir:description [ fhir:v "Example of the targeted therapy for this patient." ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanFollowedPatient147> ;
+         fhir:reference [ fhir:v "Observation/TreatmentPlanFollowedPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "Example Real Treatment Plan Followed" ] ;
+       fhir:description [ fhir:v "Example of how the real treatment plan was followed" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanNotFollowedPatient147> ;
+         fhir:reference [ fhir:v "Observation/TreatmentPlanNotFollowedPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "Example Treatment Plan Not Followed" ] ;
+       fhir:description [ fhir:v "Example of why the treatment plan was not followed" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation> ;
+         fhir:reference [ fhir:v "StructureDefinition/germline-mutation" ]
+       ] ;
+       fhir:name [ fhir:v "Germline mutation" ] ;
+       fhir:description [ fhir:v "Represents if the patient carries a germline mutation predisposing breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS> ;
+         fhir:reference [ fhir:v "ValueSet/GermlineMutationVS" ]
+       ] ;
+       fhir:name [ fhir:v "Germline Mutation ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the genetic mutation predisposing breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/GermlineMutationPatient147> ;
+         fhir:reference [ fhir:v "Observation/GermlineMutationPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "GermlineMutationPatient147" ] ;
+       fhir:description [ fhir:v "Example of whether a patient carries a germline mutation predisposing breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS> ;
+         fhir:reference [ fhir:v "ValueSet/GradingVS" ]
+       ] ;
+       fhir:name [ fhir:v "Grading of tumor ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the grade of the tumor" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status> ;
+         fhir:reference [ fhir:v "StructureDefinition/her-status" ]
+       ] ;
+       fhir:name [ fhir:v "HER2 receptor status" ] ;
+       fhir:description [ fhir:v "Represents if the human epidermal growth factor receptor 2 (HER2) receptor status is positive in a patient with breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HER2ReceptorStatusVS> ;
+         fhir:reference [ fhir:v "ValueSet/HER2ReceptorStatusVS" ]
+       ] ;
+       fhir:name [ fhir:v "HER2 receptor status ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the HER2 receptor status" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HERStatusPatient147> ;
+         fhir:reference [ fhir:v "Observation/HERStatusPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "HERStatusPatient147" ] ;
+       fhir:description [ fhir:v "Example of the human epidermal growth factor receptor 2 (HER2) status in a patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type> ;
+         fhir:reference [ fhir:v "StructureDefinition/histo-type" ]
+       ] ;
+       fhir:name [ fhir:v "Histological type of the tumor" ] ;
+       fhir:description [ fhir:v "Represents the histological type of the tumor" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HistologicalTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/HistologicalTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Histological type of the tumor ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the histological types of tumors" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HistotypePatient147> ;
+         fhir:reference [ fhir:v "Observation/HistotypePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "HistotypePatient147" ] ;
+       fhir:description [ fhir:v "Example of the histological type of the breast cancer tumor" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay> ;
+         fhir:reference [ fhir:v "StructureDefinition/hormonal-therpay" ]
+       ] ;
+       fhir:name [ fhir:v "Hormonal therapy" ] ;
+       fhir:description [ fhir:v "Represents if the patient received hormonal therapy during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/HormonaltherapyPatient147> ;
+         fhir:reference [ fhir:v "Procedure/HormonaltherapyPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "HormonaltherapyPatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who received hormonal therapy" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy> ;
+         fhir:reference [ fhir:v "StructureDefinition/immunotherapy" ]
+       ] ;
+       fhir:name [ fhir:v "Immunotherapy" ] ;
+       fhir:description [ fhir:v "Represents if the breast cancer patient received immunotherapy during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ImmunotherapyPatient147> ;
+         fhir:reference [ fhir:v "Procedure/ImmunotherapyPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ImmunotherapyPatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who received immunotherapy" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/ComplicationImpactCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Impact of complication CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes indicating the impact of a complication experienced by the breast cancer patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS> ;
+         fhir:reference [ fhir:v "ValueSet/ComplicationImpactVS" ]
+       ] ;
+       fhir:name [ fhir:v "Impact of complication ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet of the impact of a complication experienced by the breast cancer patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS> ;
+         fhir:reference [ fhir:v "ValueSet/TherapyIntentVS" ]
+       ] ;
+       fhir:name [ fhir:v "Intent of therapy ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of intent of therapy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade> ;
+         fhir:reference [ fhir:v "StructureDefinition/invasion-grade" ]
+       ] ;
+       fhir:name [ fhir:v "Invasion grade" ] ;
+       fhir:description [ fhir:v "Represents the tumor grade of DCIS component of the breast cancer tumor" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/InvasionGradePatient147> ;
+         fhir:reference [ fhir:v "Observation/InvasionGradePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "InvasionGradePatient147" ] ;
+       fhir:description [ fhir:v "Example of the tumor grade of DCIS component of the breast cancer tumor" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS> ;
+         fhir:reference [ fhir:v "ValueSet/LateralityVS" ]
+       ] ;
+       fhir:name [ fhir:v "Laterality of breast cancer ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the laterality of breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityNewCancerVS> ;
+         fhir:reference [ fhir:v "ValueSet/LateralityNewCancerVS" ]
+       ] ;
+       fhir:name [ fhir:v "Laterality of new cancer ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the laterality of new breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/ImplantLocationCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Location of the implant CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes indicating the location of the implant that was placed during reconstruction surgery" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS> ;
+         fhir:reference [ fhir:v "ValueSet/ImplantLocationVS" ]
+       ] ;
+       fhir:name [ fhir:v "Location of the implant ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the location of the implant during reconstruction surgery" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved> ;
+         fhir:reference [ fhir:v "StructureDefinition/lymph-nodes-involved" ]
+       ] ;
+       fhir:name [ fhir:v "Lymph nodes involved" ] ;
+       fhir:description [ fhir:v "Represents the number of lymph nodes involved" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesInvolvedPatient147> ;
+         fhir:reference [ fhir:v "Observation/LymphNodesInvolvedPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "LymphNodesInvolvedPatient147" ] ;
+       fhir:description [ fhir:v "Example of the number of involved lymph nodes in a patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesResectedPatient147> ;
+         fhir:reference [ fhir:v "Observation/LymphNodesResectedPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "LymphNodesResectedPatient147" ] ;
+       fhir:description [ fhir:v "Example of the number of resected lymph nodes in a patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score> ;
+         fhir:reference [ fhir:v "StructureDefinition/mammaprint-score" ]
+       ] ;
+       fhir:name [ fhir:v "Mammaprint score" ] ;
+       fhir:description [ fhir:v "Represents the mammaprintscore on a scale of 0.000 to 1.000" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MammaprintPatient147> ;
+         fhir:reference [ fhir:v "Observation/MammaprintPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "MammaprintPatient147" ] ;
+       fhir:description [ fhir:v "Example of the mammaprint score" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status> ;
+         fhir:reference [ fhir:v "StructureDefinition/menopausal-status" ]
+       ] ;
+       fhir:name [ fhir:v "Menopausal status" ] ;
+       fhir:description [ fhir:v "Represents the menopausal status of a patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MenopausalStatusVS> ;
+         fhir:reference [ fhir:v "ValueSet/MenopausalStatusVS" ]
+       ] ;
+       fhir:name [ fhir:v "Menopausal status of patient ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the menopausal status of a patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS> ;
+         fhir:reference [ fhir:v "ValueSet/MolecularProfilingStatusVS" ]
+       ] ;
+       fhir:name [ fhir:v "Molecular profiling" ] ;
+       fhir:description [ fhir:v "Valueset indicating if a molecular profiling tool was used" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/MolecularProfilingCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Molecular Profiling CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes used to describe the different types of molecular profiling scoring" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/TreatmentPlanComplianceCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Observation identifiers for treatment plan non-compliance reason CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes covering observation identifiers for treatment plan non-compliance reaso" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS> ;
+         fhir:reference [ fhir:v "ValueSet/TreatmentPlanComplianceVS" ]
+       ] ;
+       fhir:name [ fhir:v "Observation identifiers for treatment plan non-compliance reason ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of reason for why the treatment plan was not followed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score> ;
+         fhir:reference [ fhir:v "StructureDefinition/oncotype-score" ]
+       ] ;
+       fhir:name [ fhir:v "Oncotype Score" ] ;
+       fhir:description [ fhir:v "Represents the oncotype score on a scale of 0 to 100" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/OncotypePatient147> ;
+         fhir:reference [ fhir:v "Observation/OncotypePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "OncotypePatient147" ] ;
+       fhir:description [ fhir:v "Example of the oncotype score" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> ;
+         fhir:reference [ fhir:v "Observation/PathologicalMetastasesPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "PathologicalMetastasesPatient147" ] ;
+       fhir:description [ fhir:v "Extended example: example showing patholgical TNM staging (M)" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> ;
+         fhir:reference [ fhir:v "Observation/PathologicalNodalStagePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "PathologicalNodalStagePatient147" ] ;
+       fhir:description [ fhir:v "Extended example: example showing patholgical TNM staging (N)" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTNMStagePatient147> ;
+         fhir:reference [ fhir:v "Observation/PathologicalTNMStagePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "PathologicalTNMStagePatient147" ] ;
+       fhir:description [ fhir:v "Example showing TNM staging in patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> ;
+         fhir:reference [ fhir:v "Observation/PathologicalTumorStagePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "PathologicalTumorStagePatient147" ] ;
+       fhir:description [ fhir:v "Extended example: example showing patholgical TNM staging (T)" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Questionnaire" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedBaseline> ;
+         fhir:reference [ fhir:v "Questionnaire/PatientReportedBaseline" ]
+       ] ;
+       fhir:name [ fhir:v "Patient reported response at baseline" ] ;
+       fhir:description [ fhir:v "Patient-reported response at baseline (first doctors' visit)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Questionnaire" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp> ;
+         fhir:reference [ fhir:v "Questionnaire/PatientReportedFollowUp" ]
+       ] ;
+       fhir:name [ fhir:v "Patient reported response at post-treatment follow-up" ] ;
+       fhir:description [ fhir:v "Patient-reported response at every 6 months for first 2 years post-treatment, after 2 years tracked annually for up to 10 years" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/PatientEducationCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Treatment Education Codesystem" ] ;
+       fhir:description [ fhir:v "Codes covering if the patient received sufficient information about the treatment options" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS> ;
+         fhir:reference [ fhir:v "ValueSet/PatientEducationVS" ]
+       ] ;
+       fhir:name [ fhir:v "Patient Treatment Education ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset covering if the patient received sufficient information about the treatment options" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/PatientTreatPrefCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Patient treatment preference CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes covering for why the treatment plan was not followed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS> ;
+         fhir:reference [ fhir:v "ValueSet/PatientTreatPrefVS" ]
+       ] ;
+       fhir:name [ fhir:v "Patient treatment preference ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of reason for why the treatment plan was not followed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer> ;
+         fhir:reference [ fhir:v "StructureDefinition/primary-breastcancer" ]
+       ] ;
+       fhir:name [ fhir:v "Primary Breast Cancer Condition" ] ;
+       fhir:description [ fhir:v "Represent the properties of the primary breast cancer diagnosis" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> ;
+         fhir:reference [ fhir:v "Condition/PrimaryBreastCancerPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "PrimaryBreastCancerPatient147" ] ;
+       fhir:description [ fhir:v "Example of the primary breast cancer diagnosis of a patient" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status> ;
+         fhir:reference [ fhir:v "StructureDefinition/pr-status" ]
+       ] ;
+       fhir:name [ fhir:v "Progesterone receptor status" ] ;
+       fhir:description [ fhir:v "Represents if the progesterone receptor status is positive in a patient with breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ProgesteroneStatusVS> ;
+         fhir:reference [ fhir:v "ValueSet/ProgesteroneStatusVS" ]
+       ] ;
+       fhir:name [ fhir:v "Progesterone receptor status ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the Progesterone receptor status" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PRStatusPatient147> ;
+         fhir:reference [ fhir:v "Observation/PRStatusPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "PRStatusPatient147" ] ;
+       fhir:description [ fhir:v "Example of the progesterone receptor status in a patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race> ;
+         fhir:reference [ fhir:v "StructureDefinition/Race" ]
+       ] ;
+       fhir:name [ fhir:v "Race Extension" ] ;
+       fhir:description [ fhir:v "Represents the race of a patient. This extension is aligned with USCore." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy> ;
+         fhir:reference [ fhir:v "StructureDefinition/radiotherapy" ]
+       ] ;
+       fhir:name [ fhir:v "Radiotherapy" ] ;
+       fhir:description [ fhir:v "Represents if the breast cancer patient received radiotherapy during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/RadiotherapyPatient147> ;
+         fhir:reference [ fhir:v "Procedure/RadiotherapyPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "RadiotherapyPatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who received radiotherapy" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/InvolvedMarginsReoperationTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/InvolvedMarginsReoperationTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Re-operation due to involved margins ValueSet" ] ;
+       fhir:description [ fhir:v "Kind of re-operation due to involved margins" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery> ;
+         fhir:reference [ fhir:v "StructureDefinition/reoperation-surgery" ]
+       ] ;
+       fhir:name [ fhir:v "Re-operation surgery" ] ;
+       fhir:description [ fhir:v "Represents whether the patient has had a re-operation since their surgery for breast cancer and whether it was due to involved margins." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed> ;
+         fhir:reference [ fhir:v "StructureDefinition/treatment-plan-followed" ]
+       ] ;
+       fhir:name [ fhir:v "Real Treatment Plan Followed" ] ;
+       fhir:description [ fhir:v "Indicate if the patient followed the multidisciplinary recommended treatment plan" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/TreatmentPlanFollowedCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Real Treatment Plan Followed CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes covering if the patient followed the multidisciplinary recommended treatment plan" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanFollowedVS> ;
+         fhir:reference [ fhir:v "ValueSet/TreatmentPlanFollowedVS" ]
+       ] ;
+       fhir:name [ fhir:v "Real Treatment Plan Followed ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of if the patient followed the multidisciplinary recommended treatment plan" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/TreatmentPlanNotFollowedCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Real Treatment Plan Not Followed CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes covering if the patient has not followed the multidisciplinary recommended treatment plan" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS> ;
+         fhir:reference [ fhir:v "ValueSet/ReoperationReasonVS" ]
+       ] ;
+       fhir:name [ fhir:v "Reasoncode of the re-operation" ] ;
+       fhir:description [ fhir:v "Valueset of the reasons of a re-operation" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecommendedTreatmentTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/RecommendedTreatmentTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Recommended treatment types ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the kind of treatment that the multidisciplinary team recommended" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery> ;
+         fhir:reference [ fhir:v "StructureDefinition/reconstruction-surgery" ]
+       ] ;
+       fhir:name [ fhir:v "Reconstruction surgery" ] ;
+       fhir:description [ fhir:v "Represents if the breast cancer patient received reconstruction surgery during the last year." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReconstructionSurgeryPatient147> ;
+         fhir:reference [ fhir:v "Procedure/ReconstructionSurgeryPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ReconstructionSurgeryPatient147" ] ;
+       fhir:description [ fhir:v "Example of a breast cancer patient who underwent reconstruction surgery" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method> ;
+         fhir:reference [ fhir:v "StructureDefinition/recr-method" ]
+       ] ;
+       fhir:name [ fhir:v "Recurrence Method" ] ;
+       fhir:description [ fhir:v "The method of confirming recurrence breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceMethodCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/RecurrenceMethodCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Recurrence method CodeSystem" ] ;
+       fhir:description [ fhir:v "Additional code covering combination of radiological and histological diagnosis method" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS> ;
+         fhir:reference [ fhir:v "ValueSet/RecurrenceMethodVS" ]
+       ] ;
+       fhir:name [ fhir:v "Recurrence method ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the methods used to confirm recurrence of breast cancer" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/RecurrenceCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Recurrence of neoplasm CodeSystem" ] ;
+       fhir:description [ fhir:v "Additional code covering whether there is evidence of local, regional or distant recurrence of neoplasm" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS> ;
+         fhir:reference [ fhir:v "ValueSet/RecurrenceVS" ]
+       ] ;
+       fhir:name [ fhir:v "Recurrence of neoplasm ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset about whether there is evidence of local, regional or distant recurrence of neoplasm" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/RecurrenceMethodPatient147> ;
+         fhir:reference [ fhir:v "Observation/RecurrenceMethodPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "RecurrenceMethodPatient147" ] ;
+       fhir:description [ fhir:v "Example of method of confirming recurrence breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RelationshipStatusVS> ;
+         fhir:reference [ fhir:v "ValueSet/RelationshipStatusVS" ]
+       ] ;
+       fhir:name [ fhir:v "Relationship status of patient ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the relationship status of a patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Procedure" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReoperationSurgeryPatient147> ;
+         fhir:reference [ fhir:v "Procedure/ReoperationSurgeryPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "ReoperationSurgeryPatient147" ] ;
+       fhir:description [ fhir:v "Example of a reoperation due to involved margins after primary surgery" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected> ;
+         fhir:reference [ fhir:v "StructureDefinition/lymph-nodes-resected" ]
+       ] ;
+       fhir:name [ fhir:v "Resected lymph nodes" ] ;
+       fhir:description [ fhir:v "Represents the number of lymph nodes resected" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory> ;
+         fhir:reference [ fhir:v "ValueSet/SACQPatientComorbidityHistory" ]
+       ] ;
+       fhir:name [ fhir:v "SACQ Patient's comorbidity history ValueSet" ] ;
+       fhir:description [ fhir:v "Patient's documented history of comorbidities" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/SatisfactionResponseCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Satisfaction response CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes used in a Patient Reported Outcomes Instrument to express the statisfation response" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS> ;
+         fhir:reference [ fhir:v "ValueSet/SatisfactionResponseVS" ]
+       ] ;
+       fhir:name [ fhir:v "Satisfaction response ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset used in a Patient Reported Outcomes Instrument to express the statisfation response" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer> ;
+         fhir:reference [ fhir:v "StructureDefinition/secondary-breastcancer" ]
+       ] ;
+       fhir:name [ fhir:v "Secondary Breast Cancer Condition" ] ;
+       fhir:description [ fhir:v "Represent the properties of the secondary breast cancer diagnosis" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/SecondaryBreastCancerPatient147> ;
+         fhir:reference [ fhir:v "Condition/SecondaryBreastCancerPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "SecondaryBreastCancerPatient147" ] ;
+       fhir:description [ fhir:v "Example of the secondary condition breast cancer diagnosed in a patient" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor> ;
+         fhir:reference [ fhir:v "StructureDefinition/sizeinvasivetumor" ]
+       ] ;
+       fhir:name [ fhir:v "Size of invasive tumor" ] ;
+       fhir:description [ fhir:v "Represents the size of the invasive tumor" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMStageGroupVS> ;
+         fhir:reference [ fhir:v "ValueSet/TNMStageGroupVS" ]
+       ] ;
+       fhir:name [ fhir:v "Staging Type for Stage Group ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset indicating the type of staging, clinical or pathological, of breast cancer." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedAxillaSurgeryVS> ;
+         fhir:reference [ fhir:v "ValueSet/TargetedAxillaSurgeryVS" ]
+       ] ;
+       fhir:name [ fhir:v "Targeted axilla surgery ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of targeted surgery types of the axilla" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy> ;
+         fhir:reference [ fhir:v "StructureDefinition/targeted-therapy" ]
+       ] ;
+       fhir:name [ fhir:v "Targeted therapy" ] ;
+       fhir:description [ fhir:v "Type and duration of targeted therapy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS> ;
+         fhir:reference [ fhir:v "ValueSet/LocationRadiotherapyVS" ]
+       ] ;
+       fhir:name [ fhir:v "The location of radiotherapy ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the location of radiotherapy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases> ;
+         fhir:reference [ fhir:v "StructureDefinition/tnm-distant-metastases" ]
+       ] ;
+       fhir:name [ fhir:v "TNM Distant Metastases" ] ;
+       fhir:description [ fhir:v "Represents the extent of a tumor metastasis in remote anatomical locations (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Distant Metastases Category Profile." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMDistantMetastasesVS> ;
+         fhir:reference [ fhir:v "ValueSet/TNMDistantMetastasesVS" ]
+       ] ;
+       fhir:name [ fhir:v "TNM Distant Metastases ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the TNM stage for the M category, according to TNM staging rules" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage> ;
+         fhir:reference [ fhir:v "StructureDefinition/tnm-primary-tumor-stage" ]
+       ] ;
+       fhir:name [ fhir:v "TNM Primary Tumor Stage" ] ;
+       fhir:description [ fhir:v "Represents the stage of the primary tumor (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Primary Tumor Category Profile." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMPrimaryTumorVS> ;
+         fhir:reference [ fhir:v "ValueSet/TNMPrimaryTumorVS" ]
+       ] ;
+       fhir:name [ fhir:v "TNM Primary Tumor ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the TNM stage for the T category, according to TNM staging rules" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage> ;
+         fhir:reference [ fhir:v "StructureDefinition/tnm-regional-nodes-stage" ]
+       ] ;
+       fhir:name [ fhir:v "TNM Regional Nodal Stage" ] ;
+       fhir:description [ fhir:v "Represents the presence or absence of metastases in regional lymph nodes (per AJCC 8th Ed.). This profile is in alignment with mCODE TNM Regional Nodes Category Profile." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMRegionalNodesVS> ;
+         fhir:reference [ fhir:v "ValueSet/TNMRegionalNodesVS" ]
+       ] ;
+       fhir:name [ fhir:v "TNM Regional Nodes ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the TNM stage for the N category, according to TNM staging rules" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed> ;
+         fhir:reference [ fhir:v "StructureDefinition/treatment-plan-not-followed" ]
+       ] ;
+       fhir:name [ fhir:v "Treatment Plan Not Followed" ] ;
+       fhir:description [ fhir:v "Indicate why the multidisciplinary recommended treatment plan was not followed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanNotFollowedVS> ;
+         fhir:reference [ fhir:v "ValueSet/TreatmentPlanNotFollowedVS" ]
+       ] ;
+       fhir:name [ fhir:v "Treatment Plan Not Followed ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of reason for the treatment plan not being followed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan> ;
+         fhir:reference [ fhir:v "StructureDefinition/treatment-plan" ]
+       ] ;
+       fhir:name [ fhir:v "Treatment recommended by a multidisciplinary team" ] ;
+       fhir:description [ fhir:v "Represents the treatment that a multidisciplinary team recommended during a multidisciplinary meeting" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/TreatmentTypesCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Treatment variables CodeSytem" ] ;
+       fhir:description [ fhir:v "Codes defining types of treatment a breast cancer patient could receive" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CarePlan" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CarePlan/TreatmentPlanPatient147> ;
+         fhir:reference [ fhir:v "CarePlan/TreatmentPlanPatient147" ]
+       ] ;
+       fhir:name [ fhir:v "TreatmentPlanPatient147" ] ;
+       fhir:description [ fhir:v "Example of the treatment that a multidisciplinary team recommended during a multidisciplinary meeting" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade> ;
+         fhir:reference [ fhir:v "StructureDefinition/tumor-grade" ]
+       ] ;
+       fhir:name [ fhir:v "Tumor grade" ] ;
+       fhir:description [ fhir:v "Represents the grade of the breast cancer tumor" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorGradePatient147> ;
+         fhir:reference [ fhir:v "Observation/TumorGradePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "TumorGradePatient147" ] ;
+       fhir:description [ fhir:v "Example of the grade of a breast cancer tumor" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorSizePatient147> ;
+         fhir:reference [ fhir:v "Observation/TumorSizePatient147" ]
+       ] ;
+       fhir:name [ fhir:v "TumorSizePatient147" ] ;
+       fhir:description [ fhir:v "Example of the size of the invasive tumor of a patient with breast cancer" ] ;
+       fhir:example [
+         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/ChemoTherapyTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of chemotherapy ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the types of chemotherapy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/ComplicationTypeCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Type of complication CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes indicating the type of a complication experienced by the breast cancer patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/ComplicationTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of complication ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet of the type of complication experienced by the breast cancer patient" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/HormonalTherapyTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of hormonal therapy ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the types of hormonal therapy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/ReoperationTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of re-operation" ] ;
+       fhir:description [ fhir:v "Valueset of the types of re-operation" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem> ;
+         fhir:reference [ fhir:v "CodeSystem/ReconstructionTypeCodeSystem" ]
+       ] ;
+       fhir:name [ fhir:v "Type of reconstruction surgery CodeSystem" ] ;
+       fhir:description [ fhir:v "Codes indicating the type of reconstruction surgery that is performed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/ReconstructionTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of reconstruction surgery ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the type of reconstruction surgery that is performed" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS> ;
+         fhir:reference [ fhir:v "ValueSet/TargetedTherapyVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of targeted therapy ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the types of targeted therapy" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/TreatmentTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Type of treatments ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the kind of treatment a patient with breastcancer underwent" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS> ;
+         fhir:reference [ fhir:v "ValueSet/BreastSurgeryTypeVS" ]
+       ] ;
+       fhir:name [ fhir:v "Types of breast surgery ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the types of breast surgery a patient underwent" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS> ;
+         fhir:reference [ fhir:v "ValueSet/BodyWeightVS" ]
+       ] ;
+       fhir:name [ fhir:v "Units of patient's body weight ValueSet" ] ;
+       fhir:description [ fhir:v "Valueset of the unit  of the patient's body weight" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS> ;
+         fhir:reference [ fhir:v "ValueSet/NoYesUnknownVS" ]
+       ] ;
+       fhir:name [ fhir:v "Yes, No and Unknown Valueset" ] ;
+       fhir:description [ fhir:v "Valueset with yes, no and unknown answers" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] ) ;
+     fhir:page [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "informative" ]
+       ] [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "toc.html"^^xsd:anyURI ]
+       ] ) ;
+       fhir:name [ fhir:v "toc.html"^^xsd:anyURI ] ;
+       fhir:title [ fhir:v "Table of Contents" ] ;
+       fhir:generation [ fhir:v "html" ] ;
+       fhir:page ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Introduction" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "fhir-basics.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "fhir-basics.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "FHIR basics" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "use-cases.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "use-cases.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Use Cases" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "standard-set.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "standard-set.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "ICHOM Set" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "security.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "security.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Security" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "informative" ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "downloads.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "downloads.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Downloads" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] )
+     ] ;
+     fhir:parameter ( [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/capabilities" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/examples" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/extensions" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/models" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/operations" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/profiles" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/maps" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/testing" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/history" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "fsh-generated/resources" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "template/config" ]
+     ] [
+       fhir:code [ fhir:v "path-pages" ] ;
+       fhir:value [ fhir:v "input/images" ]
+     ] [
+       fhir:code [ fhir:v "path-tx-cache" ] ;
+       fhir:value [ fhir:v "input-cache/txcache" ]
+     ] )
+  ] . # 
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaryClearancePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaSurgeryPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BestSupportiveCarePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyHeightPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyWeightPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ChemotherapyPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseSixMonths> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseBaseline> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalMetastasesPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalNodalStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTNMStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTumorStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/ComplicationPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/DeathAttributableBCPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EducationLevelVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/EndopredictonPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ERStatusPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EstrogenStatusVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient121> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient134> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MenopausalStatusPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/TargetedTherapyPatient134> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanFollowedPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanNotFollowedPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/GermlineMutationPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HER2ReceptorStatusVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HERStatusPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HistologicalTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HistotypePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/HormonaltherapyPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ImmunotherapyPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/InvasionGradePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityNewCancerVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesInvolvedPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesResectedPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MammaprintPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MenopausalStatusVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/OncotypePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTNMStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedBaseline> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ProgesteroneStatusVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PRStatusPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/RadiotherapyPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/InvolvedMarginsReoperationTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanFollowedVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecommendedTreatmentTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReconstructionSurgeryPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceMethodCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/RecurrenceMethodPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RelationshipStatusVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReoperationSurgeryPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/SecondaryBreastCancerPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMStageGroupVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedAxillaSurgeryVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMDistantMetastasesVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMPrimaryTumorVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMRegionalNodesVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanNotFollowedVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CarePlan/TreatmentPlanPatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorGradePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorSizePatient147> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS> a fhir:uv .
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

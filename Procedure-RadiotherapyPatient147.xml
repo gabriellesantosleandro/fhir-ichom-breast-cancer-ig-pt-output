@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="RadiotherapyPatient147"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="RadiotherapyPatient147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;RadiotherapyPatient147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-radiotherapy.html">Radiotherapy</a></p></div><p><b>status</b>: completed</p><p><b>code</b>: Radiation oncology AND/OR radiotherapy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#108290001)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient147.html">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 2021-06-19 --&gt; 2021-12-01</p><p><b>reasonCode</b>: Adjuvant - intent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#373846009)</span></p><p><b>reasonReference</b>: <a href="Condition-PrimaryBreastCancerPatient147.html">Condition/PrimaryBreastCancerPatient147</a></p><p><b>bodySite</b>: Site of tumor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#263601005)</span></p></div>
+  </text>
+  <status value="completed"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="108290001"/>
+      <display value="Radiation oncology AND/OR radiotherapy"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BreastCancerPatient147"/>
+  </subject>
+  <performedPeriod>
+    <start value="2021-06-19"/>
+    <end value="2021-12-01"/>
+  </performedPeriod>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="373846009"/>
+      <display value="Adjuvant - intent"/>
+    </coding>
+  </reasonCode>
+  <reasonReference>
+    <reference value="Condition/PrimaryBreastCancerPatient147"/>
+  </reasonReference>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="263601005"/>
+      <display value="Site of tumor"/>
+    </coding>
+  </bodySite>
+</Procedure>

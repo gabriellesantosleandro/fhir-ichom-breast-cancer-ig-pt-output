@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ComplicationImpactCodeSystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">no-complication<a name="ComplicationImpactCodeSystem-no-complication"> </a></td><td>No complication</td></tr><tr><td style="white-space:nowrap">prolonged-hospitalization<a name="ComplicationImpactCodeSystem-prolonged-hospitalization"> </a></td><td>Complication leading to prolonged hospitalization (&gt;14days)</td></tr><tr><td style="white-space:nowrap">treatment-discontinuation<a name="ComplicationImpactCodeSystem-treatment-discontinuation"> </a></td><td>Complication leading to discontinuing of treatment</td></tr><tr><td style="white-space:nowrap">no-changes<a name="ComplicationImpactCodeSystem-no-changes"> </a></td><td>Complication, but did not result in any of the abovementioned</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem"/>
+  <version value="1.0.0"/>
+  <name value="ComplicationImpactCodeSystem"/>
+  <title value="Impact of complication CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-15T00:28:22+00:00"/>
+  <publisher value="HL7 International - Clinical Interoperability Council Group"/>
+  <contact>
+    <name value="HL7 International - Clinical Interoperability Council Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+  </contact>
+  <description value="Codes indicating the impact of a complication experienced by the breast cancer patient"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="no-complication"/>
+    <display value="No complication"/>
+  </concept>
+  <concept>
+    <code value="prolonged-hospitalization"/>
+    <display value="Complication leading to prolonged hospitalization (&gt;14days)"/>
+  </concept>
+  <concept>
+    <code value="treatment-discontinuation"/>
+    <display value="Complication leading to discontinuing of treatment"/>
+  </concept>
+  <concept>
+    <code value="no-changes"/>
+    <display value="Complication, but did not result in any of the abovementioned"/>
+  </concept>
+</CodeSystem>

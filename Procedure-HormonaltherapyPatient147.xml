@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Procedure xmlns="http://hl7.org/fhir">
+  <id value="HormonaltherapyPatient147"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="HormonaltherapyPatient147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;HormonaltherapyPatient147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hormonal-therpay.html">Hormonal therapy</a></p></div><p><b>method</b>: Oophorectomy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#83152002)</span></p><p><b>status</b>: completed</p><p><b>code</b>: Hormone therapy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#169413002)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient147.html">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 2020-10-06 --&gt; 2021-06-04</p><p><b>reasonCode</b>: Neo-adjuvant - intent <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#373847000)</span></p><p><b>reasonReference</b>: <a href="Condition-PrimaryBreastCancerPatient147.html">Condition/PrimaryBreastCancerPatient147</a></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/procedure-method">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="83152002"/>
+        <display value="Oophorectomy"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="completed"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="169413002"/>
+      <display value="Hormone therapy"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/BreastCancerPatient147"/>
+  </subject>
+  <performedPeriod>
+    <start value="2020-10-06"/>
+    <end value="2021-06-04"/>
+  </performedPeriod>
+  <reasonCode>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="373847000"/>
+      <display value="Neo-adjuvant - intent"/>
+    </coding>
+  </reasonCode>
+  <reasonReference>
+    <reference value="Condition/PrimaryBreastCancerPatient147"/>
+  </reasonReference>
+</Procedure>

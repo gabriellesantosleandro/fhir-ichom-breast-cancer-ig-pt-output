@@ -1,0 +1,68 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "MolecularProfilingStatusVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-MolecularProfilingCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-MolecularProfilingCodeSystem.html#MolecularProfilingCodeSystem-mammaprint\">mammaprint</a></td><td>Mammaprint Score</td></tr><tr><td><a href=\"CodeSystem-MolecularProfilingCodeSystem.html#MolecularProfilingCodeSystem-oncotype\">oncotype</a></td><td>Oncotype Score</td></tr><tr><td><a href=\"CodeSystem-MolecularProfilingCodeSystem.html#MolecularProfilingCodeSystem-endopredict\">endopredict</a></td><td>Endopredict Score</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS",
+  "version" : "1.0.0",
+  "name" : "MolecularProfilingStatusVS",
+  "title" : "Molecular profiling",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Valueset indicating if a molecular profiling tool was used",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem",
+      "concept" : [{
+        "code" : "mammaprint",
+        "display" : "Mammaprint Score"
+      },
+      {
+        "code" : "oncotype",
+        "display" : "Oncotype Score"
+      },
+      {
+        "code" : "endopredict",
+        "display" : "Endopredict Score"
+      }]
+    }]
+  }
+}

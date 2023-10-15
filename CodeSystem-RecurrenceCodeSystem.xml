@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="RecurrenceCodeSystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">local-recurrence<a name="RecurrenceCodeSystem-local-recurrence"> </a></td><td>Yes, local recurrence</td></tr><tr><td style="white-space:nowrap">regional-recurrence<a name="RecurrenceCodeSystem-regional-recurrence"> </a></td><td>Yes, regional recurrence</td></tr><tr><td style="white-space:nowrap">distant-recurrence<a name="RecurrenceCodeSystem-distant-recurrence"> </a></td><td>Yes, distant recurrence</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+  <version value="1.0.0"/>
+  <name value="RecurrenceCodeSystem"/>
+  <title value="Recurrence of neoplasm CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-10-15T00:28:22+00:00"/>
+  <publisher value="HL7 International - Clinical Interoperability Council Group"/>
+  <contact>
+    <name value="HL7 International - Clinical Interoperability Council Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cic"/>
+    </telecom>
+  </contact>
+  <description value="Additional code covering whether there is evidence of local, regional or distant recurrence of neoplasm"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="local-recurrence"/>
+    <display value="Yes, local recurrence"/>
+  </concept>
+  <concept>
+    <code value="regional-recurrence"/>
+    <display value="Yes, regional recurrence"/>
+  </concept>
+  <concept>
+    <code value="distant-recurrence"/>
+    <display value="Yes, distant recurrence"/>
+  </concept>
+</CodeSystem>

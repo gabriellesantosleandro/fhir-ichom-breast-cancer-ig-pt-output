@@ -1,0 +1,76 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "PatientEducationVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-PatientEducationCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-strongly-agree\">strongly-agree</a></td><td>Strongly agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-agree\">agree</a></td><td>Agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-somewhat-agree\">somewhat-agree</a></td><td>Somewhat agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-disagree\">disagree</a></td><td>Disagree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-strongly-disagree\">strongly-disagree</a></td><td>Strongly disagree</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS",
+  "version" : "1.0.0",
+  "name" : "PatientEducationVS",
+  "title" : "Patient Treatment Education ValueSet",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Valueset covering if the patient received sufficient information about the treatment options",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem",
+      "concept" : [{
+        "code" : "strongly-agree",
+        "display" : "Strongly agree"
+      },
+      {
+        "code" : "agree",
+        "display" : "Agree"
+      },
+      {
+        "code" : "somewhat-agree",
+        "display" : "Somewhat agree"
+      },
+      {
+        "code" : "disagree",
+        "display" : "Disagree"
+      },
+      {
+        "code" : "strongly-disagree",
+        "display" : "Strongly disagree"
+      }]
+    }]
+  }
+}

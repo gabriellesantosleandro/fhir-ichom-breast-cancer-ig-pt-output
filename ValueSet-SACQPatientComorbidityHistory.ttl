@@ -1,0 +1,120 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "SACQPatientComorbidityHistory"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/373572006\">373572006</a></td><td>I have no other diseases</td></tr><tr><td><a href=\"http://snomed.info/id/56265001\">56265001</a></td><td>Heart disease (For example, angina, heart attack, or heart failure)</td></tr><tr><td><a href=\"http://snomed.info/id/38341003\">38341003</a></td><td>High blood pressure</td></tr><tr><td><a href=\"http://snomed.info/id/19829001\">19829001</a></td><td>Lung disease (For example,  asthma, chronic bronchitis, or emphysema)</td></tr><tr><td><a href=\"http://snomed.info/id/73211009\">73211009</a></td><td>Diabetes</td></tr><tr><td><a href=\"http://snomed.info/id/29384001\">29384001</a></td><td>Ulcer or stomach disease</td></tr><tr><td><a href=\"http://snomed.info/id/90708001\">90708001</a></td><td>Kidney disease</td></tr><tr><td><a href=\"http://snomed.info/id/235856003\">235856003</a></td><td>Liver disease</td></tr><tr><td><a href=\"http://snomed.info/id/414022008\">414022008</a></td><td>Anemia or other blood disease</td></tr><tr><td><a href=\"http://snomed.info/id/363346000\">363346000</a></td><td>Cancer/Other cancer (within the last 5 years)</td></tr><tr><td><a href=\"http://snomed.info/id/35489007\">35489007</a></td><td>Depression</td></tr><tr><td><a href=\"http://snomed.info/id/396275006\">396275006</a></td><td>Osteoarthritis, degenerative arthritis</td></tr><tr><td><a href=\"http://snomed.info/id/161891005\">161891005</a></td><td>Back pain</td></tr><tr><td><a href=\"http://snomed.info/id/69896004\">69896004</a></td><td>Rheumatoid arthritis</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH\">OTH</a></td><td>Other medical problems</td><td>**Description:**The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).<br/><br/>**Usage Notes**: This flavor and its specializations are most commonly used with the CD datatype and its flavors. However, it may apply to \\*any\\* datatype where the constraints of the type are tighter than can be conveyed. For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.<br/><br/>With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE. By definition, all local codes and original text are part of the value set if the coding strength is CWE.</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "2"^^xsd:integer ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
+         fhir:value [
+           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "SACQPatientComorbidityHistory"] ; # 
+  fhir:title [ fhir:v "SACQ Patient's comorbidity history ValueSet"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cic" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Patient's documented history of comorbidities"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "373572006" ] ;
+         fhir:display [ fhir:v "I have no other diseases" ]
+       ] [
+         fhir:code [ fhir:v "56265001" ] ;
+         fhir:display [ fhir:v "Heart disease (For example, angina, heart attack, or heart failure)" ]
+       ] [
+         fhir:code [ fhir:v "38341003" ] ;
+         fhir:display [ fhir:v "High blood pressure" ]
+       ] [
+         fhir:code [ fhir:v "19829001" ] ;
+         fhir:display [ fhir:v "Lung disease (For example,  asthma, chronic bronchitis, or emphysema)" ]
+       ] [
+         fhir:code [ fhir:v "73211009" ] ;
+         fhir:display [ fhir:v "Diabetes" ]
+       ] [
+         fhir:code [ fhir:v "29384001" ] ;
+         fhir:display [ fhir:v "Ulcer or stomach disease" ]
+       ] [
+         fhir:code [ fhir:v "90708001" ] ;
+         fhir:display [ fhir:v "Kidney disease" ]
+       ] [
+         fhir:code [ fhir:v "235856003" ] ;
+         fhir:display [ fhir:v "Liver disease" ]
+       ] [
+         fhir:code [ fhir:v "414022008" ] ;
+         fhir:display [ fhir:v "Anemia or other blood disease" ]
+       ] [
+         fhir:code [ fhir:v "363346000" ] ;
+         fhir:display [ fhir:v "Cancer/Other cancer (within the last 5 years)" ]
+       ] [
+         fhir:code [ fhir:v "35489007" ] ;
+         fhir:display [ fhir:v "Depression" ]
+       ] [
+         fhir:code [ fhir:v "396275006" ] ;
+         fhir:display [ fhir:v "Osteoarthritis, degenerative arthritis" ]
+       ] [
+         fhir:code [ fhir:v "161891005" ] ;
+         fhir:display [ fhir:v "Back pain" ]
+       ] [
+         fhir:code [ fhir:v "69896004" ] ;
+         fhir:display [ fhir:v "Rheumatoid arthritis" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "OTH" ] ;
+         fhir:display [ fhir:v "Other medical problems" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

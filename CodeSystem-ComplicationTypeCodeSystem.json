@@ -1,0 +1,70 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ComplicationTypeCodeSystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">partial-loss<a name=\"ComplicationTypeCodeSystem-partial-loss\"> </a></td><td>Partial autologous graft loss</td></tr><tr><td style=\"white-space:nowrap\">total-loss<a name=\"ComplicationTypeCodeSystem-total-loss\"> </a></td><td>Total autologous graft loss</td></tr><tr><td style=\"white-space:nowrap\">delay-wound<a name=\"ComplicationTypeCodeSystem-delay-wound\"> </a></td><td>Delay wound healing/dehiscence</td></tr><tr><td style=\"white-space:nowrap\">immune-toxicity<a name=\"ComplicationTypeCodeSystem-immune-toxicity\"> </a></td><td>Immune related toxicity</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 2,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem",
+  "version" : "1.0.0",
+  "name" : "ComplicationTypeCodeSystem",
+  "title" : "Type of complication CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-10-15T00:28:22+00:00",
+  "publisher" : "HL7 International - Clinical Interoperability Council Group",
+  "contact" : [{
+    "name" : "HL7 International - Clinical Interoperability Council Group",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cic"
+    }]
+  }],
+  "description" : "Codes indicating the type of a complication experienced by the breast cancer patient",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "partial-loss",
+    "display" : "Partial autologous graft loss"
+  },
+  {
+    "code" : "total-loss",
+    "display" : "Total autologous graft loss"
+  },
+  {
+    "code" : "delay-wound",
+    "display" : "Delay wound healing/dehiscence"
+  },
+  {
+    "code" : "immune-toxicity",
+    "display" : "Immune related toxicity"
+  }]
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "Observation",
+  "id" : "PRStatusPatient147",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"PRStatusPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;PRStatusPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pr-status.html\">Progesterone receptor status</a></p></div><p><b>status</b>: final</p><p><b>code</b>: Status of progesterone receptors of neoplasm <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#445029000)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>value</b>: unknown <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\">NullFlavor</a>#UNK)</span></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "445029000",
+      "display" : "Status of progesterone receptors of neoplasm"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/BreastCancerPatient147"
+  },
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "code" : "UNK",
+      "display" : "unknown"
+    }]
+  }
+}
