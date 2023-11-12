@@ -2,11 +2,11 @@
   "resourceType" : "Patient",
   "id" : "BreastCancerPatient134",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Mortera </b> (no stated gender), DoB: 1978 ( id:\u00a0134)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td>2014-01-13</td><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\">Divorced</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">GB </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents the race of a patient. This extension is aligned with USCore.\"><a href=\"StructureDefinition-Race.html\">Race Extension:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-Race 2028-9}\">Asian</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents the level of education of a patient.\"><a href=\"StructureDefinition-EducationLevel.html\">Education Level Extension:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://snomed.info/sct 224297003}\">224297003</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"A Sex Parameter for Clinical Use is a parameter that provides guidance on how a recipient should apply settings or reference ranges that are derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc..  This property is intended for use in clinical decision making, and indicates that treatment or diagnostic tests should consider best practices associated with the relevant reference population.  When exchanging these concepts, refer to the guidance in the [Gender Harmony Implementation Guide](http://hl7.org/xprod/ig/uv/gender-harmony/).\">Patient Sex Parameter For Clinical Use:</td><td colspan=\"3\"><ul><li>value: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/sex-parameter-for-clinical-use male-typical}\">Apply male-typical setting or reference range</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents the ethnicity of a patient. This extension is aligned with USCore\"><a href=\"StructureDefinition-Ethnicity.html\">Ethnicity Extension:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-Ethnicity 2135-2}\">Hispanic or Latino</span></li></ul></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Mortera </b> (no stated gender), DoB: 1978 ( id:\u00a0134)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td>2014-01-13</td><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\">Divorced</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">GB </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents the ethnicity of a patient. This extension is aligned with USCore\"><a href=\"StructureDefinition-Ethnicity.html\">Ethnicity Extension:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-Ethnicity 2135-2}\">Hispanic or Latino</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents the race of a patient. This extension is aligned with USCore.\"><a href=\"StructureDefinition-Race.html\">Race Extension:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-Race 2028-9}\">Asian</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Represents the level of education of a patient.\"><a href=\"StructureDefinition-EducationLevel.html\">Education Level Extension:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {http://snomed.info/sct 224297003}\">224297003</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"A Sex Parameter for Clinical Use is a parameter that provides guidance on how a recipient should apply settings or reference ranges that are derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc..  This property is intended for use in clinical decision making, and indicates that treatment or diagnostic tests should consider best practices associated with the relevant reference population.  When exchanging these concepts, refer to the guidance in the [Gender Harmony Implementation Guide](http://hl7.org/xprod/ig/uv/gender-harmony/).\">Patient Sex Parameter For Clinical Use:</td><td colspan=\"3\"><ul><li>value: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/sex-parameter-for-clinical-use male-typical}\">Apply male-typical setting or reference range</span></li></ul></td></tr></table></div>"
   },
   "extension" : [{
     "extension" : [{
@@ -21,7 +21,7 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse"
   },
   {
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel",
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
@@ -30,7 +30,7 @@
     }
   },
   {
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity",
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://terminology.hl7.org/CodeSystem/v3-Ethnicity",
@@ -39,7 +39,7 @@
     }
   },
   {
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race",
     "valueCodeableConcept" : {
       "coding" : [{
         "system" : "http://terminology.hl7.org/CodeSystem/v3-Race",

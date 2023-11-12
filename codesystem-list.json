@@ -1,0 +1,132 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "AgreementResponseCodeSystem",
+      "title" : "Agreement response CodeSystem",
+      "description" : "Codes used in a Patient Reported Outcomes Instrument to express the degree of agreement"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BreastSurgeryTypesCodeSystem",
+      "title" : "Breast surgery types CodeSystem",
+      "description" : "Codes indicating the types of breast surgery a patient underwent"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationImpactCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationImpactCodeSystem",
+      "title" : "Impact of complication CodeSystem",
+      "description" : "Codes indicating the impact of a complication experienced by the breast cancer patient"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationTypeCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationTypeCodeSystem",
+      "title" : "Type of complication CodeSystem",
+      "description" : "Codes indicating the type of a complication experienced by the breast cancer patient"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ImplantLocationCodeSystem",
+      "title" : "Location of the implant CodeSystem",
+      "description" : "Codes indicating the location of the implant that was placed during reconstruction surgery"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MolecularProfilingCodeSystem",
+      "title" : "Molecular Profiling CodeSystem",
+      "description" : "Codes used to describe the different types of molecular profiling scoring"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientEducationCodeSystem",
+      "title" : "Patient Treatment Education Codesystem",
+      "description" : "Codes covering if the patient received sufficient information about the treatment options"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientTreatPrefCodeSystem",
+      "title" : "Patient treatment preference CodeSystem",
+      "description" : "Codes covering for why the treatment plan was not followed"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReconstructionTypeCodeSystem",
+      "title" : "Type of reconstruction surgery CodeSystem",
+      "description" : "Codes indicating the type of reconstruction surgery that is performed"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceCodeSystem",
+      "title" : "Recurrence of neoplasm CodeSystem",
+      "description" : "Additional code covering whether there is evidence of local, regional or distant recurrence of neoplasm"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceMethodCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceMethodCodeSystem",
+      "title" : "Recurrence method CodeSystem",
+      "description" : "Additional code covering combination of radiological and histological diagnosis method"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "SatisfactionResponseCodeSystem",
+      "title" : "Satisfaction response CodeSystem",
+      "description" : "Codes used in a Patient Reported Outcomes Instrument to express the statisfation response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanComplianceCodeSystem",
+      "title" : "Observation identifiers for treatment plan non-compliance reason CodeSystem",
+      "description" : "Codes covering observation identifiers for treatment plan non-compliance reaso"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanFollowedCodeSystem",
+      "title" : "Real Treatment Plan Followed CodeSystem",
+      "description" : "Codes covering if the patient followed the multidisciplinary recommended treatment plan"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanNotFollowedCodeSystem",
+      "title" : "Real Treatment Plan Not Followed CodeSystem",
+      "description" : "Codes covering if the patient has not followed the multidisciplinary recommended treatment plan"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentTypesCodeSystem",
+      "title" : "Treatment variables CodeSytem",
+      "description" : "Codes defining types of treatment a breast cancer patient could receive"
+    }
+  ]
+}

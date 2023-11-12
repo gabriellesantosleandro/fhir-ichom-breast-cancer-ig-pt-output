@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "OncotypePatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score"]
   },
   "text" : {
     "status" : "generated",
@@ -11,7 +11,7 @@
   "status" : "final",
   "code" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem",
       "code" : "oncotype",
       "display" : "Oncotype Score"
     }]

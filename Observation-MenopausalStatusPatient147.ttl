@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MenopausalStatusPatient147> a fhir:Observation ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/MenopausalStatusPatient147> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "MenopausalStatusPatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status>
      ] )
   ] ; # 
   fhir:text [
@@ -29,7 +29,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:value [
@@ -40,8 +40,6 @@
        fhir:code [ fhir:v "309606002" ]
      ] )
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

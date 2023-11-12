@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTNMStagePatient147> a fhir:Observation ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalTNMStagePatient147> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PathologicalTNMStagePatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group>
      ] )
   ] ; # 
   fhir:text [
@@ -29,27 +29,19 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:hasMember ( [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalTumorStagePatient147> ;
      fhir:reference [ fhir:v "Observation/PathologicalTumorStagePatient147" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalNodalStagePatient147> ;
      fhir:reference [ fhir:v "Observation/PathologicalNodalStagePatient147" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalMetastasesPatient147> ;
      fhir:reference [ fhir:v "Observation/PathologicalMetastasesPatient147" ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

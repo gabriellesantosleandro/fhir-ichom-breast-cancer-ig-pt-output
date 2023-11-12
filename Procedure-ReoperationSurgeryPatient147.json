@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "ReoperationSurgeryPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery"]
   },
   "text" : {
     "status" : "generated",
@@ -21,7 +21,7 @@
   },
   "code" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
       "code" : "mastectomy-with-immediate-reconstruction",
       "display" : "Mastectomy with immediate reconstruction"
     }]

@@ -3,7 +3,7 @@
 <Questionnaire xmlns="http://hl7.org/fhir">
   <id value="PatientReportedFollowUp"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><b>Structure</b><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> PatientReportedFollowUp</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient-reported response at every 6 months for first 2 years post-treatment, after 2 years tracked annually for up to 10 years</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp#1.0.0</td></tr>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><b>Structure</b><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> PatientReportedFollowUp</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Patient-reported response at every 6 months for first 2 years post-treatment, after 2 years tracked annually for up to 10 years</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedFollowUp#1.0.0</td></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" id="item.General-Information-Clinical" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> General-Information-Clinical</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">General information</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" id="item.NA-Clinical" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> NA-Clinical</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">What is the patient's medical record number?</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" id="item.LastName-Clinical" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> LastName-Clinical</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">What is the patient's last name?</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
@@ -132,17 +132,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedFollowUp"/>
   <version value="1.0.0"/>
   <name value="PatientReportedFollowUp"/>
   <title value="Patient reported response at post-treatment follow-up"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -190,35 +190,35 @@
         <text value="Do you have any trouble doing strenuous activities, like carrying a heavy shopping bag or a suitcase?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q02"/>
         <text value="Do you have any trouble taking a long walk?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q03"/>
         <text value="Do you have any trouble taking a short walk outside of the house?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q04"/>
         <text value="Do you need to stay in bed or a chair during the day?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q05"/>
         <text value="Do you need help with eating, dressing, washing yourself or using the toilet?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -230,161 +230,161 @@
         <text value="Were you limited in doing either your work or other daily activities?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q07"/>
         <text value="Were you limited in pursuing your hobbies or other leisure time activities?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q08"/>
         <text value="Were you short of breath?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q09"/>
         <text value="Have you had pain?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q10"/>
         <text value="Did you need to rest?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q11"/>
         <text value="Have you had trouble sleeping?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q12"/>
         <text value="Have you felt weak?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q13"/>
         <text value="Have you lacked appetite?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q14"/>
         <text value="Have you felt nauseated?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q15"/>
         <text value="Have you vomited?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q16"/>
         <text value="Have you been constipated?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q17"/>
         <text value="Have you had diarrhea?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q18"/>
         <text value="Were you tired?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q19"/>
         <text value="Did pain interfere with your daily activities?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q20"/>
         <text value="Have you had difficulty in concentrating on things, like reading a newspaper or watching television?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q21"/>
         <text value="Did you feel tense?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q22"/>
         <text value="Did you worry?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q23"/>
         <text value="Did you feel irritable?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q24"/>
         <text value="Did you feel depressed?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q25"/>
         <text value="Have you had difficulty remembering things?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q26"/>
         <text value="Has your physical condition or medical treatment interfered with your family life?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q27"/>
         <text value="Has your physical condition or medical treatment interfered with your social activities?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQC30_Q28"/>
         <text value="Has your physical condition or medical treatment caused you financial difficulties?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -455,28 +455,28 @@
         <text value="Have you had dry mouth?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q32"/>
         <text value="Have food and drink tasted different than usual?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q33"/>
         <text value="Have your eyes been painful, irritated or watery?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q34"/>
         <text value="Have you lost any hair?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q35"/>
@@ -486,68 +486,68 @@
           <question value="EORTCQLQBR45_Q34"/>
           <operator value="!="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem"/>
             <code value="no"/>
             <display value="Not at all"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q36"/>
         <text value="Have you felt ill or unwell?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q37"/>
         <text value="Have you had hot flushes?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q38"/>
         <text value="Have you had headaches?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q39"/>
         <text value="Have you felt physically less attractive as a result of your disease or treatment?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q40"/>
         <text value="Have you felt less feminine as a result of your disease or treatment?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q41"/>
         <text value="Have you had problems looking at yourself naked?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q42"/>
         <text value="Have you been dissatisfied with your body?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q43"/>
         <text value="Have you worried about your health in the future?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -559,14 +559,14 @@
         <text value="Have you been sexually active? (with or without intercourse)"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q45"/>
         <text value="To what extent were you sexually active? (with or without intercourse)"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q46"/>
@@ -576,12 +576,12 @@
           <question value="EORTCQLQBR45_Q45"/>
           <operator value="!="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem"/>
             <code value="no"/>
             <display value="Not at all"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -593,154 +593,154 @@
         <text value="Have you had a swollen arm or hand?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q49"/>
         <text value="Have you had problems raising your arm or moving it sideways?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q50"/>
         <text value="Have you had any pain in the area of your affected breast?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q51"/>
         <text value="Has the area of your affected breast been swollen?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q52"/>
         <text value="Has the area of your affected breast been oversensitive?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q53"/>
         <text value="Have you had skin problems on or in the area of your affected breast (e.g., itchy, dry, flaky)?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q54"/>
         <text value="Have you sweated excessively?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q55"/>
         <text value="Have you had mood swings?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q56"/>
         <text value="Have you been dizzy?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q57"/>
         <text value="Have you had soreness in your mouth?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q58"/>
         <text value="Have you had any reddening in your mouth?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q59"/>
         <text value="Have you had pain in your hands or feet?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q60"/>
         <text value="Have you had any redenning on your hands or feet?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q61"/>
         <text value="Have you had tingling in your fingers or toes?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q62"/>
         <text value="Have you had numbness in your fingers or toes?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q63"/>
         <text value="Have you had problems with your joints?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q64"/>
         <text value="Have you had stiffness in your joints?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q65"/>
         <text value="Have you had pain in your joints?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q66"/>
         <text value="Have you had aches or pains in your bones?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q67"/>
         <text value="Have you had aches or pains in your muscles?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q68"/>
         <text value="Have you gained weight?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q69"/>
         <text value="Has weight gain been a problem for you?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -752,14 +752,14 @@
         <text value="Have you had a dry vagina?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q71"/>
         <text value="Have you had discomfort in your vagina?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -771,14 +771,14 @@
         <text value="Have you had pain in your vagina during sexual activity?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q73"/>
         <text value="Have you experienced a dry vagina during sexual activity?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
     <item>
@@ -790,14 +790,14 @@
         <text value="Have you been satisfied with the cosmetic result of the surgery?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
       <item>
         <linkId value="EORTCQLQBR45_Q75"/>
         <text value="Have you been satisfied with the appearance of the skin of your affected breast (thoracic area)?"/>
         <type value="choice"/>
         <required value="true"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS"/>
       </item>
     </item>
   </item>
@@ -810,7 +810,7 @@
       <text value="Which type of surgery did you receive?"/>
       <type value="choice"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BreastSurgeryTypeVS"/>
     </item>
     <item>
       <linkId value="MastectomyFollowUp"/>
@@ -820,7 +820,7 @@
         <question value="BreastQ_Surgery"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="mastectomy-without-immediate-reconstruction"/>
         </answerCoding>
       </enableWhen>
@@ -833,11 +833,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-without-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQMASTP_Q02"/>
@@ -847,11 +847,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-without-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQMASTP_Q03"/>
@@ -861,11 +861,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-without-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQMASTP_Q04"/>
@@ -875,11 +875,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-without-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
     </item>
     <item>
@@ -890,7 +890,7 @@
         <question value="BreastQ_Surgery"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="bcs"/>
         </answerCoding>
       </enableWhen>
@@ -898,7 +898,7 @@
         <question value="BreastQ_Surgery"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="bcs-with-mammoplasty"/>
         </answerCoding>
       </enableWhen>
@@ -911,7 +911,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -919,12 +919,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q02"/>
@@ -934,7 +934,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -942,12 +942,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q03"/>
@@ -957,7 +957,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -965,12 +965,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q04"/>
@@ -980,7 +980,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -988,12 +988,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q05"/>
@@ -1003,7 +1003,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1011,12 +1011,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q06"/>
@@ -1026,7 +1026,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1034,12 +1034,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q07"/>
@@ -1049,7 +1049,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1057,12 +1057,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q08"/>
@@ -1072,7 +1072,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1080,12 +1080,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q09"/>
@@ -1095,7 +1095,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1103,12 +1103,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q10"/>
@@ -1118,7 +1118,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1126,12 +1126,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQBCTP_Q11"/>
@@ -1141,7 +1141,7 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs"/>
           </answerCoding>
         </enableWhen>
@@ -1149,12 +1149,12 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="bcs-with-mammoplasty"/>
           </answerCoding>
         </enableWhen>
         <enableBehavior value="any"/>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
     </item>
     <item>
@@ -1165,7 +1165,7 @@
         <question value="BreastQ_Surgery"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="mastectomy-with-immediate-reconstruction"/>
         </answerCoding>
       </enableWhen>
@@ -1177,11 +1177,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q02"/>
@@ -1191,11 +1191,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q03"/>
@@ -1205,11 +1205,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q04"/>
@@ -1219,11 +1219,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q05"/>
@@ -1233,11 +1233,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q06"/>
@@ -1247,11 +1247,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q07"/>
@@ -1261,11 +1261,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q08"/>
@@ -1275,11 +1275,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q09"/>
@@ -1289,11 +1289,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q10"/>
@@ -1303,11 +1303,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q11"/>
@@ -1317,11 +1317,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q12"/>
@@ -1331,11 +1331,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q13"/>
@@ -1345,11 +1345,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q14"/>
@@ -1359,11 +1359,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q15"/>
@@ -1373,11 +1373,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
       <item>
         <linkId value="BREASTQRECP_Q16"/>
@@ -1387,11 +1387,11 @@
           <question value="BreastQ_Surgery"/>
           <operator value="="/>
           <answerCoding>
-            <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+            <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
             <code value="mastectomy-with-immediate-reconstruction"/>
           </answerCoding>
         </enableWhen>
-        <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"/>
+        <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"/>
       </item>
     </item>
   </item>

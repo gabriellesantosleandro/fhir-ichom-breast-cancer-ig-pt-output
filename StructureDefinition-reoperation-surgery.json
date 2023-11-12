@@ -11,17 +11,17 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery",
+  "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery",
   "version" : "1.0.0",
   "name" : "ReoperationSurgery",
   "title" : "Re-operation surgery",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-10-15T00:28:22+00:00",
+  "date" : "2023-11-12T21:01:00+00:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -261,10 +261,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -788,7 +784,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS"
+        "valueSet" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -822,7 +818,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"]
+        "targetProfile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1364,7 +1360,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "preferred",
-        "valueSet" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS"
+        "valueSet" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationReasonVS"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -1398,7 +1394,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"]
+        "targetProfile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -2018,7 +2014,7 @@
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS"
+        "valueSet" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS"
       }
     },
     {
@@ -2026,7 +2022,7 @@
       "path" : "Procedure.subject",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"]
+        "targetProfile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"]
       }],
       "mustSupport" : true
     },
@@ -2049,7 +2045,7 @@
       "mustSupport" : true,
       "binding" : {
         "strength" : "preferred",
-        "valueSet" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS"
+        "valueSet" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationReasonVS"
       },
       "mapping" : [{
         "identity" : "reoperation-surgery-mapping",
@@ -2061,7 +2057,7 @@
       "path" : "Procedure.reasonReference",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"]
+        "targetProfile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"]
       }],
       "mustSupport" : true
     }]

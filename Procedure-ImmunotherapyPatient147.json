@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "ImmunotherapyPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy"]
   },
   "text" : {
     "status" : "generated",

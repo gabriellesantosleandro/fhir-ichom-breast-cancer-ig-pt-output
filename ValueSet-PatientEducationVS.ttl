@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS> a fhir:ValueSet ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PatientEducationVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-PatientEducationCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-strongly-agree\">strongly-agree</a></td><td>Strongly agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-agree\">agree</a></td><td>Agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-somewhat-agree\">somewhat-agree</a></td><td>Somewhat agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-disagree\">disagree</a></td><td>Disagree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-strongly-disagree\">strongly-disagree</a></td><td>Strongly disagree</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-PatientEducationCodeSystem.html\"><code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-strongly-agree\">strongly-agree</a></td><td>Strongly agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-agree\">agree</a></td><td>Agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-somewhat-agree\">somewhat-agree</a></td><td>Somewhat agree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-disagree\">disagree</a></td><td>Disagree</td></tr><tr><td><a href=\"CodeSystem-PatientEducationCodeSystem.html#PatientEducationCodeSystem-strongly-disagree\">strongly-disagree</a></td><td>Strongly disagree</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
@@ -31,19 +31,19 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "PatientEducationVS"] ; # 
   fhir:title [ fhir:v "Patient Treatment Education ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-12T21:01:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
@@ -62,7 +62,7 @@
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "strongly-agree" ] ;
          fhir:display [ fhir:v "Strongly agree" ]

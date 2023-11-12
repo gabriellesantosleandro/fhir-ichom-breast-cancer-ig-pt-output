@@ -3,7 +3,7 @@
 <Procedure xmlns="http://hl7.org/fhir">
   <id value="TargetedTherapyPatient134"/>
   <meta>
-    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"/>
+    <profile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Procedure</b><a name="TargetedTherapyPatient134"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Procedure &quot;TargetedTherapyPatient134&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-targeted-therapy.html">Targeted therapy</a></p></div><p><b>method</b>: HER2 (Human epidermal growth factor receptor 2) inhibitor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#784176007)</span></p><p><b>status</b>: unknown</p><p><b>code</b>: Targeted therapy <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-TreatmentTypesCodeSystem.html">Treatment variables CodeSytem</a>#targeted-therapy)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient134.html">Patient/BreastCancerPatient134</a> &quot; MORTERA&quot;</p><p><b>performed</b>: 1979-11-21 --&gt; 1979-11-23</p></div>
@@ -20,7 +20,7 @@
   <status value="unknown"/>
   <code>
     <coding>
-      <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+      <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
       <code value="targeted-therapy"/>
       <display value="Targeted therapy"/>
     </coding>

@@ -3,29 +3,29 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="BreastSurgeryTypesCodeSystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">bcs<a name="BreastSurgeryTypesCodeSystem-bcs"> </a></td><td>Breast conserving surgery (BCS)</td></tr><tr><td style="white-space:nowrap">bcs-with-mammoplasty<a name="BreastSurgeryTypesCodeSystem-bcs-with-mammoplasty"> </a></td><td>BCS with mammoplasty</td></tr><tr><td style="white-space:nowrap">mastectomy-without-immediate-reconstruction<a name="BreastSurgeryTypesCodeSystem-mastectomy-without-immediate-reconstruction"> </a></td><td>Mastectomy without immediate reconstruction</td></tr><tr><td style="white-space:nowrap">mastectomy-with-immediate-reconstruction<a name="BreastSurgeryTypesCodeSystem-mastectomy-with-immediate-reconstruction"> </a></td><td>Mastectomy with immediate reconstruction</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">bcs<a name="BreastSurgeryTypesCodeSystem-bcs"> </a></td><td>Breast conserving surgery (BCS)</td></tr><tr><td style="white-space:nowrap">bcs-with-mammoplasty<a name="BreastSurgeryTypesCodeSystem-bcs-with-mammoplasty"> </a></td><td>BCS with mammoplasty</td></tr><tr><td style="white-space:nowrap">mastectomy-without-immediate-reconstruction<a name="BreastSurgeryTypesCodeSystem-mastectomy-without-immediate-reconstruction"> </a></td><td>Mastectomy without immediate reconstruction</td></tr><tr><td style="white-space:nowrap">mastectomy-with-immediate-reconstruction<a name="BreastSurgeryTypesCodeSystem-mastectomy-with-immediate-reconstruction"> </a></td><td>Mastectomy with immediate reconstruction</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
   <version value="1.0.0"/>
   <name value="BreastSurgeryTypesCodeSystem"/>
   <title value="Breast surgery types CodeSystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>

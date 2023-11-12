@@ -13,9 +13,9 @@
     <sch:title>f:Patient</sch:title>
     <sch:rule context="f:Patient">
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel']) &lt;= 1">extension with URL = 'http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity']) &lt;= 1">extension with URL = 'http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race']) &lt;= 1">extension with URL = 'http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

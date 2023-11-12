@@ -3,7 +3,7 @@
   "id" : "PatientTreatPrefVS",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-PatientTreatPrefCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-PatientTreatPrefCodeSystem.html#PatientTreatPrefCodeSystem-personal-preference\">personal-preference</a></td><td>Personal preference</td></tr><tr><td><a href=\"CodeSystem-PatientTreatPrefCodeSystem.html#PatientTreatPrefCodeSystem-different-plan-recommended\">different-plan-recommended</a></td><td>Different plan recommended by clinical team</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/309846006\">309846006</a></td><td>Treatment not available</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH\">OTH</a></td><td>other</td><td>**Description:**The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).<br/><br/>**Usage Notes**: This flavor and its specializations are most commonly used with the CD datatype and its flavors. However, it may apply to \\*any\\* datatype where the constraints of the type are tighter than can be conveyed. For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.<br/><br/>With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE. By definition, all local codes and original text are part of the value set if the coding strength is CWE.</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <a href=\"CodeSystem-PatientTreatPrefCodeSystem.html\"><code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-PatientTreatPrefCodeSystem.html#PatientTreatPrefCodeSystem-personal-preference\">personal-preference</a></td><td>Personal preference</td></tr><tr><td><a href=\"CodeSystem-PatientTreatPrefCodeSystem.html#PatientTreatPrefCodeSystem-different-plan-recommended\">different-plan-recommended</a></td><td>Different plan recommended by clinical team</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/309846006\">309846006</a></td><td>Treatment not available</td></tr></table></li><li>Include these codes as defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html\"><code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH\">OTH</a></td><td>other</td><td>**Description:**The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system).<br/><br/>**Usage Notes**: This flavor and its specializations are most commonly used with the CD datatype and its flavors. However, it may apply to \\*any\\* datatype where the constraints of the type are tighter than can be conveyed. For example, a PQ that is for a true measured amount whose units are not supported in UCUM, a need to convey a REAL when the type has been constrained to INT, etc.<br/><br/>With coded datatypes, this null flavor may only be used if the vocabulary binding has a coding strength of CNE. By definition, all local codes and original text are part of the value set if the coding strength is CWE.</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   },
@@ -21,17 +21,17 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS",
+  "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientTreatPrefVS",
   "version" : "1.0.0",
   "name" : "PatientTreatPrefVS",
   "title" : "Patient treatment preference ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-15T00:28:22+00:00",
+  "date" : "2023-11-12T21:01:00+00:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -51,7 +51,7 @@
   "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem",
       "concept" : [{
         "code" : "personal-preference",
         "display" : "Personal preference"

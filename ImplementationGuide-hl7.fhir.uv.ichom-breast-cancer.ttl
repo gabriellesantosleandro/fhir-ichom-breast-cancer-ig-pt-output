@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer> a fhir:ImplementationGuide ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "hl7.fhir.uv.ichom-breast-cancer"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
@@ -19,12 +19,12 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "2"^^xsd:integer ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "BreastCancerICHOM"] ; # 
   fhir:title [ fhir:v "ICHOM Patient Centered Outcomes Measure Set for Breast Cancer"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-12T21:01:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
@@ -130,15 +130,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "autoload-resources" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -197,6 +188,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -394,15 +394,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "autoload-resources" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -461,6 +452,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -605,7 +605,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/AgreementResponseCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Agreement response CodeSystem" ] ;
@@ -617,7 +617,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS> ;
          fhir:reference [ fhir:v "ValueSet/AgreementResponseVS" ]
        ] ;
        fhir:name [ fhir:v "Agreement response ValueSet" ] ;
@@ -629,7 +629,7 @@
          fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseAnnualUpdate> ;
          fhir:reference [ fhir:v "Questionnaire/ClinicalResponseAnnualUpdate" ]
        ] ;
        fhir:name [ fhir:v "Annual follow-up of clinical questionnaire response" ] ;
@@ -641,7 +641,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axilla-surgery> ;
          fhir:reference [ fhir:v "StructureDefinition/axilla-surgery" ]
        ] ;
        fhir:name [ fhir:v "Axilla surgery" ] ;
@@ -653,7 +653,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AxillaSurgeryVS> ;
          fhir:reference [ fhir:v "ValueSet/AxillaSurgeryVS" ]
        ] ;
        fhir:name [ fhir:v "Axilla surgery ValueSet" ] ;
@@ -665,7 +665,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance> ;
          fhir:reference [ fhir:v "StructureDefinition/axillary-clearance" ]
        ] ;
        fhir:name [ fhir:v "Axillary clearance" ] ;
@@ -677,14 +677,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaryClearancePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/AxillaryClearancePatient147> ;
          fhir:reference [ fhir:v "Procedure/AxillaryClearancePatient147" ]
        ] ;
        fhir:name [ fhir:v "AxillaryClearancePatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who received axilla clearance" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance>
        ]
      ] [
        fhir:extension ( [
@@ -692,14 +692,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaSurgeryPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/AxillaSurgeryPatient147> ;
          fhir:reference [ fhir:v "Procedure/AxillaSurgeryPatient147" ]
        ] ;
        fhir:name [ fhir:v "AxillaSurgeryPatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who underwent surgery to the axilla" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axilla-surgery"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axilla-surgery>
        ]
      ] [
        fhir:extension ( [
@@ -707,7 +707,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care> ;
          fhir:reference [ fhir:v "StructureDefinition/best-supportive-care" ]
        ] ;
        fhir:name [ fhir:v "Best supportive care" ] ;
@@ -719,14 +719,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BestSupportiveCarePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/BestSupportiveCarePatient147> ;
          fhir:reference [ fhir:v "Procedure/BestSupportiveCarePatient147" ]
        ] ;
        fhir:name [ fhir:v "BestSupportiveCarePatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who received best supportive care" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care>
        ]
      ] [
        fhir:extension ( [
@@ -734,7 +734,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height> ;
          fhir:reference [ fhir:v "StructureDefinition/ichom-body-height" ]
        ] ;
        fhir:name [ fhir:v "Body height" ] ;
@@ -746,7 +746,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight> ;
          fhir:reference [ fhir:v "StructureDefinition/ichom-body-weight" ]
        ] ;
        fhir:name [ fhir:v "Body weight" ] ;
@@ -758,14 +758,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyHeightPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/BodyHeightPatient147> ;
          fhir:reference [ fhir:v "Observation/BodyHeightPatient147" ]
        ] ;
        fhir:name [ fhir:v "BodyHeightPatient147" ] ;
        fhir:description [ fhir:v "Example of the height of a patient diagnosed with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height>
        ]
      ] [
        fhir:extension ( [
@@ -773,14 +773,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyWeightPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/BodyWeightPatient147> ;
          fhir:reference [ fhir:v "Observation/BodyWeightPatient147" ]
        ] ;
        fhir:name [ fhir:v "BodyWeightPatient147" ] ;
        fhir:description [ fhir:v "Example of the weight of a patient diagnosed with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight>
        ]
      ] [
        fhir:extension ( [
@@ -788,7 +788,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient> ;
          fhir:reference [ fhir:v "StructureDefinition/patient" ]
        ] ;
        fhir:name [ fhir:v "Breast cancer patient" ] ;
@@ -800,7 +800,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-surgery> ;
          fhir:reference [ fhir:v "StructureDefinition/breast-cancer-surgery" ]
        ] ;
        fhir:name [ fhir:v "Breast cancer surgery" ] ;
@@ -812,7 +812,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/BreastSurgeryTypesCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Breast surgery types CodeSystem" ] ;
@@ -824,14 +824,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/BreastCancerSurgeryPatient147> ;
          fhir:reference [ fhir:v "Procedure/BreastCancerSurgeryPatient147" ]
        ] ;
        fhir:name [ fhir:v "BreastCancerSurgeryPatient147" ] ;
        fhir:description [ fhir:v "Example of the surgical procedure the breast cancer patient underwent" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-surgery"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-surgery>
        ]
      ] [
        fhir:extension ( [
@@ -839,7 +839,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group> ;
          fhir:reference [ fhir:v "StructureDefinition/breast-cancer-stage-group" ]
        ] ;
        fhir:name [ fhir:v "Cancer Stage Group" ] ;
@@ -851,7 +851,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy> ;
          fhir:reference [ fhir:v "StructureDefinition/chemotherapy" ]
        ] ;
        fhir:name [ fhir:v "Chemotherapy" ] ;
@@ -863,14 +863,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ChemotherapyPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/ChemotherapyPatient147> ;
          fhir:reference [ fhir:v "Procedure/ChemotherapyPatient147" ]
        ] ;
        fhir:name [ fhir:v "ChemotherapyPatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who received chemotherapy" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy>
        ]
      ] [
        fhir:extension ( [
@@ -878,7 +878,7 @@
          fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseSixMonths> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseSixMonths> ;
          fhir:reference [ fhir:v "Questionnaire/ClinicalResponseSixMonths" ]
        ] ;
        fhir:name [ fhir:v "Clinical response at 6 months post-treatment follow-up" ] ;
@@ -890,7 +890,7 @@
          fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseBaseline> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseBaseline> ;
          fhir:reference [ fhir:v "Questionnaire/ClinicalResponseBaseline" ]
        ] ;
        fhir:name [ fhir:v "Clinical response questionnaire at baseline" ] ;
@@ -902,14 +902,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalMetastasesPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/ClinicalMetastasesPatient147> ;
          fhir:reference [ fhir:v "Observation/ClinicalMetastasesPatient147" ]
        ] ;
        fhir:name [ fhir:v "ClinicalMetastasesPatient147" ] ;
        fhir:description [ fhir:v "Extended example: example showing clinical TNM staging (M)" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases>
        ]
      ] [
        fhir:extension ( [
@@ -917,14 +917,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalNodalStagePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/ClinicalNodalStagePatient147> ;
          fhir:reference [ fhir:v "Observation/ClinicalNodalStagePatient147" ]
        ] ;
        fhir:name [ fhir:v "ClinicalNodalStagePatient147" ] ;
        fhir:description [ fhir:v "Extended example: example showing clinical TNM staging (N)" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage>
        ]
      ] [
        fhir:extension ( [
@@ -932,14 +932,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTNMStagePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/ClinicalTNMStagePatient147> ;
          fhir:reference [ fhir:v "Observation/ClinicalTNMStagePatient147" ]
        ] ;
        fhir:name [ fhir:v "ClinicalTNMStagePatient147" ] ;
        fhir:description [ fhir:v "Example showing TNM staging in patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group>
        ]
      ] [
        fhir:extension ( [
@@ -947,14 +947,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTumorStagePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/ClinicalTumorStagePatient147> ;
          fhir:reference [ fhir:v "Observation/ClinicalTumorStagePatient147" ]
        ] ;
        fhir:name [ fhir:v "ClinicalTumorStagePatient147" ] ;
        fhir:description [ fhir:v "Extended example: example showing clinical TNM staging (T)" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage>
        ]
      ] [
        fhir:extension ( [
@@ -962,7 +962,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication> ;
          fhir:reference [ fhir:v "StructureDefinition/complication" ]
        ] ;
        fhir:name [ fhir:v "Complication" ] ;
@@ -974,14 +974,14 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/ComplicationPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Condition/ComplicationPatient147> ;
          fhir:reference [ fhir:v "Condition/ComplicationPatient147" ]
        ] ;
        fhir:name [ fhir:v "ComplicationPatient147" ] ;
        fhir:description [ fhir:v "Example of a complication in patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication>
        ]
      ] [
        fhir:extension ( [
@@ -989,7 +989,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/death-attr-bc> ;
          fhir:reference [ fhir:v "StructureDefinition/death-attr-bc" ]
        ] ;
        fhir:name [ fhir:v "Death attributable to breast cancer" ] ;
@@ -1001,14 +1001,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/DeathAttributableBCPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/DeathAttributableBCPatient147> ;
          fhir:reference [ fhir:v "Observation/DeathAttributableBCPatient147" ]
        ] ;
        fhir:name [ fhir:v "DeathAttributableBCPatient147" ] ;
        fhir:description [ fhir:v "Example of death attributable to breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/death-attr-bc"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/death-attr-bc>
        ]
      ] [
        fhir:extension ( [
@@ -1016,7 +1016,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel> ;
          fhir:reference [ fhir:v "StructureDefinition/EducationLevel" ]
        ] ;
        fhir:name [ fhir:v "Education Level Extension" ] ;
@@ -1028,7 +1028,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EducationLevelVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EducationLevelVS> ;
          fhir:reference [ fhir:v "ValueSet/EducationLevelVS" ]
        ] ;
        fhir:name [ fhir:v "Education level of patient ValueSet" ] ;
@@ -1040,7 +1040,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score> ;
          fhir:reference [ fhir:v "StructureDefinition/endopredicton-score" ]
        ] ;
        fhir:name [ fhir:v "Endopredict score" ] ;
@@ -1052,14 +1052,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/EndopredictonPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/EndopredictonPatient147> ;
          fhir:reference [ fhir:v "Observation/EndopredictonPatient147" ]
        ] ;
        fhir:name [ fhir:v "EndopredictonPatient147" ] ;
        fhir:description [ fhir:v "Example of the endopredict score" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score>
        ]
      ] [
        fhir:extension ( [
@@ -1067,14 +1067,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ERStatusPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/ERStatusPatient147> ;
          fhir:reference [ fhir:v "Observation/ERStatusPatient147" ]
        ] ;
        fhir:name [ fhir:v "ERStatusPatient147" ] ;
        fhir:description [ fhir:v "Example of the estrogen receptor status in a patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/er-status"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/er-status>
        ]
      ] [
        fhir:extension ( [
@@ -1082,7 +1082,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/er-status> ;
          fhir:reference [ fhir:v "StructureDefinition/er-status" ]
        ] ;
        fhir:name [ fhir:v "Estrogen receptor status" ] ;
@@ -1094,7 +1094,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EstrogenStatusVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EstrogenStatusVS> ;
          fhir:reference [ fhir:v "ValueSet/EstrogenStatusVS" ]
        ] ;
        fhir:name [ fhir:v "Estrogen receptor status ValueSet" ] ;
@@ -1106,7 +1106,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity> ;
          fhir:reference [ fhir:v "StructureDefinition/Ethnicity" ]
        ] ;
        fhir:name [ fhir:v "Ethnicity Extension" ] ;
@@ -1118,14 +1118,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient121> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient121> ;
          fhir:reference [ fhir:v "Patient/BreastCancerPatient121" ]
        ] ;
        fhir:name [ fhir:v "Example of Breast Cancer Patient Cornetet" ] ;
        fhir:description [ fhir:v "The characteristics and demographic factors of an example patient." ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
        ]
      ] [
        fhir:extension ( [
@@ -1133,14 +1133,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
          fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
        ] ;
        fhir:name [ fhir:v "Example of Breast Cancer Patient Letsche" ] ;
        fhir:description [ fhir:v "The characteristics and demographic factors of an example patient." ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
        ]
      ] [
        fhir:extension ( [
@@ -1148,14 +1148,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient134> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient134> ;
          fhir:reference [ fhir:v "Patient/BreastCancerPatient134" ]
        ] ;
        fhir:name [ fhir:v "Example of Breast Cancer Patient Mortera" ] ;
        fhir:description [ fhir:v "The characteristics and demographic factors of an example patient." ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
        ]
      ] [
        fhir:extension ( [
@@ -1163,14 +1163,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MenopausalStatusPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/MenopausalStatusPatient147> ;
          fhir:reference [ fhir:v "Observation/MenopausalStatusPatient147" ]
        ] ;
        fhir:name [ fhir:v "Example of menopausal status" ] ;
        fhir:description [ fhir:v "Example of the menopausal status of a patient" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status>
        ]
      ] [
        fhir:extension ( [
@@ -1178,14 +1178,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/TargetedTherapyPatient134> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/TargetedTherapyPatient134> ;
          fhir:reference [ fhir:v "Procedure/TargetedTherapyPatient134" ]
        ] ;
        fhir:name [ fhir:v "Example of Targeted therapy" ] ;
        fhir:description [ fhir:v "Example of the targeted therapy for this patient." ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy>
        ]
      ] [
        fhir:extension ( [
@@ -1193,14 +1193,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanFollowedPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/TreatmentPlanFollowedPatient147> ;
          fhir:reference [ fhir:v "Observation/TreatmentPlanFollowedPatient147" ]
        ] ;
        fhir:name [ fhir:v "Example Real Treatment Plan Followed" ] ;
        fhir:description [ fhir:v "Example of how the real treatment plan was followed" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed>
        ]
      ] [
        fhir:extension ( [
@@ -1208,14 +1208,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanNotFollowedPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/TreatmentPlanNotFollowedPatient147> ;
          fhir:reference [ fhir:v "Observation/TreatmentPlanNotFollowedPatient147" ]
        ] ;
        fhir:name [ fhir:v "Example Treatment Plan Not Followed" ] ;
        fhir:description [ fhir:v "Example of why the treatment plan was not followed" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed>
        ]
      ] [
        fhir:extension ( [
@@ -1223,7 +1223,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/germline-mutation> ;
          fhir:reference [ fhir:v "StructureDefinition/germline-mutation" ]
        ] ;
        fhir:name [ fhir:v "Germline mutation" ] ;
@@ -1235,7 +1235,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GermlineMutationVS> ;
          fhir:reference [ fhir:v "ValueSet/GermlineMutationVS" ]
        ] ;
        fhir:name [ fhir:v "Germline Mutation ValueSet" ] ;
@@ -1247,14 +1247,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/GermlineMutationPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/GermlineMutationPatient147> ;
          fhir:reference [ fhir:v "Observation/GermlineMutationPatient147" ]
        ] ;
        fhir:name [ fhir:v "GermlineMutationPatient147" ] ;
        fhir:description [ fhir:v "Example of whether a patient carries a germline mutation predisposing breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/germline-mutation"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/germline-mutation>
        ]
      ] [
        fhir:extension ( [
@@ -1262,7 +1262,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GradingVS> ;
          fhir:reference [ fhir:v "ValueSet/GradingVS" ]
        ] ;
        fhir:name [ fhir:v "Grading of tumor ValueSet" ] ;
@@ -1274,7 +1274,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/her-status> ;
          fhir:reference [ fhir:v "StructureDefinition/her-status" ]
        ] ;
        fhir:name [ fhir:v "HER2 receptor status" ] ;
@@ -1286,7 +1286,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HER2ReceptorStatusVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HER2ReceptorStatusVS> ;
          fhir:reference [ fhir:v "ValueSet/HER2ReceptorStatusVS" ]
        ] ;
        fhir:name [ fhir:v "HER2 receptor status ValueSet" ] ;
@@ -1298,14 +1298,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HERStatusPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/HERStatusPatient147> ;
          fhir:reference [ fhir:v "Observation/HERStatusPatient147" ]
        ] ;
        fhir:name [ fhir:v "HERStatusPatient147" ] ;
        fhir:description [ fhir:v "Example of the human epidermal growth factor receptor 2 (HER2) status in a patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/her-status"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/her-status>
        ]
      ] [
        fhir:extension ( [
@@ -1313,7 +1313,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/histo-type> ;
          fhir:reference [ fhir:v "StructureDefinition/histo-type" ]
        ] ;
        fhir:name [ fhir:v "Histological type of the tumor" ] ;
@@ -1325,7 +1325,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HistologicalTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HistologicalTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/HistologicalTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Histological type of the tumor ValueSet" ] ;
@@ -1337,14 +1337,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HistotypePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/HistotypePatient147> ;
          fhir:reference [ fhir:v "Observation/HistotypePatient147" ]
        ] ;
        fhir:name [ fhir:v "HistotypePatient147" ] ;
        fhir:description [ fhir:v "Example of the histological type of the breast cancer tumor" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/histo-type"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/histo-type>
        ]
      ] [
        fhir:extension ( [
@@ -1352,7 +1352,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay> ;
          fhir:reference [ fhir:v "StructureDefinition/hormonal-therpay" ]
        ] ;
        fhir:name [ fhir:v "Hormonal therapy" ] ;
@@ -1364,14 +1364,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/HormonaltherapyPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/HormonaltherapyPatient147> ;
          fhir:reference [ fhir:v "Procedure/HormonaltherapyPatient147" ]
        ] ;
        fhir:name [ fhir:v "HormonaltherapyPatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who received hormonal therapy" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay>
        ]
      ] [
        fhir:extension ( [
@@ -1379,7 +1379,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy> ;
          fhir:reference [ fhir:v "StructureDefinition/immunotherapy" ]
        ] ;
        fhir:name [ fhir:v "Immunotherapy" ] ;
@@ -1391,14 +1391,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ImmunotherapyPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/ImmunotherapyPatient147> ;
          fhir:reference [ fhir:v "Procedure/ImmunotherapyPatient147" ]
        ] ;
        fhir:name [ fhir:v "ImmunotherapyPatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who received immunotherapy" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy>
        ]
      ] [
        fhir:extension ( [
@@ -1406,7 +1406,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationImpactCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/ComplicationImpactCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Impact of complication CodeSystem" ] ;
@@ -1418,7 +1418,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS> ;
          fhir:reference [ fhir:v "ValueSet/ComplicationImpactVS" ]
        ] ;
        fhir:name [ fhir:v "Impact of complication ValueSet" ] ;
@@ -1430,7 +1430,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS> ;
          fhir:reference [ fhir:v "ValueSet/TherapyIntentVS" ]
        ] ;
        fhir:name [ fhir:v "Intent of therapy ValueSet" ] ;
@@ -1442,7 +1442,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/invasion-grade> ;
          fhir:reference [ fhir:v "StructureDefinition/invasion-grade" ]
        ] ;
        fhir:name [ fhir:v "Invasion grade" ] ;
@@ -1454,14 +1454,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/InvasionGradePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/InvasionGradePatient147> ;
          fhir:reference [ fhir:v "Observation/InvasionGradePatient147" ]
        ] ;
        fhir:name [ fhir:v "InvasionGradePatient147" ] ;
        fhir:description [ fhir:v "Example of the tumor grade of DCIS component of the breast cancer tumor" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/invasion-grade"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/invasion-grade>
        ]
      ] [
        fhir:extension ( [
@@ -1469,7 +1469,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityVS> ;
          fhir:reference [ fhir:v "ValueSet/LateralityVS" ]
        ] ;
        fhir:name [ fhir:v "Laterality of breast cancer ValueSet" ] ;
@@ -1481,7 +1481,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityNewCancerVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityNewCancerVS> ;
          fhir:reference [ fhir:v "ValueSet/LateralityNewCancerVS" ]
        ] ;
        fhir:name [ fhir:v "Laterality of new cancer ValueSet" ] ;
@@ -1493,7 +1493,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/ImplantLocationCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Location of the implant CodeSystem" ] ;
@@ -1505,7 +1505,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS> ;
          fhir:reference [ fhir:v "ValueSet/ImplantLocationVS" ]
        ] ;
        fhir:name [ fhir:v "Location of the implant ValueSet" ] ;
@@ -1517,7 +1517,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-involved> ;
          fhir:reference [ fhir:v "StructureDefinition/lymph-nodes-involved" ]
        ] ;
        fhir:name [ fhir:v "Lymph nodes involved" ] ;
@@ -1529,14 +1529,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesInvolvedPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/LymphNodesInvolvedPatient147> ;
          fhir:reference [ fhir:v "Observation/LymphNodesInvolvedPatient147" ]
        ] ;
        fhir:name [ fhir:v "LymphNodesInvolvedPatient147" ] ;
        fhir:description [ fhir:v "Example of the number of involved lymph nodes in a patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-involved"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-involved>
        ]
      ] [
        fhir:extension ( [
@@ -1544,14 +1544,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesResectedPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/LymphNodesResectedPatient147> ;
          fhir:reference [ fhir:v "Observation/LymphNodesResectedPatient147" ]
        ] ;
        fhir:name [ fhir:v "LymphNodesResectedPatient147" ] ;
        fhir:description [ fhir:v "Example of the number of resected lymph nodes in a patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-resected"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-resected>
        ]
      ] [
        fhir:extension ( [
@@ -1559,7 +1559,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/mammaprint-score> ;
          fhir:reference [ fhir:v "StructureDefinition/mammaprint-score" ]
        ] ;
        fhir:name [ fhir:v "Mammaprint score" ] ;
@@ -1571,14 +1571,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MammaprintPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/MammaprintPatient147> ;
          fhir:reference [ fhir:v "Observation/MammaprintPatient147" ]
        ] ;
        fhir:name [ fhir:v "MammaprintPatient147" ] ;
        fhir:description [ fhir:v "Example of the mammaprint score" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/mammaprint-score"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/mammaprint-score>
        ]
      ] [
        fhir:extension ( [
@@ -1586,7 +1586,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status> ;
          fhir:reference [ fhir:v "StructureDefinition/menopausal-status" ]
        ] ;
        fhir:name [ fhir:v "Menopausal status" ] ;
@@ -1598,7 +1598,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MenopausalStatusVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MenopausalStatusVS> ;
          fhir:reference [ fhir:v "ValueSet/MenopausalStatusVS" ]
        ] ;
        fhir:name [ fhir:v "Menopausal status of patient ValueSet" ] ;
@@ -1610,7 +1610,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MolecularProfilingStatusVS> ;
          fhir:reference [ fhir:v "ValueSet/MolecularProfilingStatusVS" ]
        ] ;
        fhir:name [ fhir:v "Molecular profiling" ] ;
@@ -1622,7 +1622,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/MolecularProfilingCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Molecular Profiling CodeSystem" ] ;
@@ -1634,7 +1634,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/TreatmentPlanComplianceCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Observation identifiers for treatment plan non-compliance reason CodeSystem" ] ;
@@ -1646,7 +1646,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanComplianceVS> ;
          fhir:reference [ fhir:v "ValueSet/TreatmentPlanComplianceVS" ]
        ] ;
        fhir:name [ fhir:v "Observation identifiers for treatment plan non-compliance reason ValueSet" ] ;
@@ -1658,7 +1658,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score> ;
          fhir:reference [ fhir:v "StructureDefinition/oncotype-score" ]
        ] ;
        fhir:name [ fhir:v "Oncotype Score" ] ;
@@ -1670,14 +1670,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/OncotypePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/OncotypePatient147> ;
          fhir:reference [ fhir:v "Observation/OncotypePatient147" ]
        ] ;
        fhir:name [ fhir:v "OncotypePatient147" ] ;
        fhir:description [ fhir:v "Example of the oncotype score" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score>
        ]
      ] [
        fhir:extension ( [
@@ -1685,14 +1685,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalMetastasesPatient147> ;
          fhir:reference [ fhir:v "Observation/PathologicalMetastasesPatient147" ]
        ] ;
        fhir:name [ fhir:v "PathologicalMetastasesPatient147" ] ;
        fhir:description [ fhir:v "Extended example: example showing patholgical TNM staging (M)" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases>
        ]
      ] [
        fhir:extension ( [
@@ -1700,14 +1700,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalNodalStagePatient147> ;
          fhir:reference [ fhir:v "Observation/PathologicalNodalStagePatient147" ]
        ] ;
        fhir:name [ fhir:v "PathologicalNodalStagePatient147" ] ;
        fhir:description [ fhir:v "Extended example: example showing patholgical TNM staging (N)" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage>
        ]
      ] [
        fhir:extension ( [
@@ -1715,14 +1715,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTNMStagePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalTNMStagePatient147> ;
          fhir:reference [ fhir:v "Observation/PathologicalTNMStagePatient147" ]
        ] ;
        fhir:name [ fhir:v "PathologicalTNMStagePatient147" ] ;
        fhir:description [ fhir:v "Example showing TNM staging in patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group>
        ]
      ] [
        fhir:extension ( [
@@ -1730,14 +1730,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PathologicalTumorStagePatient147> ;
          fhir:reference [ fhir:v "Observation/PathologicalTumorStagePatient147" ]
        ] ;
        fhir:name [ fhir:v "PathologicalTumorStagePatient147" ] ;
        fhir:description [ fhir:v "Extended example: example showing patholgical TNM staging (T)" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage>
        ]
      ] [
        fhir:extension ( [
@@ -1745,7 +1745,7 @@
          fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedBaseline> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedBaseline> ;
          fhir:reference [ fhir:v "Questionnaire/PatientReportedBaseline" ]
        ] ;
        fhir:name [ fhir:v "Patient reported response at baseline" ] ;
@@ -1757,7 +1757,7 @@
          fhir:value [ fhir:v "Questionnaire" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedFollowUp> ;
          fhir:reference [ fhir:v "Questionnaire/PatientReportedFollowUp" ]
        ] ;
        fhir:name [ fhir:v "Patient reported response at post-treatment follow-up" ] ;
@@ -1769,7 +1769,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/PatientEducationCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Patient Treatment Education Codesystem" ] ;
@@ -1781,7 +1781,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS> ;
          fhir:reference [ fhir:v "ValueSet/PatientEducationVS" ]
        ] ;
        fhir:name [ fhir:v "Patient Treatment Education ValueSet" ] ;
@@ -1793,7 +1793,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/PatientTreatPrefCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Patient treatment preference CodeSystem" ] ;
@@ -1805,7 +1805,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientTreatPrefVS> ;
          fhir:reference [ fhir:v "ValueSet/PatientTreatPrefVS" ]
        ] ;
        fhir:name [ fhir:v "Patient treatment preference ValueSet" ] ;
@@ -1817,7 +1817,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer> ;
          fhir:reference [ fhir:v "StructureDefinition/primary-breastcancer" ]
        ] ;
        fhir:name [ fhir:v "Primary Breast Cancer Condition" ] ;
@@ -1829,14 +1829,14 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Condition/PrimaryBreastCancerPatient147> ;
          fhir:reference [ fhir:v "Condition/PrimaryBreastCancerPatient147" ]
        ] ;
        fhir:name [ fhir:v "PrimaryBreastCancerPatient147" ] ;
        fhir:description [ fhir:v "Example of the primary breast cancer diagnosis of a patient" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer>
        ]
      ] [
        fhir:extension ( [
@@ -1844,7 +1844,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/pr-status> ;
          fhir:reference [ fhir:v "StructureDefinition/pr-status" ]
        ] ;
        fhir:name [ fhir:v "Progesterone receptor status" ] ;
@@ -1856,7 +1856,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ProgesteroneStatusVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ProgesteroneStatusVS> ;
          fhir:reference [ fhir:v "ValueSet/ProgesteroneStatusVS" ]
        ] ;
        fhir:name [ fhir:v "Progesterone receptor status ValueSet" ] ;
@@ -1868,22 +1868,34 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PRStatusPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/PRStatusPatient147> ;
          fhir:reference [ fhir:v "Observation/PRStatusPatient147" ]
        ] ;
        fhir:name [ fhir:v "PRStatusPatient147" ] ;
        fhir:description [ fhir:v "Example of the progesterone receptor status in a patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/pr-status"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/pr-status>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Questionnaire" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedBaselinePortugues> ;
+         fhir:reference [ fhir:v "Questionnaire/PatientReportedBaselinePortugues" ]
+       ] ;
+       fhir:name [ fhir:v "Questionário de Coleta no Início do Tratamento" ] ;
+       fhir:description [ fhir:v "Questionário de coleta de informações do paciente no início do Tratamento de Câncer de Mama" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race> ;
          fhir:reference [ fhir:v "StructureDefinition/Race" ]
        ] ;
        fhir:name [ fhir:v "Race Extension" ] ;
@@ -1895,7 +1907,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy> ;
          fhir:reference [ fhir:v "StructureDefinition/radiotherapy" ]
        ] ;
        fhir:name [ fhir:v "Radiotherapy" ] ;
@@ -1907,14 +1919,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/RadiotherapyPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/RadiotherapyPatient147> ;
          fhir:reference [ fhir:v "Procedure/RadiotherapyPatient147" ]
        ] ;
        fhir:name [ fhir:v "RadiotherapyPatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who received radiotherapy" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy>
        ]
      ] [
        fhir:extension ( [
@@ -1922,7 +1934,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/InvolvedMarginsReoperationTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/InvolvedMarginsReoperationTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/InvolvedMarginsReoperationTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Re-operation due to involved margins ValueSet" ] ;
@@ -1934,7 +1946,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery> ;
          fhir:reference [ fhir:v "StructureDefinition/reoperation-surgery" ]
        ] ;
        fhir:name [ fhir:v "Re-operation surgery" ] ;
@@ -1946,7 +1958,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed> ;
          fhir:reference [ fhir:v "StructureDefinition/treatment-plan-followed" ]
        ] ;
        fhir:name [ fhir:v "Real Treatment Plan Followed" ] ;
@@ -1958,7 +1970,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/TreatmentPlanFollowedCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Real Treatment Plan Followed CodeSystem" ] ;
@@ -1970,7 +1982,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanFollowedVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanFollowedVS> ;
          fhir:reference [ fhir:v "ValueSet/TreatmentPlanFollowedVS" ]
        ] ;
        fhir:name [ fhir:v "Real Treatment Plan Followed ValueSet" ] ;
@@ -1982,7 +1994,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/TreatmentPlanNotFollowedCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Real Treatment Plan Not Followed CodeSystem" ] ;
@@ -1994,7 +2006,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationReasonVS> ;
          fhir:reference [ fhir:v "ValueSet/ReoperationReasonVS" ]
        ] ;
        fhir:name [ fhir:v "Reasoncode of the re-operation" ] ;
@@ -2006,7 +2018,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecommendedTreatmentTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecommendedTreatmentTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/RecommendedTreatmentTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Recommended treatment types ValueSet" ] ;
@@ -2018,7 +2030,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery> ;
          fhir:reference [ fhir:v "StructureDefinition/reconstruction-surgery" ]
        ] ;
        fhir:name [ fhir:v "Reconstruction surgery" ] ;
@@ -2030,14 +2042,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReconstructionSurgeryPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/ReconstructionSurgeryPatient147> ;
          fhir:reference [ fhir:v "Procedure/ReconstructionSurgeryPatient147" ]
        ] ;
        fhir:name [ fhir:v "ReconstructionSurgeryPatient147" ] ;
        fhir:description [ fhir:v "Example of a breast cancer patient who underwent reconstruction surgery" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery>
        ]
      ] [
        fhir:extension ( [
@@ -2045,7 +2057,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/recr-method> ;
          fhir:reference [ fhir:v "StructureDefinition/recr-method" ]
        ] ;
        fhir:name [ fhir:v "Recurrence Method" ] ;
@@ -2057,7 +2069,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceMethodCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceMethodCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/RecurrenceMethodCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Recurrence method CodeSystem" ] ;
@@ -2069,7 +2081,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceMethodVS> ;
          fhir:reference [ fhir:v "ValueSet/RecurrenceMethodVS" ]
        ] ;
        fhir:name [ fhir:v "Recurrence method ValueSet" ] ;
@@ -2081,7 +2093,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/RecurrenceCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Recurrence of neoplasm CodeSystem" ] ;
@@ -2093,7 +2105,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceVS> ;
          fhir:reference [ fhir:v "ValueSet/RecurrenceVS" ]
        ] ;
        fhir:name [ fhir:v "Recurrence of neoplasm ValueSet" ] ;
@@ -2105,14 +2117,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/RecurrenceMethodPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/RecurrenceMethodPatient147> ;
          fhir:reference [ fhir:v "Observation/RecurrenceMethodPatient147" ]
        ] ;
        fhir:name [ fhir:v "RecurrenceMethodPatient147" ] ;
        fhir:description [ fhir:v "Example of method of confirming recurrence breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/recr-method"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/recr-method>
        ]
      ] [
        fhir:extension ( [
@@ -2120,7 +2132,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RelationshipStatusVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RelationshipStatusVS> ;
          fhir:reference [ fhir:v "ValueSet/RelationshipStatusVS" ]
        ] ;
        fhir:name [ fhir:v "Relationship status of patient ValueSet" ] ;
@@ -2132,14 +2144,14 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReoperationSurgeryPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/ReoperationSurgeryPatient147> ;
          fhir:reference [ fhir:v "Procedure/ReoperationSurgeryPatient147" ]
        ] ;
        fhir:name [ fhir:v "ReoperationSurgeryPatient147" ] ;
        fhir:description [ fhir:v "Example of a reoperation due to involved margins after primary surgery" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery>
        ]
      ] [
        fhir:extension ( [
@@ -2147,7 +2159,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-resected> ;
          fhir:reference [ fhir:v "StructureDefinition/lymph-nodes-resected" ]
        ] ;
        fhir:name [ fhir:v "Resected lymph nodes" ] ;
@@ -2159,7 +2171,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SACQPatientComorbidityHistory> ;
          fhir:reference [ fhir:v "ValueSet/SACQPatientComorbidityHistory" ]
        ] ;
        fhir:name [ fhir:v "SACQ Patient's comorbidity history ValueSet" ] ;
@@ -2171,7 +2183,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/SatisfactionResponseCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Satisfaction response CodeSystem" ] ;
@@ -2183,7 +2195,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS> ;
          fhir:reference [ fhir:v "ValueSet/SatisfactionResponseVS" ]
        ] ;
        fhir:name [ fhir:v "Satisfaction response ValueSet" ] ;
@@ -2195,7 +2207,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer> ;
          fhir:reference [ fhir:v "StructureDefinition/secondary-breastcancer" ]
        ] ;
        fhir:name [ fhir:v "Secondary Breast Cancer Condition" ] ;
@@ -2207,14 +2219,14 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/SecondaryBreastCancerPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Condition/SecondaryBreastCancerPatient147> ;
          fhir:reference [ fhir:v "Condition/SecondaryBreastCancerPatient147" ]
        ] ;
        fhir:name [ fhir:v "SecondaryBreastCancerPatient147" ] ;
        fhir:description [ fhir:v "Example of the secondary condition breast cancer diagnosed in a patient" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer>
        ]
      ] [
        fhir:extension ( [
@@ -2222,7 +2234,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor> ;
          fhir:reference [ fhir:v "StructureDefinition/sizeinvasivetumor" ]
        ] ;
        fhir:name [ fhir:v "Size of invasive tumor" ] ;
@@ -2234,7 +2246,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMStageGroupVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMStageGroupVS> ;
          fhir:reference [ fhir:v "ValueSet/TNMStageGroupVS" ]
        ] ;
        fhir:name [ fhir:v "Staging Type for Stage Group ValueSet" ] ;
@@ -2246,7 +2258,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedAxillaSurgeryVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedAxillaSurgeryVS> ;
          fhir:reference [ fhir:v "ValueSet/TargetedAxillaSurgeryVS" ]
        ] ;
        fhir:name [ fhir:v "Targeted axilla surgery ValueSet" ] ;
@@ -2258,7 +2270,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy> ;
          fhir:reference [ fhir:v "StructureDefinition/targeted-therapy" ]
        ] ;
        fhir:name [ fhir:v "Targeted therapy" ] ;
@@ -2270,7 +2282,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS> ;
          fhir:reference [ fhir:v "ValueSet/LocationRadiotherapyVS" ]
        ] ;
        fhir:name [ fhir:v "The location of radiotherapy ValueSet" ] ;
@@ -2282,7 +2294,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases> ;
          fhir:reference [ fhir:v "StructureDefinition/tnm-distant-metastases" ]
        ] ;
        fhir:name [ fhir:v "TNM Distant Metastases" ] ;
@@ -2294,7 +2306,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMDistantMetastasesVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMDistantMetastasesVS> ;
          fhir:reference [ fhir:v "ValueSet/TNMDistantMetastasesVS" ]
        ] ;
        fhir:name [ fhir:v "TNM Distant Metastases ValueSet" ] ;
@@ -2306,7 +2318,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage> ;
          fhir:reference [ fhir:v "StructureDefinition/tnm-primary-tumor-stage" ]
        ] ;
        fhir:name [ fhir:v "TNM Primary Tumor Stage" ] ;
@@ -2318,7 +2330,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMPrimaryTumorVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMPrimaryTumorVS> ;
          fhir:reference [ fhir:v "ValueSet/TNMPrimaryTumorVS" ]
        ] ;
        fhir:name [ fhir:v "TNM Primary Tumor ValueSet" ] ;
@@ -2330,7 +2342,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage> ;
          fhir:reference [ fhir:v "StructureDefinition/tnm-regional-nodes-stage" ]
        ] ;
        fhir:name [ fhir:v "TNM Regional Nodal Stage" ] ;
@@ -2342,7 +2354,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMRegionalNodesVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMRegionalNodesVS> ;
          fhir:reference [ fhir:v "ValueSet/TNMRegionalNodesVS" ]
        ] ;
        fhir:name [ fhir:v "TNM Regional Nodes ValueSet" ] ;
@@ -2354,7 +2366,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed> ;
          fhir:reference [ fhir:v "StructureDefinition/treatment-plan-not-followed" ]
        ] ;
        fhir:name [ fhir:v "Treatment Plan Not Followed" ] ;
@@ -2366,7 +2378,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanNotFollowedVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanNotFollowedVS> ;
          fhir:reference [ fhir:v "ValueSet/TreatmentPlanNotFollowedVS" ]
        ] ;
        fhir:name [ fhir:v "Treatment Plan Not Followed ValueSet" ] ;
@@ -2378,7 +2390,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan> ;
          fhir:reference [ fhir:v "StructureDefinition/treatment-plan" ]
        ] ;
        fhir:name [ fhir:v "Treatment recommended by a multidisciplinary team" ] ;
@@ -2390,7 +2402,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/TreatmentTypesCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Treatment variables CodeSytem" ] ;
@@ -2402,14 +2414,14 @@
          fhir:value [ fhir:v "CarePlan" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CarePlan/TreatmentPlanPatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CarePlan/TreatmentPlanPatient147> ;
          fhir:reference [ fhir:v "CarePlan/TreatmentPlanPatient147" ]
        ] ;
        fhir:name [ fhir:v "TreatmentPlanPatient147" ] ;
        fhir:description [ fhir:v "Example of the treatment that a multidisciplinary team recommended during a multidisciplinary meeting" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan>
        ]
      ] [
        fhir:extension ( [
@@ -2417,7 +2429,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade> ;
          fhir:reference [ fhir:v "StructureDefinition/tumor-grade" ]
        ] ;
        fhir:name [ fhir:v "Tumor grade" ] ;
@@ -2429,14 +2441,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorGradePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/TumorGradePatient147> ;
          fhir:reference [ fhir:v "Observation/TumorGradePatient147" ]
        ] ;
        fhir:name [ fhir:v "TumorGradePatient147" ] ;
        fhir:description [ fhir:v "Example of the grade of a breast cancer tumor" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade>
        ]
      ] [
        fhir:extension ( [
@@ -2444,14 +2456,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorSizePatient147> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/TumorSizePatient147> ;
          fhir:reference [ fhir:v "Observation/TumorSizePatient147" ]
        ] ;
        fhir:name [ fhir:v "TumorSizePatient147" ] ;
        fhir:description [ fhir:v "Example of the size of the invasive tumor of a patient with breast cancer" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor>
+         fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor"^^xsd:anyURI ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor>
        ]
      ] [
        fhir:extension ( [
@@ -2459,7 +2471,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/ChemoTherapyTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Type of chemotherapy ValueSet" ] ;
@@ -2471,7 +2483,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationTypeCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/ComplicationTypeCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Type of complication CodeSystem" ] ;
@@ -2483,7 +2495,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/ComplicationTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Type of complication ValueSet" ] ;
@@ -2495,7 +2507,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HormonalTherapyTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/HormonalTherapyTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Type of hormonal therapy ValueSet" ] ;
@@ -2507,7 +2519,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/ReoperationTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Type of re-operation" ] ;
@@ -2519,7 +2531,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem> ;
          fhir:reference [ fhir:v "CodeSystem/ReconstructionTypeCodeSystem" ]
        ] ;
        fhir:name [ fhir:v "Type of reconstruction surgery CodeSystem" ] ;
@@ -2531,7 +2543,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReconstructionTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/ReconstructionTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Type of reconstruction surgery ValueSet" ] ;
@@ -2543,7 +2555,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedTherapyVS> ;
          fhir:reference [ fhir:v "ValueSet/TargetedTherapyVS" ]
        ] ;
        fhir:name [ fhir:v "Type of targeted therapy ValueSet" ] ;
@@ -2555,7 +2567,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/TreatmentTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Type of treatments ValueSet" ] ;
@@ -2567,7 +2579,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BreastSurgeryTypeVS> ;
          fhir:reference [ fhir:v "ValueSet/BreastSurgeryTypeVS" ]
        ] ;
        fhir:name [ fhir:v "Types of breast surgery ValueSet" ] ;
@@ -2579,7 +2591,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BodyWeightVS> ;
          fhir:reference [ fhir:v "ValueSet/BodyWeightVS" ]
        ] ;
        fhir:name [ fhir:v "Units of patient's body weight ValueSet" ] ;
@@ -2591,7 +2603,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS> ;
+         fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS> ;
          fhir:reference [ fhir:v "ValueSet/NoYesUnknownVS" ]
        ] ;
        fhir:name [ fhir:v "Yes, No and Unknown Valueset" ] ;
@@ -2724,316 +2736,6 @@
        fhir:value [ fhir:v "input-cache/txcache" ]
      ] )
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaryClearancePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaSurgeryPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BestSupportiveCarePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyHeightPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyWeightPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ChemotherapyPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseSixMonths> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseBaseline> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalMetastasesPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalNodalStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTNMStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ClinicalTumorStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/ComplicationPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/DeathAttributableBCPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EducationLevelVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/EndopredictonPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/ERStatusPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EstrogenStatusVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient121> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient134> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MenopausalStatusPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/TargetedTherapyPatient134> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanFollowedPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanNotFollowedPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/GermlineMutationPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HER2ReceptorStatusVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HERStatusPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HistologicalTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/HistotypePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/HormonaltherapyPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ImmunotherapyPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/InvasionGradePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityNewCancerVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesInvolvedPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/LymphNodesResectedPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/MammaprintPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MenopausalStatusVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/OncotypePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalMetastasesPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalNodalStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTNMStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PathologicalTumorStagePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedBaseline> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ProgesteroneStatusVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/PRStatusPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/RadiotherapyPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/InvolvedMarginsReoperationTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanFollowedVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecommendedTreatmentTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReconstructionSurgeryPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceMethodCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/RecurrenceMethodPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RelationshipStatusVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReoperationSurgeryPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/SecondaryBreastCancerPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMStageGroupVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedAxillaSurgeryVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMDistantMetastasesVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMPrimaryTumorVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMRegionalNodesVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanNotFollowedVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CarePlan/TreatmentPlanPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorGradePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorSizePatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

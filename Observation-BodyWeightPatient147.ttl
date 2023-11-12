@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/BodyWeightPatient147> a fhir:Observation ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/BodyWeightPatient147> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "BodyWeightPatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight>
      ] )
   ] ; # 
   fhir:text [
@@ -34,7 +34,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:effective [ fhir:v "2019-04-01"^^xsd:date] ; # 
@@ -45,8 +45,6 @@
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "kg" ]
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

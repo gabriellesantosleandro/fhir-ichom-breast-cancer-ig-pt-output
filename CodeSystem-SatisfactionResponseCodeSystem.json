@@ -3,7 +3,7 @@
   "id" : "SatisfactionResponseCodeSystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">very-dissatisfied<a name=\"SatisfactionResponseCodeSystem-very-dissatisfied\"> </a></td><td>Very dissatisfied</td></tr><tr><td style=\"white-space:nowrap\">somewhat-dissatisfied<a name=\"SatisfactionResponseCodeSystem-somewhat-dissatisfied\"> </a></td><td>Somewhat dissatisfied</td></tr><tr><td style=\"white-space:nowrap\">somewhat-satisfied<a name=\"SatisfactionResponseCodeSystem-somewhat-satisfied\"> </a></td><td>Somewhat satisfied</td></tr><tr><td style=\"white-space:nowrap\">very-satisfied<a name=\"SatisfactionResponseCodeSystem-very-satisfied\"> </a></td><td>Very satisfied</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">very-dissatisfied<a name=\"SatisfactionResponseCodeSystem-very-dissatisfied\"> </a></td><td>Very dissatisfied</td></tr><tr><td style=\"white-space:nowrap\">somewhat-dissatisfied<a name=\"SatisfactionResponseCodeSystem-somewhat-dissatisfied\"> </a></td><td>Somewhat dissatisfied</td></tr><tr><td style=\"white-space:nowrap\">somewhat-satisfied<a name=\"SatisfactionResponseCodeSystem-somewhat-satisfied\"> </a></td><td>Somewhat satisfied</td></tr><tr><td style=\"white-space:nowrap\">very-satisfied<a name=\"SatisfactionResponseCodeSystem-very-satisfied\"> </a></td><td>Very satisfied</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   },
@@ -21,17 +21,17 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem",
+  "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem",
   "version" : "1.0.0",
   "name" : "SatisfactionResponseCodeSystem",
   "title" : "Satisfaction response CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-15T00:28:22+00:00",
+  "date" : "2023-11-12T21:01:00+00:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",

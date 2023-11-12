@@ -25,23 +25,23 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy"/>
   <version value="1.0.0"/>
   <name value="Chemotherapy"/>
   <title value="Chemotherapy"/>
   <status value="draft"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -271,9 +271,6 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -540,7 +537,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -984,7 +981,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1722,7 +1719,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1755,7 +1752,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2352,7 +2349,7 @@
       <path value="Procedure.extension.value[x]"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS"/>
       </binding>
     </element>
     <element id="Procedure.status">
@@ -2375,7 +2372,7 @@
       <path value="Procedure.subject"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
       </type>
       <mustSupport value="true"/>
     </element>
@@ -2421,7 +2418,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"/>
       </binding>
       <mapping>
         <identity value="chemotherapy-mapping"/>
@@ -2432,7 +2429,7 @@
       <path value="Procedure.reasonReference"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"/>
       </type>
       <mustSupport value="true"/>
     </element>

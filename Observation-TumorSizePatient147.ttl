@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TumorSizePatient147> a fhir:Observation ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/TumorSizePatient147> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TumorSizePatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor>
      ] )
   ] ; # 
   fhir:text [
@@ -29,7 +29,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:value [
@@ -37,8 +37,6 @@
      fhir:value [ fhir:v "59"^^xsd:decimal ] ;
      fhir:unit [ fhir:v "mm" ]
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

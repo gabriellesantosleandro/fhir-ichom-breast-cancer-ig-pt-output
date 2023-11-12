@@ -3,7 +3,7 @@
 <Questionnaire xmlns="http://hl7.org/fhir">
   <id value="ClinicalResponseAnnualUpdate"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> AnnualClinicalResponse</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Clinical response questionnaire at annual post-treatment follow-up</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate#1.0.0</td></tr>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> AnnualClinicalResponse</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Clinical response questionnaire at annual post-treatment follow-up</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseAnnualUpdate#1.0.0</td></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" id="item.General-Information-Clinical" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> General-Information-Clinical</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">General information</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-group">group</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" id="item.NA-Clinical" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: white; background-color: inherit" title="String" class="hierarchy"/> NA-Clinical</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">What is the patient's medical record number?</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" id="item.LastName-Clinical" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-string.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="String" class="hierarchy"/> LastName-Clinical</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">What is the patient's last name?</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
@@ -66,17 +66,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseAnnualUpdate"/>
   <version value="1.0.0"/>
   <name value="AnnualClinicalResponse"/>
   <title value="Annual follow-up of clinical questionnaire response"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -122,7 +122,7 @@
       <type value="choice"/>
       <required value="true"/>
       <repeats value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GermlineMutationVS"/>
     </item>
   </item>
   <item>
@@ -136,7 +136,7 @@
       <type value="choice"/>
       <required value="true"/>
       <repeats value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentTypeVS"/>
     </item>
     <item>
       <linkId value="SURGERY_BREAST"/>
@@ -151,7 +151,7 @@
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BreastSurgeryTypeVS"/>
     </item>
     <item>
       <linkId value="SurgeryDateKnown"/>
@@ -191,7 +191,7 @@
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AxillaSurgeryVS"/>
     </item>
     <item>
       <linkId value="SURGERYAXDATE-Known"/>
@@ -242,7 +242,7 @@
       </enableWhen>
       <enableBehavior value="any"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS"/>
     </item>
     <item>
       <linkId value="SURGERYAX2DATE-Known"/>
@@ -277,12 +277,12 @@
         <question value="SURGERY_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="mastectomy-without-immediate-reconstruction"/>
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS"/>
     </item>
     <item>
       <linkId value="SURGERY_RECONSTRUCTION"/>
@@ -292,7 +292,7 @@
         <question value="SURGERY_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="mastectomy-without-immediate-reconstruction"/>
         </answerCoding>
       </enableWhen>
@@ -300,13 +300,13 @@
         <question value="SURGERY_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem"/>
           <code value="mastectomy-with-immediate-reconstruction"/>
         </answerCoding>
       </enableWhen>
       <enableBehavior value="any"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReconstructionTypeVS"/>
     </item>
     <item>
       <linkId value="ImplantReconstruction"/>
@@ -316,7 +316,7 @@
         <question value="SURGERY_RECONSTRUCTION"/>
         <operator value="!="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem"/>
           <code value="autologous"/>
         </answerCoding>
       </enableWhen>
@@ -330,7 +330,7 @@
       </enableWhen>
       <enableBehavior value="all"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS"/>
     </item>
     <item>
       <linkId value="RECONSTRUCTDATE-Known"/>
@@ -371,7 +371,7 @@
       </enableWhen>
       <required value="true"/>
       <repeats value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"/>
     </item>
     <item>
       <linkId value="RADIOTXTYPE_BREAST"/>
@@ -386,7 +386,7 @@
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS"/>
     </item>
     <item>
       <linkId value="RadioTxStartDate-Known"/>
@@ -446,7 +446,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="adjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
@@ -454,13 +454,13 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="neoadjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
       <enableBehavior value="any"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"/>
     </item>
     <item>
       <linkId value="CHEMOTXTYPE_BREAST"/>
@@ -470,7 +470,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="adjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
@@ -478,14 +478,14 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="neoadjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
       <enableBehavior value="any"/>
       <required value="true"/>
       <repeats value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS"/>
     </item>
     <item>
       <linkId value="ChemoTxStartDate-Known"/>
@@ -495,7 +495,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="adjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
@@ -503,7 +503,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="neoadjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
@@ -529,7 +529,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="adjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
@@ -537,7 +537,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="neoadjuvant-chemotherapy"/>
         </answerCoding>
       </enableWhen>
@@ -568,7 +568,7 @@
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"/>
     </item>
     <item>
       <linkId value="HORMONTXTYPE"/>
@@ -584,7 +584,7 @@
       </enableWhen>
       <required value="true"/>
       <repeats value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HormonalTherapyTypeVS"/>
     </item>
     <item>
       <linkId value="HORMONTXSTARTDATE-Known"/>
@@ -644,12 +644,12 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="targeted-therapy"/>
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedTherapyVS"/>
     </item>
     <item>
       <linkId value="TargetTxStartDate-Known"/>
@@ -659,7 +659,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="targeted-therapy"/>
         </answerCoding>
       </enableWhen>
@@ -684,7 +684,7 @@
         <question value="TREATMENT_BREAST"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"/>
           <code value="targeted-therapy"/>
         </answerCoding>
       </enableWhen>
@@ -707,7 +707,7 @@
       <type value="choice"/>
       <required value="true"/>
       <repeats value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS"/>
     </item>
     <item>
       <linkId value="SURGERYDATEPATIENT-Known"/>
@@ -767,7 +767,7 @@
         <answerBoolean value="true"/>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceVS"/>
     </item>
     <item>
       <linkId value="RecurMethod"/>
@@ -777,7 +777,7 @@
         <question value="MalignancyRecur"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem"/>
           <code value="local-recurrence"/>
         </answerCoding>
       </enableWhen>
@@ -785,7 +785,7 @@
         <question value="MalignancyRecur"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem"/>
           <code value="regional-recurrence"/>
         </answerCoding>
       </enableWhen>
@@ -793,13 +793,13 @@
         <question value="MalignancyRecur"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem"/>
           <code value="distant-recurrence"/>
         </answerCoding>
       </enableWhen>
       <enableBehavior value="any"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceMethodVS"/>
     </item>
     <item>
       <linkId value="RecurDateCancer-Known"/>
@@ -809,7 +809,7 @@
         <question value="MalignancyRecur"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem"/>
           <code value="local-recurrence"/>
         </answerCoding>
       </enableWhen>
@@ -817,7 +817,7 @@
         <question value="MalignancyRecur"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem"/>
           <code value="regional-recurrence"/>
         </answerCoding>
       </enableWhen>
@@ -825,7 +825,7 @@
         <question value="MalignancyRecur"/>
         <operator value="="/>
         <answerCoding>
-          <system value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem"/>
+          <system value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem"/>
           <code value="distant-recurrence"/>
         </answerCoding>
       </enableWhen>
@@ -848,7 +848,7 @@
       <text value="Indicate if the person has deceased, regardless of cause"/>
       <type value="choice"/>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS"/>
     </item>
     <item>
       <linkId value="DeceasedDate-Known"/>
@@ -890,7 +890,7 @@
         </answerCoding>
       </enableWhen>
       <required value="true"/>
-      <answerValueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS"/>
+      <answerValueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS"/>
     </item>
   </item>
 </Questionnaire>

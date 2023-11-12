@@ -3,29 +3,29 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="ReconstructionTypeCodeSystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">direct-implant<a name="ReconstructionTypeCodeSystem-direct-implant"> </a></td><td>Direct implant</td></tr><tr><td style="white-space:nowrap">staged-implant<a name="ReconstructionTypeCodeSystem-staged-implant"> </a></td><td>Staged implant</td></tr><tr><td style="white-space:nowrap">autologous<a name="ReconstructionTypeCodeSystem-autologous"> </a></td><td>Autologous</td></tr><tr><td style="white-space:nowrap">both<a name="ReconstructionTypeCodeSystem-both"> </a></td><td>Both implant and autologous</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">direct-implant<a name="ReconstructionTypeCodeSystem-direct-implant"> </a></td><td>Direct implant</td></tr><tr><td style="white-space:nowrap">staged-implant<a name="ReconstructionTypeCodeSystem-staged-implant"> </a></td><td>Staged implant</td></tr><tr><td style="white-space:nowrap">autologous<a name="ReconstructionTypeCodeSystem-autologous"> </a></td><td>Autologous</td></tr><tr><td style="white-space:nowrap">both<a name="ReconstructionTypeCodeSystem-both"> </a></td><td>Both implant and autologous</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem"/>
   <version value="1.0.0"/>
   <name value="ReconstructionTypeCodeSystem"/>
   <title value="Type of reconstruction surgery CodeSystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>

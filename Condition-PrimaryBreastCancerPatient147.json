@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "PrimaryBreastCancerPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"]
   },
   "text" : {
     "status" : "generated",

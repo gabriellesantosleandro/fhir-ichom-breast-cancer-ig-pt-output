@@ -37,7 +37,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Procedure.extension:method.url","Procedure.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/StructureDefinition/procedure-method""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
 "Procedure.extension:method.value[x]","Procedure.extension.value[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/extensibility.html) for a list).","","","","","","","","","",,"preferred","","http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/extensibility.html) for a list).","","","","","","","","","",,"preferred","","http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedTherapyVS","",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Procedure.modifierExtension","Procedure.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -78,14 +78,14 @@ Cancelled Reason","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","",1,1,"Y","","Y","CodeableConcept {[]} {[]}
 ","Identification of the procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem""/>
+    <system value=""http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem""/>
     <code value=""targeted-therapy""/>
     <display value=""Targeted therapy""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","A code to identify a specific procedure .","http://hl7.org/fhir/ValueSet/procedure-code","",,,,"Procedure.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code",".code","FiveWs.what[x]","OBR-44/OBR-45"
 "Procedure.subject","Procedure.subject","","patient
-","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient]]}
+","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient]]}
 ","Who the procedure was performed on","The person, animal or group on which the procedure was performed.","","","","","","","","","",,,,,"",,,,"Procedure.subject",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.subject",".participation[typeCode=SBJ].role","FiveWs.subject[x]","FiveWs.subject","PID-3"
 "Procedure.encounter","Procedure.encounter","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Encounter]]}

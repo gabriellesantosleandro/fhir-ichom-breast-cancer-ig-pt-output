@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "TargetedTherapyPatient134",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy"]
   },
   "text" : {
     "status" : "extensions",
@@ -21,7 +21,7 @@
   "status" : "unknown",
   "code" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
       "code" : "targeted-therapy",
       "display" : "Targeted therapy"
     }]

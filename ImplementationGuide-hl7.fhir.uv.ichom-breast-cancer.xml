@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.fhir.uv.ichom-breast-cancer"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use"/>
@@ -11,12 +11,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
   <version value="1.0.0"/>
   <name value="BreastCancerICHOM"/>
   <title value="ICHOM Patient Centered Outcomes Measure Set for Breast Cancer"/>
   <status value="draft"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -104,14 +104,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -164,6 +156,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://ig-ichombreastcancer.gabriellesantosleandro.com/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -339,14 +339,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -399,6 +391,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://ig-ichombreastcancer.gabriellesantosleandro.com/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -596,7 +596,7 @@
       </reference>
       <name value="AxillaryClearancePatient147"/>
       <description value="Example of a breast cancer patient who received axilla clearance"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -607,7 +607,7 @@
       </reference>
       <name value="AxillaSurgeryPatient147"/>
       <description value="Example of a breast cancer patient who underwent surgery to the axilla"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axilla-surgery"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -629,7 +629,7 @@
       </reference>
       <name value="BestSupportiveCarePatient147"/>
       <description value="Example of a breast cancer patient who received best supportive care"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -662,7 +662,7 @@
       </reference>
       <name value="BodyHeightPatient147"/>
       <description value="Example of the height of a patient diagnosed with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -673,7 +673,7 @@
       </reference>
       <name value="BodyWeightPatient147"/>
       <description value="Example of the weight of a patient diagnosed with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -717,7 +717,7 @@
       </reference>
       <name value="BreastCancerSurgeryPatient147"/>
       <description value="Example of the surgical procedure the breast cancer patient underwent"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-surgery"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -750,7 +750,7 @@
       </reference>
       <name value="ChemotherapyPatient147"/>
       <description value="Example of a breast cancer patient who received chemotherapy"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -783,7 +783,7 @@
       </reference>
       <name value="ClinicalMetastasesPatient147"/>
       <description value="Extended example: example showing clinical TNM staging (M)"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -794,7 +794,7 @@
       </reference>
       <name value="ClinicalNodalStagePatient147"/>
       <description value="Extended example: example showing clinical TNM staging (N)"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -805,7 +805,7 @@
       </reference>
       <name value="ClinicalTNMStagePatient147"/>
       <description value="Example showing TNM staging in patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -816,7 +816,7 @@
       </reference>
       <name value="ClinicalTumorStagePatient147"/>
       <description value="Extended example: example showing clinical TNM staging (T)"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -838,7 +838,7 @@
       </reference>
       <name value="ComplicationPatient147"/>
       <description value="Example of a complication in patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -860,7 +860,7 @@
       </reference>
       <name value="DeathAttributableBCPatient147"/>
       <description value="Example of death attributable to breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/death-attr-bc"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -904,7 +904,7 @@
       </reference>
       <name value="EndopredictonPatient147"/>
       <description value="Example of the endopredict score"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -915,7 +915,7 @@
       </reference>
       <name value="ERStatusPatient147"/>
       <description value="Example of the estrogen receptor status in a patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/er-status"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -959,7 +959,7 @@
       </reference>
       <name value="Example of Breast Cancer Patient Cornetet"/>
       <description value="The characteristics and demographic factors of an example patient."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -970,7 +970,7 @@
       </reference>
       <name value="Example of Breast Cancer Patient Letsche"/>
       <description value="The characteristics and demographic factors of an example patient."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -981,7 +981,7 @@
       </reference>
       <name value="Example of Breast Cancer Patient Mortera"/>
       <description value="The characteristics and demographic factors of an example patient."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -992,7 +992,7 @@
       </reference>
       <name value="Example of menopausal status"/>
       <description value="Example of the menopausal status of a patient"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1003,7 +1003,7 @@
       </reference>
       <name value="Example of Targeted therapy"/>
       <description value="Example of the targeted therapy for this patient."/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1014,7 +1014,7 @@
       </reference>
       <name value="Example Real Treatment Plan Followed"/>
       <description value="Example of how the real treatment plan was followed"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1025,7 +1025,7 @@
       </reference>
       <name value="Example Treatment Plan Not Followed"/>
       <description value="Example of why the treatment plan was not followed"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1058,7 +1058,7 @@
       </reference>
       <name value="GermlineMutationPatient147"/>
       <description value="Example of whether a patient carries a germline mutation predisposing breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/germline-mutation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1102,7 +1102,7 @@
       </reference>
       <name value="HERStatusPatient147"/>
       <description value="Example of the human epidermal growth factor receptor 2 (HER2) status in a patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/her-status"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1135,7 +1135,7 @@
       </reference>
       <name value="HistotypePatient147"/>
       <description value="Example of the histological type of the breast cancer tumor"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/histo-type"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1157,7 +1157,7 @@
       </reference>
       <name value="HormonaltherapyPatient147"/>
       <description value="Example of a breast cancer patient who received hormonal therapy"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1179,7 +1179,7 @@
       </reference>
       <name value="ImmunotherapyPatient147"/>
       <description value="Example of a breast cancer patient who received immunotherapy"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1234,7 +1234,7 @@
       </reference>
       <name value="InvasionGradePatient147"/>
       <description value="Example of the tumor grade of DCIS component of the breast cancer tumor"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/invasion-grade"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1300,7 +1300,7 @@
       </reference>
       <name value="LymphNodesInvolvedPatient147"/>
       <description value="Example of the number of involved lymph nodes in a patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-involved"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1311,7 +1311,7 @@
       </reference>
       <name value="LymphNodesResectedPatient147"/>
       <description value="Example of the number of resected lymph nodes in a patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-resected"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1333,7 +1333,7 @@
       </reference>
       <name value="MammaprintPatient147"/>
       <description value="Example of the mammaprint score"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/mammaprint-score"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1421,7 +1421,7 @@
       </reference>
       <name value="OncotypePatient147"/>
       <description value="Example of the oncotype score"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1432,7 +1432,7 @@
       </reference>
       <name value="PathologicalMetastasesPatient147"/>
       <description value="Extended example: example showing patholgical TNM staging (M)"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1443,7 +1443,7 @@
       </reference>
       <name value="PathologicalNodalStagePatient147"/>
       <description value="Extended example: example showing patholgical TNM staging (N)"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1454,7 +1454,7 @@
       </reference>
       <name value="PathologicalTNMStagePatient147"/>
       <description value="Example showing TNM staging in patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1465,7 +1465,7 @@
       </reference>
       <name value="PathologicalTumorStagePatient147"/>
       <description value="Extended example: example showing patholgical TNM staging (T)"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1553,7 +1553,7 @@
       </reference>
       <name value="PrimaryBreastCancerPatient147"/>
       <description value="Example of the primary breast cancer diagnosis of a patient"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1586,7 +1586,18 @@
       </reference>
       <name value="PRStatusPatient147"/>
       <description value="Example of the progesterone receptor status in a patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/pr-status"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/PatientReportedBaselinePortugues"/>
+      </reference>
+      <name value="Questionário de Coleta no Início do Tratamento"/>
+      <description value="Questionário de coleta de informações do paciente no início do Tratamento de Câncer de Mama"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1619,7 +1630,7 @@
       </reference>
       <name value="RadiotherapyPatient147"/>
       <description value="Example of a breast cancer patient who received radiotherapy"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1729,7 +1740,7 @@
       </reference>
       <name value="ReconstructionSurgeryPatient147"/>
       <description value="Example of a breast cancer patient who underwent reconstruction surgery"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1795,7 +1806,7 @@
       </reference>
       <name value="RecurrenceMethodPatient147"/>
       <description value="Example of method of confirming recurrence breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/recr-method"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1817,7 +1828,7 @@
       </reference>
       <name value="ReoperationSurgeryPatient147"/>
       <description value="Example of a reoperation due to involved margins after primary surgery"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1883,7 +1894,7 @@
       </reference>
       <name value="SecondaryBreastCancerPatient147"/>
       <description value="Example of the secondary condition breast cancer diagnosed in a patient"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2059,7 +2070,7 @@
       </reference>
       <name value="TreatmentPlanPatient147"/>
       <description value="Example of the treatment that a multidisciplinary team recommended during a multidisciplinary meeting"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2081,7 +2092,7 @@
       </reference>
       <name value="TumorGradePatient147"/>
       <description value="Example of the grade of a breast cancer tumor"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2092,7 +2103,7 @@
       </reference>
       <name value="TumorSizePatient147"/>
       <description value="Example of the size of the invasive tumor of a patient with breast cancer"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"/>
+      <exampleCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReconstructionSurgeryPatient147> a fhir:Procedure ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/ReconstructionSurgeryPatient147> a fhir:Procedure ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ReconstructionSurgeryPatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery>
      ] )
   ] ; # 
   fhir:text [
@@ -20,7 +20,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Procedure</b><a name=\"ReconstructionSurgeryPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Procedure &quot;ReconstructionSurgeryPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-reconstruction-surgery.html\">Reconstruction surgery</a></p></div><p><b>partOf</b>: <a href=\"Procedure-ReoperationSurgeryPatient147.html\">Procedure/ReoperationSurgeryPatient147</a></p><p><b>status</b>: completed</p><p><b>code</b>: Reconstruction of breast <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#33496007)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>performed</b>: 1999-02-13</p><p><b>reasonReference</b>: <a href=\"Condition-PrimaryBreastCancerPatient147.html\">Condition/PrimaryBreastCancerPatient147</a></p><p><b>bodySite</b>: Pre-pectoral <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-ImplantLocationCodeSystem.html\">Location of the implant CodeSystem</a>#pre-pectoral)</span></p><p><b>usedCode</b>: Staged implant <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-ReconstructionTypeCodeSystem.html\">Type of reconstruction surgery CodeSystem</a>#staged-implant)</span></p></div>"
   ] ; # 
   fhir:partOf ( [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReoperationSurgeryPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/ReoperationSurgeryPatient147> ;
      fhir:reference [ fhir:v "Procedure/ReoperationSurgeryPatient147" ]
   ] ) ; # 
   fhir:status [ fhir:v "completed"] ; # 
@@ -33,34 +33,28 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:performed [ fhir:v "1999-02-13"^^xsd:date] ; # 
   fhir:reasonReference ( [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Condition/PrimaryBreastCancerPatient147> ;
      fhir:reference [ fhir:v "Condition/PrimaryBreastCancerPatient147" ]
   ] ) ; # 
   fhir:bodySite ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "pre-pectoral" ] ;
        fhir:display [ fhir:v "Pre-pectoral" ]
      ] )
   ] ) ; # 
   fhir:usedCode ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "staged-implant" ] ;
        fhir:display [ fhir:v "Staged implant" ]
      ] )
   ] ) . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/ReoperationSurgeryPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/PrimaryBreastCancerPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

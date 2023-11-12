@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "ClinicalNodalStagePatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"]
   },
   "text" : {
     "status" : "generated",

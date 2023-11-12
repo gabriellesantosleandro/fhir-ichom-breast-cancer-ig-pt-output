@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "HormonaltherapyPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay"]
   },
   "text" : {
     "status" : "extensions",

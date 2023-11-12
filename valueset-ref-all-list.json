@@ -1,0 +1,1825 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressType",
+      "title" : "AddressType",
+      "description" : "The type of an address (physical / postal).",
+      "systems" : ["http://hl7.org/fhir/address-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.69"],
+      "sources" : ["2.16.840.1.113883.4.642.3.69"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/address-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "The use of an address.",
+      "systems" : ["http://hl7.org/fhir/address-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.67"],
+      "sources" : ["2.16.840.1.113883.4.642.3.67"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-patient.html" : "Breast cancer patient",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityKind",
+      "title" : "Care Plan Activity Kind",
+      "description" : "Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.145"],
+      "sources" : ["2.16.840.1.113883.4.642.3.145"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityOutcome",
+      "title" : "Care Plan Activity Outcome",
+      "description" : "Example codes indicating the outcome of a care plan activity. Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.149"],
+      "sources" : ["2.16.840.1.113883.4.642.3.149"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.146"],
+      "sources" : ["2.16.840.1.113883.4.642.3.146"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanCategory",
+      "title" : "Care Plan Category",
+      "description" : "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.148"],
+      "sources" : ["2.16.840.1.113883.4.642.3.148"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanIntent",
+      "title" : "Care Plan Intent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a care plan.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.150"],
+      "sources" : ["2.16.840.1.113883.4.642.3.150"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.162"],
+      "sources" : ["2.16.840.1.113883.4.642.3.162"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "oids" : ["2.16.840.1.113883.4.642.3.164"],
+      "sources" : ["2.16.840.1.113883.4.642.3.164"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/DiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.168"],
+      "sources" : ["2.16.840.1.113883.4.642.3.168"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Example value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.170"],
+      "sources" : ["2.16.840.1.113883.4.642.3.170"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.166"],
+      "sources" : ["2.16.840.1.113883.4.642.3.166"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-action",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureDeviceActionCodes",
+      "title" : "Procedure Device Action Codes",
+      "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.425"],
+      "sources" : ["2.16.840.1.113883.4.642.3.425"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDeviceTypes",
+      "title" : "FHIR Device Types",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.208"],
+      "sources" : ["2.16.840.1.113883.4.642.3.208"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EventStatus",
+      "title" : "EventStatus",
+      "description" : "Codes identifying the lifecycle stage of an event.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.109"],
+      "sources" : ["2.16.840.1.113883.4.642.3.109"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Identifier Type Codes",
+      "title" : "IdentifierType",
+      "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+      "oids" : ["2.16.840.1.113883.4.642.3.45"],
+      "sources" : ["2.16.840.1.113883.4.642.3.45"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "systems" : ["http://hl7.org/fhir/identifier-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.57"],
+      "sources" : ["2.16.840.1.113883.4.642.3.57"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/iso3166-1-3",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "Iso3166-1-3",
+      "title" : "Iso 3166 Part 1: 3 Letter Codes",
+      "description" : "This value set defines the ISO 3166 Part 1 3-letter codes",
+      "systems" : ["urn:iso:std:iso:3166"],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-patient.html" : "Breast cancer patient",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "systems" : ["http://hl7.org/fhir/link-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ManifestationAndSymptomCodes",
+      "title" : "Manifestation and Symptom Codes",
+      "description" : "Example value set for Manifestation and Symptom codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.169"],
+      "sources" : ["2.16.840.1.113883.4.642.3.169"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "systems" : ["http://hl7.org/fhir/name-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.65"],
+      "sources" : ["2.16.840.1.113883.4.642.3.65"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "VitalSigns",
+      "title" : "Vital Signs",
+      "description" : "This value set indicates the allowed vital sign result types.   The LOINC code for Vitals Signs panel (85353-1) is a grouping structure for a set of vital signs and includes related links (with type=has-member) to the Observations in this set (e.g. respiratory rate, heart rate, BP).  The Blood pressure panel (85354-9) is used to group the component observations Systolic blood pressure (8480-6) and Diastolic blood pressure (8462-4).",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.62"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
+      "uses" : {
+      },
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PatientContactRelationship",
+      "title" : "Patient Contact Relationship ",
+      "description" : "The nature of the relationship between the patient and the contact person.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+      "uses" : {
+      },
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCategoryCodes(SNOMEDCT)",
+      "title" : "Procedure Category Codes (SNOMED CT)",
+      "description" : "Procedure Category code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.430"],
+      "sources" : ["2.16.840.1.113883.4.642.3.430"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+      "title" : "Procedure Follow up Codes (SNOMED CT)",
+      "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.429"],
+      "sources" : ["2.16.840.1.113883.4.642.3.429"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+      "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.431"],
+      "sources" : ["2.16.840.1.113883.4.642.3.431"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+      "title" : "Procedure Outcome Codes (SNOMED CT)",
+      "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.428"],
+      "sources" : ["2.16.840.1.113883.4.642.3.428"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureReasonCodes",
+      "title" : "Procedure Reason Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.432"],
+      "sources" : ["2.16.840.1.113883.4.642.3.432"],
+      "uses" : {
+      },
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.59"],
+      "sources" : ["2.16.840.1.113883.4.642.3.59"],
+      "uses" : {
+      },
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.111"],
+      "sources" : ["2.16.840.1.113883.4.642.3.111"],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodylength",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BodyLengthUnits",
+      "title" : "Body Length Units",
+      "description" : "UCUM units for recording body length measures such as height and head circumference",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.958"],
+      "sources" : ["2.16.840.1.113883.4.642.3.958"],
+      "uses" : {
+      },
+      "StructureDefinition-ichom-body-height.html" : "Body height"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-bodyweight",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "BodyWeightUnits",
+      "title" : "Body Weight Units",
+      "description" : "UCUM units for recording Body Weight",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.956"],
+      "sources" : ["2.16.840.1.113883.4.642.3.956"],
+      "uses" : {
+      },
+      "StructureDefinition-ichom-body-weight.html" : "Body weight"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "VitalSignsUnits",
+      "title" : "Vital Signs Units",
+      "description" : "Common UCUM units for recording Vital Signs",
+      "systems" : ["http://unitsofmeasure.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.955"],
+      "sources" : ["2.16.840.1.113883.4.642.3.955"],
+      "uses" : {
+      },
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "AgreementResponseVS",
+      "title" : "Agreement response ValueSet",
+      "description" : "Valueset used in a Patient Reported Outcomes Instrument to express the degree of agreement",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "Questionnaire-PatientReportedFollowUp.html" : "Patient reported response at post-treatment follow-up"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AxillaSurgeryVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "AxillaSurgeryVS",
+      "title" : "Axilla surgery ValueSet",
+      "description" : "Valueset of surgery types of the axilla",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BodyWeightVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BodyWeightVS",
+      "title" : "Units of patient's body weight ValueSet",
+      "description" : "Valueset of the unit  of the patient's body weight",
+      "systems" : ["http://unitsofmeasure.org"],
+      "uses" : {
+      },
+      "StructureDefinition-ichom-body-weight.html" : "Body weight"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BreastSurgeryTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BreastSurgeryTypeVS",
+      "title" : "Types of breast surgery ValueSet",
+      "description" : "Valueset of the types of breast surgery a patient underwent",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "Questionnaire-PatientReportedFollowUp.html" : "Patient reported response at post-treatment follow-up",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ChemoTherapyTypeVS",
+      "title" : "Type of chemotherapy ValueSet",
+      "description" : "Valueset of the types of chemotherapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationImpactVS",
+      "title" : "Impact of complication ValueSet",
+      "description" : "ValueSet of the impact of a complication experienced by the breast cancer patient",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationImpactCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-complication.html" : "Complication",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationTypeVS",
+      "title" : "Type of complication ValueSet",
+      "description" : "ValueSet of the type of complication experienced by the breast cancer patient",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationTypeCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-complication.html" : "Complication",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EducationLevelVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "EducationLevelVS",
+      "title" : "Education level of patient ValueSet",
+      "description" : "Valueset of the education level of a patient",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-EducationLevel.html" : "Education Level Extension",
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EstrogenStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "EstrogenStatusVS",
+      "title" : "Estrogen receptor status ValueSet",
+      "description" : "Valueset of the Estrogen receptor status",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GermlineMutationVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "GermlineMutationVS",
+      "title" : "Germline Mutation ValueSet",
+      "description" : "Valueset of the genetic mutation predisposing breast cancer",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GradingVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "GradingVS",
+      "title" : "Grading of tumor ValueSet",
+      "description" : "Valueset of the grade of the tumor",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HER2ReceptorStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HER2ReceptorStatusVS",
+      "title" : "HER2 receptor status ValueSet",
+      "description" : "Valueset of the HER2 receptor status",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-her-status.html" : "HER2 receptor status"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HistologicalTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HistologicalTypeVS",
+      "title" : "Histological type of the tumor ValueSet",
+      "description" : "Valueset of the histological types of tumors",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HormonalTherapyTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HormonalTherapyTypeVS",
+      "title" : "Type of hormonal therapy ValueSet",
+      "description" : "Valueset of the types of hormonal therapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ImplantLocationVS",
+      "title" : "Location of the implant ValueSet",
+      "description" : "Valueset of the location of the implant during reconstruction surgery",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/InvolvedMarginsReoperationTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "InvolvedMarginsReoperationTypeVS",
+      "title" : "Re-operation due to involved margins ValueSet",
+      "description" : "Kind of re-operation due to involved margins",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityNewCancerVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LateralityNewCancerVS",
+      "title" : "Laterality of new cancer ValueSet",
+      "description" : "Valueset of the laterality of new breast cancer",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LateralityVS",
+      "title" : "Laterality of breast cancer ValueSet",
+      "description" : "Valueset of the laterality of breast cancer",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LocationRadiotherapyVS",
+      "title" : "The location of radiotherapy ValueSet",
+      "description" : "Valueset of the location of radiotherapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MenopausalStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MenopausalStatusVS",
+      "title" : "Menopausal status of patient ValueSet",
+      "description" : "Valueset of the menopausal status of a patient",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MolecularProfilingStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MolecularProfilingStatusVS",
+      "title" : "Molecular profiling",
+      "description" : "Valueset indicating if a molecular profiling tool was used",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "NoYesUnknownVS",
+      "title" : "Yes, No and Unknown Valueset",
+      "description" : "Valueset with yes, no and unknown answers",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0532"],
+      "uses" : {
+      },
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientEducationVS",
+      "title" : "Patient Treatment Education ValueSet",
+      "description" : "Valueset covering if the patient received sufficient information about the treatment options",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientTreatPrefVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientTreatPrefVS",
+      "title" : "Patient treatment preference ValueSet",
+      "description" : "Valueset of reason for why the treatment plan was not followed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ProgesteroneStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ProgesteroneStatusVS",
+      "title" : "Progesterone receptor status ValueSet",
+      "description" : "Valueset of the Progesterone receptor status",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecommendedTreatmentTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecommendedTreatmentTypeVS",
+      "title" : "Recommended treatment types ValueSet",
+      "description" : "Valueset of the kind of treatment that the multidisciplinary team recommended",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReconstructionTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReconstructionTypeVS",
+      "title" : "Type of reconstruction surgery ValueSet",
+      "description" : "Valueset of the type of reconstruction surgery that is performed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceMethodVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceMethodVS",
+      "title" : "Recurrence method ValueSet",
+      "description" : "Valueset of the methods used to confirm recurrence of breast cancer",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceMethodCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "StructureDefinition-recr-method.html" : "Recurrence Method"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceVS",
+      "title" : "Recurrence of neoplasm ValueSet",
+      "description" : "Valueset about whether there is evidence of local, regional or distant recurrence of neoplasm",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RelationshipStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RelationshipStatusVS",
+      "title" : "Relationship status of patient ValueSet",
+      "description" : "Valueset of the relationship status of a patient",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-patient.html" : "Breast cancer patient"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationReasonVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReoperationReasonVS",
+      "title" : "Reasoncode of the re-operation",
+      "description" : "Valueset of the reasons of a re-operation",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReoperationTypeVS",
+      "title" : "Type of re-operation",
+      "description" : "Valueset of the types of re-operation",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SACQPatientComorbidityHistory",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "SACQPatientComorbidityHistory",
+      "title" : "SACQ Patient's comorbidity history ValueSet",
+      "description" : "Patient's documented history of comorbidities",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "SatisfactionResponseVS",
+      "title" : "Satisfaction response ValueSet",
+      "description" : "Valueset used in a Patient Reported Outcomes Instrument to express the statisfation response",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "Questionnaire-PatientReportedFollowUp.html" : "Patient reported response at post-treatment follow-up"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMDistantMetastasesVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMDistantMetastasesVS",
+      "title" : "TNM Distant Metastases ValueSet",
+      "description" : "Valueset of the TNM stage for the M category, according to TNM staging rules",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMPrimaryTumorVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMPrimaryTumorVS",
+      "title" : "TNM Primary Tumor ValueSet",
+      "description" : "Valueset of the TNM stage for the T category, according to TNM staging rules",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMRegionalNodesVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMRegionalNodesVS",
+      "title" : "TNM Regional Nodes ValueSet",
+      "description" : "Valueset of the TNM stage for the N category, according to TNM staging rules",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMStageGroupVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMStageGroupVS",
+      "title" : "Staging Type for Stage Group ValueSet",
+      "description" : "Valueset indicating the type of staging, clinical or pathological, of breast cancer.",
+      "systems" : ["http://loinc.org"],
+      "uses" : {
+      },
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedAxillaSurgeryVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TargetedAxillaSurgeryVS",
+      "title" : "Targeted axilla surgery ValueSet",
+      "description" : "Valueset of targeted surgery types of the axilla",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedTherapyVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TargetedTherapyVS",
+      "title" : "Type of targeted therapy ValueSet",
+      "description" : "Valueset of the types of targeted therapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TherapyIntentVS",
+      "title" : "Intent of therapy ValueSet",
+      "description" : "Valueset of intent of therapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanComplianceVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanComplianceVS",
+      "title" : "Observation identifiers for treatment plan non-compliance reason ValueSet",
+      "description" : "Valueset of reason for why the treatment plan was not followed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanFollowedVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanFollowedVS",
+      "title" : "Real Treatment Plan Followed ValueSet",
+      "description" : "Valueset of if the patient followed the multidisciplinary recommended treatment plan",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanNotFollowedVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanNotFollowedVS",
+      "title" : "Treatment Plan Not Followed ValueSet",
+      "description" : "Valueset of reason for the treatment plan not being followed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentTypeVS",
+      "title" : "Type of treatments ValueSet",
+      "description" : "Valueset of the kind of treatment a patient with breastcancer underwent",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-Ethnicity",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Ethnicity",
+      "title" : "Ethnicity",
+      "description" : "In the United States, federal standards for classifying data on ethnicity determine the categories used by federal agencies and exert a strong influence on categorization by state and local agencies and private sector organizations. The federal standards do not conceptually define ethnicity, and they recognize the absence of an anthropological or scientific basis for ethnicity classification. Instead, the federal standards acknowledge that ethnicity is a social-political construct in which an individual's own identification with a particular ethnicity is preferred to observer identification. The standards specify two minimum ethnicity categories: Hispanic or Latino, and Not Hispanic or Latino. The standards define a Hispanic or Latino as a person of \"Mexican, Puerto Rican, Cuban, South or Central America, or other Spanish culture or origin, regardless of race.\" The standards stipulate that ethnicity data need not be limited to the two minimum categories, but any expansion must be collapsible to those categories. In addition, the standards stipulate that an individual can be Hispanic or Latino or can be Not Hispanic or Latino, but cannot be both.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Ethnicity"],
+      "oids" : ["2.16.840.1.113883.1.11.15836"],
+      "sources" : ["2.16.840.1.113883.1.11.15836"],
+      "uses" : {
+      },
+      "StructureDefinition-Ethnicity.html" : "Ethnicity Extension",
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-Race",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Race",
+      "title" : "Race",
+      "description" : "In the United States, federal standards for classifying data on race determine the categories used by federal agencies and exert a strong influence on categorization by state and local agencies and private sector organizations. The federal standards do not conceptually define race, and they recognize the absence of an anthropological or scientific basis for racial classification. Instead, the federal standards acknowledge that race is a social-political construct in which an individual's own identification with one more race categories is preferred to observer identification. The standards use a variety of features to define five minimum race categories. Among these features are descent from \"the original peoples\" of a specified region or nation. The minimum race categories are American Indian or Alaska Native, Asian, Black or African American, Native Hawaiian or Other Pacific Islander, and White. The federal standards stipulate that race data need not be limited to the five minimum categories, but any expansion must be collapsible to those categories.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Race"],
+      "oids" : ["2.16.840.1.113883.1.11.14914"],
+      "sources" : ["2.16.840.1.113883.1.11.14914"],
+      "uses" : {
+      },
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-Race.html" : "Race Extension"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "TumorGradePatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade"]
   },
   "text" : {
     "status" : "generated",

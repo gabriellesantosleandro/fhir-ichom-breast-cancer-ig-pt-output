@@ -1,0 +1,651 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/address-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressType",
+      "title" : "AddressType",
+      "description" : "The type of an address (physical / postal).",
+      "oids" : ["2.16.840.1.113883.4.642.4.70"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-address-type.html" : "AddressType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/address-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "The use of an address.",
+      "oids" : ["2.16.840.1.113883.4.642.4.68"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-address-use.html" : "AddressUse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.2"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+    },
+    {
+      "url" : "http://hl7.org/fhir/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "oids" : ["2.16.840.1.113883.4.642.4.147"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-care-plan-activity-status.html" : "CarePlanActivityStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/event-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EventStatus",
+      "title" : "EventStatus",
+      "description" : "Codes identifying the lifecycle stage of an event.",
+      "oids" : ["2.16.840.1.113883.4.642.4.110"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-event-status.html" : "EventStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/identifier-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "IdentifierUse",
+      "title" : "IdentifierUse",
+      "description" : "Identifies the purpose for this identifier, if known .",
+      "oids" : ["2.16.840.1.113883.4.642.4.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/link-type",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "LinkType",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
+      "oids" : ["2.16.840.1.113883.4.642.4.424"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-link-type.html" : "LinkType"
+    },
+    {
+      "url" : "http://hl7.org/fhir/name-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "NameUse",
+      "title" : "NameUse",
+      "description" : "The use of a human name.",
+      "oids" : ["2.16.840.1.113883.4.642.4.66"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "oids" : ["2.16.840.1.113883.4.642.4.401"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/quantity-comparator",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "oids" : ["2.16.840.1.113883.4.642.4.60"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+    },
+    {
+      "url" : "http://hl7.org/fhir/request-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestIntent",
+      "title" : "RequestIntent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.114"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-care-plan-intent.html" : "Care Plan Intent"
+    },
+    {
+      "url" : "http://hl7.org/fhir/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.112"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-request-status.html" : "RequestStatus"
+    },
+    {
+      "url" : "http://hl7.org/fhir/resource-types",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ResourceType",
+      "title" : "ResourceType",
+      "description" : "One of the resource types defined as part of this version of FHIR.",
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "AgreementResponseCodeSystem",
+      "title" : "Agreement response CodeSystem",
+      "description" : "Codes used in a Patient Reported Outcomes Instrument to express the degree of agreement",
+      "uses" : {
+      },
+      "ValueSet-AgreementResponseVS.html" : "Agreement response ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BreastSurgeryTypesCodeSystem",
+      "title" : "Breast surgery types CodeSystem",
+      "description" : "Codes indicating the types of breast surgery a patient underwent",
+      "uses" : {
+      },
+      "ValueSet-InvolvedMarginsReoperationTypeVS.html" : "Re-operation due to involved margins ValueSet",
+      "ValueSet-BreastSurgeryTypeVS.html" : "Types of breast surgery ValueSet",
+      "ValueSet-ReoperationTypeVS.html" : "Type of re-operation"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationImpactCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationImpactCodeSystem",
+      "title" : "Impact of complication CodeSystem",
+      "description" : "Codes indicating the impact of a complication experienced by the breast cancer patient",
+      "uses" : {
+      },
+      "ValueSet-ComplicationImpactVS.html" : "Impact of complication ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationTypeCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationTypeCodeSystem",
+      "title" : "Type of complication CodeSystem",
+      "description" : "Codes indicating the type of a complication experienced by the breast cancer patient",
+      "uses" : {
+      },
+      "ValueSet-ComplicationTypeVS.html" : "Type of complication ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ImplantLocationCodeSystem",
+      "title" : "Location of the implant CodeSystem",
+      "description" : "Codes indicating the location of the implant that was placed during reconstruction surgery",
+      "uses" : {
+      },
+      "ValueSet-ImplantLocationVS.html" : "Location of the implant ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MolecularProfilingCodeSystem",
+      "title" : "Molecular Profiling CodeSystem",
+      "description" : "Codes used to describe the different types of molecular profiling scoring",
+      "uses" : {
+      },
+      "ValueSet-MolecularProfilingStatusVS.html" : "Molecular profiling"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientEducationCodeSystem",
+      "title" : "Patient Treatment Education Codesystem",
+      "description" : "Codes covering if the patient received sufficient information about the treatment options",
+      "uses" : {
+      },
+      "ValueSet-PatientEducationVS.html" : "Patient Treatment Education ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientTreatPrefCodeSystem",
+      "title" : "Patient treatment preference CodeSystem",
+      "description" : "Codes covering for why the treatment plan was not followed",
+      "uses" : {
+      },
+      "ValueSet-PatientTreatPrefVS.html" : "Patient treatment preference ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReconstructionTypeCodeSystem",
+      "title" : "Type of reconstruction surgery CodeSystem",
+      "description" : "Codes indicating the type of reconstruction surgery that is performed",
+      "uses" : {
+      },
+      "ValueSet-ReconstructionTypeVS.html" : "Type of reconstruction surgery ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceCodeSystem",
+      "title" : "Recurrence of neoplasm CodeSystem",
+      "description" : "Additional code covering whether there is evidence of local, regional or distant recurrence of neoplasm",
+      "uses" : {
+      },
+      "ValueSet-RecurrenceVS.html" : "Recurrence of neoplasm ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceMethodCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceMethodCodeSystem",
+      "title" : "Recurrence method CodeSystem",
+      "description" : "Additional code covering combination of radiological and histological diagnosis method",
+      "uses" : {
+      },
+      "ValueSet-RecurrenceMethodVS.html" : "Recurrence method ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "SatisfactionResponseCodeSystem",
+      "title" : "Satisfaction response CodeSystem",
+      "description" : "Codes used in a Patient Reported Outcomes Instrument to express the statisfation response",
+      "uses" : {
+      },
+      "ValueSet-SatisfactionResponseVS.html" : "Satisfaction response ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanComplianceCodeSystem",
+      "title" : "Observation identifiers for treatment plan non-compliance reason CodeSystem",
+      "description" : "Codes covering observation identifiers for treatment plan non-compliance reaso",
+      "uses" : {
+      },
+      "ValueSet-TreatmentPlanComplianceVS.html" : "Observation identifiers for treatment plan non-compliance reason ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanFollowedCodeSystem",
+      "title" : "Real Treatment Plan Followed CodeSystem",
+      "description" : "Codes covering if the patient followed the multidisciplinary recommended treatment plan",
+      "uses" : {
+      },
+      "ValueSet-TreatmentPlanFollowedVS.html" : "Real Treatment Plan Followed ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanNotFollowedCodeSystem",
+      "title" : "Real Treatment Plan Not Followed CodeSystem",
+      "description" : "Codes covering if the patient has not followed the multidisciplinary recommended treatment plan",
+      "uses" : {
+      },
+      "ValueSet-TreatmentPlanNotFollowedVS.html" : "Treatment Plan Not Followed ValueSet"
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentTypesCodeSystem",
+      "title" : "Treatment variables CodeSytem",
+      "description" : "Codes defining types of treatment a breast cancer patient could receive",
+      "uses" : {
+      },
+      "ValueSet-TreatmentTypeVS.html" : "Type of treatments ValueSet",
+      "ValueSet-RecommendedTreatmentTypeVS.html" : "Recommended treatment types ValueSet"
+    },
+    {
+      "url" : "http://loinc.org",
+      "version" : "3.1.0",
+      "status" : "active",
+      "name" : "LOINC",
+      "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+      "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+      "oids" : ["2.16.840.1.113883.6.1"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
+      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs",
+      "ValueSet-TNMStageGroupVS.html" : "Staging Type for Stage Group ValueSet"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+      "ValueSet-HormonalTherapyTypeVS.html" : "Type of hormonal therapy ValueSet",
+      "ValueSet-MenopausalStatusVS.html" : "Menopausal status of patient ValueSet",
+      "ValueSet-GradingVS.html" : "Grading of tumor ValueSet",
+      "ValueSet-RecommendedTreatmentTypeVS.html" : "Recommended treatment types ValueSet",
+      "ValueSet-GermlineMutationVS.html" : "Germline Mutation ValueSet",
+      "ValueSet-TNMRegionalNodesVS.html" : "TNM Regional Nodes ValueSet",
+      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "ValueSet-ProgesteroneStatusVS.html" : "Progesterone receptor status ValueSet",
+      "http://hl7.org/fhir/R4/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "ValueSet-LateralityVS.html" : "Laterality of breast cancer ValueSet",
+      "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+      "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+      "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "ValueSet-ReoperationReasonVS.html" : "Reasoncode of the re-operation",
+      "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
+      "ValueSet-AxillaSurgeryVS.html" : "Axilla surgery ValueSet",
+      "ValueSet-TherapyIntentVS.html" : "Intent of therapy ValueSet",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "ValueSet-TargetedTherapyVS.html" : "Type of targeted therapy ValueSet",
+      "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
+      "ValueSet-SACQPatientComorbidityHistory.html" : "SACQ Patient's comorbidity history ValueSet",
+      "ValueSet-LocationRadiotherapyVS.html" : "The location of radiotherapy ValueSet",
+      "http://hl7.org/fhir/R4/valueset-care-plan-category.html" : "Care Plan Category",
+      "ValueSet-PatientTreatPrefVS.html" : "Patient treatment preference ValueSet",
+      "ValueSet-EducationLevelVS.html" : "Education level of patient ValueSet",
+      "http://hl7.org/fhir/R4/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
+      "ValueSet-ComplicationImpactVS.html" : "Impact of complication ValueSet",
+      "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+      "ValueSet-TNMPrimaryTumorVS.html" : "TNM Primary Tumor ValueSet",
+      "ValueSet-ReoperationTypeVS.html" : "Type of re-operation",
+      "ValueSet-LateralityNewCancerVS.html" : "Laterality of new cancer ValueSet",
+      "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "ValueSet-ChemoTherapyTypeVS.html" : "Type of chemotherapy ValueSet",
+      "ValueSet-RecurrenceMethodVS.html" : "Recurrence method ValueSet",
+      "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+      "ValueSet-HistologicalTypeVS.html" : "Histological type of the tumor ValueSet",
+      "ValueSet-InvolvedMarginsReoperationTypeVS.html" : "Re-operation due to involved margins ValueSet",
+      "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+      "http://hl7.org/fhir/R4/valueset-procedure-category.html" : "Procedure Category Codes (SNOMED CT)",
+      "ValueSet-EstrogenStatusVS.html" : "Estrogen receptor status ValueSet",
+      "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+      "ValueSet-HER2ReceptorStatusVS.html" : "HER2 receptor status ValueSet",
+      "ValueSet-TargetedAxillaSurgeryVS.html" : "Targeted axilla surgery ValueSet",
+      "ValueSet-TreatmentTypeVS.html" : "Type of treatments ValueSet",
+      "ValueSet-ComplicationTypeVS.html" : "Type of complication ValueSet",
+      "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+      "ValueSet-TNMDistantMetastasesVS.html" : "TNM Distant Metastases ValueSet"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "version" : "0.5.0",
+      "status" : "draft",
+      "name" : "ConditionCategoryCodes",
+      "title" : "Condition Category Codes",
+      "description" : "Preferred value set for Condition Categories.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-condition-category.html" : "Condition Category Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "version" : "1.0.0",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-condition-ver-status.html" : "ConditionVerificationStatus"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "ContactRole2",
+      "title" : "contactRole2",
+      "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+      "oids" : ["2.16.840.1.113883.18.58"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "IdentifierType",
+      "title" : "identifierType",
+      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+      "oids" : ["2.16.840.1.113883.18.108"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "ExpandedYesNoIndicator",
+      "title" : "expandedYes-NoIndicator",
+      "description" : "HL7-defined code system of concepts used to specify an expansion on the original Yes/No indicator table by including \"flavors of null\".  It is intended to be applied to fields where the response is not limited to \"yes\" or \"no\".  Used in numerous locations in HL7 Version 2.x messaging.",
+      "oids" : ["2.16.840.1.113883.18.347"],
+      "uses" : {
+      },
+      "ValueSet-RecurrenceVS.html" : "Recurrence of neoplasm ValueSet",
+      "ValueSet-NoYesUnknownVS.html" : "Yes, No and Unknown Valueset"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-Ethnicity",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "Ethnicity",
+      "title" : "Ethnicity",
+      "description" : "**Deprecation Information:** Deprecated due to UP-265. This code system in NOT the acknowledged source of truth for Ethnicity concepts and codes. It should no longer be used. https://terminology.hl7.org/CodeSystem-CDCREC.html should be used in its place. In the United States, federal standards for classifying data on ethnicity determine the categories used by federal agencies and exert a strong influence on categorization by state and local agencies and private sector organizations. The federal standards do not conceptually define ethnicity, and they recognize the absence of an anthropological or scientific basis for ethnicity classification. Instead, the federal standards acknowledge that ethnicity is a social-political construct in which an individual's own identification with a particular ethnicity is preferred to observer identification. The standards specify two minimum ethnicity categories: Hispanic or Latino, and Not Hispanic or Latino. The standards define a Hispanic or Latino as a person of \"Mexican, Puerto Rican, Cuban, South or Central America, or other Spanish culture or origin, regardless of race.\" The standards stipulate that ethnicity data need not be limited to the two minimum categories, but any expansion must be collapsible to those categories. In addition, the standards stipulate that an individual can be Hispanic or Latino or can be Not Hispanic or Latino, but cannot be both.",
+      "oids" : ["2.16.840.1.113883.5.50"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/5.0.0/ValueSet-v3-Ethnicity.html" : "Ethnicity"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "MaritalStatus",
+      "title" : "MaritalStatus",
+      "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+      "oids" : ["2.16.840.1.113883.5.2"],
+      "uses" : {
+      },
+      "ValueSet-RelationshipStatusVS.html" : "Relationship status of patient ValueSet"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "ValueSet-HormonalTherapyTypeVS.html" : "Type of hormonal therapy ValueSet",
+      "ValueSet-MenopausalStatusVS.html" : "Menopausal status of patient ValueSet",
+      "ValueSet-GradingVS.html" : "Grading of tumor ValueSet",
+      "ValueSet-GermlineMutationVS.html" : "Germline Mutation ValueSet",
+      "ValueSet-TNMRegionalNodesVS.html" : "TNM Regional Nodes ValueSet",
+      "ValueSet-BreastSurgeryTypeVS.html" : "Types of breast surgery ValueSet",
+      "ValueSet-ProgesteroneStatusVS.html" : "Progesterone receptor status ValueSet",
+      "ValueSet-ChemoTherapyTypeVS.html" : "Type of chemotherapy ValueSet",
+      "ValueSet-RecurrenceMethodVS.html" : "Recurrence method ValueSet",
+      "ValueSet-TreatmentPlanNotFollowedVS.html" : "Treatment Plan Not Followed ValueSet",
+      "ValueSet-RecurrenceVS.html" : "Recurrence of neoplasm ValueSet",
+      "ValueSet-HistologicalTypeVS.html" : "Histological type of the tumor ValueSet",
+      "ValueSet-InvolvedMarginsReoperationTypeVS.html" : "Re-operation due to involved margins ValueSet",
+      "ValueSet-ReoperationReasonVS.html" : "Reasoncode of the re-operation",
+      "ValueSet-AxillaSurgeryVS.html" : "Axilla surgery ValueSet",
+      "ValueSet-TherapyIntentVS.html" : "Intent of therapy ValueSet",
+      "ValueSet-EstrogenStatusVS.html" : "Estrogen receptor status ValueSet",
+      "ValueSet-RelationshipStatusVS.html" : "Relationship status of patient ValueSet",
+      "ValueSet-TargetedTherapyVS.html" : "Type of targeted therapy ValueSet",
+      "ValueSet-ReconstructionTypeVS.html" : "Type of reconstruction surgery ValueSet",
+      "ValueSet-TargetedAxillaSurgeryVS.html" : "Targeted axilla surgery ValueSet",
+      "ValueSet-SACQPatientComorbidityHistory.html" : "SACQ Patient's comorbidity history ValueSet",
+      "ValueSet-LocationRadiotherapyVS.html" : "The location of radiotherapy ValueSet",
+      "ValueSet-TreatmentTypeVS.html" : "Type of treatments ValueSet",
+      "ValueSet-PatientTreatPrefVS.html" : "Patient treatment preference ValueSet",
+      "ValueSet-ComplicationImpactVS.html" : "Impact of complication ValueSet",
+      "ValueSet-TNMPrimaryTumorVS.html" : "TNM Primary Tumor ValueSet",
+      "ValueSet-ComplicationTypeVS.html" : "Type of complication ValueSet",
+      "ValueSet-ReoperationTypeVS.html" : "Type of re-operation",
+      "ValueSet-TNMDistantMetastasesVS.html" : "TNM Distant Metastases ValueSet"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "2.1.0",
+      "status" : "active",
+      "name" : "ObservationInterpretation",
+      "title" : "ObservationInterpretation",
+      "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+      "oids" : ["2.16.840.1.113883.5.83"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-Race",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "Race",
+      "title" : "Race",
+      "description" : "**Deprecation Information:** Deprecated per UP-263. This code system is NOT the acknowledged source of truth for Race concepts and codes. It should no longer be used. https://terminology.hl7.org/CodeSystem-CDCREC.html should be used in its place. In the United States, federal standards for classifying data on race determine the categories used by federal agencies and exert a strong influence on categorization by state and local agencies and private sector organizations. The federal standards do not conceptually define race, and they recognize the absence of an anthropological or scientific basis for racial classification. Instead, the federal standards acknowledge that race is a social-political construct in which an individual's own identification with one more race categories is preferred to observer identification. The standards use a variety of features to define five minimum race categories. Among these features are descent from \"the original peoples\" of a specified region or nation. The minimum race categories are American Indian or Alaska Native, Asian, Black or African American, Native Hawaiian or Other Pacific Islander, and White. The federal standards stipulate that race data need not be limited to the five minimum categories, but any expansion must be collapsible to those categories.",
+      "oids" : ["2.16.840.1.113883.5.104"],
+      "uses" : {
+      },
+      "http://terminology.hl7.org/5.0.0/ValueSet-v3-Race.html" : "Race"
+    },
+    {
+      "url" : "http://unitsofmeasure.org",
+      "version" : "3.0.1",
+      "status" : "active",
+      "name" : "UCUM",
+      "title" : "Unified Code for Units of Measure (UCUM)",
+      "description" : "The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business. The purpose is to facilitate unambiguous electronic communication of quantities together with their units. The focus is on electronic communication, as opposed to communication between humans. A typical application of The Unified Code for Units of Measure are electronic data interchange (EDI) protocols, but there is nothing that prevents it from being used in other types of machine communication.",
+      "oids" : ["2.16.840.1.113883.6.8"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ucum-bodylength.html" : "Body Length Units",
+      "http://hl7.org/fhir/R4/valueset-ucum-bodyweight.html" : "Body Weight Units",
+      "ValueSet-BodyWeightVS.html" : "Units of patient's body weight ValueSet",
+      "http://hl7.org/fhir/R4/valueset-ucum-vitals-common.html" : "Vital Signs Units"
+    },
+    {
+      "url" : "urn:ietf:bcp:47",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "Ietf3066",
+      "title" : "Tags for the Identification of Languages",
+      "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+      "oids" : ["2.16.840.1.113883.6.121"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
+    },
+    {
+      "url" : "urn:iso:std:iso:3166",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ISO3166Part1",
+      "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
+      "description" : "ISO 3166-1 establishes codes that represent the current names of countries, dependencies, and other areas of particular geopolitical interest, on the basis of country names obtained from the United Nations.",
+      "oids" : ["1.0.3166.1"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-iso3166-1-3.html" : "Iso 3166 Part 1: 3 Letter Codes"
+    }
+  ]
+}

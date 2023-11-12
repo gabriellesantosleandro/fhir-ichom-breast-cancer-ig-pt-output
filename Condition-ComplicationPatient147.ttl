@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Condition/ComplicationPatient147> a fhir:Condition ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Condition/ComplicationPatient147> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ComplicationPatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication>
      ] )
   ] ; # 
   fhir:text [
@@ -23,7 +23,7 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/condition-dueTo"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Reference ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/BreastCancerSurgeryPatient147> ;
        fhir:reference [ fhir:v "Procedure/BreastCancerSurgeryPatient147" ]
      ]
   ] ) ; # 
@@ -51,13 +51,9 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/BreastCancerSurgeryPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

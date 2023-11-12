@@ -1,0 +1,524 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "AgreementResponseVS",
+      "title" : "Agreement response ValueSet",
+      "description" : "Valueset used in a Patient Reported Outcomes Instrument to express the degree of agreement",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AxillaSurgeryVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "AxillaSurgeryVS",
+      "title" : "Axilla surgery ValueSet",
+      "description" : "Valueset of surgery types of the axilla",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BodyWeightVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BodyWeightVS",
+      "title" : "Units of patient's body weight ValueSet",
+      "description" : "Valueset of the unit  of the patient's body weight",
+      "systems" : ["http://unitsofmeasure.org"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BreastSurgeryTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "BreastSurgeryTypeVS",
+      "title" : "Types of breast surgery ValueSet",
+      "description" : "Valueset of the types of breast surgery a patient underwent",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ChemoTherapyTypeVS",
+      "title" : "Type of chemotherapy ValueSet",
+      "description" : "Valueset of the types of chemotherapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationImpactVS",
+      "title" : "Impact of complication ValueSet",
+      "description" : "ValueSet of the impact of a complication experienced by the breast cancer patient",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationImpactCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ComplicationTypeVS",
+      "title" : "Type of complication ValueSet",
+      "description" : "ValueSet of the type of complication experienced by the breast cancer patient",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationTypeCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EducationLevelVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "EducationLevelVS",
+      "title" : "Education level of patient ValueSet",
+      "description" : "Valueset of the education level of a patient",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EstrogenStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "EstrogenStatusVS",
+      "title" : "Estrogen receptor status ValueSet",
+      "description" : "Valueset of the Estrogen receptor status",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GermlineMutationVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "GermlineMutationVS",
+      "title" : "Germline Mutation ValueSet",
+      "description" : "Valueset of the genetic mutation predisposing breast cancer",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GradingVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "GradingVS",
+      "title" : "Grading of tumor ValueSet",
+      "description" : "Valueset of the grade of the tumor",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HER2ReceptorStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HER2ReceptorStatusVS",
+      "title" : "HER2 receptor status ValueSet",
+      "description" : "Valueset of the HER2 receptor status",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HistologicalTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HistologicalTypeVS",
+      "title" : "Histological type of the tumor ValueSet",
+      "description" : "Valueset of the histological types of tumors",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HormonalTherapyTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "HormonalTherapyTypeVS",
+      "title" : "Type of hormonal therapy ValueSet",
+      "description" : "Valueset of the types of hormonal therapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ImplantLocationVS",
+      "title" : "Location of the implant ValueSet",
+      "description" : "Valueset of the location of the implant during reconstruction surgery",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/InvolvedMarginsReoperationTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "InvolvedMarginsReoperationTypeVS",
+      "title" : "Re-operation due to involved margins ValueSet",
+      "description" : "Kind of re-operation due to involved margins",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityNewCancerVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LateralityNewCancerVS",
+      "title" : "Laterality of new cancer ValueSet",
+      "description" : "Valueset of the laterality of new breast cancer",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LateralityVS",
+      "title" : "Laterality of breast cancer ValueSet",
+      "description" : "Valueset of the laterality of breast cancer",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "LocationRadiotherapyVS",
+      "title" : "The location of radiotherapy ValueSet",
+      "description" : "Valueset of the location of radiotherapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MenopausalStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MenopausalStatusVS",
+      "title" : "Menopausal status of patient ValueSet",
+      "description" : "Valueset of the menopausal status of a patient",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MolecularProfilingStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "MolecularProfilingStatusVS",
+      "title" : "Molecular profiling",
+      "description" : "Valueset indicating if a molecular profiling tool was used",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "NoYesUnknownVS",
+      "title" : "Yes, No and Unknown Valueset",
+      "description" : "Valueset with yes, no and unknown answers",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0532"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientEducationVS",
+      "title" : "Patient Treatment Education ValueSet",
+      "description" : "Valueset covering if the patient received sufficient information about the treatment options",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientTreatPrefVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "PatientTreatPrefVS",
+      "title" : "Patient treatment preference ValueSet",
+      "description" : "Valueset of reason for why the treatment plan was not followed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ProgesteroneStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ProgesteroneStatusVS",
+      "title" : "Progesterone receptor status ValueSet",
+      "description" : "Valueset of the Progesterone receptor status",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecommendedTreatmentTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecommendedTreatmentTypeVS",
+      "title" : "Recommended treatment types ValueSet",
+      "description" : "Valueset of the kind of treatment that the multidisciplinary team recommended",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReconstructionTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReconstructionTypeVS",
+      "title" : "Type of reconstruction surgery ValueSet",
+      "description" : "Valueset of the type of reconstruction surgery that is performed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceMethodVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceMethodVS",
+      "title" : "Recurrence method ValueSet",
+      "description" : "Valueset of the methods used to confirm recurrence of breast cancer",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceMethodCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RecurrenceVS",
+      "title" : "Recurrence of neoplasm ValueSet",
+      "description" : "Valueset about whether there is evidence of local, regional or distant recurrence of neoplasm",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v2-0532",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RelationshipStatusVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "RelationshipStatusVS",
+      "title" : "Relationship status of patient ValueSet",
+      "description" : "Valueset of the relationship status of a patient",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationReasonVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReoperationReasonVS",
+      "title" : "Reasoncode of the re-operation",
+      "description" : "Valueset of the reasons of a re-operation",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "ReoperationTypeVS",
+      "title" : "Type of re-operation",
+      "description" : "Valueset of the types of re-operation",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SACQPatientComorbidityHistory",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "SACQPatientComorbidityHistory",
+      "title" : "SACQ Patient's comorbidity history ValueSet",
+      "description" : "Patient's documented history of comorbidities",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "SatisfactionResponseVS",
+      "title" : "Satisfaction response ValueSet",
+      "description" : "Valueset used in a Patient Reported Outcomes Instrument to express the statisfation response",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMDistantMetastasesVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMDistantMetastasesVS",
+      "title" : "TNM Distant Metastases ValueSet",
+      "description" : "Valueset of the TNM stage for the M category, according to TNM staging rules",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMPrimaryTumorVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMPrimaryTumorVS",
+      "title" : "TNM Primary Tumor ValueSet",
+      "description" : "Valueset of the TNM stage for the T category, according to TNM staging rules",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMRegionalNodesVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMRegionalNodesVS",
+      "title" : "TNM Regional Nodes ValueSet",
+      "description" : "Valueset of the TNM stage for the N category, according to TNM staging rules",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMStageGroupVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TNMStageGroupVS",
+      "title" : "Staging Type for Stage Group ValueSet",
+      "description" : "Valueset indicating the type of staging, clinical or pathological, of breast cancer.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedAxillaSurgeryVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TargetedAxillaSurgeryVS",
+      "title" : "Targeted axilla surgery ValueSet",
+      "description" : "Valueset of targeted surgery types of the axilla",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedTherapyVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TargetedTherapyVS",
+      "title" : "Type of targeted therapy ValueSet",
+      "description" : "Valueset of the types of targeted therapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TherapyIntentVS",
+      "title" : "Intent of therapy ValueSet",
+      "description" : "Valueset of intent of therapy",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanComplianceVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanComplianceVS",
+      "title" : "Observation identifiers for treatment plan non-compliance reason ValueSet",
+      "description" : "Valueset of reason for why the treatment plan was not followed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanFollowedVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanFollowedVS",
+      "title" : "Real Treatment Plan Followed ValueSet",
+      "description" : "Valueset of if the patient followed the multidisciplinary recommended treatment plan",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanNotFollowedVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentPlanNotFollowedVS",
+      "title" : "Treatment Plan Not Followed ValueSet",
+      "description" : "Valueset of reason for the treatment plan not being followed",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ]
+    },
+    {
+      "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentTypeVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "TreatmentTypeVS",
+      "title" : "Type of treatments ValueSet",
+      "description" : "Valueset of the kind of treatment a patient with breastcancer underwent",
+      "systems" : [
+        "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+        "http://snomed.info/sct"
+      ]
+    }
+  ]
+}

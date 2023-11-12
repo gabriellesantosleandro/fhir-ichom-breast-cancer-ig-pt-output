@@ -5,12 +5,12 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS> a fhir:ValueSet ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "SatisfactionResponseVS"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-SatisfactionResponseCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-dissatisfied\">very-dissatisfied</a></td><td>Very dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-dissatisfied\">somewhat-dissatisfied</a></td><td>Somewhat dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-satisfied\">somewhat-satisfied</a></td><td>Somewhat satisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-satisfied\">very-satisfied</a></td><td>Very satisfied</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-SatisfactionResponseCodeSystem.html\"><code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-dissatisfied\">very-dissatisfied</a></td><td>Very dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-dissatisfied\">somewhat-dissatisfied</a></td><td>Somewhat dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-satisfied\">somewhat-satisfied</a></td><td>Somewhat satisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-satisfied\">very-satisfied</a></td><td>Very satisfied</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ] ;
@@ -19,8 +19,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
@@ -31,19 +31,19 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "SatisfactionResponseVS"] ; # 
   fhir:title [ fhir:v "Satisfaction response ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-12T21:01:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
@@ -62,7 +62,7 @@
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "very-dissatisfied" ] ;
          fhir:display [ fhir:v "Very dissatisfied" ]

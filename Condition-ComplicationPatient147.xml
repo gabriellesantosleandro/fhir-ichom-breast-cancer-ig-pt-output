@@ -3,7 +3,7 @@
 <Condition xmlns="http://hl7.org/fhir">
   <id value="ComplicationPatient147"/>
   <meta>
-    <profile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"/>
+    <profile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"/>
   </meta>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="ComplicationPatient147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;ComplicationPatient147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-complication.html">Complication</a></p></div><p><b>dueTo</b>: <a href="Procedure-BreastCancerSurgeryPatient147.html">Procedure/BreastCancerSurgeryPatient147</a></p><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>severity</b>: Unexpected admission to intensive care unit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#397945004)</span></p><p><b>code</b>: Pneumonia <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#233604007)</span></p><p><b>subject</b>: <a href="Patient-BreastCancerPatient147.html">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p></div>

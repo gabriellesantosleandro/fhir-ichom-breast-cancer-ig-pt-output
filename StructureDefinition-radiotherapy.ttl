@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy> a fhir:StructureDefinition ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "radiotherapy"] ; # 
   fhir:text [
@@ -20,8 +20,8 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
@@ -32,18 +32,18 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "Radiotherapy"] ; # 
   fhir:title [ fhir:v "Radiotherapy"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-12T21:01:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
@@ -296,9 +296,6 @@
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
@@ -904,8 +901,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -1714,8 +1711,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS>
          ]
        ] ;
        fhir:mapping ( [
@@ -1747,8 +1744,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -1808,8 +1805,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS>
          ]
        ] ;
        fhir:mapping ( [
@@ -2425,8 +2422,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v "true"^^xsd:boolean ]
@@ -2474,8 +2471,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS>
          ]
        ] ;
        fhir:mapping ( [
@@ -2488,8 +2485,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer>
          ] )
        ] ) ;
        fhir:mustSupport [ fhir:v "true"^^xsd:boolean ]
@@ -2500,8 +2497,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS>
          ]
        ] ;
        fhir:mapping ( [

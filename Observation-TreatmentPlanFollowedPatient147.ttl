@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Observation/TreatmentPlanFollowedPatient147> a fhir:Observation ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Observation/TreatmentPlanFollowedPatient147> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TreatmentPlanFollowedPatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed>
      ] )
   ] ; # 
   fhir:text [
@@ -20,7 +20,7 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"TreatmentPlanFollowedPatient147\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;TreatmentPlanFollowedPatient147&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-treatment-plan-followed.html\">Real Treatment Plan Followed</a></p></div><p><b>basedOn</b>: <a href=\"CarePlan-TreatmentPlanPatient147.html\">CarePlan/TreatmentPlanPatient147</a></p><p><b>status</b>: final</p><p><b>code</b>: Compliance care assessment <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#410110000)</span></p><p><b>subject</b>: <a href=\"Patient-BreastCancerPatient147.html\">Patient/BreastCancerPatient147</a> &quot; LETSCHE&quot;</p><p><b>value</b>: Yes, fully followed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-TreatmentPlanFollowedCodeSystem.html\">Real Treatment Plan Followed CodeSystem</a>#yes)</span></p></div>"
   ] ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/CarePlan/TreatmentPlanPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/CarePlan/TreatmentPlanPatient147> ;
      fhir:reference [ fhir:v "CarePlan/TreatmentPlanPatient147" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
@@ -33,21 +33,17 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:value [
      a fhir:CodeableConcept ;
      fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "yes" ] ;
        fhir:display [ fhir:v "Yes, fully followed" ]
      ] )
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/CarePlan/TreatmentPlanPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

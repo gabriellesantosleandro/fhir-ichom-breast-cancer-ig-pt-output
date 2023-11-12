@@ -2,7 +2,7 @@
   "resourceType" : "Condition",
   "id" : "ComplicationPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"]
   },
   "text" : {
     "status" : "extensions",

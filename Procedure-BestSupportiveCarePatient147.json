@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "BestSupportiveCarePatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care"]
   },
   "text" : {
     "status" : "generated",

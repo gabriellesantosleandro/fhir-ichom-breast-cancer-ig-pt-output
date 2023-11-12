@@ -15,17 +15,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"/>
   <version value="1.0.0"/>
   <name value="Complication"/>
   <title value="Complication"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -299,9 +299,6 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -854,7 +851,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -910,7 +907,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1002,7 +999,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1869,7 +1866,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS"/>
       </binding>
       <mapping>
         <identity value="complication-mapping"/>
@@ -1881,7 +1878,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS"/>
+        <valueSet value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS"/>
       </binding>
       <mapping>
         <identity value="complication-mapping"/>
@@ -1892,7 +1889,7 @@
       <path value="Condition.subject"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
       </type>
       <mustSupport value="true"/>
     </element>

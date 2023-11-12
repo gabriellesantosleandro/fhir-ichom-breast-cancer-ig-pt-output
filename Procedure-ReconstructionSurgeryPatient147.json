@@ -2,7 +2,7 @@
   "resourceType" : "Procedure",
   "id" : "ReconstructionSurgeryPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery"]
   },
   "text" : {
     "status" : "generated",
@@ -28,14 +28,14 @@
   }],
   "bodySite" : [{
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem",
       "code" : "pre-pectoral",
       "display" : "Pre-pectoral"
     }]
   }],
   "usedCode" : [{
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem",
       "code" : "staged-implant",
       "display" : "Staged implant"
     }]

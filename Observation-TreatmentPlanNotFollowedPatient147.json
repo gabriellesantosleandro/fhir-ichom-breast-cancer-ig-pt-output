@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "TreatmentPlanNotFollowedPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed"]
   },
   "text" : {
     "status" : "generated",
@@ -14,7 +14,7 @@
   "status" : "final",
   "code" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem",
       "code" : "reason-for-not-following",
       "display" : "Reason for not following original treatment plan"
     }]
@@ -24,7 +24,7 @@
   },
   "valueCodeableConcept" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
       "code" : "patient-preference",
       "display" : "Patient preference"
     }]

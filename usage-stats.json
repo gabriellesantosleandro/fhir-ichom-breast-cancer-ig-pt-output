@@ -5,21 +5,21 @@
   "jurisdiction": "001",
   "extensions": [
     {
-      "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel",
+      "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel",
       "title": "Education Level Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity",
+      "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity",
       "title": "Ethnicity Extension",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race",
+      "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race",
       "title": "Race Extension",
       "types": [
         "CodeableConcept"
@@ -29,39 +29,39 @@
   "profiles": {
     "Procedure": [
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy",
         "title": "Targeted therapy"
       }
     ],
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed",
         "title": "Real Treatment Plan Followed"
       },
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed",
         "title": "Treatment Plan Not Followed"
       },
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade",
         "title": "Tumor grade"
       }
     ],
     "Condition": [
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer",
         "title": "Secondary Breast Cancer Condition"
       }
     ],
     "Patient": [
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient",
         "title": "Breast cancer patient"
       }
     ],
     "CarePlan": [
       {
-        "url": "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan",
+        "url": "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan",
         "title": "Treatment recommended by a multidisciplinary team"
       }
     ]
@@ -77,9 +77,6 @@
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
@@ -98,9 +95,6 @@
       "Questionnaire.item.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -122,7 +116,6 @@
       "ImplementationGuide.definition.page.page",
       "Questionnaire",
       "StructureDefinition",
-      "StructureDefinition.snapshot.element",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/variable": [
@@ -144,15 +137,6 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity": [
-      "Patient"
-    ],
-    "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race": [
-      "Patient"
-    ],
     "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression": [
       "Questionnaire.item.item"
     ],
@@ -170,6 +154,15 @@
     ],
     "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-observationLinkPeriod": [
       "Questionnaire.item.item"
+    ],
+    "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel": [
+      "Patient"
+    ],
+    "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity": [
+      "Patient"
+    ],
+    "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race": [
+      "Patient"
     ]
   }
 }

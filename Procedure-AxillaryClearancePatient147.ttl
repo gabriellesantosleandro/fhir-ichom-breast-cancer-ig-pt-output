@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaryClearancePatient147> a fhir:Procedure ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/AxillaryClearancePatient147> a fhir:Procedure ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "AxillaryClearancePatient147"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance>
      ] )
   ] ; # 
   fhir:text [
@@ -29,18 +29,14 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient147> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient147" ]
   ] ; # 
   fhir:performed [ fhir:v "2022-02-12"^^xsd:date] ; # 
   fhir:reasonReference ( [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaSurgeryPatient147> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/AxillaSurgeryPatient147> ;
      fhir:reference [ fhir:v "Procedure/AxillaSurgeryPatient147" ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient147> a fhir:uv .
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/AxillaSurgeryPatient147> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

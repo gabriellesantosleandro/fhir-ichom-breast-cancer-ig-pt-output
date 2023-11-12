@@ -3,29 +3,29 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="PatientEducationCodeSystem"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">strongly-agree<a name="PatientEducationCodeSystem-strongly-agree"> </a></td><td>Strongly agree</td></tr><tr><td style="white-space:nowrap">agree<a name="PatientEducationCodeSystem-agree"> </a></td><td>Agree</td></tr><tr><td style="white-space:nowrap">somewhat-agree<a name="PatientEducationCodeSystem-somewhat-agree"> </a></td><td>Somewhat agree</td></tr><tr><td style="white-space:nowrap">disagree<a name="PatientEducationCodeSystem-disagree"> </a></td><td>Disagree</td></tr><tr><td style="white-space:nowrap">strongly-disagree<a name="PatientEducationCodeSystem-strongly-disagree"> </a></td><td>Strongly disagree</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">strongly-agree<a name="PatientEducationCodeSystem-strongly-agree"> </a></td><td>Strongly agree</td></tr><tr><td style="white-space:nowrap">agree<a name="PatientEducationCodeSystem-agree"> </a></td><td>Agree</td></tr><tr><td style="white-space:nowrap">somewhat-agree<a name="PatientEducationCodeSystem-somewhat-agree"> </a></td><td>Somewhat agree</td></tr><tr><td style="white-space:nowrap">disagree<a name="PatientEducationCodeSystem-disagree"> </a></td><td>Disagree</td></tr><tr><td style="white-space:nowrap">strongly-disagree<a name="PatientEducationCodeSystem-strongly-disagree"> </a></td><td>Strongly disagree</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueInteger>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="trial-use">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem"/>
   <version value="1.0.0"/>
   <name value="PatientEducationCodeSystem"/>
   <title value="Patient Treatment Education Codesystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>

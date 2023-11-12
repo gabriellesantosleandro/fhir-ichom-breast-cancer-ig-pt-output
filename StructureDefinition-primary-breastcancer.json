@@ -11,17 +11,17 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer",
+  "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer",
   "version" : "1.0.0",
   "name" : "PrimaryBreastCancerCondition",
   "title" : "Primary Breast Cancer Condition",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-10-15T00:28:22+00:00",
+  "date" : "2023-11-12T21:01:00+00:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -311,10 +311,6 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
-        },
-        {
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
-          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -836,7 +832,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "preferred",
-        "valueSet" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS"
+        "valueSet" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityVS"
       },
       "mapping" : [{
         "identity" : "sct-concept",
@@ -867,7 +863,7 @@
       },
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"]
+        "targetProfile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1747,7 +1743,7 @@
       "mustSupport" : true,
       "binding" : {
         "strength" : "preferred",
-        "valueSet" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS"
+        "valueSet" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityVS"
       }
     },
     {
@@ -1755,7 +1751,7 @@
       "path" : "Condition.subject",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"]
+        "targetProfile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"]
       }],
       "mustSupport" : true
     }]

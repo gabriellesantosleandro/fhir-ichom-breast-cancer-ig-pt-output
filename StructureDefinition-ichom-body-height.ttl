@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height> a fhir:StructureDefinition ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "ichom-body-height"] ; # 
   fhir:text [
@@ -19,19 +19,19 @@
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ] ;
          fhir:value [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer>
          ]
        ] )
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "BodyHeight"] ; # 
   fhir:title [ fhir:v "Body height"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-10-15T00:28:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-12T21:01:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
@@ -327,9 +327,6 @@
          ] [
            fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "Language" ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "true"^^xsd:boolean ]
          ] ) ;
          fhir:strength [ fhir:v "preferred" ] ;
          fhir:description [ fhir:v "A human language." ] ;
@@ -1842,8 +1839,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
          ] )
        ] ) ;
        fhir:constraint ( [
@@ -1878,10 +1875,6 @@
        ] )
      ] [
        fhir:id [ fhir:v "Observation.focus" ] ;
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "trial-use" ]
-       ] ) ;
        fhir:path [ fhir:v "Observation.focus" ] ;
        fhir:short [ fhir:v "What the observation is about, when it is not about the subject of record" ] ;
        fhir:definition [ fhir:v "The actual focus of an observation when it is not the patient of record representing something or someone associated with the patient such as a spouse, parent, fetus, or donor. For example, fetus observations in a mother's record.  The focus of an observation could also be an existing condition,  an intervention, the subject's diet,  another observation of the subject,  or a body structure such as tumor or implanted device.   An example use case would be using the Observation resource to capture whether the mother is trained to change her child's tracheostomy tube. In this example, the child is the patient of record and the mother is the focus." ] ;
@@ -2009,7 +2002,7 @@
          fhir:key [ fhir:v "vs-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
          fhir:human [ fhir:v "if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day" ] ;
-         fhir:expression [ fhir:v "($this as dateTime).toString().length() >= 8" ] ;
+         fhir:expression [ fhir:v "$this is dateTime implies $this.toString().length() >= 10" ] ;
          fhir:xpath [ fhir:v "f:effectiveDateTime[matches(@value, '^\\d{4}-\\d{2}-\\d{2}')]" ] ;
          fhir:source [
            fhir:v "http://hl7.org/fhir/StructureDefinition/bodyheight"^^xsd:anyURI ;
@@ -3847,8 +3840,8 @@
        fhir:type ( [
          fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
          fhir:targetProfile ( [
-           fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient>
+           fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"^^xsd:anyURI ;
+           fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient>
          ] )
        ] )
      ] [

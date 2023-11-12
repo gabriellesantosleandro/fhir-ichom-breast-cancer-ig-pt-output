@@ -2,770 +2,777 @@
   {
     "id" : "AgreementResponseCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/AgreementResponseCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/AgreementResponseCodeSystem",
     "version" : "1.0.0",
     "name" : "AgreementResponseCodeSystem"
   },
   {
     "id" : "BreastSurgeryTypesCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/BreastSurgeryTypesCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/BreastSurgeryTypesCodeSystem",
     "version" : "1.0.0",
     "name" : "BreastSurgeryTypesCodeSystem"
   },
   {
     "id" : "ComplicationImpactCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationImpactCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationImpactCodeSystem",
     "version" : "1.0.0",
     "name" : "ComplicationImpactCodeSystem"
   },
   {
     "id" : "ComplicationTypeCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ComplicationTypeCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ComplicationTypeCodeSystem",
     "version" : "1.0.0",
     "name" : "ComplicationTypeCodeSystem"
   },
   {
     "id" : "ImplantLocationCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ImplantLocationCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ImplantLocationCodeSystem",
     "version" : "1.0.0",
     "name" : "ImplantLocationCodeSystem"
   },
   {
     "id" : "MolecularProfilingCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem",
     "version" : "1.0.0",
     "name" : "MolecularProfilingCodeSystem"
   },
   {
     "id" : "PatientEducationCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientEducationCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientEducationCodeSystem",
     "version" : "1.0.0",
     "name" : "PatientEducationCodeSystem"
   },
   {
     "id" : "PatientTreatPrefCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/PatientTreatPrefCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/PatientTreatPrefCodeSystem",
     "version" : "1.0.0",
     "name" : "PatientTreatPrefCodeSystem"
   },
   {
     "id" : "ReconstructionTypeCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/ReconstructionTypeCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/ReconstructionTypeCodeSystem",
     "version" : "1.0.0",
     "name" : "ReconstructionTypeCodeSystem"
   },
   {
     "id" : "RecurrenceCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceCodeSystem",
     "version" : "1.0.0",
     "name" : "RecurrenceCodeSystem"
   },
   {
     "id" : "RecurrenceMethodCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/RecurrenceMethodCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/RecurrenceMethodCodeSystem",
     "version" : "1.0.0",
     "name" : "RecurrenceMethodCodeSystem"
   },
   {
     "id" : "SatisfactionResponseCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem",
     "version" : "1.0.0",
     "name" : "SatisfactionResponseCodeSystem"
   },
   {
     "id" : "TreatmentPlanComplianceCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanComplianceCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanComplianceCodeSystem",
     "version" : "1.0.0",
     "name" : "TreatmentPlanComplianceCodeSystem"
   },
   {
     "id" : "TreatmentPlanFollowedCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanFollowedCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanFollowedCodeSystem",
     "version" : "1.0.0",
     "name" : "TreatmentPlanFollowedCodeSystem"
   },
   {
     "id" : "TreatmentPlanNotFollowedCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentPlanNotFollowedCodeSystem",
     "version" : "1.0.0",
     "name" : "TreatmentPlanNotFollowedCodeSystem"
   },
   {
     "id" : "TreatmentTypesCodeSystem",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem",
     "version" : "1.0.0",
     "name" : "TreatmentTypesCodeSystem"
   },
   {
     "id" : "hl7.fhir.uv.ichom-breast-cancer",
     "type" : "ImplementationGuide",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer",
     "version" : "1.0.0",
     "name" : "BreastCancerICHOM"
   },
   {
     "id" : "ClinicalResponseAnnualUpdate",
     "type" : "Questionnaire",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseAnnualUpdate",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseAnnualUpdate",
     "version" : "1.0.0",
     "name" : "AnnualClinicalResponse"
   },
   {
     "id" : "ClinicalResponseBaseline",
     "type" : "Questionnaire",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseBaseline",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseBaseline",
     "version" : "1.0.0",
     "name" : "ClinicalResponseBaseline"
   },
   {
     "id" : "ClinicalResponseSixMonths",
     "type" : "Questionnaire",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/ClinicalResponseSixMonths",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/ClinicalResponseSixMonths",
     "version" : "1.0.0",
     "name" : "ClinicalResponseSixMonths"
   },
   {
     "id" : "PatientReportedBaseline",
     "type" : "Questionnaire",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedBaseline",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedBaseline",
     "version" : "1.0.0",
     "name" : "PatientReportedBaseline"
   },
   {
+    "id" : "PatientReportedBaselinePortugues",
+    "type" : "Questionnaire",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedBaselinePortugues",
+    "version" : "1.0.0",
+    "name" : "PatientReportedBaselinePortugues"
+  },
+  {
     "id" : "PatientReportedFollowUp",
     "type" : "Questionnaire",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/Questionnaire/PatientReportedFollowUp",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/Questionnaire/PatientReportedFollowUp",
     "version" : "1.0.0",
     "name" : "PatientReportedFollowUp"
   },
   {
     "id" : "EducationLevel",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/EducationLevel",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/EducationLevel",
     "version" : "1.0.0",
     "name" : "EducationLevel"
   },
   {
     "id" : "Ethnicity",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Ethnicity",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Ethnicity",
     "version" : "1.0.0",
     "name" : "Ethnicity"
   },
   {
     "id" : "Race",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/Race",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/Race",
     "version" : "1.0.0",
     "name" : "Race"
   },
   {
     "id" : "axilla-surgery",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axilla-surgery",
     "version" : "1.0.0",
     "name" : "AxillaSurgery"
   },
   {
     "id" : "axillary-clearance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance",
     "version" : "1.0.0",
     "name" : "AxillaryClearance"
   },
   {
     "id" : "best-supportive-care",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care",
     "version" : "1.0.0",
     "name" : "BestSupportiveCare"
   },
   {
     "id" : "breast-cancer-stage-group",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group",
     "version" : "1.0.0",
     "name" : "BreastCancerStageGroup"
   },
   {
     "id" : "breast-cancer-surgery",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-surgery",
     "version" : "1.0.0",
     "name" : "BreastCancerSurgery"
   },
   {
     "id" : "chemotherapy",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy",
     "version" : "1.0.0",
     "name" : "Chemotherapy"
   },
   {
     "id" : "complication",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication",
     "version" : "1.0.0",
     "name" : "Complication"
   },
   {
     "id" : "death-attr-bc",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/death-attr-bc",
     "version" : "1.0.0",
     "name" : "DeathAttributableBC"
   },
   {
     "id" : "endopredicton-score",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score",
     "version" : "1.0.0",
     "name" : "EndopredictonScore"
   },
   {
     "id" : "er-status",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/er-status",
     "version" : "1.0.0",
     "name" : "ERStatus"
   },
   {
     "id" : "germline-mutation",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/germline-mutation",
     "version" : "1.0.0",
     "name" : "GermlineMutation"
   },
   {
     "id" : "her-status",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/her-status",
     "version" : "1.0.0",
     "name" : "HERStatus"
   },
   {
     "id" : "histo-type",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/histo-type",
     "version" : "1.0.0",
     "name" : "Histotype"
   },
   {
     "id" : "hormonal-therpay",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay",
     "version" : "1.0.0",
     "name" : "Hormonaltherapy"
   },
   {
     "id" : "ichom-body-height",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height",
     "version" : "1.0.0",
     "name" : "BodyHeight"
   },
   {
     "id" : "ichom-body-weight",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight",
     "version" : "1.0.0",
     "name" : "BodyWeight"
   },
   {
     "id" : "immunotherapy",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy",
     "version" : "1.0.0",
     "name" : "Immunotherapy"
   },
   {
     "id" : "invasion-grade",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/invasion-grade",
     "version" : "1.0.0",
     "name" : "InvasionGrade"
   },
   {
     "id" : "lymph-nodes-involved",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-involved",
     "version" : "1.0.0",
     "name" : "LymphNodesInvolved"
   },
   {
     "id" : "lymph-nodes-resected",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-resected",
     "version" : "1.0.0",
     "name" : "LymphNodesResected"
   },
   {
     "id" : "mammaprint-score",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/mammaprint-score",
     "version" : "1.0.0",
     "name" : "MammaprintScore"
   },
   {
     "id" : "menopausal-status",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status",
     "version" : "1.0.0",
     "name" : "MenopausalStatus"
   },
   {
     "id" : "oncotype-score",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score",
     "version" : "1.0.0",
     "name" : "OncotypeScore"
   },
   {
     "id" : "patient",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient",
     "version" : "1.0.0",
     "name" : "BreastCancerPatient"
   },
   {
     "id" : "pr-status",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/pr-status",
     "version" : "1.0.0",
     "name" : "PRStatus"
   },
   {
     "id" : "primary-breastcancer",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer",
     "version" : "1.0.0",
     "name" : "PrimaryBreastCancerCondition"
   },
   {
     "id" : "radiotherapy",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy",
     "version" : "1.0.0",
     "name" : "Radiotherapy"
   },
   {
     "id" : "reconstruction-surgery",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery",
     "version" : "1.0.0",
     "name" : "ReconstructionSurgery"
   },
   {
     "id" : "recr-method",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/recr-method",
     "version" : "1.0.0",
     "name" : "RecurrenceMethod"
   },
   {
     "id" : "reoperation-surgery",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery",
     "version" : "1.0.0",
     "name" : "ReoperationSurgery"
   },
   {
     "id" : "secondary-breastcancer",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer",
     "version" : "1.0.0",
     "name" : "SecondaryBreastCancerCondition"
   },
   {
     "id" : "sizeinvasivetumor",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor",
     "version" : "1.0.0",
     "name" : "TumorSize"
   },
   {
     "id" : "targeted-therapy",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy",
     "version" : "1.0.0",
     "name" : "TargetedTherapy"
   },
   {
     "id" : "tnm-distant-metastases",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases",
     "version" : "1.0.0",
     "name" : "TNMDistantMetastases"
   },
   {
     "id" : "tnm-primary-tumor-stage",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage",
     "version" : "1.0.0",
     "name" : "TNMPrimaryTumorStage"
   },
   {
     "id" : "tnm-regional-nodes-stage",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage",
     "version" : "1.0.0",
     "name" : "TNMRegionalNodalStage"
   },
   {
     "id" : "treatment-plan",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan",
     "version" : "1.0.0",
     "name" : "TreatmentPlan"
   },
   {
     "id" : "treatment-plan-followed",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed",
     "version" : "1.0.0",
     "name" : "TreatmentPlanFollowed"
   },
   {
     "id" : "treatment-plan-not-followed",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed",
     "version" : "1.0.0",
     "name" : "TreatmentPlanNotFollowed"
   },
   {
     "id" : "tumor-grade",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade",
     "version" : "1.0.0",
     "name" : "TumorGrade"
   },
   {
     "id" : "AgreementResponseVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AgreementResponseVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS",
     "version" : "1.0.0",
     "name" : "AgreementResponseVS"
   },
   {
     "id" : "AxillaSurgeryVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/AxillaSurgeryVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AxillaSurgeryVS",
     "version" : "1.0.0",
     "name" : "AxillaSurgeryVS"
   },
   {
     "id" : "BodyWeightVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BodyWeightVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BodyWeightVS",
     "version" : "1.0.0",
     "name" : "BodyWeightVS"
   },
   {
     "id" : "BreastSurgeryTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/BreastSurgeryTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BreastSurgeryTypeVS",
     "version" : "1.0.0",
     "name" : "BreastSurgeryTypeVS"
   },
   {
     "id" : "ChemoTherapyTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ChemoTherapyTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS",
     "version" : "1.0.0",
     "name" : "ChemoTherapyTypeVS"
   },
   {
     "id" : "ComplicationImpactVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationImpactVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS",
     "version" : "1.0.0",
     "name" : "ComplicationImpactVS"
   },
   {
     "id" : "ComplicationTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ComplicationTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS",
     "version" : "1.0.0",
     "name" : "ComplicationTypeVS"
   },
   {
     "id" : "EducationLevelVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EducationLevelVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EducationLevelVS",
     "version" : "1.0.0",
     "name" : "EducationLevelVS"
   },
   {
     "id" : "EstrogenStatusVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/EstrogenStatusVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EstrogenStatusVS",
     "version" : "1.0.0",
     "name" : "EstrogenStatusVS"
   },
   {
     "id" : "GermlineMutationVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GermlineMutationVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GermlineMutationVS",
     "version" : "1.0.0",
     "name" : "GermlineMutationVS"
   },
   {
     "id" : "GradingVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/GradingVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GradingVS",
     "version" : "1.0.0",
     "name" : "GradingVS"
   },
   {
     "id" : "HER2ReceptorStatusVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HER2ReceptorStatusVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HER2ReceptorStatusVS",
     "version" : "1.0.0",
     "name" : "HER2ReceptorStatusVS"
   },
   {
     "id" : "HistologicalTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HistologicalTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HistologicalTypeVS",
     "version" : "1.0.0",
     "name" : "HistologicalTypeVS"
   },
   {
     "id" : "HormonalTherapyTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/HormonalTherapyTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HormonalTherapyTypeVS",
     "version" : "1.0.0",
     "name" : "HormonalTherapyTypeVS"
   },
   {
     "id" : "ImplantLocationVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ImplantLocationVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS",
     "version" : "1.0.0",
     "name" : "ImplantLocationVS"
   },
   {
     "id" : "InvolvedMarginsReoperationTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/InvolvedMarginsReoperationTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/InvolvedMarginsReoperationTypeVS",
     "version" : "1.0.0",
     "name" : "InvolvedMarginsReoperationTypeVS"
   },
   {
     "id" : "LateralityNewCancerVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityNewCancerVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityNewCancerVS",
     "version" : "1.0.0",
     "name" : "LateralityNewCancerVS"
   },
   {
     "id" : "LateralityVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LateralityVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LateralityVS",
     "version" : "1.0.0",
     "name" : "LateralityVS"
   },
   {
     "id" : "LocationRadiotherapyVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/LocationRadiotherapyVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS",
     "version" : "1.0.0",
     "name" : "LocationRadiotherapyVS"
   },
   {
     "id" : "MenopausalStatusVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MenopausalStatusVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MenopausalStatusVS",
     "version" : "1.0.0",
     "name" : "MenopausalStatusVS"
   },
   {
     "id" : "MolecularProfilingStatusVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/MolecularProfilingStatusVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MolecularProfilingStatusVS",
     "version" : "1.0.0",
     "name" : "MolecularProfilingStatusVS"
   },
   {
     "id" : "NoYesUnknownVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/NoYesUnknownVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/NoYesUnknownVS",
     "version" : "1.0.0",
     "name" : "NoYesUnknownVS"
   },
   {
     "id" : "PatientEducationVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientEducationVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS",
     "version" : "1.0.0",
     "name" : "PatientEducationVS"
   },
   {
     "id" : "PatientTreatPrefVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/PatientTreatPrefVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientTreatPrefVS",
     "version" : "1.0.0",
     "name" : "PatientTreatPrefVS"
   },
   {
     "id" : "ProgesteroneStatusVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ProgesteroneStatusVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ProgesteroneStatusVS",
     "version" : "1.0.0",
     "name" : "ProgesteroneStatusVS"
   },
   {
     "id" : "RecommendedTreatmentTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecommendedTreatmentTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecommendedTreatmentTypeVS",
     "version" : "1.0.0",
     "name" : "RecommendedTreatmentTypeVS"
   },
   {
     "id" : "ReconstructionTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReconstructionTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReconstructionTypeVS",
     "version" : "1.0.0",
     "name" : "ReconstructionTypeVS"
   },
   {
     "id" : "RecurrenceMethodVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceMethodVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceMethodVS",
     "version" : "1.0.0",
     "name" : "RecurrenceMethodVS"
   },
   {
     "id" : "RecurrenceVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RecurrenceVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecurrenceVS",
     "version" : "1.0.0",
     "name" : "RecurrenceVS"
   },
   {
     "id" : "RelationshipStatusVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/RelationshipStatusVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RelationshipStatusVS",
     "version" : "1.0.0",
     "name" : "RelationshipStatusVS"
   },
   {
     "id" : "ReoperationReasonVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationReasonVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationReasonVS",
     "version" : "1.0.0",
     "name" : "ReoperationReasonVS"
   },
   {
     "id" : "ReoperationTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/ReoperationTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReoperationTypeVS",
     "version" : "1.0.0",
     "name" : "ReoperationTypeVS"
   },
   {
     "id" : "SACQPatientComorbidityHistory",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SACQPatientComorbidityHistory",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SACQPatientComorbidityHistory",
     "version" : "1.0.0",
     "name" : "SACQPatientComorbidityHistory"
   },
   {
     "id" : "SatisfactionResponseVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS",
     "version" : "1.0.0",
     "name" : "SatisfactionResponseVS"
   },
   {
     "id" : "TNMDistantMetastasesVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMDistantMetastasesVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMDistantMetastasesVS",
     "version" : "1.0.0",
     "name" : "TNMDistantMetastasesVS"
   },
   {
     "id" : "TNMPrimaryTumorVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMPrimaryTumorVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMPrimaryTumorVS",
     "version" : "1.0.0",
     "name" : "TNMPrimaryTumorVS"
   },
   {
     "id" : "TNMRegionalNodesVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMRegionalNodesVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMRegionalNodesVS",
     "version" : "1.0.0",
     "name" : "TNMRegionalNodesVS"
   },
   {
     "id" : "TNMStageGroupVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TNMStageGroupVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMStageGroupVS",
     "version" : "1.0.0",
     "name" : "TNMStageGroupVS"
   },
   {
     "id" : "TargetedAxillaSurgeryVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedAxillaSurgeryVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedAxillaSurgeryVS",
     "version" : "1.0.0",
     "name" : "TargetedAxillaSurgeryVS"
   },
   {
     "id" : "TargetedTherapyVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TargetedTherapyVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TargetedTherapyVS",
     "version" : "1.0.0",
     "name" : "TargetedTherapyVS"
   },
   {
     "id" : "TherapyIntentVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TherapyIntentVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS",
     "version" : "1.0.0",
     "name" : "TherapyIntentVS"
   },
   {
     "id" : "TreatmentPlanComplianceVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanComplianceVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanComplianceVS",
     "version" : "1.0.0",
     "name" : "TreatmentPlanComplianceVS"
   },
   {
     "id" : "TreatmentPlanFollowedVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanFollowedVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanFollowedVS",
     "version" : "1.0.0",
     "name" : "TreatmentPlanFollowedVS"
   },
   {
     "id" : "TreatmentPlanNotFollowedVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentPlanNotFollowedVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanNotFollowedVS",
     "version" : "1.0.0",
     "name" : "TreatmentPlanNotFollowedVS"
   },
   {
     "id" : "TreatmentTypeVS",
     "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/TreatmentTypeVS",
+    "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentTypeVS",
     "version" : "1.0.0",
     "name" : "TreatmentTypeVS"
   }

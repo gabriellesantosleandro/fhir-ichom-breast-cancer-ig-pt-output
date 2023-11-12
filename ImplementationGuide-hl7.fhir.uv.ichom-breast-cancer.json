@@ -3,7 +3,7 @@
   "id" : "hl7.fhir.uv.ichom-breast-cancer",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>BreastCancerICHOM</h2><p>The official URL for this implementation guide is: </p><pre>http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer</pre></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -13,12 +13,12 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
     "valueInteger" : 2
   }],
-  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer",
+  "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer",
   "version" : "1.0.0",
   "name" : "BreastCancerICHOM",
   "title" : "ICHOM Patient Centered Outcomes Measure Set for Breast Cancer",
   "status" : "draft",
-  "date" : "2023-10-15T00:28:22+00:00",
+  "date" : "2023-11-12T21:01:00+00:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -129,17 +129,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "autoload-resources"
       },
       {
@@ -211,6 +200,17 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -452,17 +452,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/uv/ichom-breast-cancer/history.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueCode" : "autoload-resources"
       },
       {
@@ -534,6 +523,17 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -784,7 +784,7 @@
       },
       "name" : "AxillaryClearancePatient147",
       "description" : "Example of a breast cancer patient who received axilla clearance",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axillary-clearance"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axillary-clearance"
     },
     {
       "extension" : [{
@@ -796,7 +796,7 @@
       },
       "name" : "AxillaSurgeryPatient147",
       "description" : "Example of a breast cancer patient who underwent surgery to the axilla",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/axilla-surgery"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/axilla-surgery"
     },
     {
       "extension" : [{
@@ -820,7 +820,7 @@
       },
       "name" : "BestSupportiveCarePatient147",
       "description" : "Example of a breast cancer patient who received best supportive care",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/best-supportive-care"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/best-supportive-care"
     },
     {
       "extension" : [{
@@ -856,7 +856,7 @@
       },
       "name" : "BodyHeightPatient147",
       "description" : "Example of the height of a patient diagnosed with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height"
     },
     {
       "extension" : [{
@@ -868,7 +868,7 @@
       },
       "name" : "BodyWeightPatient147",
       "description" : "Example of the weight of a patient diagnosed with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-weight"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-weight"
     },
     {
       "extension" : [{
@@ -916,7 +916,7 @@
       },
       "name" : "BreastCancerSurgeryPatient147",
       "description" : "Example of the surgical procedure the breast cancer patient underwent",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-surgery"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-surgery"
     },
     {
       "extension" : [{
@@ -952,7 +952,7 @@
       },
       "name" : "ChemotherapyPatient147",
       "description" : "Example of a breast cancer patient who received chemotherapy",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/chemotherapy"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/chemotherapy"
     },
     {
       "extension" : [{
@@ -988,7 +988,7 @@
       },
       "name" : "ClinicalMetastasesPatient147",
       "description" : "Extended example: example showing clinical TNM staging (M)",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases"
     },
     {
       "extension" : [{
@@ -1000,7 +1000,7 @@
       },
       "name" : "ClinicalNodalStagePatient147",
       "description" : "Extended example: example showing clinical TNM staging (N)",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"
     },
     {
       "extension" : [{
@@ -1012,7 +1012,7 @@
       },
       "name" : "ClinicalTNMStagePatient147",
       "description" : "Example showing TNM staging in patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"
     },
     {
       "extension" : [{
@@ -1024,7 +1024,7 @@
       },
       "name" : "ClinicalTumorStagePatient147",
       "description" : "Extended example: example showing clinical TNM staging (T)",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage"
     },
     {
       "extension" : [{
@@ -1048,7 +1048,7 @@
       },
       "name" : "ComplicationPatient147",
       "description" : "Example of a complication in patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/complication"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/complication"
     },
     {
       "extension" : [{
@@ -1072,7 +1072,7 @@
       },
       "name" : "DeathAttributableBCPatient147",
       "description" : "Example of death attributable to breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/death-attr-bc"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/death-attr-bc"
     },
     {
       "extension" : [{
@@ -1120,7 +1120,7 @@
       },
       "name" : "EndopredictonPatient147",
       "description" : "Example of the endopredict score",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score"
     },
     {
       "extension" : [{
@@ -1132,7 +1132,7 @@
       },
       "name" : "ERStatusPatient147",
       "description" : "Example of the estrogen receptor status in a patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/er-status"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/er-status"
     },
     {
       "extension" : [{
@@ -1180,7 +1180,7 @@
       },
       "name" : "Example of Breast Cancer Patient Cornetet",
       "description" : "The characteristics and demographic factors of an example patient.",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"
     },
     {
       "extension" : [{
@@ -1192,7 +1192,7 @@
       },
       "name" : "Example of Breast Cancer Patient Letsche",
       "description" : "The characteristics and demographic factors of an example patient.",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"
     },
     {
       "extension" : [{
@@ -1204,7 +1204,7 @@
       },
       "name" : "Example of Breast Cancer Patient Mortera",
       "description" : "The characteristics and demographic factors of an example patient.",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"
     },
     {
       "extension" : [{
@@ -1216,7 +1216,7 @@
       },
       "name" : "Example of menopausal status",
       "description" : "Example of the menopausal status of a patient",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/menopausal-status"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/menopausal-status"
     },
     {
       "extension" : [{
@@ -1228,7 +1228,7 @@
       },
       "name" : "Example of Targeted therapy",
       "description" : "Example of the targeted therapy for this patient.",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy"
     },
     {
       "extension" : [{
@@ -1240,7 +1240,7 @@
       },
       "name" : "Example Real Treatment Plan Followed",
       "description" : "Example of how the real treatment plan was followed",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-followed"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-followed"
     },
     {
       "extension" : [{
@@ -1252,7 +1252,7 @@
       },
       "name" : "Example Treatment Plan Not Followed",
       "description" : "Example of why the treatment plan was not followed",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan-not-followed"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan-not-followed"
     },
     {
       "extension" : [{
@@ -1288,7 +1288,7 @@
       },
       "name" : "GermlineMutationPatient147",
       "description" : "Example of whether a patient carries a germline mutation predisposing breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/germline-mutation"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/germline-mutation"
     },
     {
       "extension" : [{
@@ -1336,7 +1336,7 @@
       },
       "name" : "HERStatusPatient147",
       "description" : "Example of the human epidermal growth factor receptor 2 (HER2) status in a patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/her-status"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/her-status"
     },
     {
       "extension" : [{
@@ -1372,7 +1372,7 @@
       },
       "name" : "HistotypePatient147",
       "description" : "Example of the histological type of the breast cancer tumor",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/histo-type"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/histo-type"
     },
     {
       "extension" : [{
@@ -1396,7 +1396,7 @@
       },
       "name" : "HormonaltherapyPatient147",
       "description" : "Example of a breast cancer patient who received hormonal therapy",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/hormonal-therpay"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/hormonal-therpay"
     },
     {
       "extension" : [{
@@ -1420,7 +1420,7 @@
       },
       "name" : "ImmunotherapyPatient147",
       "description" : "Example of a breast cancer patient who received immunotherapy",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/immunotherapy"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/immunotherapy"
     },
     {
       "extension" : [{
@@ -1480,7 +1480,7 @@
       },
       "name" : "InvasionGradePatient147",
       "description" : "Example of the tumor grade of DCIS component of the breast cancer tumor",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/invasion-grade"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/invasion-grade"
     },
     {
       "extension" : [{
@@ -1552,7 +1552,7 @@
       },
       "name" : "LymphNodesInvolvedPatient147",
       "description" : "Example of the number of involved lymph nodes in a patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-involved"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-involved"
     },
     {
       "extension" : [{
@@ -1564,7 +1564,7 @@
       },
       "name" : "LymphNodesResectedPatient147",
       "description" : "Example of the number of resected lymph nodes in a patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/lymph-nodes-resected"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/lymph-nodes-resected"
     },
     {
       "extension" : [{
@@ -1588,7 +1588,7 @@
       },
       "name" : "MammaprintPatient147",
       "description" : "Example of the mammaprint score",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/mammaprint-score"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/mammaprint-score"
     },
     {
       "extension" : [{
@@ -1684,7 +1684,7 @@
       },
       "name" : "OncotypePatient147",
       "description" : "Example of the oncotype score",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/oncotype-score"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/oncotype-score"
     },
     {
       "extension" : [{
@@ -1696,7 +1696,7 @@
       },
       "name" : "PathologicalMetastasesPatient147",
       "description" : "Extended example: example showing patholgical TNM staging (M)",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-distant-metastases"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-distant-metastases"
     },
     {
       "extension" : [{
@@ -1708,7 +1708,7 @@
       },
       "name" : "PathologicalNodalStagePatient147",
       "description" : "Extended example: example showing patholgical TNM staging (N)",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-regional-nodes-stage"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-regional-nodes-stage"
     },
     {
       "extension" : [{
@@ -1720,7 +1720,7 @@
       },
       "name" : "PathologicalTNMStagePatient147",
       "description" : "Example showing TNM staging in patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/breast-cancer-stage-group"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/breast-cancer-stage-group"
     },
     {
       "extension" : [{
@@ -1732,7 +1732,7 @@
       },
       "name" : "PathologicalTumorStagePatient147",
       "description" : "Extended example: example showing patholgical TNM staging (T)",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tnm-primary-tumor-stage"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tnm-primary-tumor-stage"
     },
     {
       "extension" : [{
@@ -1828,7 +1828,7 @@
       },
       "name" : "PrimaryBreastCancerPatient147",
       "description" : "Example of the primary breast cancer diagnosis of a patient",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/primary-breastcancer"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/primary-breastcancer"
     },
     {
       "extension" : [{
@@ -1864,7 +1864,19 @@
       },
       "name" : "PRStatusPatient147",
       "description" : "Example of the progesterone receptor status in a patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/pr-status"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/pr-status"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Questionnaire"
+      }],
+      "reference" : {
+        "reference" : "Questionnaire/PatientReportedBaselinePortugues"
+      },
+      "name" : "Questionário de Coleta no Início do Tratamento",
+      "description" : "Questionário de coleta de informações do paciente no início do Tratamento de Câncer de Mama",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1900,7 +1912,7 @@
       },
       "name" : "RadiotherapyPatient147",
       "description" : "Example of a breast cancer patient who received radiotherapy",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/radiotherapy"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/radiotherapy"
     },
     {
       "extension" : [{
@@ -2020,7 +2032,7 @@
       },
       "name" : "ReconstructionSurgeryPatient147",
       "description" : "Example of a breast cancer patient who underwent reconstruction surgery",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reconstruction-surgery"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reconstruction-surgery"
     },
     {
       "extension" : [{
@@ -2092,7 +2104,7 @@
       },
       "name" : "RecurrenceMethodPatient147",
       "description" : "Example of method of confirming recurrence breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/recr-method"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/recr-method"
     },
     {
       "extension" : [{
@@ -2116,7 +2128,7 @@
       },
       "name" : "ReoperationSurgeryPatient147",
       "description" : "Example of a reoperation due to involved margins after primary surgery",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/reoperation-surgery"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/reoperation-surgery"
     },
     {
       "extension" : [{
@@ -2188,7 +2200,7 @@
       },
       "name" : "SecondaryBreastCancerPatient147",
       "description" : "Example of the secondary condition breast cancer diagnosed in a patient",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/secondary-breastcancer"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/secondary-breastcancer"
     },
     {
       "extension" : [{
@@ -2380,7 +2392,7 @@
       },
       "name" : "TreatmentPlanPatient147",
       "description" : "Example of the treatment that a multidisciplinary team recommended during a multidisciplinary meeting",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan"
     },
     {
       "extension" : [{
@@ -2404,7 +2416,7 @@
       },
       "name" : "TumorGradePatient147",
       "description" : "Example of the grade of a breast cancer tumor",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/tumor-grade"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/tumor-grade"
     },
     {
       "extension" : [{
@@ -2416,7 +2428,7 @@
       },
       "name" : "TumorSizePatient147",
       "description" : "Example of the size of the invasive tumor of a patient with breast cancer",
-      "exampleCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/sizeinvasivetumor"
+      "exampleCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/sizeinvasivetumor"
     },
     {
       "extension" : [{

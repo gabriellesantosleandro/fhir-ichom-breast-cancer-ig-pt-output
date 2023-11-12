@@ -15,17 +15,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="informative">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
-        <valueCanonical value="http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
+        <valueCanonical value="http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"/>
       </extension>
     </valueCode>
   </extension>
-  <url value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/ichom-body-height"/>
+  <url value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/ichom-body-height"/>
   <version value="1.0.0"/>
   <name value="BodyHeight"/>
   <title value="Body height"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-10-15T00:28:22+00:00"/>
+  <date value="2023-11-12T21:01:00+00:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -298,9 +298,6 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -1721,7 +1718,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1756,9 +1753,6 @@
       </mapping>
     </element>
     <element id="Observation.focus">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="trial-use"/>
-      </extension>
       <path value="Observation.focus"/>
       <short value="What the observation is about, when it is not about the subject of record"/>
       <definition value="The actual focus of an observation when it is not the patient of record representing something or someone associated with the patient such as a spouse, parent, fetus, or donor. For example, fetus observations in a mother's record.  The focus of an observation could also be an existing condition,  an intervention, the subject's diet,  another observation of the subject,  or a body structure such as tumor or implanted device.   An example use case would be using the Observation resource to capture whether the mother is trained to change her child's tracheostomy tube. In this example, the child is the patient of record and the mother is the focus."/>
@@ -1879,7 +1873,7 @@
         <key value="vs-1"/>
         <severity value="error"/>
         <human value="if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day"/>
-        <expression value="($this as dateTime).toString().length() &gt;= 8"/>
+        <expression value="$this is dateTime implies $this.toString().length() &gt;= 10"/>
         <xpath value="f:effectiveDateTime[matches(@value, '^\d{4}-\d{2}-\d{2}')]"/>
         <source value="http://hl7.org/fhir/StructureDefinition/bodyheight"/>
       </constraint>
@@ -3570,7 +3564,7 @@
       <path value="Observation.subject"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/patient"/>
+        <targetProfile value="http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/patient"/>
       </type>
     </element>
     <element id="Observation.value[x]:valueQuantity">

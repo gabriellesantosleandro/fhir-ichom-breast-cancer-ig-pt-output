@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "EndopredictonPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/endopredicton-score"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/endopredicton-score"]
   },
   "text" : {
     "status" : "generated",
@@ -11,7 +11,7 @@
   "status" : "final",
   "code" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/MolecularProfilingCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/MolecularProfilingCodeSystem",
       "code" : "endopredict",
       "display" : "Endopredict Score"
     }]

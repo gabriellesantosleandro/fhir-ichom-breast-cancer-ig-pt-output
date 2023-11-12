@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Procedure/TargetedTherapyPatient134> a fhir:Procedure ;
+<http://ig-ichombreastcancer.gabriellesantosleandro.com/Procedure/TargetedTherapyPatient134> a fhir:Procedure ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TargetedTherapyPatient134"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/targeted-therapy>
+       fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy"^^xsd:anyURI ;
+       fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/targeted-therapy>
      ] )
   ] ; # 
   fhir:text [
@@ -34,13 +34,13 @@
   fhir:status [ fhir:v "unknown"] ; # 
   fhir:code [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/TreatmentTypesCodeSystem"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/TreatmentTypesCodeSystem"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "targeted-therapy" ] ;
        fhir:display [ fhir:v "Targeted therapy" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient134> ;
+     fhir:link <http://ig-ichombreastcancer.gabriellesantosleandro.com/Patient/BreastCancerPatient134> ;
      fhir:reference [ fhir:v "Patient/BreastCancerPatient134" ]
   ] ; # 
   fhir:performed [
@@ -48,8 +48,6 @@
      fhir:start [ fhir:v "1979-11-21"^^xsd:date ] ;
      fhir:end [ fhir:v "1979-11-23"^^xsd:date ]
   ] . # 
-
-<http://hl7.org/fhir/uv/ichom-breast-cancer/Patient/BreastCancerPatient134> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

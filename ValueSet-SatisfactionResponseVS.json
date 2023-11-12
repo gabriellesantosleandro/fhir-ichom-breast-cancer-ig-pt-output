@@ -3,7 +3,7 @@
   "id" : "SatisfactionResponseVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-SatisfactionResponseCodeSystem.html\"><code>http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-dissatisfied\">very-dissatisfied</a></td><td>Very dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-dissatisfied\">somewhat-dissatisfied</a></td><td>Somewhat dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-satisfied\">somewhat-satisfied</a></td><td>Somewhat satisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-satisfied\">very-satisfied</a></td><td>Very satisfied</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-SatisfactionResponseCodeSystem.html\"><code>http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-dissatisfied\">very-dissatisfied</a></td><td>Very dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-dissatisfied\">somewhat-dissatisfied</a></td><td>Somewhat dissatisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-somewhat-satisfied\">somewhat-satisfied</a></td><td>Somewhat satisfied</td></tr><tr><td><a href=\"CodeSystem-SatisfactionResponseCodeSystem.html#SatisfactionResponseCodeSystem-very-satisfied\">very-satisfied</a></td><td>Very satisfied</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -11,7 +11,7 @@
     "_valueInteger" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   },
@@ -21,17 +21,17 @@
     "_valueCode" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
-        "valueCanonical" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
+        "valueCanonical" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer"
       }]
     }
   }],
-  "url" : "http://hl7.org/fhir/uv/ichom-breast-cancer/ValueSet/SatisfactionResponseVS",
+  "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SatisfactionResponseVS",
   "version" : "1.0.0",
   "name" : "SatisfactionResponseVS",
   "title" : "Satisfaction response ValueSet",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-15T00:28:22+00:00",
+  "date" : "2023-11-12T21:01:00+00:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -50,7 +50,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/uv/ichom-breast-cancer/CodeSystem/SatisfactionResponseCodeSystem",
+      "system" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/CodeSystem/SatisfactionResponseCodeSystem",
       "concept" : [{
         "code" : "very-dissatisfied",
         "display" : "Very dissatisfied"

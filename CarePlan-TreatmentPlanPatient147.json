@@ -2,7 +2,7 @@
   "resourceType" : "CarePlan",
   "id" : "TreatmentPlanPatient147",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/ichom-breast-cancer/StructureDefinition/treatment-plan"]
+    "profile" : ["http://ig-ichombreastcancer.gabriellesantosleandro.com/StructureDefinition/treatment-plan"]
   },
   "text" : {
     "status" : "generated",
