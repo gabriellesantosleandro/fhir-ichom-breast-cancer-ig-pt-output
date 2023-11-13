@@ -42,7 +42,6 @@
       },
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
       "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "StructureDefinition-patient.html" : "Breast cancer patient"
     },
     {
@@ -57,40 +56,40 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
-      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
-      "StructureDefinition-invasion-grade.html" : "Invasion grade",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
       "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
-      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
       "StructureDefinition-er-status.html" : "Estrogen receptor status",
-      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
-      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
       "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
       "StructureDefinition-immunotherapy.html" : "Immunotherapy",
       "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
       "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
       "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-complication.html" : "Complication",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
@@ -189,8 +188,8 @@
       "uses" : {
       },
       "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-complication.html" : "Complication"
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
@@ -205,8 +204,8 @@
       "uses" : {
       },
       "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-complication.html" : "Complication"
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-code",
@@ -220,19 +219,19 @@
       "sources" : ["2.16.840.1.113883.4.642.3.161"],
       "uses" : {
       },
-      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
       "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
       "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery"
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -262,8 +261,8 @@
       "uses" : {
       },
       "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-complication.html" : "Complication"
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
@@ -278,8 +277,8 @@
       "uses" : {
       },
       "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-complication.html" : "Complication"
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
@@ -294,8 +293,8 @@
       "uses" : {
       },
       "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-complication.html" : "Complication"
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -309,30 +308,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -346,17 +345,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.425"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/device-kind",
@@ -370,16 +369,16 @@
       "sources" : ["2.16.840.1.113883.4.642.3.208"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/event-status",
@@ -393,17 +392,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.109"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -458,46 +457,46 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
-      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
-      "StructureDefinition-invasion-grade.html" : "Invasion grade",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
       "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
-      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
       "StructureDefinition-er-status.html" : "Estrogen receptor status",
-      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
-      "StructureDefinition-patient.html" : "Breast cancer patient",
-      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
       "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
       "StructureDefinition-immunotherapy.html" : "Immunotherapy",
       "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
       "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
+      "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-patient.html" : "Breast cancer patient",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
       "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-complication.html" : "Complication",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -526,8 +525,8 @@
       "uses" : {
       },
       "StructureDefinition-secondary-breastcancer.html" : "Secondary Breast Cancer Condition",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "StructureDefinition-complication.html" : "Complication"
+      "StructureDefinition-complication.html" : "Complication",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
@@ -569,30 +568,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -606,28 +605,28 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -643,30 +642,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -680,30 +679,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -717,30 +716,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
@@ -754,8 +753,8 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
       "uses" : {
       },
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight"
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-ichom-body-height.html" : "Body height"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -783,17 +782,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.433"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
@@ -807,17 +806,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.430"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
@@ -831,14 +830,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.427"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
@@ -852,17 +851,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.429"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
@@ -876,17 +875,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.431"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
@@ -900,17 +899,17 @@
       "sources" : ["2.16.840.1.113883.4.642.3.428"],
       "uses" : {
       },
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
-      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
       "StructureDefinition-radiotherapy.html" : "Radiotherapy",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -924,13 +923,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.432"],
       "uses" : {
       },
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
-      "StructureDefinition-axillary-clearance.html" : "Axillary clearance",
-      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
       "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
       "StructureDefinition-axilla-surgery.html" : "Axilla surgery",
-      "StructureDefinition-immunotherapy.html" : "Immunotherapy"
+      "StructureDefinition-best-supportive-care.html" : "Best supportive care",
+      "StructureDefinition-immunotherapy.html" : "Immunotherapy",
+      "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery",
+      "StructureDefinition-axillary-clearance.html" : "Axillary clearance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -944,11 +943,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.59"],
       "uses" : {
       },
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
       "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor"
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -965,30 +964,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -1004,30 +1003,30 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
+      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-menopausal-status.html" : "Menopausal status",
+      "StructureDefinition-recr-method.html" : "Recurrence Method",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "StructureDefinition-lymph-nodes-resected.html" : "Resected lymph nodes",
+      "StructureDefinition-ichom-body-height.html" : "Body height",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
+      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
+      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
+      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "StructureDefinition-invasion-grade.html" : "Invasion grade",
       "StructureDefinition-treatment-plan-not-followed.html" : "Treatment Plan Not Followed",
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-recr-method.html" : "Recurrence Method",
-      "StructureDefinition-lymph-nodes-involved.html" : "Lymph nodes involved",
-      "StructureDefinition-endopredicton-score.html" : "Endopredict score",
-      "StructureDefinition-menopausal-status.html" : "Menopausal status",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade",
-      "StructureDefinition-her-status.html" : "HER2 receptor status",
-      "StructureDefinition-oncotype-score.html" : "Oncotype Score",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
-      "StructureDefinition-mammaprint-score.html" : "Mammaprint score",
       "StructureDefinition-breast-cancer-stage-group.html" : "Cancer Stage Group",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "StructureDefinition-her-status.html" : "HER2 receptor status",
       "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight",
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "StructureDefinition-treatment-plan-followed.html" : "Real Treatment Plan Followed",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
-      "StructureDefinition-sizeinvasivetumor.html" : "Size of invasive tumor",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -1083,8 +1082,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.955"],
       "uses" : {
       },
-      "StructureDefinition-ichom-body-height.html" : "Body height",
-      "StructureDefinition-ichom-body-weight.html" : "Body weight"
+      "StructureDefinition-ichom-body-weight.html" : "Body weight",
+      "StructureDefinition-ichom-body-height.html" : "Body height"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/AgreementResponseVS",
@@ -1241,8 +1240,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-germline-mutation.html" : "Germline mutation"
+      "StructureDefinition-germline-mutation.html" : "Germline mutation",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GradingVS",
@@ -1257,9 +1256,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-invasion-grade.html" : "Invasion grade",
+      "StructureDefinition-tumor-grade.html" : "Tumor grade",
       "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-tumor-grade.html" : "Tumor grade"
+      "StructureDefinition-invasion-grade.html" : "Invasion grade"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HER2ReceptorStatusVS",
@@ -1304,8 +1303,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS",
@@ -1362,8 +1361,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS",
@@ -1423,9 +1422,9 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/PatientEducationVS",
@@ -1550,7 +1549,6 @@
       "uses" : {
       },
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "StructureDefinition-patient.html" : "Breast cancer patient"
     },
     {
@@ -1583,8 +1581,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SACQPatientComorbidityHistory",
@@ -1629,9 +1627,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMPrimaryTumorVS",
@@ -1646,9 +1644,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMRegionalNodesVS",
@@ -1664,8 +1662,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMStageGroupVS",
@@ -1708,8 +1706,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "StructureDefinition-targeted-therapy.html" : "Targeted therapy"
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS",
@@ -1725,10 +1723,10 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
       "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-radiotherapy.html" : "Radiotherapy"
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanComplianceVS",
@@ -1799,8 +1797,8 @@
       "sources" : ["2.16.840.1.113883.1.11.15836"],
       "uses" : {
       },
-      "StructureDefinition-Ethnicity.html" : "Ethnicity Extension",
-      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-Ethnicity.html" : "Ethnicity Extension"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-Race",
@@ -1814,8 +1812,8 @@
       "sources" : ["2.16.840.1.113883.1.11.14914"],
       "uses" : {
       },
-      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
-      "StructureDefinition-Race.html" : "Race Extension"
+      "StructureDefinition-Race.html" : "Race Extension",
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
     }
   ]
 }

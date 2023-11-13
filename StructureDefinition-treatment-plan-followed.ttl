@@ -32,7 +32,7 @@
   fhir:title [ fhir:v "Real Treatment Plan Followed"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-13T00:07:26-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-13T00:45:53-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;
