@@ -42,7 +42,7 @@
   fhir:name [ fhir:v "EducationLevel"] ; # 
   fhir:title [ fhir:v "Education Level Extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-13T00:45:53-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-13T01:02:30-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;

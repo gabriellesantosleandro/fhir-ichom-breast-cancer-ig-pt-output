@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "ce637537-9831-40a6-9094-d630d90e0bdd",
+  "id" : "263381ac-c1c6-4062-9546-bbc491ff4612",
   "meta" : {
-    "lastUpdated" : "2023-11-13T00:45:53.789-03:00"
+    "lastUpdated" : "2023-11-13T01:02:30.813-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Agreement response ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e9c821f6-13c2-4b76-ac95-3629dc5551dd",
-        "timestamp" : "2023-11-13T00:48:17-03:00",
+        "identifier" : "urn:uuid:6d58fa09-b285-4e2e-80bc-047a1ac8a557",
+        "timestamp" : "2023-11-13T01:04:59-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -76,7 +76,7 @@
       "title" : "Axilla surgery ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -85,8 +85,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9f95b5d4-006b-44b1-a432-9dc863397cdb",
-        "timestamp" : "2023-11-13T00:48:17-03:00",
+        "identifier" : "urn:uuid:9d1e74e0-9c39-436f-aea7-cf5ec44a54c0",
+        "timestamp" : "2023-11-13T01:05:00-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -149,7 +149,7 @@
       "title" : "Units of patient's body weight ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -158,8 +158,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:47354279-4b8f-475e-a387-579d25d6b746",
-        "timestamp" : "2023-11-13T00:48:17-03:00",
+        "identifier" : "urn:uuid:f2dd0970-e5c4-4a79-a58b-6ec5cc8a4dba",
+        "timestamp" : "2023-11-13T01:05:00-03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -208,7 +208,7 @@
       "title" : "Types of breast surgery ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -217,8 +217,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:26d7e0a3-3943-4c54-beef-b06984f5242e",
-        "timestamp" : "2023-11-13T00:48:18-03:00",
+        "identifier" : "urn:uuid:baccea95-d6cc-44eb-9f5d-7303cc16b1f5",
+        "timestamp" : "2023-11-13T01:05:00-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -274,7 +274,7 @@
       "title" : "Type of chemotherapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -283,8 +283,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1b0667b4-dee4-48de-aa5f-82a946d272af",
-        "timestamp" : "2023-11-13T00:48:18-03:00",
+        "identifier" : "urn:uuid:38ce69e9-196d-4008-81c1-3da58c548385",
+        "timestamp" : "2023-11-13T01:05:00-03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -357,7 +357,7 @@
       "title" : "Impact of complication ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -366,8 +366,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a6f1aab6-210e-47d4-8411-eeb418886f4d",
-        "timestamp" : "2023-11-13T00:48:18-03:00",
+        "identifier" : "urn:uuid:34279c6b-29d7-4754-97a0-3e4d4ca3d05f",
+        "timestamp" : "2023-11-13T01:05:00-03:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -474,7 +474,7 @@
       "title" : "Type of complication ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -483,8 +483,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6c0538bc-ce17-4efc-a7b1-98b2eb41f373",
-        "timestamp" : "2023-11-13T00:48:18-03:00",
+        "identifier" : "urn:uuid:f4c8d9ea-ddaa-44ff-8bf1-6869bd087f46",
+        "timestamp" : "2023-11-13T01:05:00-03:00",
         "total" : 17,
         "parameter" : [{
           "name" : "excludeNested",
@@ -616,7 +616,7 @@
       "title" : "Education level of patient ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -625,8 +625,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a3a478a8-d1a8-4267-b320-90b5a76384bd",
-        "timestamp" : "2023-11-13T00:48:18-03:00",
+        "identifier" : "urn:uuid:f14ee61b-ab56-4d8b-81ff-7e552a3d3f7c",
+        "timestamp" : "2023-11-13T01:05:01-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -685,7 +685,7 @@
       "title" : "Estrogen receptor status ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -694,8 +694,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:63016d74-8b8c-48d4-94a5-8237ab52ab78",
-        "timestamp" : "2023-11-13T00:48:18-03:00",
+        "identifier" : "urn:uuid:c4fe8489-4e4a-4df7-9b54-0d0645ca0a6d",
+        "timestamp" : "2023-11-13T01:05:01-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -758,7 +758,7 @@
       "title" : "Germline Mutation ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -767,8 +767,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1bb89fc0-dd5b-495b-9248-2e85937d77b6",
-        "timestamp" : "2023-11-13T00:48:19-03:00",
+        "identifier" : "urn:uuid:be9b61f0-51a2-4177-b09b-952ce99855fe",
+        "timestamp" : "2023-11-13T01:05:01-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -836,7 +836,7 @@
       "title" : "Grading of tumor ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -845,8 +845,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d48b95be-f43f-4a72-91ad-0b36f2ad1268",
-        "timestamp" : "2023-11-13T00:48:19-03:00",
+        "identifier" : "urn:uuid:aca1e7aa-9e2e-44c5-ba3c-d25297492119",
+        "timestamp" : "2023-11-13T01:05:01-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -909,7 +909,7 @@
       "title" : "HER2 receptor status ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -918,8 +918,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:19f81a31-5ade-4cc7-9310-fff0b222cb53",
-        "timestamp" : "2023-11-13T00:48:19-03:00",
+        "identifier" : "urn:uuid:a2bcc986-880a-4ea4-93d1-7a454f13829b",
+        "timestamp" : "2023-11-13T01:05:02-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -978,7 +978,7 @@
       "title" : "Histological type of the tumor ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -987,8 +987,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0f7cc60b-1bdc-465d-8315-c253ef2a5420",
-        "timestamp" : "2023-11-13T00:48:19-03:00",
+        "identifier" : "urn:uuid:1c95b823-bf5e-4d82-bdb0-eed8f7869594",
+        "timestamp" : "2023-11-13T01:05:02-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1057,7 +1057,7 @@
       "title" : "Type of hormonal therapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1066,8 +1066,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9b655741-4c7a-434b-b3e5-f3ac2f9a16b5",
-        "timestamp" : "2023-11-13T00:48:19-03:00",
+        "identifier" : "urn:uuid:bfe62bdc-4c71-444c-b3ae-d238a7fd9d59",
+        "timestamp" : "2023-11-13T01:05:02-03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1140,7 +1140,7 @@
       "title" : "Location of the implant ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1149,8 +1149,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e36d73b7-d4a2-40f7-b08b-f097217406d0",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:38a70dae-51f5-4bff-947a-9a2ab23440e0",
+        "timestamp" : "2023-11-13T01:05:02-03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1187,7 +1187,7 @@
       "title" : "Re-operation due to involved margins ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1196,8 +1196,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bd4e4142-b260-4b91-93bf-c64e646fb433",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:25f94d5b-59d2-45dc-8cef-5fbe44d5c529",
+        "timestamp" : "2023-11-13T01:05:02-03:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1274,7 +1274,7 @@
       "title" : "Laterality of new cancer ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1283,8 +1283,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4e188819-95af-491a-9c9d-fefa2b56a5c5",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:1a1910d8-6cc8-4241-a008-e04e795a902b",
+        "timestamp" : "2023-11-13T01:05:02-03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1333,7 +1333,7 @@
       "title" : "Laterality of breast cancer ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1342,8 +1342,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e251d429-8044-4ce2-8409-c2c7bebe8226",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:33ae19ab-8ca4-4046-a138-76aa7664f17d",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1397,7 +1397,7 @@
       "title" : "The location of radiotherapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1406,8 +1406,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2b4bc2f6-fdb7-44db-a84c-016e3a54a53a",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:fa4be38f-9699-4a1c-a6ef-08503943a41e",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1495,7 +1495,7 @@
       "title" : "Menopausal status of patient ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1504,8 +1504,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ca47dde2-45f0-4474-ac21-ec99f564e67a",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:d4855de2-bffe-4998-9506-40447b08efc2",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1563,7 +1563,7 @@
       "title" : "Molecular profiling",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1572,8 +1572,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a01c0042-65d5-4dfd-b671-ba1bd466c575",
-        "timestamp" : "2023-11-13T00:48:20-03:00",
+        "identifier" : "urn:uuid:1af2cf16-d231-4a3b-a301-772ada8ce75e",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1615,7 +1615,7 @@
       "title" : "Yes, No and Unknown Valueset",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1624,8 +1624,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8216b2e6-d3b9-4b8b-9850-b6ec208a7800",
-        "timestamp" : "2023-11-13T00:48:21-03:00",
+        "identifier" : "urn:uuid:6cbd5d31-b521-46c6-afe5-3bf0d9a05d52",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1667,7 +1667,7 @@
       "title" : "Patient Treatment Education ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1676,8 +1676,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:381ca687-1aa7-419d-b7f0-bf4aad417e87",
-        "timestamp" : "2023-11-13T00:48:21-03:00",
+        "identifier" : "urn:uuid:626ee9e9-23a0-4c11-94a0-e3d4d2eecea6",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1729,7 +1729,7 @@
       "title" : "Patient treatment preference ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1738,8 +1738,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:36439a65-809e-459d-b0dc-d8606128f392",
-        "timestamp" : "2023-11-13T00:48:21-03:00",
+        "identifier" : "urn:uuid:12e4de6a-3160-4ad4-bd31-bef20adbce0b",
+        "timestamp" : "2023-11-13T01:05:03-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1810,7 +1810,7 @@
       "title" : "Progesterone receptor status ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1819,8 +1819,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:35215dea-a035-463b-89f8-e537671e699d",
-        "timestamp" : "2023-11-13T00:48:21-03:00",
+        "identifier" : "urn:uuid:1aff9f85-3528-4b8c-8b67-03b70f3bc91b",
+        "timestamp" : "2023-11-13T01:05:04-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1883,7 +1883,7 @@
       "title" : "Recommended treatment types ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1892,8 +1892,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:61d28cf1-c91f-4c44-b22e-2bbb9ae2539a",
-        "timestamp" : "2023-11-13T00:48:21-03:00",
+        "identifier" : "urn:uuid:c2860e71-6f29-4631-b1bf-fbca7ea25098",
+        "timestamp" : "2023-11-13T01:05:04-03:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1976,7 +1976,7 @@
       "title" : "Type of reconstruction surgery ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -1985,8 +1985,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:de068467-6c0f-43e1-bf08-4d294eec1ef5",
-        "timestamp" : "2023-11-13T00:48:21-03:00",
+        "identifier" : "urn:uuid:0e5b44ea-d346-436b-8ec6-19a4f7d0375e",
+        "timestamp" : "2023-11-13T01:05:04-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2042,7 +2042,7 @@
       "title" : "Recurrence method ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2051,8 +2051,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:1c23c8f6-bb61-4947-89bb-d68746332f81",
-        "timestamp" : "2023-11-13T00:48:22-03:00",
+        "identifier" : "urn:uuid:c83fa54f-a4ea-447a-9da3-ddd3d22cdb99",
+        "timestamp" : "2023-11-13T01:05:04-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2119,7 +2119,7 @@
       "title" : "Recurrence of neoplasm ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2128,8 +2128,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4663b9b8-7334-402b-869b-cf8e9f24a365",
-        "timestamp" : "2023-11-13T00:48:22-03:00",
+        "identifier" : "urn:uuid:a98f2f1e-58fb-49b3-9dd1-205b3d9a0d56",
+        "timestamp" : "2023-11-13T01:05:04-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2189,7 +2189,7 @@
       "title" : "Relationship status of patient ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2198,8 +2198,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:40b8dbb2-e026-498d-b4c1-995b40af1868",
-        "timestamp" : "2023-11-13T00:48:22-03:00",
+        "identifier" : "urn:uuid:6472a414-1816-43de-b7d0-91cb42187e42",
+        "timestamp" : "2023-11-13T01:05:04-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2255,7 +2255,7 @@
       "title" : "Reasoncode of the re-operation",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2264,8 +2264,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d4d5928b-1bf7-4e78-bfe1-aa8cc1b582d3",
-        "timestamp" : "2023-11-13T00:48:22-03:00",
+        "identifier" : "urn:uuid:d9b81b0e-647f-4265-9d90-3a1729d55491",
+        "timestamp" : "2023-11-13T01:05:05-03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2318,7 +2318,7 @@
       "title" : "Type of re-operation",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2327,8 +2327,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a6c56332-9bc7-4eaf-aee9-04bdea557f34",
-        "timestamp" : "2023-11-13T00:48:22-03:00",
+        "identifier" : "urn:uuid:ed8fe503-a93f-4b68-aa6a-67985bca1f90",
+        "timestamp" : "2023-11-13T01:05:05-03:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2416,7 +2416,7 @@
       "title" : "SACQ Patient's comorbidity history ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2425,8 +2425,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0232c2ec-cf99-459d-ad54-cbe201c2bc3e",
-        "timestamp" : "2023-11-13T00:48:22-03:00",
+        "identifier" : "urn:uuid:09f33f7e-078c-4501-a553-fe28db696771",
+        "timestamp" : "2023-11-13T01:05:05-03:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2544,7 +2544,7 @@
       "title" : "Satisfaction response ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2553,8 +2553,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:be98d069-a982-40d0-b518-ec3758a03bc3",
-        "timestamp" : "2023-11-13T00:48:23-03:00",
+        "identifier" : "urn:uuid:65123cdd-38d3-4a5a-97f5-7f12f19b174d",
+        "timestamp" : "2023-11-13T01:05:05-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2601,7 +2601,7 @@
       "title" : "TNM Distant Metastases ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2610,8 +2610,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3567ac8b-bad5-42e0-99c3-948def4da20b",
-        "timestamp" : "2023-11-13T00:48:23-03:00",
+        "identifier" : "urn:uuid:07ba53e0-a4ac-4a5e-a8f2-846d6f48995a",
+        "timestamp" : "2023-11-13T01:05:05-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2674,7 +2674,7 @@
       "title" : "TNM Primary Tumor ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2683,8 +2683,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:475ab117-f8e7-472d-8f90-65f429c2351d",
-        "timestamp" : "2023-11-13T00:48:23-03:00",
+        "identifier" : "urn:uuid:4d209cac-a721-43f9-95b7-8af0e2abd6af",
+        "timestamp" : "2023-11-13T01:05:05-03:00",
         "total" : 17,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2812,7 +2812,7 @@
       "title" : "TNM Regional Nodes ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2821,8 +2821,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:08e0ede8-450c-44ba-8c2b-4166fb6bc5ff",
-        "timestamp" : "2023-11-13T00:48:23-03:00",
+        "identifier" : "urn:uuid:39bac333-e248-4076-bf47-0b5d64a7838b",
+        "timestamp" : "2023-11-13T01:05:06-03:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2920,7 +2920,7 @@
       "title" : "Staging Type for Stage Group ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2929,8 +2929,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4085c9d7-3654-4d35-8be7-554e32ac7a8c",
-        "timestamp" : "2023-11-13T00:48:23-03:00",
+        "identifier" : "urn:uuid:78b4f329-966f-4fd2-b0fe-355d8b1d77ca",
+        "timestamp" : "2023-11-13T01:05:06-03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2979,7 +2979,7 @@
       "title" : "Targeted axilla surgery ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -2988,8 +2988,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d2ecbcf1-29f1-4e84-91ed-4071901a7d43",
-        "timestamp" : "2023-11-13T00:48:23-03:00",
+        "identifier" : "urn:uuid:80662c2d-009e-4cab-b430-389bc92251e5",
+        "timestamp" : "2023-11-13T01:05:06-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3047,7 +3047,7 @@
       "title" : "Type of targeted therapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3056,8 +3056,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:645e04c3-843e-402d-bf5c-82e1262f678a",
-        "timestamp" : "2023-11-13T00:48:24-03:00",
+        "identifier" : "urn:uuid:e8d82466-aba6-4901-bf93-1fa516705da0",
+        "timestamp" : "2023-11-13T01:05:06-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3125,7 +3125,7 @@
       "title" : "Intent of therapy ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3134,8 +3134,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8f8da12e-1c0f-4deb-a09b-07a0a3541176",
-        "timestamp" : "2023-11-13T00:48:24-03:00",
+        "identifier" : "urn:uuid:e108ba89-8ded-40c8-b24a-d38dda228675",
+        "timestamp" : "2023-11-13T01:05:06-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3193,7 +3193,7 @@
       "title" : "Observation identifiers for treatment plan non-compliance reason ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3202,8 +3202,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b2b28d33-a248-4831-976f-17de4034a443",
-        "timestamp" : "2023-11-13T00:48:24-03:00",
+        "identifier" : "urn:uuid:0ac16def-b54c-4f47-b92c-ccb635489afb",
+        "timestamp" : "2023-11-13T01:05:06-03:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3240,7 +3240,7 @@
       "title" : "Real Treatment Plan Followed ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3249,8 +3249,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7816819c-64ce-4e79-90cd-c40d0d0a1b60",
-        "timestamp" : "2023-11-13T00:48:24-03:00",
+        "identifier" : "urn:uuid:f10e2680-abb5-45a0-b91c-b1957d7d64e3",
+        "timestamp" : "2023-11-13T01:05:07-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3292,7 +3292,7 @@
       "title" : "Treatment Plan Not Followed ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3301,8 +3301,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b8412d5b-c5f7-4dae-8768-3329fbf93d72",
-        "timestamp" : "2023-11-13T00:48:24-03:00",
+        "identifier" : "urn:uuid:b2958ee0-15c1-4cb9-acf9-aeb6b5bcfd38",
+        "timestamp" : "2023-11-13T01:05:07-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3348,7 +3348,7 @@
       "title" : "Type of treatments ValueSet",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-11-13T00:45:53-03:00",
+      "date" : "2023-11-13T01:02:30-03:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3357,8 +3357,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:eedbbc59-bf15-481b-a373-45a5d047c0ea",
-        "timestamp" : "2023-11-13T00:48:24-03:00",
+        "identifier" : "urn:uuid:1fa9419b-bec8-4cd7-a38b-7d82df63406b",
+        "timestamp" : "2023-11-13T01:05:07-03:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
