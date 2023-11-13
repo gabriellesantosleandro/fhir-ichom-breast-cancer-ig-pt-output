@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="04f0d6e9-1987-41d2-9693-dc0cc92098ab"/>
+  <id value="1c5aeb89-7a2e-4a6b-a6a2-1d6dad0cf199"/>
   <meta>
-    <lastUpdated value="2023-11-12T21:01:00.712+00:00"/>
+    <lastUpdated value="2023-11-13T00:07:26.651-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -70,7 +70,7 @@
         <title value="Agreement response ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -79,8 +79,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ed2aecc4-c210-4534-a09a-225db3db4a0c"/>
-          <timestamp value="2023-11-12T21:03:35+00:00"/>
+          <identifier value="urn:uuid:aa24fa0f-751e-45d8-95d1-231a6ab2cf74"/>
+          <timestamp value="2023-11-13T00:10:24-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -125,11 +125,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -215,7 +215,7 @@
         <title value="Axilla surgery ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -224,8 +224,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:09db3439-7a8d-4900-b0b7-535e3161eeb7"/>
-          <timestamp value="2023-11-12T21:03:35+00:00"/>
+          <identifier value="urn:uuid:88427ed5-360d-48a8-92a6-c214f858373d"/>
+          <timestamp value="2023-11-13T00:10:24-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -325,7 +325,7 @@
         <title value="Units of patient's body weight ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -334,8 +334,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:15d7683c-329a-4d8a-98cd-7c10c46a3957"/>
-          <timestamp value="2023-11-12T21:03:36+00:00"/>
+          <identifier value="urn:uuid:541c900c-cc9e-4095-a299-161c936fab8d"/>
+          <timestamp value="2023-11-13T00:10:24-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -484,7 +484,7 @@
         <title value="Types of breast surgery ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -493,8 +493,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f4186c1a-e61b-4b49-9b08-bc4b292c6dfb"/>
-          <timestamp value="2023-11-12T21:03:36+00:00"/>
+          <identifier value="urn:uuid:8535ee7f-16a4-4ea0-9c0c-26b1f1b25044"/>
+          <timestamp value="2023-11-13T00:10:24-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -548,11 +548,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -669,7 +669,7 @@
         <title value="Type of chemotherapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -678,8 +678,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4fb1243c-ae00-4772-9141-48f13a3283a2"/>
-          <timestamp value="2023-11-12T21:03:36+00:00"/>
+          <identifier value="urn:uuid:0e1c3184-588a-4973-bda9-79f4885fd94f"/>
+          <timestamp value="2023-11-13T00:10:25-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -753,11 +753,11 @@
                 <li>
                   <a href="CodeSystem-ComplicationImpactCodeSystem.html">codesystem Impact of complication CodeSystem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -934,7 +934,7 @@
         <title value="Impact of complication ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -943,8 +943,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4f9829fa-a17b-4c9b-b0a2-112c38845771"/>
-          <timestamp value="2023-11-12T21:03:36+00:00"/>
+          <identifier value="urn:uuid:75fba562-d16e-4e22-a869-a20e602b8b00"/>
+          <timestamp value="2023-11-13T00:10:25-03:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1052,11 +1052,11 @@
                 <li>
                   <a href="CodeSystem-ComplicationTypeCodeSystem.html">codesystem Type of complication CodeSystem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -1294,7 +1294,7 @@
         <title value="Type of complication ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1303,8 +1303,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:249a04d0-73ef-4861-b414-2aa4b9e72be5"/>
-          <timestamp value="2023-11-12T21:03:36+00:00"/>
+          <identifier value="urn:uuid:dfe3d22c-ab45-4df7-aace-da9afbd4301c"/>
+          <timestamp value="2023-11-13T00:10:25-03:00"/>
           <total value="17"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1434,8 +1434,8 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -1491,7 +1491,7 @@
         <title value="Education level of patient ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1500,8 +1500,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:74a635d7-67ed-4eae-b2e0-482d293e694c"/>
-          <timestamp value="2023-11-12T21:03:37+00:00"/>
+          <identifier value="urn:uuid:05bd8575-5bf0-48e0-8e6c-ba75b99b23fb"/>
+          <timestamp value="2023-11-13T00:10:25-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1558,11 +1558,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -1648,7 +1648,7 @@
         <title value="Estrogen receptor status ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1657,8 +1657,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6eea2c01-cbc1-44db-8067-70c4d77ab108"/>
-          <timestamp value="2023-11-12T21:03:37+00:00"/>
+          <identifier value="urn:uuid:342991eb-46f2-4539-a082-cbaf38d49e05"/>
+          <timestamp value="2023-11-13T00:10:26-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1719,11 +1719,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -1814,7 +1814,7 @@
         <title value="Germline Mutation ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1823,8 +1823,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ff420b34-82b3-4158-a24e-91962a614900"/>
-          <timestamp value="2023-11-12T21:03:37+00:00"/>
+          <identifier value="urn:uuid:af33488e-5e0f-4492-b186-50e947f78a87"/>
+          <timestamp value="2023-11-13T00:10:26-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1890,11 +1890,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -1968,7 +1968,7 @@
         <title value="Grading of tumor ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1977,8 +1977,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f8afb342-b831-49e2-9bb8-92d433dd4401"/>
-          <timestamp value="2023-11-12T21:03:37+00:00"/>
+          <identifier value="urn:uuid:345fb62d-07ca-4e88-ba04-c05d5f02d589"/>
+          <timestamp value="2023-11-13T00:10:26-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2039,8 +2039,8 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -2096,7 +2096,7 @@
         <title value="HER2 receptor status ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2105,8 +2105,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:84a44244-f8c2-4c83-a3d1-d0cd12d70fa5"/>
-          <timestamp value="2023-11-12T21:03:38+00:00"/>
+          <identifier value="urn:uuid:84037e95-0b04-4ef0-882b-e974bd62a703"/>
+          <timestamp value="2023-11-13T00:10:26-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2163,11 +2163,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -2281,7 +2281,7 @@
         <title value="Histological type of the tumor ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2290,8 +2290,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:13ad71c5-b50e-424f-b31e-a89c1b3d3903"/>
-          <timestamp value="2023-11-12T21:03:38+00:00"/>
+          <identifier value="urn:uuid:3f9b6c4e-a876-44b5-aaa9-c29dc51d1c14"/>
+          <timestamp value="2023-11-13T00:10:26-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2358,11 +2358,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -2479,7 +2479,7 @@
         <title value="Type of hormonal therapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2488,8 +2488,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a65252e4-1c31-489d-8f31-c3058aa9290d"/>
-          <timestamp value="2023-11-12T21:03:38+00:00"/>
+          <identifier value="urn:uuid:e7e560f2-a189-4fcd-a87a-911e7c1792b9"/>
+          <timestamp value="2023-11-13T00:10:27-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2597,7 +2597,7 @@
         <title value="Location of the implant ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2606,8 +2606,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a632d66f-b68f-46de-aaad-5d3502eae621"/>
-          <timestamp value="2023-11-12T21:03:38+00:00"/>
+          <identifier value="urn:uuid:197e8ad9-3c61-4a4f-8829-75745125d3e8"/>
+          <timestamp value="2023-11-13T00:10:27-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2645,11 +2645,11 @@
                 <li>
                   <a href="CodeSystem-BreastSurgeryTypesCodeSystem.html">codesystem Breast surgery types CodeSystem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -2757,7 +2757,7 @@
         <title value="Re-operation due to involved margins ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2766,8 +2766,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1b45086d-f4f2-4698-8696-6b685d1a7a1a"/>
-          <timestamp value="2023-11-12T21:03:39+00:00"/>
+          <identifier value="urn:uuid:34da95b1-1ee8-4a1e-905d-6e53572af122"/>
+          <timestamp value="2023-11-13T00:10:27-03:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2842,8 +2842,8 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -2883,7 +2883,7 @@
         <title value="Laterality of new cancer ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2892,8 +2892,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7b741b14-5011-47c6-b89f-3833af8abbda"/>
-          <timestamp value="2023-11-12T21:03:39+00:00"/>
+          <identifier value="urn:uuid:1fa42156-c716-439d-b54b-569e9dc1261a"/>
+          <timestamp value="2023-11-13T00:10:27-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2940,8 +2940,8 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -2989,7 +2989,7 @@
         <title value="Laterality of breast cancer ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -2998,8 +2998,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5e274c90-3dee-4f36-95f8-9a4d3ce5d2f0"/>
-          <timestamp value="2023-11-12T21:03:39+00:00"/>
+          <identifier value="urn:uuid:41b6ca3b-f0b7-4fc6-b914-90fd937fdf2b"/>
+          <timestamp value="2023-11-13T00:10:27-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3051,11 +3051,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -3205,7 +3205,7 @@
         <title value="The location of radiotherapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3214,8 +3214,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:43dd152c-ef81-4967-9f3b-f02e39954115"/>
-          <timestamp value="2023-11-12T21:03:39+00:00"/>
+          <identifier value="urn:uuid:5a4c3592-6746-42c1-8c3d-fc39acf587f1"/>
+          <timestamp value="2023-11-13T00:10:27-03:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3301,11 +3301,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -3368,7 +3368,7 @@
         <title value="Menopausal status of patient ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3377,8 +3377,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7279d497-875b-4bd8-8f07-2e673dc8e78c"/>
-          <timestamp value="2023-11-12T21:03:39+00:00"/>
+          <identifier value="urn:uuid:7e9ff348-b2e5-4887-a572-d85f7bea4760"/>
+          <timestamp value="2023-11-13T00:10:28-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3479,7 +3479,7 @@
         <title value="Molecular profiling"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3488,8 +3488,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d28db824-64c9-4a36-b318-554e17aa5c99"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:085ea113-2a55-4bb2-aeae-1e532415cff4"/>
+          <timestamp value="2023-11-13T00:10:28-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3595,7 +3595,7 @@
         <title value="Yes, No and Unknown Valueset"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3604,8 +3604,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5b64cae5-c284-46dd-9bf1-7f9dc602577c"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:3574a45b-af6b-4be5-8c14-c817677e11b7"/>
+          <timestamp value="2023-11-13T00:10:28-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3706,7 +3706,7 @@
         <title value="Patient Treatment Education ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3715,8 +3715,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7acb8d95-8757-4d11-85c6-8d6ee9eb0229"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:d20dc388-6554-4e9d-a3dd-fdb0d19061fb"/>
+          <timestamp value="2023-11-13T00:10:28-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3769,11 +3769,11 @@
                 <li>
                   <a href="CodeSystem-PatientTreatPrefCodeSystem.html">codesystem Patient treatment preference CodeSystem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -3853,7 +3853,7 @@
         <title value="Patient treatment preference ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -3862,8 +3862,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:360f11e9-4d38-43d8-a7fa-e845ff3b0851"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:5ec554a0-4d82-4f15-b625-935a283df7bd"/>
+          <timestamp value="2023-11-13T00:10:28-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3932,11 +3932,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -4022,7 +4022,7 @@
         <title value="Progesterone receptor status ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4031,8 +4031,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c71a1c5c-330c-4204-a4c1-36f6f26f71fc"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:8028bcde-3664-4ad3-81a5-78f8d7150a1b"/>
+          <timestamp value="2023-11-13T00:10:29-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4096,8 +4096,8 @@
                 <li>
                   <a href="CodeSystem-TreatmentTypesCodeSystem.html">codesystem Treatment variables CodeSytem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -4185,7 +4185,7 @@
         <title value="Recommended treatment types ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4194,8 +4194,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f459ca8b-37ed-40e0-a4b9-708d52050ff4"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:fd1b9063-e8a4-41e6-9a73-0d3530a2bdb0"/>
+          <timestamp value="2023-11-13T00:10:29-03:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4378,7 +4378,7 @@
         <title value="Type of reconstruction surgery ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4387,8 +4387,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5c07127b-d343-4857-86e5-81194f610e2b"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:d51018ae-b69d-4e72-99db-1708b6c494b2"/>
+          <timestamp value="2023-11-13T00:10:29-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4445,11 +4445,11 @@
                 <li>
                   <a href="CodeSystem-RecurrenceMethodCodeSystem.html">codesystem Recurrence method CodeSystem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -4535,7 +4535,7 @@
         <title value="Recurrence method ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4544,8 +4544,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2591d9b9-513f-4f56-b84e-2b0f2297270c"/>
-          <timestamp value="2023-11-12T21:03:40+00:00"/>
+          <identifier value="urn:uuid:81ef5903-31b8-4f95-99a2-806929a97cc2"/>
+          <timestamp value="2023-11-13T00:10:29-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4718,7 +4718,7 @@
         <title value="Recurrence of neoplasm ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4727,8 +4727,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:df2b7f67-b3fa-4830-b695-6cf9825ebc97"/>
-          <timestamp value="2023-11-12T21:03:41+00:00"/>
+          <identifier value="urn:uuid:0b84e6ba-25ed-43a0-8797-fda2396f0460"/>
+          <timestamp value="2023-11-13T00:10:29-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4900,7 +4900,7 @@
         <title value="Relationship status of patient ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -4909,8 +4909,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c0c35e5d-e590-41e1-809b-957fd9fa3c8b"/>
-          <timestamp value="2023-11-12T21:03:41+00:00"/>
+          <identifier value="urn:uuid:6a551d8f-6626-4843-a1b9-13a32abbc205"/>
+          <timestamp value="2023-11-13T00:10:30-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4964,11 +4964,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -5026,7 +5026,7 @@
         <title value="Reasoncode of the re-operation"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5035,8 +5035,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8e437709-1696-4ca0-954c-480fa0c32be0"/>
-          <timestamp value="2023-11-12T21:03:41+00:00"/>
+          <identifier value="urn:uuid:897fb082-676a-4d98-ad83-aa9fbfed0a1c"/>
+          <timestamp value="2023-11-13T00:10:30-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5090,11 +5090,11 @@
                 <li>
                   <a href="CodeSystem-BreastSurgeryTypesCodeSystem.html">codesystem Breast surgery types CodeSystem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -5235,7 +5235,7 @@
         <title value="Type of re-operation"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5244,8 +5244,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2dca9986-f1d4-4d6f-85d6-d4b00b1f4997"/>
-          <timestamp value="2023-11-12T21:03:41+00:00"/>
+          <identifier value="urn:uuid:72dcc378-2640-4e98-a0d0-4c9cb3864e75"/>
+          <timestamp value="2023-11-13T00:10:30-03:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5331,11 +5331,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -5536,7 +5536,7 @@
         <title value="SACQ Patient's comorbidity history ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5545,8 +5545,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:26dcdafb-0178-42e3-8394-01d3d6cf8be0"/>
-          <timestamp value="2023-11-12T21:03:41+00:00"/>
+          <identifier value="urn:uuid:30b468e4-687c-4ded-9c72-96b034506e1b"/>
+          <timestamp value="2023-11-13T00:10:30-03:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5715,7 +5715,7 @@
         <title value="Satisfaction response ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5724,8 +5724,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:19b0c82c-b22a-4181-95e9-08b007222134"/>
-          <timestamp value="2023-11-12T21:03:42+00:00"/>
+          <identifier value="urn:uuid:99f4bf90-855d-4e1b-87a7-6dfda4bfd54e"/>
+          <timestamp value="2023-11-13T00:10:30-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5770,11 +5770,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -5860,7 +5860,7 @@
         <title value="TNM Distant Metastases ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -5869,8 +5869,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3b761cb8-45a5-4257-8280-c51aeed40018"/>
-          <timestamp value="2023-11-12T21:03:42+00:00"/>
+          <identifier value="urn:uuid:d5e5b246-a73d-4ab3-a9b4-c7c754aad815"/>
+          <timestamp value="2023-11-13T00:10:31-03:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5931,11 +5931,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -6164,7 +6164,7 @@
         <title value="TNM Primary Tumor ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -6173,8 +6173,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7daa01e8-5006-4e3d-a502-0cb5cca69118"/>
-          <timestamp value="2023-11-12T21:03:42+00:00"/>
+          <identifier value="urn:uuid:9cf6ac23-c1cd-47e7-9697-2b62a3554409"/>
+          <timestamp value="2023-11-13T00:10:31-03:00"/>
           <total value="17"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6300,11 +6300,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -6467,7 +6467,7 @@
         <title value="TNM Regional Nodes ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -6476,8 +6476,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f64ceaf6-d5a0-4238-a0b5-653be367cb94"/>
-          <timestamp value="2023-11-12T21:03:42+00:00"/>
+          <identifier value="urn:uuid:ad38dc2a-953e-4e8b-a06c-cda1938b75ef"/>
+          <timestamp value="2023-11-13T00:10:31-03:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6614,7 +6614,7 @@
         <title value="Staging Type for Stage Group ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -6623,8 +6623,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6f0d05f9-a4d8-482a-b05f-984ca9ada56e"/>
-          <timestamp value="2023-11-12T21:03:43+00:00"/>
+          <identifier value="urn:uuid:595aca5d-a3f2-46f4-9013-8ad00f138893"/>
+          <timestamp value="2023-11-13T00:10:31-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6671,11 +6671,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -6750,7 +6750,7 @@
         <title value="Targeted axilla surgery ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -6759,8 +6759,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da43669b-446d-414f-95ae-6d88c86d8c22"/>
-          <timestamp value="2023-11-12T21:03:43+00:00"/>
+          <identifier value="urn:uuid:5c1518e0-cdff-448f-8963-cf1f4a3ec514"/>
+          <timestamp value="2023-11-13T00:10:31-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6816,11 +6816,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -6926,7 +6926,7 @@
         <title value="Type of targeted therapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -6935,8 +6935,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6e9535c7-bdf9-4810-9ade-96bab0d85443"/>
-          <timestamp value="2023-11-12T21:03:43+00:00"/>
+          <identifier value="urn:uuid:5aec80b2-1271-4c5c-98b5-2fe6ff539ad4"/>
+          <timestamp value="2023-11-13T00:10:32-03:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7002,11 +7002,11 @@
             <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
               <p>Expansion based on: </p>
               <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -7081,7 +7081,7 @@
         <title value="Intent of therapy ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -7090,8 +7090,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d6ac1f54-70b2-4a5f-af93-30c6bbd2d796"/>
-          <timestamp value="2023-11-12T21:03:43+00:00"/>
+          <identifier value="urn:uuid:b6ca8bfa-7e1d-490e-b091-9ecd26de4f09"/>
+          <timestamp value="2023-11-13T00:10:32-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7184,7 +7184,7 @@
         <title value="Observation identifiers for treatment plan non-compliance reason ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -7193,8 +7193,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2d045d38-6f01-46c3-ba44-c5619ec29451"/>
-          <timestamp value="2023-11-12T21:03:44+00:00"/>
+          <identifier value="urn:uuid:f22084dd-3e6f-4e5c-8abf-2edc4377aac0"/>
+          <timestamp value="2023-11-13T00:10:32-03:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7274,7 +7274,7 @@
         <title value="Real Treatment Plan Followed ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -7283,8 +7283,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:829c0dd4-0a6e-4202-8610-3c5532d52ca7"/>
-          <timestamp value="2023-11-12T21:03:44+00:00"/>
+          <identifier value="urn:uuid:91f710cd-2529-4051-ab14-3664fa39df3d"/>
+          <timestamp value="2023-11-13T00:10:32-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7404,7 +7404,7 @@
         <title value="Treatment Plan Not Followed ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -7413,8 +7413,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6f43cacf-bd4f-440e-a75b-7eaacc367f80"/>
-          <timestamp value="2023-11-12T21:03:44+00:00"/>
+          <identifier value="urn:uuid:88ae1892-fe58-49e4-ad11-1b5d7f5aed24"/>
+          <timestamp value="2023-11-13T00:10:32-03:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7461,11 +7461,11 @@
                 <li>
                   <a href="CodeSystem-TreatmentTypesCodeSystem.html">codesystem Treatment variables CodeSytem v1.0.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v2.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
+                <li>SNOMED CT International edition 01-set. 2023</li>
               </ul>
             </div>
             <table class="codes">
@@ -7639,7 +7639,7 @@
         <title value="Type of treatments ValueSet"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-11-12T21:01:00+00:00"/>
+        <date value="2023-11-13T00:07:26-03:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -7648,8 +7648,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a08d5e6b-c6cf-4e19-a90b-818014fe7564"/>
-          <timestamp value="2023-11-12T21:03:44+00:00"/>
+          <identifier value="urn:uuid:bc140902-8617-44bd-b72a-b43bb96a8a27"/>
+          <timestamp value="2023-11-13T00:10:32-03:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>

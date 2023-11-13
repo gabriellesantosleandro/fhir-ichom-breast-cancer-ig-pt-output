@@ -28,7 +28,7 @@
   <title value="TNM Distant Metastases"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-11-12T21:01:00+00:00"/>
+  <date value="2023-11-13T00:07:26-03:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -293,6 +293,9 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -1766,7 +1769,7 @@
       <path value="Observation.hasMember"/>
       <short value="Related resource that belongs to the Observation group"/>
       <definition value="This observation is a group observation (e.g. a battery, a panel of tests, a set of vital sign measurements) that includes the target as a member of the group."/>
-      <comment value="When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes](http://hl7.org/fhir/R4/observation.html#obsgrouping) below.  Note that a system may calculate results from [QuestionnaireResponse](questionnaireresponse.html)  into a final score and represent the score as an Observation."/>
+      <comment value="When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes](http://hl7.org/fhir/R4/observation.html#obsgrouping) below.  Note that a system may calculate results from [QuestionnaireResponse](http://hl7.org/fhir/R4/questionnaireresponse.html)  into a final score and represent the score as an Observation."/>
       <min value="0"/>
       <max value="*"/>
       <base>

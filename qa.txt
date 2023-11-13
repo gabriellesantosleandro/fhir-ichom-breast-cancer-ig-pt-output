@@ -2,401 +2,401 @@
 =========================================
 
 err = 0, warn = 54, info = 25
-IG Publisher Version: 1.5.3
-Generated Sun Nov 12 21:09:54 UTC 2023. FHIR version 4.0.1 for hl7.fhir.uv.ichom-breast-cancer#1.0.0 (canonical = http://ig-ichombreastcancer.gabriellesantosleandro.com)
+IG Publisher Version: 1.5.2 Out of date - current version is 1.5.3
+Generated Mon Nov 13 00:15:13 BRT 2023. FHIR version 4.0.1 for hl7.fhir.uv.ichom-breast-cancer#1.0.0 (canonical = http://ig-ichombreastcancer.gabriellesantosleandro.com)
  Build Errors : 0 / 1 / 0
- /app/fsh-generated/resources/CarePlan-TreatmentPlanPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-AgreementResponseCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-BreastSurgeryTypesCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-ComplicationImpactCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-ComplicationTypeCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-ImplantLocationCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-MolecularProfilingCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-PatientEducationCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-PatientTreatPrefCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-ReconstructionTypeCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-RecurrenceCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-RecurrenceMethodCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-SatisfactionResponseCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-TreatmentPlanComplianceCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-TreatmentPlanFollowedCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-TreatmentPlanNotFollowedCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/CodeSystem-TreatmentTypesCodeSystem : 0 / 0 / 1
- /app/fsh-generated/resources/Condition-ComplicationPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Condition-PrimaryBreastCancerPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Condition-SecondaryBreastCancerPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.ichom-breast-cancer : 0 / 0 / 2
- /app/fsh-generated/resources/Observation-BodyHeightPatient147 : 0 / 1 / 2
- /app/fsh-generated/resources/Observation-BodyWeightPatient147 : 0 / 1 / 2
- /app/fsh-generated/resources/Observation-ClinicalMetastasesPatient147 : 0 / 2 / 2
- /app/fsh-generated/resources/Observation-ClinicalNodalStagePatient147 : 0 / 2 / 2
- /app/fsh-generated/resources/Observation-ClinicalTNMStagePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-ClinicalTumorStagePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-DeathAttributableBCPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-ERStatusPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-EndopredictonPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-GermlineMutationPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-HERStatusPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-HistotypePatient147 : 0 / 1 / 1
- /app/fsh-generated/resources/Observation-InvasionGradePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-LymphNodesInvolvedPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-LymphNodesResectedPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-MammaprintPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-MenopausalStatusPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-OncotypePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-PRStatusPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-PathologicalMetastasesPatient147 : 0 / 2 / 2
- /app/fsh-generated/resources/Observation-PathologicalNodalStagePatient147 : 0 / 2 / 2
- /app/fsh-generated/resources/Observation-PathologicalTNMStagePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-PathologicalTumorStagePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-RecurrenceMethodPatient147 : 0 / 2 / 2
- /app/fsh-generated/resources/Observation-TreatmentPlanFollowedPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-TreatmentPlanNotFollowedPatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-TumorGradePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Observation-TumorSizePatient147 : 0 / 2 / 1
- /app/fsh-generated/resources/Patient-BreastCancerPatient121 : 0 / 0 / 1
- /app/fsh-generated/resources/Patient-BreastCancerPatient134 : 0 / 0 / 1
- /app/fsh-generated/resources/Patient-BreastCancerPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-AxillaSurgeryPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-AxillaryClearancePatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-BestSupportiveCarePatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-BreastCancerSurgeryPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-ChemotherapyPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-HormonaltherapyPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-ImmunotherapyPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-RadiotherapyPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-ReconstructionSurgeryPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-ReoperationSurgeryPatient147 : 0 / 0 / 1
- /app/fsh-generated/resources/Procedure-TargetedTherapyPatient134 : 0 / 0 / 1
- /app/fsh-generated/resources/Questionnaire-ClinicalResponseAnnualUpdate : 0 / 0 / 1
- /app/fsh-generated/resources/Questionnaire-ClinicalResponseBaseline : 0 / 0 / 1
- /app/fsh-generated/resources/Questionnaire-ClinicalResponseSixMonths : 0 / 0 / 1
- /app/fsh-generated/resources/Questionnaire-PatientReportedBaseline : 0 / 0 / 1
- /app/fsh-generated/resources/Questionnaire-PatientReportedBaselinePortugues : 0 / 0 / 1
- /app/fsh-generated/resources/Questionnaire-PatientReportedFollowUp : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-EducationLevel : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-Ethnicity : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-Race : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-axilla-surgery : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-axillary-clearance : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-best-supportive-care : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-breast-cancer-stage-group : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-breast-cancer-surgery : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-chemotherapy : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-complication : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-death-attr-bc : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-endopredicton-score : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-er-status : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-germline-mutation : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-her-status : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-histo-type : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-hormonal-therpay : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-ichom-body-height : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-ichom-body-weight : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-immunotherapy : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-invasion-grade : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-lymph-nodes-involved : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-lymph-nodes-resected : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-mammaprint-score : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-menopausal-status : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-oncotype-score : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-patient : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-pr-status : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-primary-breastcancer : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-radiotherapy : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-reconstruction-surgery : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-recr-method : 0 / 0 / 3
- /app/fsh-generated/resources/StructureDefinition-reoperation-surgery : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-secondary-breastcancer : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-sizeinvasivetumor : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-targeted-therapy : 0 / 0 / 2
- /app/fsh-generated/resources/StructureDefinition-tnm-distant-metastases : 0 / 0 / 3
- /app/fsh-generated/resources/StructureDefinition-tnm-primary-tumor-stage : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-tnm-regional-nodes-stage : 0 / 0 / 3
- /app/fsh-generated/resources/StructureDefinition-treatment-plan : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-treatment-plan-followed : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-treatment-plan-not-followed : 0 / 0 / 1
- /app/fsh-generated/resources/StructureDefinition-tumor-grade : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-AgreementResponseVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-AxillaSurgeryVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-BodyWeightVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-BreastSurgeryTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ChemoTherapyTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ComplicationImpactVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ComplicationTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-EducationLevelVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-EstrogenStatusVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-GermlineMutationVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-GradingVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-HER2ReceptorStatusVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-HistologicalTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-HormonalTherapyTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ImplantLocationVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-InvolvedMarginsReoperationTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-LateralityNewCancerVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-LateralityVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-LocationRadiotherapyVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-MenopausalStatusVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-MolecularProfilingStatusVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-NoYesUnknownVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-PatientEducationVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-PatientTreatPrefVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ProgesteroneStatusVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-RecommendedTreatmentTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ReconstructionTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-RecurrenceMethodVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-RecurrenceVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-RelationshipStatusVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ReoperationReasonVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-ReoperationTypeVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-SACQPatientComorbidityHistory : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-SatisfactionResponseVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TNMDistantMetastasesVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TNMPrimaryTumorVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TNMRegionalNodesVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TNMStageGroupVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TargetedAxillaSurgeryVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TargetedTherapyVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TherapyIntentVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TreatmentPlanComplianceVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TreatmentPlanFollowedVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TreatmentPlanNotFollowedVS : 0 / 0 / 1
- /app/fsh-generated/resources/ValueSet-TreatmentTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CarePlan-TreatmentPlanPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-AgreementResponseCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-BreastSurgeryTypesCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ComplicationImpactCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ComplicationTypeCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ImplantLocationCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-MolecularProfilingCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-PatientEducationCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-PatientTreatPrefCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ReconstructionTypeCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-RecurrenceCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-RecurrenceMethodCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-SatisfactionResponseCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentPlanComplianceCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentPlanFollowedCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentPlanNotFollowedCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentTypesCodeSystem : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Condition-ComplicationPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Condition-PrimaryBreastCancerPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Condition-SecondaryBreastCancerPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-BodyHeightPatient147 : 0 / 1 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-BodyWeightPatient147 : 0 / 1 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalMetastasesPatient147 : 0 / 2 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalNodalStagePatient147 : 0 / 2 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalTNMStagePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalTumorStagePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-DeathAttributableBCPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ERStatusPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-EndopredictonPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-GermlineMutationPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-HERStatusPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-HistotypePatient147 : 0 / 1 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-InvasionGradePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-LymphNodesInvolvedPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-LymphNodesResectedPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-MammaprintPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-MenopausalStatusPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-OncotypePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PRStatusPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalMetastasesPatient147 : 0 / 2 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalNodalStagePatient147 : 0 / 2 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalTNMStagePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalTumorStagePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-RecurrenceMethodPatient147 : 0 / 2 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TreatmentPlanFollowedPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TreatmentPlanNotFollowedPatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TumorGradePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TumorSizePatient147 : 0 / 2 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Patient-BreastCancerPatient121 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Patient-BreastCancerPatient134 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Patient-BreastCancerPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-AxillaSurgeryPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-AxillaryClearancePatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-BestSupportiveCarePatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-BreastCancerSurgeryPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ChemotherapyPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-HormonaltherapyPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ImmunotherapyPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-RadiotherapyPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ReconstructionSurgeryPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ReoperationSurgeryPatient147 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-TargetedTherapyPatient134 : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-ClinicalResponseAnnualUpdate : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-ClinicalResponseBaseline : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-ClinicalResponseSixMonths : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-PatientReportedBaseline : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-PatientReportedBaselinePortugues : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-PatientReportedFollowUp : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-EducationLevel : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-Ethnicity : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-Race : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-axilla-surgery : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-axillary-clearance : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-best-supportive-care : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-breast-cancer-stage-group : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-breast-cancer-surgery : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-chemotherapy : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-complication : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-death-attr-bc : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-endopredicton-score : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-er-status : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-germline-mutation : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-her-status : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-histo-type : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-hormonal-therpay : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-ichom-body-height : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-ichom-body-weight : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-immunotherapy : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-invasion-grade : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-lymph-nodes-involved : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-lymph-nodes-resected : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-mammaprint-score : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-menopausal-status : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-oncotype-score : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-patient : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-pr-status : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-primary-breastcancer : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-radiotherapy : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-reconstruction-surgery : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-recr-method : 0 / 0 / 3
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-reoperation-surgery : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-secondary-breastcancer : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-sizeinvasivetumor : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-targeted-therapy : 0 / 0 / 2
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tnm-distant-metastases : 0 / 0 / 3
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tnm-primary-tumor-stage : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tnm-regional-nodes-stage : 0 / 0 / 3
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-treatment-plan : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-treatment-plan-followed : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-treatment-plan-not-followed : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tumor-grade : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-AgreementResponseVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-AxillaSurgeryVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-BodyWeightVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-BreastSurgeryTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ChemoTherapyTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ComplicationImpactVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ComplicationTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-EducationLevelVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-EstrogenStatusVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-GermlineMutationVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-GradingVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-HER2ReceptorStatusVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-HistologicalTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-HormonalTherapyTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ImplantLocationVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-InvolvedMarginsReoperationTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-LateralityNewCancerVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-LateralityVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-LocationRadiotherapyVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-MenopausalStatusVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-MolecularProfilingStatusVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-NoYesUnknownVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-PatientEducationVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-PatientTreatPrefVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ProgesteroneStatusVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RecommendedTreatmentTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ReconstructionTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RecurrenceMethodVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RecurrenceVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RelationshipStatusVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ReoperationReasonVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ReoperationTypeVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-SACQPatientComorbidityHistory : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-SatisfactionResponseVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMDistantMetastasesVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMPrimaryTumorVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMRegionalNodesVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMStageGroupVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TargetedAxillaSurgeryVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TargetedTherapyVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TherapyIntentVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentPlanComplianceVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentPlanFollowedVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentPlanNotFollowedVS : 0 / 0 / 1
+ C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentTypeVS : 0 / 0 / 1
+ c:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ImplementationGuide-hl7.fhir.uv.ichom-breast-cancer : 0 / 0 / 2
 </table>
 == n/a ==
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
-== fsh-generated/resources/CarePlan-TreatmentPlanPatient147.json ==
-== fsh-generated/resources/CodeSystem-AgreementResponseCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-BreastSurgeryTypesCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-ComplicationImpactCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-ComplicationTypeCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-ImplantLocationCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-MolecularProfilingCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-PatientEducationCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-PatientTreatPrefCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-ReconstructionTypeCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-RecurrenceCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-RecurrenceMethodCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-SatisfactionResponseCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-TreatmentPlanComplianceCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-TreatmentPlanFollowedCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-TreatmentPlanNotFollowedCodeSystem.json ==
-== fsh-generated/resources/CodeSystem-TreatmentTypesCodeSystem.json ==
-== fsh-generated/resources/Condition-ComplicationPatient147.json ==
-== fsh-generated/resources/Condition-PrimaryBreastCancerPatient147.json ==
-== fsh-generated/resources/Condition-SecondaryBreastCancerPatient147.json ==
-== fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.ichom-breast-cancer.json ==
-INFORMATION: ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer: ImplementationGuide: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/Observation-BodyHeightPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CarePlan-TreatmentPlanPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-AgreementResponseCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-BreastSurgeryTypesCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ComplicationImpactCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ComplicationTypeCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ImplantLocationCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-MolecularProfilingCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-PatientEducationCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-PatientTreatPrefCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-ReconstructionTypeCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-RecurrenceCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-RecurrenceMethodCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-SatisfactionResponseCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentPlanComplianceCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentPlanFollowedCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentPlanNotFollowedCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\CodeSystem-TreatmentTypesCodeSystem.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Condition-ComplicationPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Condition-PrimaryBreastCancerPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Condition-SecondaryBreastCancerPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-BodyHeightPatient147.json ==
 WARNING: Observation/BodyHeightPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
-== fsh-generated/resources/Observation-BodyWeightPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-BodyWeightPatient147.json ==
 WARNING: Observation/BodyWeightPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
-== fsh-generated/resources/Observation-ClinicalMetastasesPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalMetastasesPatient147.json ==
 INFORMATION: Observation/ClinicalMetastasesPatient147: Observation.code.coding[0]: The code '385380006' is valid but is not active
 WARNING: Observation/ClinicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ClinicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-ClinicalNodalStagePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalNodalStagePatient147.json ==
 INFORMATION: Observation/ClinicalNodalStagePatient147: Observation.code.coding[0]: The code '385382003' is valid but is not active
 WARNING: Observation/ClinicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ClinicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-ClinicalTNMStagePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalTNMStagePatient147.json ==
 WARNING: Observation/ClinicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ClinicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-ClinicalTumorStagePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ClinicalTumorStagePatient147.json ==
 WARNING: Observation/ClinicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ClinicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-DeathAttributableBCPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-DeathAttributableBCPatient147.json ==
 WARNING: Observation/DeathAttributableBCPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/DeathAttributableBCPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-ERStatusPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-ERStatusPatient147.json ==
 WARNING: Observation/ERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/ERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-EndopredictonPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-EndopredictonPatient147.json ==
 WARNING: Observation/EndopredictonPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/EndopredictonPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-GermlineMutationPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-GermlineMutationPatient147.json ==
 WARNING: Observation/GermlineMutationPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/GermlineMutationPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-HERStatusPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-HERStatusPatient147.json ==
 WARNING: Observation/HERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/HERStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-HistotypePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-HistotypePatient147.json ==
 WARNING: Observation/HistotypePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
-== fsh-generated/resources/Observation-InvasionGradePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-InvasionGradePatient147.json ==
 WARNING: Observation/InvasionGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/InvasionGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-LymphNodesInvolvedPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-LymphNodesInvolvedPatient147.json ==
 WARNING: Observation/LymphNodesInvolvedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/LymphNodesInvolvedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-LymphNodesResectedPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-LymphNodesResectedPatient147.json ==
 WARNING: Observation/LymphNodesResectedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/LymphNodesResectedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-MammaprintPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-MammaprintPatient147.json ==
 WARNING: Observation/MammaprintPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/MammaprintPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-MenopausalStatusPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-MenopausalStatusPatient147.json ==
 WARNING: Observation/MenopausalStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/MenopausalStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-OncotypePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-OncotypePatient147.json ==
 WARNING: Observation/OncotypePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/OncotypePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-PRStatusPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PRStatusPatient147.json ==
 WARNING: Observation/PRStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/PRStatusPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-PathologicalMetastasesPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalMetastasesPatient147.json ==
 INFORMATION: Observation/PathologicalMetastasesPatient147: Observation.code.coding[0]: The code '385380006' is valid but is not active
 WARNING: Observation/PathologicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/PathologicalMetastasesPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-PathologicalNodalStagePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalNodalStagePatient147.json ==
 INFORMATION: Observation/PathologicalNodalStagePatient147: Observation.code.coding[0]: The code '385382003' is valid but is not active
 WARNING: Observation/PathologicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/PathologicalNodalStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-PathologicalTNMStagePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalTNMStagePatient147.json ==
 WARNING: Observation/PathologicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/PathologicalTNMStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-PathologicalTumorStagePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-PathologicalTumorStagePatient147.json ==
 WARNING: Observation/PathologicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/PathologicalTumorStagePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-RecurrenceMethodPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-RecurrenceMethodPatient147.json ==
 INFORMATION: Observation/RecurrenceMethodPatient147: Observation.code.coding[0]: The code '103693007' is valid but is not active
 WARNING: Observation/RecurrenceMethodPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/RecurrenceMethodPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-TreatmentPlanFollowedPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TreatmentPlanFollowedPatient147.json ==
 WARNING: Observation/TreatmentPlanFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/TreatmentPlanFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-TreatmentPlanNotFollowedPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TreatmentPlanNotFollowedPatient147.json ==
 WARNING: Observation/TreatmentPlanNotFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/TreatmentPlanNotFollowedPatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-TumorGradePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TumorGradePatient147.json ==
 WARNING: Observation/TumorGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/TumorGradePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Observation-TumorSizePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Observation-TumorSizePatient147.json ==
 WARNING: Observation/TumorSizePatient147: Observation: Best Practice Recommendation: In general, all observations should have a performer
 WARNING: Observation/TumorSizePatient147: Observation: Best Practice Recommendation: In general, all observations should have an effective[x] ()
-== fsh-generated/resources/Patient-BreastCancerPatient121.json ==
-== fsh-generated/resources/Patient-BreastCancerPatient134.json ==
-== fsh-generated/resources/Patient-BreastCancerPatient147.json ==
-== fsh-generated/resources/Procedure-AxillaSurgeryPatient147.json ==
-== fsh-generated/resources/Procedure-AxillaryClearancePatient147.json ==
-== fsh-generated/resources/Procedure-BestSupportiveCarePatient147.json ==
-== fsh-generated/resources/Procedure-BreastCancerSurgeryPatient147.json ==
-== fsh-generated/resources/Procedure-ChemotherapyPatient147.json ==
-== fsh-generated/resources/Procedure-HormonaltherapyPatient147.json ==
-== fsh-generated/resources/Procedure-ImmunotherapyPatient147.json ==
-== fsh-generated/resources/Procedure-RadiotherapyPatient147.json ==
-== fsh-generated/resources/Procedure-ReconstructionSurgeryPatient147.json ==
-== fsh-generated/resources/Procedure-ReoperationSurgeryPatient147.json ==
-== fsh-generated/resources/Procedure-TargetedTherapyPatient134.json ==
-== fsh-generated/resources/Questionnaire-ClinicalResponseAnnualUpdate.json ==
-== fsh-generated/resources/Questionnaire-ClinicalResponseBaseline.json ==
-== fsh-generated/resources/Questionnaire-ClinicalResponseSixMonths.json ==
-== fsh-generated/resources/Questionnaire-PatientReportedBaseline.json ==
-== fsh-generated/resources/Questionnaire-PatientReportedBaselinePortugues.json ==
-== fsh-generated/resources/Questionnaire-PatientReportedFollowUp.json ==
-== fsh-generated/resources/StructureDefinition-EducationLevel.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Patient-BreastCancerPatient121.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Patient-BreastCancerPatient134.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Patient-BreastCancerPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-AxillaSurgeryPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-AxillaryClearancePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-BestSupportiveCarePatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-BreastCancerSurgeryPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ChemotherapyPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-HormonaltherapyPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ImmunotherapyPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-RadiotherapyPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ReconstructionSurgeryPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-ReoperationSurgeryPatient147.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Procedure-TargetedTherapyPatient134.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-ClinicalResponseAnnualUpdate.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-ClinicalResponseBaseline.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-ClinicalResponseSixMonths.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-PatientReportedBaseline.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-PatientReportedBaselinePortugues.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\Questionnaire-PatientReportedFollowUp.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-EducationLevel.json ==
 INFORMATION: StructureDefinition/EducationLevel: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-Ethnicity.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-Ethnicity.json ==
 INFORMATION: StructureDefinition/Ethnicity: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-Race.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-Race.json ==
 INFORMATION: StructureDefinition/Race: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-axilla-surgery.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-axilla-surgery.json ==
 INFORMATION: StructureDefinition/axilla-surgery: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-axillary-clearance.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-axillary-clearance.json ==
 INFORMATION: StructureDefinition/axillary-clearance: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-best-supportive-care.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-best-supportive-care.json ==
 INFORMATION: StructureDefinition/best-supportive-care: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-breast-cancer-stage-group.json ==
-== fsh-generated/resources/StructureDefinition-breast-cancer-surgery.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-breast-cancer-stage-group.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-breast-cancer-surgery.json ==
 INFORMATION: StructureDefinition/breast-cancer-surgery: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-chemotherapy.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-chemotherapy.json ==
 INFORMATION: StructureDefinition/chemotherapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-complication.json ==
-== fsh-generated/resources/StructureDefinition-death-attr-bc.json ==
-== fsh-generated/resources/StructureDefinition-endopredicton-score.json ==
-== fsh-generated/resources/StructureDefinition-er-status.json ==
-== fsh-generated/resources/StructureDefinition-germline-mutation.json ==
-== fsh-generated/resources/StructureDefinition-her-status.json ==
-== fsh-generated/resources/StructureDefinition-histo-type.json ==
-== fsh-generated/resources/StructureDefinition-hormonal-therpay.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-complication.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-death-attr-bc.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-endopredicton-score.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-er-status.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-germline-mutation.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-her-status.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-histo-type.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-hormonal-therpay.json ==
 INFORMATION: StructureDefinition/hormonal-therpay: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-ichom-body-height.json ==
-== fsh-generated/resources/StructureDefinition-ichom-body-weight.json ==
-== fsh-generated/resources/StructureDefinition-immunotherapy.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-ichom-body-height.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-ichom-body-weight.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-immunotherapy.json ==
 INFORMATION: StructureDefinition/immunotherapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-invasion-grade.json ==
-== fsh-generated/resources/StructureDefinition-lymph-nodes-involved.json ==
-== fsh-generated/resources/StructureDefinition-lymph-nodes-resected.json ==
-== fsh-generated/resources/StructureDefinition-mammaprint-score.json ==
-== fsh-generated/resources/StructureDefinition-menopausal-status.json ==
-== fsh-generated/resources/StructureDefinition-oncotype-score.json ==
-== fsh-generated/resources/StructureDefinition-patient.json ==
-== fsh-generated/resources/StructureDefinition-pr-status.json ==
-== fsh-generated/resources/StructureDefinition-primary-breastcancer.json ==
-== fsh-generated/resources/StructureDefinition-radiotherapy.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-invasion-grade.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-lymph-nodes-involved.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-lymph-nodes-resected.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-mammaprint-score.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-menopausal-status.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-oncotype-score.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-patient.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-pr-status.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-primary-breastcancer.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-radiotherapy.json ==
 INFORMATION: StructureDefinition/radiotherapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-reconstruction-surgery.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-reconstruction-surgery.json ==
 INFORMATION: StructureDefinition/reconstruction-surgery: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-recr-method.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-recr-method.json ==
 INFORMATION: StructureDefinition/recr-method: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code '103693007' is valid but is not active
 INFORMATION: StructureDefinition/recr-method: StructureDefinition.differential.element[2].pattern.ofType(CodeableConcept).coding[0]: The code '103693007' is valid but is not active
-== fsh-generated/resources/StructureDefinition-reoperation-surgery.json ==
-== fsh-generated/resources/StructureDefinition-secondary-breastcancer.json ==
-== fsh-generated/resources/StructureDefinition-sizeinvasivetumor.json ==
-== fsh-generated/resources/StructureDefinition-targeted-therapy.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-reoperation-surgery.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-secondary-breastcancer.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-sizeinvasivetumor.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-targeted-therapy.json ==
 INFORMATION: StructureDefinition/targeted-therapy: StructureDefinition: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed
-== fsh-generated/resources/StructureDefinition-tnm-distant-metastases.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tnm-distant-metastases.json ==
 INFORMATION: StructureDefinition/tnm-distant-metastases: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code '385380006' is valid but is not active
 INFORMATION: StructureDefinition/tnm-distant-metastases: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The code '385380006' is valid but is not active
-== fsh-generated/resources/StructureDefinition-tnm-primary-tumor-stage.json ==
-== fsh-generated/resources/StructureDefinition-tnm-regional-nodes-stage.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tnm-primary-tumor-stage.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tnm-regional-nodes-stage.json ==
 INFORMATION: StructureDefinition/tnm-regional-nodes-stage: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: The code '385382003' is valid but is not active
 INFORMATION: StructureDefinition/tnm-regional-nodes-stage: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: The code '385382003' is valid but is not active
-== fsh-generated/resources/StructureDefinition-treatment-plan.json ==
-== fsh-generated/resources/StructureDefinition-treatment-plan-followed.json ==
-== fsh-generated/resources/StructureDefinition-treatment-plan-not-followed.json ==
-== fsh-generated/resources/StructureDefinition-tumor-grade.json ==
-== fsh-generated/resources/ValueSet-AgreementResponseVS.json ==
-== fsh-generated/resources/ValueSet-AxillaSurgeryVS.json ==
-== fsh-generated/resources/ValueSet-BodyWeightVS.json ==
-== fsh-generated/resources/ValueSet-BreastSurgeryTypeVS.json ==
-== fsh-generated/resources/ValueSet-ChemoTherapyTypeVS.json ==
-== fsh-generated/resources/ValueSet-ComplicationImpactVS.json ==
-== fsh-generated/resources/ValueSet-ComplicationTypeVS.json ==
-== fsh-generated/resources/ValueSet-EducationLevelVS.json ==
-== fsh-generated/resources/ValueSet-EstrogenStatusVS.json ==
-== fsh-generated/resources/ValueSet-GermlineMutationVS.json ==
-== fsh-generated/resources/ValueSet-GradingVS.json ==
-== fsh-generated/resources/ValueSet-HER2ReceptorStatusVS.json ==
-== fsh-generated/resources/ValueSet-HistologicalTypeVS.json ==
-== fsh-generated/resources/ValueSet-HormonalTherapyTypeVS.json ==
-== fsh-generated/resources/ValueSet-ImplantLocationVS.json ==
-== fsh-generated/resources/ValueSet-InvolvedMarginsReoperationTypeVS.json ==
-== fsh-generated/resources/ValueSet-LateralityNewCancerVS.json ==
-== fsh-generated/resources/ValueSet-LateralityVS.json ==
-== fsh-generated/resources/ValueSet-LocationRadiotherapyVS.json ==
-== fsh-generated/resources/ValueSet-MenopausalStatusVS.json ==
-== fsh-generated/resources/ValueSet-MolecularProfilingStatusVS.json ==
-== fsh-generated/resources/ValueSet-NoYesUnknownVS.json ==
-== fsh-generated/resources/ValueSet-PatientEducationVS.json ==
-== fsh-generated/resources/ValueSet-PatientTreatPrefVS.json ==
-== fsh-generated/resources/ValueSet-ProgesteroneStatusVS.json ==
-== fsh-generated/resources/ValueSet-RecommendedTreatmentTypeVS.json ==
-== fsh-generated/resources/ValueSet-ReconstructionTypeVS.json ==
-== fsh-generated/resources/ValueSet-RecurrenceMethodVS.json ==
-== fsh-generated/resources/ValueSet-RecurrenceVS.json ==
-== fsh-generated/resources/ValueSet-RelationshipStatusVS.json ==
-== fsh-generated/resources/ValueSet-ReoperationReasonVS.json ==
-== fsh-generated/resources/ValueSet-ReoperationTypeVS.json ==
-== fsh-generated/resources/ValueSet-SACQPatientComorbidityHistory.json ==
-== fsh-generated/resources/ValueSet-SatisfactionResponseVS.json ==
-== fsh-generated/resources/ValueSet-TNMDistantMetastasesVS.json ==
-== fsh-generated/resources/ValueSet-TNMPrimaryTumorVS.json ==
-== fsh-generated/resources/ValueSet-TNMRegionalNodesVS.json ==
-== fsh-generated/resources/ValueSet-TNMStageGroupVS.json ==
-== fsh-generated/resources/ValueSet-TargetedAxillaSurgeryVS.json ==
-== fsh-generated/resources/ValueSet-TargetedTherapyVS.json ==
-== fsh-generated/resources/ValueSet-TherapyIntentVS.json ==
-== fsh-generated/resources/ValueSet-TreatmentPlanComplianceVS.json ==
-== fsh-generated/resources/ValueSet-TreatmentPlanFollowedVS.json ==
-== fsh-generated/resources/ValueSet-TreatmentPlanNotFollowedVS.json ==
-== fsh-generated/resources/ValueSet-TreatmentTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-treatment-plan.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-treatment-plan-followed.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-treatment-plan-not-followed.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\StructureDefinition-tumor-grade.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-AgreementResponseVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-AxillaSurgeryVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-BodyWeightVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-BreastSurgeryTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ChemoTherapyTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ComplicationImpactVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ComplicationTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-EducationLevelVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-EstrogenStatusVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-GermlineMutationVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-GradingVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-HER2ReceptorStatusVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-HistologicalTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-HormonalTherapyTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ImplantLocationVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-InvolvedMarginsReoperationTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-LateralityNewCancerVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-LateralityVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-LocationRadiotherapyVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-MenopausalStatusVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-MolecularProfilingStatusVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-NoYesUnknownVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-PatientEducationVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-PatientTreatPrefVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ProgesteroneStatusVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RecommendedTreatmentTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ReconstructionTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RecurrenceMethodVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RecurrenceVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-RelationshipStatusVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ReoperationReasonVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-ReoperationTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-SACQPatientComorbidityHistory.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-SatisfactionResponseVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMDistantMetastasesVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMPrimaryTumorVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMRegionalNodesVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TNMStageGroupVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TargetedAxillaSurgeryVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TargetedTherapyVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TherapyIntentVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentPlanComplianceVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentPlanFollowedVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentPlanNotFollowedVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ValueSet-TreatmentTypeVS.json ==
+== C:\fhir\fhir-ichom-breast-cancer-ig-pt\fsh-generated\resources\ImplementationGuide-hl7.fhir.uv.ichom-breast-cancer.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.uv.ichom-breast-cancer: ImplementationGuide: The resource status 'draft' and the standards status 'trial-use' may not be consistent and should be reviewed

@@ -30,7 +30,7 @@
   "name" : "Chemotherapy",
   "title" : "Chemotherapy",
   "status" : "draft",
-  "date" : "2023-11-12T21:01:00+00:00",
+  "date" : "2023-11-13T00:07:26-03:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -270,6 +270,10 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",

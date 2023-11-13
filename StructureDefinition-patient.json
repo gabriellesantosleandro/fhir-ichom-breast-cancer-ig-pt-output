@@ -21,7 +21,7 @@
   "title" : "Breast cancer patient",
   "status" : "active",
   "experimental" : true,
-  "date" : "2023-11-12T21:01:00+00:00",
+  "date" : "2023-11-13T00:07:26-03:00",
   "publisher" : "HL7 International - Clinical Interoperability Council Group",
   "contact" : [{
     "name" : "HL7 International - Clinical Interoperability Council Group",
@@ -263,6 +263,10 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",
@@ -784,6 +788,10 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "IdentifierType"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+          "valueBoolean" : true
         }],
         "strength" : "extensible",
         "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
@@ -1483,6 +1491,10 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "AdministrativeGender"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+          "valueBoolean" : true
         }],
         "strength" : "required",
         "description" : "The gender of a person used for administrative purposes.",
@@ -1775,7 +1787,7 @@
       "path" : "Patient.address.type",
       "short" : "postal | physical | both",
       "definition" : "Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both.",
-      "comment" : "The definition of Address states that \"address is intended to describe postal addresses, not physical locations\". However, many applications track whether an address has a dual purpose of being a location that can be visited as well as being a valid delivery destination, and Postal addresses are often used as proxies for physical locations (also see the [Location](location.html#) resource).",
+      "comment" : "The definition of Address states that \"address is intended to describe postal addresses, not physical locations\". However, many applications track whether an address has a dual purpose of being a location that can be visited as well as being a valid delivery destination, and Postal addresses are often used as proxies for physical locations (also see the [Location](http://hl7.org/fhir/R4/location.html#) resource).",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -2322,6 +2334,10 @@
     },
     {
       "id" : "Patient.contact",
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name",
+        "valueString" : "Contact"
+      }],
       "path" : "Patient.contact",
       "short" : "A contact party (e.g. guardian, partner, friend) for the patient",
       "definition" : "A contact party (e.g. guardian, partner, friend) for the patient.",
@@ -2672,6 +2688,10 @@
         "extension" : [{
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "AdministrativeGender"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+          "valueBoolean" : true
         }],
         "strength" : "required",
         "description" : "The gender of a person used for administrative purposes.",
@@ -2948,6 +2968,10 @@
         {
           "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
           "valueString" : "Language"
+        },
+        {
+          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding",
+          "valueBoolean" : true
         }],
         "strength" : "preferred",
         "description" : "A human language.",

@@ -12,9 +12,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/iso3166-1-3",
@@ -26,7 +26,6 @@
       "systems" : ["urn:iso:std:iso:3166"],
       "uses" : {
       },
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
       "StructureDefinition-patient.html" : "Breast cancer patient"
     },
@@ -58,8 +57,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/BodyWeightVS",
@@ -86,10 +85,10 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
-      "Questionnaire-PatientReportedFollowUp.html" : "Patient reported response at post-treatment follow-up",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "StructureDefinition-breast-cancer-surgery.html" : "Breast cancer surgery",
+      "Questionnaire-PatientReportedFollowUp.html" : "Patient reported response at post-treatment follow-up"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ChemoTherapyTypeVS",
@@ -104,9 +103,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationImpactVS",
@@ -122,8 +121,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-complication.html" : "Complication",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "StructureDefinition-complication.html" : "Complication"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ComplicationTypeVS",
@@ -139,8 +138,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-complication.html" : "Complication",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
+      "StructureDefinition-complication.html" : "Complication"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EducationLevelVS",
@@ -152,9 +151,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-EducationLevel.html" : "Education Level Extension",
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
-      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
+      "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "StructureDefinition-EducationLevel.html" : "Education Level Extension"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/EstrogenStatusVS",
@@ -169,8 +167,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-er-status.html" : "Estrogen receptor status"
+      "StructureDefinition-er-status.html" : "Estrogen receptor status",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GermlineMutationVS",
@@ -185,9 +183,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-germline-mutation.html" : "Germline mutation",
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-germline-mutation.html" : "Germline mutation"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/GradingVS",
@@ -232,8 +230,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-histo-type.html" : "Histological type of the tumor",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-histo-type.html" : "Histological type of the tumor"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/HormonalTherapyTypeVS",
@@ -248,9 +246,9 @@
       ],
       "uses" : {
       },
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ImplantLocationVS",
@@ -264,8 +262,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
       "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery"
     },
     {
@@ -307,8 +305,8 @@
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition"
+      "StructureDefinition-primary-breastcancer.html" : "Primary Breast Cancer Condition",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/LocationRadiotherapyVS",
@@ -323,9 +321,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/MenopausalStatusVS",
@@ -367,9 +365,9 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0532"],
       "uses" : {
       },
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "StructureDefinition-death-attr-bc.html" : "Death attributable to breast cancer",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
@@ -412,8 +410,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-pr-status.html" : "Progesterone receptor status",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-pr-status.html" : "Progesterone receptor status"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/RecommendedTreatmentTypeVS",
@@ -428,8 +426,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team"
+      "StructureDefinition-treatment-plan.html" : "Treatment recommended by a multidisciplinary team",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/ReconstructionTypeVS",
@@ -444,8 +442,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
       "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
       "StructureDefinition-reconstruction-surgery.html" : "Reconstruction surgery"
     },
     {
@@ -494,8 +492,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
+      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "StructureDefinition-patient.html" : "Breast cancer patient"
     },
     {
@@ -527,9 +525,9 @@
       ],
       "uses" : {
       },
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "StructureDefinition-reoperation-surgery.html" : "Re-operation surgery",
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/SACQPatientComorbidityHistory",
@@ -574,9 +572,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-tnm-distant-metastases.html" : "TNM Distant Metastases"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMPrimaryTumorVS",
@@ -592,8 +590,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
+      "StructureDefinition-tnm-primary-tumor-stage.html" : "TNM Primary Tumor Stage"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMRegionalNodesVS",
@@ -609,8 +607,8 @@
       "uses" : {
       },
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline",
-      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage"
+      "StructureDefinition-tnm-regional-nodes-stage.html" : "TNM Regional Nodal Stage",
+      "Questionnaire-ClinicalResponseBaseline.html" : "Clinical response questionnaire at baseline"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TNMStageGroupVS",
@@ -652,9 +650,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-targeted-therapy.html" : "Targeted therapy",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "StructureDefinition-targeted-therapy.html" : "Targeted therapy"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TherapyIntentVS",
@@ -669,11 +667,11 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
-      "StructureDefinition-radiotherapy.html" : "Radiotherapy",
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
       "StructureDefinition-hormonal-therpay.html" : "Hormonal therapy",
       "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "StructureDefinition-chemotherapy.html" : "Chemotherapy",
+      "StructureDefinition-radiotherapy.html" : "Radiotherapy"
     },
     {
       "url" : "http://ig-ichombreastcancer.gabriellesantosleandro.com/ValueSet/TreatmentPlanComplianceVS",
@@ -729,8 +727,8 @@
       ],
       "uses" : {
       },
-      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up",
-      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response"
+      "Questionnaire-ClinicalResponseAnnualUpdate.html" : "Annual follow-up of clinical questionnaire response",
+      "Questionnaire-ClinicalResponseSixMonths.html" : "Clinical response at 6 months post-treatment follow-up"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-Ethnicity",
@@ -745,7 +743,6 @@
       "uses" : {
       },
       "StructureDefinition-Ethnicity.html" : "Ethnicity Extension",
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline"
     },
     {
@@ -760,7 +757,6 @@
       "sources" : ["2.16.840.1.113883.1.11.14914"],
       "uses" : {
       },
-      "Questionnaire-PatientReportedBaselinePortugues.html" : "Questionário de Coleta no Início do Tratamento",
       "Questionnaire-PatientReportedBaseline.html" : "Patient reported response at baseline",
       "StructureDefinition-Race.html" : "Race Extension"
     }

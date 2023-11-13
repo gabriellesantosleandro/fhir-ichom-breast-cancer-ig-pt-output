@@ -33,7 +33,7 @@
   <title value="Breast cancer patient"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2023-11-12T21:01:00+00:00"/>
+  <date value="2023-11-13T00:07:26-03:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -265,6 +265,9 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
@@ -770,6 +773,9 @@
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="IdentifierType"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
         </extension>
         <strength value="extensible"/>
         <description value="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."/>
@@ -1450,6 +1456,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="AdministrativeGender"/>
         </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="required"/>
         <description value="The gender of a person used for administrative purposes."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"/>
@@ -1732,7 +1741,7 @@
       <path value="Patient.address.type"/>
       <short value="postal | physical | both"/>
       <definition value="Distinguishes between physical addresses (those you can visit) and mailing addresses (e.g. PO Boxes and care-of addresses). Most addresses are both."/>
-      <comment value="The definition of Address states that &quot;address is intended to describe postal addresses, not physical locations&quot;. However, many applications track whether an address has a dual purpose of being a location that can be visited as well as being a valid delivery destination, and Postal addresses are often used as proxies for physical locations (also see the [Location](location.html#) resource)."/>
+      <comment value="The definition of Address states that &quot;address is intended to describe postal addresses, not physical locations&quot;. However, many applications track whether an address has a dual purpose of being a location that can be visited as well as being a valid delivery destination, and Postal addresses are often used as proxies for physical locations (also see the [Location](http://hl7.org/fhir/R4/location.html#) resource)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2266,6 +2275,9 @@
       </mapping>
     </element>
     <element id="Patient.contact">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
+        <valueString value="Contact"/>
+      </extension>
       <path value="Patient.contact"/>
       <short value="A contact party (e.g. guardian, partner, friend) for the patient"/>
       <definition value="A contact party (e.g. guardian, partner, friend) for the patient."/>
@@ -2606,6 +2618,9 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="AdministrativeGender"/>
         </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
+        </extension>
         <strength value="required"/>
         <description value="The gender of a person used for administrative purposes."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/administrative-gender|4.0.1"/>
@@ -2871,6 +2886,9 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>

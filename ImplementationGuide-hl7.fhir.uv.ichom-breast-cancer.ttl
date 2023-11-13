@@ -24,7 +24,7 @@
   fhir:name [ fhir:v "BreastCancerICHOM"] ; # 
   fhir:title [ fhir:v "ICHOM Patient Centered Outcomes Measure Set for Breast Cancer"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-12T21:01:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-13T00:07:26-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Interoperability Council Group"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Interoperability Council Group" ] ;

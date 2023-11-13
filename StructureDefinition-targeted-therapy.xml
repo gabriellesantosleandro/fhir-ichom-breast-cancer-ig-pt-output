@@ -39,7 +39,7 @@
   <name value="TargetedTherapy"/>
   <title value="Targeted therapy"/>
   <status value="draft"/>
-  <date value="2023-11-12T21:01:00+00:00"/>
+  <date value="2023-11-13T00:07:26-03:00"/>
   <publisher value="HL7 International - Clinical Interoperability Council Group"/>
   <contact>
     <name value="HL7 International - Clinical Interoperability Council Group"/>
@@ -265,6 +265,9 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="A human language."/>
